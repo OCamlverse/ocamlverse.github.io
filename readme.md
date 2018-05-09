@@ -1,5 +1,7 @@
-# OCaml World #
+# OCaml World
+
 ![OCaml](https://ocaml.org/img/colour-transparent-icon.svg)
+
 This is an effort to document everything worth documenting about OCaml.
 
 Please feel free to contribute.
