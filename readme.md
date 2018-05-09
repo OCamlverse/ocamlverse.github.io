@@ -1,2 +1,12 @@
 # OCaml World #
-This is the equivalent of an OCaml wiki, using github's simple technology.
+This is an effort to document everything worth documenting about OCaml.
+
+Please feel free to contribute.
+
+[Contribution Guidelines](meta/contributing.md)
+[Community](community/community.md)
+[Learning](learning/learning.md)
+[Ecosystem](ecosystem/ecosystem.md)
+[Compiler](compiler/compiler.md)
+[Best Practices](learning/best_practices.md)
+[Windows Support](ecosystem/windows_support.md)
