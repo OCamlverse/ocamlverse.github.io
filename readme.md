@@ -1,10 +1,10 @@
-# OCaml World
+# OCamlverse
 
 ![OCaml](https://ocaml.org/img/colour-transparent-icon.svg)
 
 This is an effort to document everything worth documenting about OCaml.
 
-Please feel free to contribute.
+Please feel free to contribute. You can do so either by submitting a PR or joining the admin team.
 
 * [Contribution Guidelines](about/contrib.md)
 * [Community](community/community.md)
