@@ -24,12 +24,6 @@ The trickiest part of a wiki is what the organization should be: what should the
 * Expect people to disagree with you. Defer to the experts and to the site managers.
 * Accept criticism. Even if your contribution is criticized, you need to be able to accept the criticism, learn and adapt.
 
-## Categories
-
-* So far, our main categories are ecosystem, learning, meta, compiler and community.
-* If you want to add a category, please discuss it in the discussion channels first.
-* When creating a link to a page, you should precede the page with the category e.g. @@[[[ecosystem:Build Systems]]]@@. If you don't, you'll create the wrong page.
-
 ## Copying Content
 
 * Only copy material rather than link to it (better yet, do both) if you've been granted permission by the author of said material.
