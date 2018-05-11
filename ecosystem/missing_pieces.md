@@ -6,3 +6,5 @@ The following projects could really use some help and attention in some ways.
 
 ## New Projects
 The following projects need to be built from scratch.
+
+- Bindings to GTK3
