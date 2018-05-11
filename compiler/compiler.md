@@ -4,7 +4,7 @@ The OCaml compiler is a complicated software artifact. Below is an attempt to do
 
 ## Articles
 
-[http://ocaml.wikidot.com/local--files/compiler:compiler/OCaml%20Internals.pdf Presentation on OCaml Internals (pdf)]
+[Presentation on OCaml Internals (pdf)](http://ocaml.wikidot.com/local--files/compiler:compiler/OCaml%20Internals.pdf)
 
 ## Interesting Branches of the Compiler
 
@@ -17,7 +17,7 @@ The OCaml compiler is a complicated software artifact. Below is an attempt to do
 ## Lambda
 ### Pattern Matching
 
-* [http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf Compiling Pattern Matching to Good Decision Trees]
+* [Compiling Pattern Matching to Good Decision Trees](http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf)
 
 ## Flambda
 ## Clambda
