@@ -4,6 +4,7 @@ This page describes the current state of the OCaml ecosystem. Please help keep i
 
 * [The OCaml Platform](ocaml_platform.md)
 
+* [Audio](audio.md)
 * [Build System and Package Management](build_systems.md)
 * [Basic Libraries](basic_libraries.md)
 * [Code Tools](code_tools.md)
