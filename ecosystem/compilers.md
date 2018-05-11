@@ -1,3 +1,7 @@
+# Compilers, Typecheckers, and Parsers
+
+Because OCaml is one of the best tools for creating compilers, typecheckers, etc, you'll find a wide variety of projects made in OCaml.
+
 # Languages and Compilers:
 
 * [cDuce](http://www.cduce.org/)  - cDuce is a modern XML-oriented functional language with innovative features.
