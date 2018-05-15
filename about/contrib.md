@@ -12,7 +12,7 @@ You want to contribute? Awesome. Here are some important guidelines that *must b
 ## Discussion channels
 
 * Discussion about this resource happens
-  * On [https://discuss.ocaml.org] in Ecosystem with the `ocamlverse` tag: long-term vision and direction
+  * On [discuss.ocaml.org](https://discuss.ocaml.org) in Ecosystem with the `ocamlverse` tag: long-term vision and direction
   * On [discord in the #ocamlverse channel](https://discord.gg/cCYQbqN): quick, responsive dicussion about issues.
   * In an issue in this repo: ideas for content, missing pieces
   * In a PR: discussions of a particular change
