@@ -2,7 +2,7 @@
 
 This page describes the current state of the OCaml ecosystem. Please help keep it up to date.
 
-* [The OCaml Platform](ocaml_platform.md)
+* [The OCaml Platform](ocaml_platform.md): a community attempt to standardize the infrastructure in the OCaml world.
 
 * [Audio](audio.md)
 * [Build System and Package Management](build_systems.md)
@@ -21,6 +21,7 @@ This page describes the current state of the OCaml ecosystem. Please help keep i
 * [Scientific Computing, Machine Learning and Data Science](scientific.md)
 * [Protocols](protocols.md)
 * [Static Analysis](static_analysis.md)
+* [Searching](searching.md)
 * [Systems Programming](systems_programming.md)
 * [Testing](testing.md)
 * [User Interface (GUI/TUI)](ui.md)
