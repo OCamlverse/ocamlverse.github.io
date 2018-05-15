@@ -26,7 +26,7 @@ For modern project development, Base, Containers and Batteries are all solid cho
 
 * The standard library contains the [Arg](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Arg.html) module, which has a simple syntax for defining command line arguments. However, it uses mutable state for arguments, and doesn't have a built-in way to handle things such as sub-arguments, or argument aliases (long and short) for the same command, though these things can be done.
 * [https://github.com/dbuenzli/cmdliner Cmdliner] is a declarative approach to laying out command-line arguments. The library uses combinators to build up the desired arguments.
-* [BOS](https://github.com/dbuenzli/bos) is a general OS abstraction library which also contains a command line argument module (BOS.OS.Arg).
+* [BOS - Basic OS Interaction](https://github.com/dbuenzli/bos) is a general OS abstraction library which also contains a command line argument module (BOS.OS.Arg).
 * Jane Street's Core standard library contains the Command module, which takes a similar approach to Cmdliner.
 * [Minicli](https://github.com/UnixJunkie/minicli)  is a self-described minimalist library for command line parsing.
 
@@ -47,7 +47,7 @@ For modern project development, Base, Containers and Batteries are all solid cho
 ## File Path
 
 ## IO
-* [BOS](https://github.com/dbuenzli/bos) is an OS interaction layer containing many elements, including file manipulation, command line argument parsing, etc.
+* [BOS - Basic OS Interaction](https://github.com/dbuenzli/bos) is an OS interaction layer containing many elements, including file manipulation, command line argument parsing, etc.
 
 ## Pretty printing
 
