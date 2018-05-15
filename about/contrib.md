@@ -30,7 +30,7 @@ You want to contribute? Awesome. Here are some important guidelines that *must b
 ## Protocol
 
 * These contribution guidelines **may not be changed** without discussion with the ocamlverse community.
-* All changes may be submitted via a PR process. Submit a PR of your change, and another maintainer can merge it.
+* All changes *may* be submitted via a PR process. Submit a PR of your change, and another maintainer can merge it. Small and medium changes, as explained below, do not need a PR, however.
 * *Small changes* are those that concern adding a little bit of content, fixing mistakes, etc. These can be done at will if you're a contributor and can be merged without discussion. It's always nice to drop a note about them though.
 * *Medium changes* involve adding quite a bit of content or changing much of it. These should always be discussed first on the discussion channels, and you need to receive agreement with your change.
 * *Large changes* such as adding a new section, reorganization, adding new directories etc require using a PR.
