@@ -14,7 +14,11 @@ In the absence of a comprehensive standard library, several competitors develope
 * [Core](https://github.com/janestreet/core)  is Jane Street's expanded standard library, sitting on top of Base. Core is more comprehensive than Base.
 * [Batteries Included](https://github.com/ocaml-batteries-team/batteries-included)  is a mature, full-featured standard library, taking the approach of extending the standard library with additional functionality rather than replacing it wholesale. It includes many data structures and algorithms. Note that Containers came about as a split-off from Batteries.
 
-For modern project development, Base, Containers and Batteries are all solid choices, though some OCamlers prefer to stick with the standard library and only use specific modular libraries as needed.
+### Recommendations
+Several non-compatible modern alternatives are recommended:
+
+* Containers + stdlib: Containers is a modern extension of the stdlib, and extends it in powerful ways. For OS interaction, BOS (see below) is a great fit.
+* Base + Core: The Jane Street standard libraries eschew the conventions of the stdlib, and present an alternative, powerful combination that works particularly well with other Jane Street libraries.
 
 ## Data Structures and Common Algorithms
 
