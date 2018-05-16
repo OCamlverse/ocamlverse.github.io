@@ -2,7 +2,7 @@
 
 OCamlverse is essentially a *modern wiki*, with the advantage that it's based on git and github's resources. Anyone can ask for contribution rights, and like a wiki, small-to-medium changes can be made instantaneously (for larger changes, a PR is required). We therefore get the low-latency advantage of wikis combined with the reliability and history of git.
 
-Ocamlverse's mission is twofold:
+OCamlverse's mission is twofold:
 
 1. To provide an easy-to-access, easy-to-update documentation resource about anything important to the OCaml community.
 2. To encourage a culture of documentation and contribution in the OCaml community, empowering its growth.
