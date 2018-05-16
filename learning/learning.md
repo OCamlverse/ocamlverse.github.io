@@ -21,7 +21,10 @@
 * [OCaml - polymorphic print and type erasure](http://stackoverflow.com/questions/7442449/ocaml-polymorphic-print-and-type-losing)
 
 ### Monads
-* [Monads are a class of hard drugs](http://lambda-diode.com/programming/monads-are-a-class-of-hard-drugs)
+* [Xavier Leroy's Monadic Programming Lecture Slides (pdf)](https://xavierleroy.org/mpri/2-4/monads.pdf) and [code](https://xavierleroy.org/mpri/2-4/monads.ml)
+* [Cornell's CS 3110 Lecture about monads](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/lec.pdf), with [code](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/code.ml) and [recitation](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/lab.html)
+* [A small monads tutorial from the Monads library](http://binaryanalysisplatform.github.io/bap/api/master/Monads.Std.html#intro)
+* [Discussion on what you can do with Monads](https://discuss.ocaml.org/t/can-monads-help-me-my-refactor-code-for-an-enhanced-data-structure/1064/5?u=ivg) and what are [Monad Transformers](https://discuss.ocaml.org/t/ann-monads-the-missing-monad-transformers-library/830/6?u=ivg)
 
 ## Articles
 
