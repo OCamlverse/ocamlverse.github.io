@@ -1,4 +1,5 @@
 # Learning
+
 ## Why OCaml?
 
 * [Why OCaml, why now?](http://spyder.wordpress.com/2014/03/16/why-ocaml-why-now/)
@@ -11,7 +12,6 @@
 * [The Beginners' Guide to OCaml Beginners](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/)  where X=OCaml.
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
-
 
 ## Advanced
 
@@ -41,6 +41,12 @@
 
 ## Best Practices
 See [Best Practices](best_practices.md)
+
+## Projects
+
+A list of projects that can be used as examples or for inspiration.
+
+See [Projects](projects.md)
 
 ## Exercises
 
