@@ -11,4 +11,4 @@ We believe OCaml is at an important crossroads in its history: with the incredib
 
 Additionally, we think that feedback loops are extremely powerful in a language community: the more people contribute and the more documentation is added, the more other people will want to contribute.
 
-Join us. Read the [Contibution Guidelines](contrib.md) page, ask to be given contribution rights or submit a PR, and help us make OCamlverse a terrific documentation resource, and the OCaml language an even bigger success.
+Join us. Read the [Contibution Guidelines](contrib.md) page, ask to be given contribution rights or submit a PR, and help us make OCamlverse an excellent documentation resource, and the OCaml language an even bigger success.
