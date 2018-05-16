@@ -11,7 +11,7 @@ We believe OCaml is at an important crossroads in its history: with the incredib
 
 Additionally, we think that feedback loops are extremely powerful in a language community: the more people contribute and the more documentation is added, the more other people will want to contribute.
 
-Join us. Read the [Contibution Guidelines](contrib.md) page, ask to be given contribution rights or submit a PR, and help us make OCamlverse an excellent documentation resource, and the OCaml language an even bigger success.
+*Join us*. Read the [Contibution Guidelines](contrib.md) page, ask to be given contribution rights or submit a PR, and help us make OCamlverse an excellent documentation resource, and the OCaml language an even bigger success.
 
 ## Why Not X? Why a new resource?
 
@@ -19,7 +19,7 @@ The OCaml ecosystem has been burned in the past by having fragmentation in criti
 
 None of this applies to documentation efforts and community building, where more is often better. The more places on the web there are talking about OCaml, the greater the chances of OCaml attracting more people, which will cause a feedback loop of contribution. There is still a certain minor risk of duplicating effort when that effort is completely identical, but there's nothing wrong with trying slightly different formulations and seeing what sticks and what gets the snowball rolling.
 
-As far as we can tell, OCamlverse is unique among community resources for these reasons:
+As far as we can tell, OCamlverse is unique among the OCaml community resources for these reasons:
 
 1. Like a public wiki, OCamlverse is completely open for anyone to change. OCamlverse starts with trusting the contributor, and only blacklisting any contributors who don't comply with the rules. The fact that we use git means we can never lose information, even from 'bad' contributions.
 2. Members (i.e. *anyone*) are trusted with making small to medium changes directly, allowing the high-frequency, low-latency advantages of a wiki.
