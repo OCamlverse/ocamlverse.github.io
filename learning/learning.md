@@ -40,7 +40,7 @@
 * [Fiddling with the OCaml Type System](http://technotroph.wordpress.com/2013/10/25/fiddling-with-the-ocaml-type-system/)
 
 ## Best Practices
-See [Best Practice](best_practices.md)
+See [Best Practices](best_practices.md)
 
 ## Exercises
 
