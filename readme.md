@@ -6,7 +6,12 @@ This is an effort to document everything worth documenting about OCaml.
 
 Please feel free to contribute. You can do so either by submitting a PR or joining the admin team.
 
-* [Contribution Guidelines](about/contrib.md) *must be read and agreed to before contributing*
+[About OCamlverse](about/about.md)
+
+[Contribution Guidelines](about/contrib.md) *must be read and agreed to before contributing*
+
+---
+
 * [Community](community/community.md)
 * [Learning](learning/learning.md)
 * [Ecosystem](ecosystem/ecosystem.md)
