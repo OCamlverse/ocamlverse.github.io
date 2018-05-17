@@ -18,6 +18,9 @@
   * [commonjs_of_ocaml](https://github.com/AngryLawyer/commonjs_of_ocaml) : Easily import and export CommonJS modules from a js_of_ocaml project.
 * [BuckleScript](https://github.com/bloomberg/bucklescript)  compiles OCaml to Javascript directly, prioritizing readability. The code lives in the Javascript ecosystem and generally requires a Javascript toolchain. ReasonML is enabled by this compiler.
 
+## Cloud Computing
+* [aws-s3](https://github.com/andersfugmann/aws-s3): Access to Amazon's Simple Storage Solution (S3)
+
 ## Protocol Libraries
 
 * [tyxml](http://ocsigen.org/tyxml) : build valid html using combinators. Leverages OCaml's type system.
