@@ -54,16 +54,17 @@ In the same way we could define `discard_second` and combine them like this:
 discard_second (discard_first whitespace integer) whitespace
 ```
 
-This is a a lot less straightforward and less readable. And the situation becomes even worse if you tried writing more complex logic. And that's probably the main reason for the invention of monads, as it's quite hard to write complex logic in a functional style. So here is another amateur attempt at defining what a monad is (at least for our context). You can think of a monad like a function which has the following definition:
+This is a a lot less straightforward and less readable. And the situation becomes even worse if you tried writing more complex logic. And that's probably the main reason for the invention of the parser monad, as hides this complexity. So here is another amateur attempt at defining what the parser monad is (at least for our context). You can think of the parser monad like a device that links your parsers in a chain (using the combinators), and the runs it using a function that has roughly the following definition:
 ```ocaml
-let rec state_monad state remainder_of_input =
+let rec run state remainder_of_input =
   match check_state_for_errors state with
-  | Result.Error e ->
+  | Error e ->
     generate_error state
-  | Result.Ok result ->
+  | Ok result ->
     let new_state = evaluate_next_combinator_with_result state in
-    state_monad new_state new_state.next_parser
+    run new_state new_state.next_parser
 ```
+
 And when you write your parsers and combinators, they get evaluated in order by the state monad, which treats the combinators as special conditions in order to decide what to do with your state and results. Of course, the above definition is very naive and implementing the state monad is quite a lot harder, but that (again) is the essence of it.
 
 ## A Hello World Example
