@@ -10,12 +10,29 @@ projects.
 
 * [Learn more about the DocJam](http://gallium.inria.fr/~scherer/events/ocaml-docjam-may-2018/announce.html)
 
-OCamlverse members should feel free to place Work In Progress
-documentation in the DocJam directory and link to it from this page
-without performing a Pull Request. If you want to later move the
-documentation into place in the main part of OCamlverse, please
-request a Pull Request then.
+## OCamlverse Rules for the DocJam
 
-DocJam Projects:
+1. Feel free to request commit privileges for OCamlverse by asking in an
+   issue ticket. (This is always true!)
+2. You may place any Work in Progress documentation you like in the
+   `docjam` directory (or a subdirectory of it), and you may link to it
+   in this document.
+3. You do not need to make a pull request to edit anything you are
+   working on in `docjam` during the DocJam.
+4. Please put your name and github handle near the top of any document
+   you are writing so people will know who is working on the
+   document. If you want to commit to someone else's work in progress,
+   _ask them if it's okay_.
+5. If something is far enough along to be worth asking other people to
+   look at, link to it at the bottom of this page. You can edit this
+   file at will to add such links.
+6. If you are done with something and want to make a Pull Request to
+   move it elsewhere in OCamlverse, you should obviously feel free.
+
+After the DocJam is over, we will move some of the contents to
+appropriate parts of OCamlverse, clean out some things, and we may
+create a permanent scratch directory for Work in Progress.
+
+DocJam Projects for Review:
 
 * None yet! Add yours here!
