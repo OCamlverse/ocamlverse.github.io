@@ -33,6 +33,14 @@ After the DocJam is over, we will move some of the contents to
 appropriate parts of OCamlverse, clean out some things, and we may
 create a permanent scratch directory for Work in Progress.
 
-DocJam Projects for Review:
+## Useful Tools for the DocJam
+
+* [grip](https://github.com/joeyespo/grip): a python tool that
+  renders GitHub Flavored Markdown, including GitHub's own
+  CSS. Really handy for previsualizing your markdown pages!
+  Includes a small web server and refreshes the page in your
+  browser whenever you change the corresponding .md file.
+
+## DocJam Projects for Review
 
 * [Quick and Dirty Guide to Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
