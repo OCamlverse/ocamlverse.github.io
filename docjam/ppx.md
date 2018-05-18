@@ -120,5 +120,33 @@ unescaped `"` and similar characters.
 
 ## Writing PPX Extensions
 
-_This section currently intentionally left blank. Please help me turn
-it into something useful._
+_This section is woefully incomplete. Please help me turn
+it into something useful! Send me specific suggestions for things it
+should say._
+
+A PPX is implemented as an executable that reads a binary serialized
+form of the OCaml AST and writes out a transformed binary serialized
+AST.
+
+The OCaml compiler simply runs each of the PPX executables it has
+been asked to invoke, feeding each one the serialized AST and getting
+it back again.
+
+Thus, a PPX simply manipulates the OCaml AST, nothing more and nothing
+less, but it can manipulate the AST in quite arbitrary ways.
+
+The OCaml AST is quite complicated, so the use of libraries intended
+to aid the writing PPX extensions easy is nearly mandatory.
+
+Another serious problem is that the OCaml AST format is not guaranteed
+to remain the same between versions of the compiler. Indeed, the OCaml
+AST does, in practice, change significantly enough between compiler
+versions that without the use of tools, PPX extensions would break
+with every compiler update.
+
+It is therefore necessary to understand a bit both about the OCaml AST
+and about the available PPX-writing libraries in order to successfully
+write a PPX.
+
+_Insert some explanation of suggested tools here, potentially focusing
+on [ppxlib](https://github.com/ocaml-ppx/ppxlib)._
