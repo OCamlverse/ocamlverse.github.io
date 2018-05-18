@@ -54,7 +54,7 @@ In the same way we could define `discard_second` and combine them like this:
 discard_second (discard_first whitespace integer) whitespace
 ```
 
-This is a a lot less straightforward and less readable. And the situation becomes even worse if you tried writing more complex logic. And that's probably the main reason for the invention of the parser monad, as hides this complexity. So here is another amateur attempt at defining what the parser monad is (at least for our context). You can think of the parser monad like a device that links your parsers in a chain (using the combinators), and the runs it using a function that has roughly the following definition:
+This is a a lot less straightforward and less readable. And the situation becomes even worse if you tried writing more complex logic. And that's probably the main reason for the invention of the parser monad, as it hides this complexity. So here is another amateur attempt at defining what the parser monad is (at least for our context). You can think of the parser monad like a device that links your parsers in a chain (using the combinators), and runs them using a function that has roughly the following definition:
 ```ocaml
 let rec run state remainder_of_input =
   match check_state_for_errors state with
