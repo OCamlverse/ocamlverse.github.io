@@ -1,5 +1,7 @@
 # Quick and Dirty Guide to Monadic Parsers and Angstrom
 
+Author: Metin Akat @loxs
+
 ## Abstract
 This tutorial aims to give you abilities to write parsers quickly for you daily tasks. It's not a formal or academic explanation of parsers, grammars, monads etc. On the contrary, it aims to be as informal as possible and to have as little requirements for previous knowledge as possible.
 
