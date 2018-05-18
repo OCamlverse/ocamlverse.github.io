@@ -120,4 +120,5 @@ unescaped `"` and similar characters.
 
 ## Writing PPX Extensions
 
-This section currently intentionally left blank
+_This section currently intentionally left blank. Please help me turn
+it into something useful._
