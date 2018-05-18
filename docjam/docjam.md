@@ -35,4 +35,4 @@ create a permanent scratch directory for Work in Progress.
 
 DocJam Projects for Review:
 
-* [Quick and Dirty Guide on Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
+* [Quick and Dirty Guide to Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
