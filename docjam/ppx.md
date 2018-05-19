@@ -9,8 +9,9 @@ OCaml provides a _syntactic extension facility_ known as
 PreProcessor eXtensions, or PPXs. They allow to add
 entirely new syntax and features to
 the OCaml language that would otherwise be impossible.
-For example, the [`ppx_regexp`][ppx_regexp] package adds a **match**-like
-construct that matches strings with regular expressions, like:
+For example, the [ppx_regexp](https://github.com/paurkedal/ppx_regexp)
+package adds a **match**-like construct that matches strings with
+regular expressions, like:
 
 ```ocaml
 match%pcre somestring with
@@ -153,6 +154,3 @@ write a PPX.
 
 _Insert some explanation of suggested tools here, potentially focusing
 on [ppxlib](https://github.com/ocaml-ppx/ppxlib)._
-
-
-[ppxregexp]: https://github.com/paurkedal/ppx_regexp
