@@ -116,6 +116,11 @@ In addition, "Quoted" strings of the form `{|string|}` or
 often of use in them because they allow for strings containing
 unescaped `"` and similar characters.
 
+(Note that in a string like `{foo|string|foo}`, it is _**not**_
+acceptable for an extension to key off of `foo`, the purpose of a
+`{foo|` construct is to enable quoting of a literal `|}` inside a
+string. See the OCaml manual for details.)
+
 ## Writing PPX Extensions
 
 _This section is woefully incomplete. Please help me turn
