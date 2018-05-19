@@ -2,6 +2,7 @@
 
 Here is a collection of best practices for successful programming in OCaml.
 
+* [OCaml programming guidelines at ocaml.org](http://www.ocaml.org/learn/tutorials/guidelines.html)
 * [XEN – OCaml Best Practices for Developers](http://wiki.xen.org/wiki/OCaml_Best_Practices_for_Developers)
 * [Jane Street Style](https://opensource.janestreet.com/standards/)
 <!-- * [UPenn Code Style](https://www.seas.upenn.edu/~cis120/current/programming_style.shtml) -->
