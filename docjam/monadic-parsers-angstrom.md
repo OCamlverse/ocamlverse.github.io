@@ -227,9 +227,9 @@ utop # Angstrom.parse_string number "something_else 10.45";;
 
 By this point (and after consulting the [.mli docs](https://github.com/inhabitedtype/angstrom/blob/master/lib/angstrom.mli)) you should be quite comfortable with understanding the example given in the Angstrom [README](https://github.com/inhabitedtype/angstrom/blob/master/README.md)
 
-But still, here is some explanations of some concepts used there...
+But still, here is some explanation of some of the concepts used there...
 
-* `<|>` combinator is like a logical `or`. If the left parser returns a failure, the right one is evaluated
+* `<|>` combinator is like a logical `or`. If the left parser returns a failure, the right one is evaluated (with the same input, so this means backtracking)
 * `lift1`, `lift2`, etc - here is some [explanation](https://discuss.ocaml.org/t/angstrom-parser-optimization/1754) on how to use these. They are (a little convoluted) way to tell the parser monad to run several parsers in sequence while retaining everything they return
 * `fix` is the way to impose recursion on the parser monad
 
