@@ -1,4 +1,4 @@
-# A Guide to PPX Extensions
+# A Guide to PreProcessor eXtensions
 
 Author: Perry Metzger @pmetzger
 
@@ -6,12 +6,10 @@ Author: Perry Metzger @pmetzger
   improving it.
 
 OCaml provides a _syntactic extension facility_ known as
-PPX.
-
-"Syntactic extension" means a way of adding entirely new features to
+PreProcessor eXtensions, or PPXs. They allow to add
+entirely new syntax and features to
 the OCaml language that would otherwise be impossible.
-
-For example, the `ppx_regexp` extension adds a **match**-like
+For example, the [`ppx_regexp`][ppx_regexp] package adds a **match**-like
 construct that matches strings with regular expressions, like:
 
 ```ocaml
@@ -21,7 +19,7 @@ match%pcre somestring with
   | _            -> some_default
 ```
 
-PPX extensions are implemented as OCaml code that plugs in to the
+PPX extensions are implemented as OCaml programs which are plugged into the
 compiler. The extensions look for small syntactic "hooks" that signal
 that an extension should do its work. These syntactic signals that
 extensions look for are defined by the OCaml language specification,
@@ -150,3 +148,6 @@ write a PPX.
 
 _Insert some explanation of suggested tools here, potentially focusing
 on [ppxlib](https://github.com/ocaml-ppx/ppxlib)._
+
+
+[ppxregexp]: https://github.com/paurkedal/ppx_regexp
