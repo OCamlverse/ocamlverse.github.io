@@ -71,7 +71,7 @@ the compiler how to invoke the plugin. (For example, for
 
 The OCaml compiler operates in several steps. When it reads your
 program, the first thing it does is convert the OCaml code into an
-internal data structure called an "Abstract Syntax Tree", or "AST."
+internal data structure called an _Abstract Syntax Tree_ (AST).
 
 When you add
 
@@ -101,16 +101,47 @@ rewrite a section of the the OCaml AST. (For example, `ppx_deriving`'s
 `[@@deriving show]` and will then insert an appropriate `show`
 function customized for the type into the AST.)
 
+A PPX converts a valid AST into a valid AST.  This makes it possible to
+compose multiple PPX rewriters by piping the output from one as the input to
+the next, which happens when multiple PPXes are loaded by the build system.
+
+Since the AST is constructed before type-checking, optimizations, and code
+generation, the transformation is syntactic.  A PPX can, however, access
+compiled modules, including types, though the compiler library.
+
 ### Syntactic hooks for PPX extensions
 
-Among other "hooks" are:
+Since the original input must be syntactically valid, OCaml is
+systematically enriched with syntax dedicated to PPX rewriters:
 
 1. Operator names starting with a `#` character and containing more than
    one `#` character are reserved for extensions.
 2. Int and float literals followed by an one-letter identifier in the
    range `[g..z|G..Z]` are reserved for extensions.
-3. _Attributes_ [Insert explanation of attributes]
-4. _Extension nodes_ [Insert explanation of extension nodes]
+3. _Attributes_ are named attachments to AST nodes which will be ignored by
+   the compiler if uninterpreted.
+4. _Extension nodes_ are dedicated AST nodes which will be rejected by the
+   compiler if uninterpreted.
+
+For algebraic terms (value, type, pattern, module, module type, class and
+class type expressions), extension nodes and attributes take the form
+
+- `[%extension-name expression]`
+- `expression [@attribute-name optional-arguments]`
+
+For module and signature items, extension nodes and attributes take the form
+
+- `[%%extension-name module-item]`
+- `module-item [@@attribute-name optional-arguments]`
+- `[@@@attribute-name optional-arguments]`
+
+The latter is a _floating attribute_, which, unlike other kind of
+attributes, are independent nodes rather than attachments to existing node
+types.  They serve as stand-alone module and module type items.
+
+There are also a number of shortcuts for extension nodes, like `let%ext ...
+= ...` for `[%ext let ... = ...]`, which are indistinguishable from their
+canonical form after parsing (apart from location information).
 
 In addition, "Quoted" strings of the form `{|string|}` or
 `{foo|string|foo}` are not per se reserved for extensions, but are
