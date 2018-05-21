@@ -2,12 +2,19 @@
 
 Here is a collection of best practices for successful programming in OCaml.
 
+* [OCaml programming guidelines at ocaml.org](http://www.ocaml.org/learn/tutorials/guidelines.html)
 * [XEN – OCaml Best Practices for Developers](http://wiki.xen.org/wiki/OCaml_Best_Practices_for_Developers) 
-* [Pyrocat OCaml Style Guide](https://github.com/pyrocat101/ocaml-style-guide) 
+* [Jane Street Style](https://opensource.janestreet.com/standards/)
+
+These three guides are very similar.  Some people have found them useful, but be aware that some of the code examples are not valid OCaml:
+
 * [CIS500 Programming Style](https://www.seas.upenn.edu/~cis500/cis500-f06/resources/programming_style.html) 
 * [Cornell Code Style](http://www.cs.cornell.edu/Courses/cs312/2001sp/style.html) 
 * [UPenn Code Style](https://www.seas.upenn.edu/~cis120/current/programming_style.shtml)
-* [Jane Street Style](https://opensource.janestreet.com/standards/)
+
+<!-- This is 404'ed.  I'll write to Pyrocat101 to find out more.
+Pyrocat OCaml Style Guide : https://github.com/pyrocat101/ocaml-style-guide
+-->
 
 ## Documentation Best Practices
 
