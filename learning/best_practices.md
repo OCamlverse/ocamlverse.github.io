@@ -6,10 +6,10 @@ Here is a collection of best practices for successful programming in OCaml.
 * [XEN – OCaml Best Practices for Developers](http://wiki.xen.org/wiki/OCaml_Best_Practices_for_Developers) 
 * [Jane Street Style](https://opensource.janestreet.com/standards/)
 
-These three guides are very similar.  Some people have found them useful, but be aware that some of the code examples are not valid OCaml:
+These two guides are very similar.  Some people have found them useful, but be aware that some of the code examples are not valid OCaml:
 
-* [CIS500 Programming Style](https://www.seas.upenn.edu/~cis500/cis500-f06/resources/programming_style.html) 
-* [UPenn Code Style](https://www.seas.upenn.edu/~cis120/current/programming_style.shtml)
+* [UPenn CIS500 Programming Style](https://www.seas.upenn.edu/~cis500/cis500-f06/resources/programming_style.html) 
+* [UPenn CIS120 Code Style](https://www.seas.upenn.edu/~cis120/current/programming_style.shtml)
 
 ## Documentation Best Practices
 
