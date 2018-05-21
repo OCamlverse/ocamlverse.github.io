@@ -12,10 +12,6 @@ These three guides are very similar.  Some people have found them useful, but be
 * [Cornell Code Style](http://www.cs.cornell.edu/Courses/cs312/2001sp/style.html) 
 * [UPenn Code Style](https://www.seas.upenn.edu/~cis120/current/programming_style.shtml)
 
-<!-- This is 404'ed.  I'll write to Pyrocat101 to find out more.
-Pyrocat OCaml Style Guide : https://github.com/pyrocat101/ocaml-style-guide
--->
-
 ## Documentation Best Practices
 
 * [Documentation Guidelines](https://github.com/bobbypriambodo/ocaml-documentation-guideline) : NOTE: consider pulling inline with Bobby's permission.
