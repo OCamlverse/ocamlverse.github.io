@@ -5,7 +5,7 @@
 * [Why OCaml, why now?](http://spyder.wordpress.com/2014/03/16/why-ocaml-why-now/)
 * [Why OCaml?](http://web.archive.org/web/20140713005224/http://www.mimisbrunnr.net/~munin/blog/why-ocaml.html)
 * [OCaml for the Masses](http://queue.acm.org/detail.cfm?id=2038036)
-* [Why We Use OCaml](http://tech.esper.com/2014/07/15/why-we-use-ocaml/)
+* [Why We Use OCaml](https://espertech.wordpress.com/2014/07/15/why-we-use-ocaml/)
 
 ## Beginner
 
