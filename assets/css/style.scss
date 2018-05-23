@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.sidebar {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: hidden; /* no horizontal scroll */
+    padding-top: 20px;
+}
