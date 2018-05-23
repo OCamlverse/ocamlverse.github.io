@@ -1,5 +1,10 @@
 # Web and Networking
 
+## Example Projects:
+
+* [Cumulus](https://github.com/Cumulus/Cumulus) : Hackernews-like website with the OCaml framework Ocsigen (demo is currently down).
+* [Prose](https://gitlab.com/adrien-n/prose/) : A Google-docs-like collaborative editing application written using Eliom/Ocsigen. See the demo [here](https://prose.yaxm.org/pads/foo-ocaml)
+
 ## HTTP Servers
 
 * [cohttp](https://github.com/mirage/ocaml-cohttp) : A lightweight HTTP server using either Lwt or Async.
@@ -46,10 +51,6 @@
 * [Markup.ml](https://github.com/aantron/markup.ml)  - Error-recovering streaming HTML5 and XML parsers, serializers.
 * [gen_js_api](https://github.com/LexiFi/gen_js_api)  - gen_js_api aims at simplifying the creation of OCaml bindings for Javascript libraries.
 * [slacko](https://github.com/Leonidas-from-XIV/slacko) : command line interface to Slack.
-
-## OCaml Projects:
-
-* [Cumulus](https://github.com/Cumulus/Cumulus) : Hackernews-like website with the OCaml framework Ocsigen (demo is currently down).
 
 ## ReasonML
 * Reason uses Bucklescript to create Javascript code that lives in the npm-world but leverages OCaml's type system.
