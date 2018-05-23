@@ -38,6 +38,7 @@
 * [Algebraic Data Types](http://tech.esper.com/2014/07/30/algebraic-data-types/)
 * [A safe but strange way of modifying OCaml compiler](https://bitbucket.org/camlspotter/compiler-libs-hack)
 * [Fiddling with the OCaml Type System](http://technotroph.wordpress.com/2013/10/25/fiddling-with-the-ocaml-type-system/)
+* [Quick and Dirty Guide to Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
 
 ## Best Practices
 See [Best Practices](best_practices.md)
