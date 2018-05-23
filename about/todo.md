@@ -13,7 +13,3 @@ feel comfortable using issues for that.
 
 ## Ideas for content
 * Document abstract types, private types (learning).
-
-## Long Term Goal
-* Move all content to OCamlverse so we can maintain it. Otherwise, content gets out of date
-and we can't justify linking to it.
