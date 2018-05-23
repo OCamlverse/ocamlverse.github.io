@@ -9,7 +9,7 @@ we have this list of items that anyone can choose to take care of.
 feel comfortable using issues for that.
 
 ## Immediate
-* Move [DocJam contributions](/docjam/docjam.md) to their proper places (requires PRs):
+* Move [DocJam contributions](/docjam/docjam.md) to their proper places (medium change: PR or discussion needed)
 
 ## Ideas for content
 * Document abstract types, private types (learning).
