@@ -41,6 +41,18 @@ You want to contribute? Awesome. Here are some important guidelines that *must b
 
 * Failing to adhere to the required tone and attitude, the protocol, showing a lack of respect for the other contributors, or showing a serious lack of good judgement and receptivneness to comments, as determined by the managers of the site, can cause you to have your contributor rights revokes. You can still contribute via PR, but not directly merge content.
 
-## Copying Content
+## Guidelines For Imported Content
 
-* Only copy material rather than link to it (better yet, do both) if you've been granted permission by the author of said material.
+Even though OCamlverse accepts links to content freely, ideally all content will be hosted on OCamlverse.
+The reason for this is that all content becomes outdated with time, and without permission to change it, we cannot adequately
+maintain documentation.
+
+The process of importation starts with linking to the original source (with the author's permission), crediting the author, and copying the content to OCamlverse.
+Over time, the content will then be gradually edited by OCamlverse contributors.
+Eventually, the original link may be completely irrelevant, at which point it may be removed.
+
+Here are some good heuristics for choosing which content to import:
+
+1. The content must be appropriately licensed so we can use it (or the owners give us permission.)
+2. It is not sufficiently maintained where it is. If something is well maintained where it is, we shouldn't be taking it in.
+3. We should only import things we think we're realistically able to maintain. OCamlverse will always have limited resources, and consideration must be made for our capabilities at any point in time, including the expertise of our contributors.
