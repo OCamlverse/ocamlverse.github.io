@@ -1,4 +1,4 @@
-<# A Guide to PreProcessor eXtensions
+# A Guide to PreProcessor eXtensions
 
 Author: Perry Metzger @pmetzger
 
