@@ -5,10 +5,10 @@ Author: Perry Metzger @pmetzger
 > This is a _very very_ rough work in progress. Please help the author
   improving it.
 
-OCaml provides a _syntactic extension facility_ known as
-PreProcessor eXtensions, or PPXs. They allow to add
-entirely new syntax and features to
-the OCaml language that would otherwise be impossible.
+OCaml provides a _syntactic extension facility_ known as PreProcessor
+eXtensions, or PPXs. They allow you to add entirely new syntax and
+features to the OCaml language that would otherwise be impossible.
+
 For example, the [ppx_regexp](https://github.com/paurkedal/ppx_regexp)
 package adds a **match**-like construct that matches strings with
 regular expressions, like:
@@ -20,17 +20,17 @@ match%pcre somestring with
   | _            -> some_default
 ```
 
-PPX extensions are implemented as OCaml programs which are plugged into the
+PPXs are implemented as OCaml programs which are plugged into the
 compiler. The extensions look for small syntactic "hooks" that signal
-that an extension should do its work. These syntactic signals that
+that an extension should do its work. The syntactic signals that
 extensions look for are defined by the OCaml language specification,
-but mean nothing to the compiler itself without the plugin.
+but mean nothing to the compiler itself without a plugin.
 
 This document is presented in three parts. The first part gives a
-brief informal explanation of how PPX extensions are used. The second
+brief informal explanation of how PPXs are used. The second
 part gives some detail on how PPX works and the syntactic hooks OCaml
-provides for use by PPX extensions.  The third section provides some
-detail on how you can write new PPX extensions, and gives pointers to
+provides for use by PPXs.  The third section provides some
+detail on how you can write new PPXs, and gives pointers to
 other documentation that may be of interest to extension writers.
 
 ## How PPX extensions are used
@@ -39,7 +39,7 @@ We have already seen an example of the `ppx_regexp` extension, which
 creates a version of the `match` construct that checks strings for
 regular expression matches.
 
-Another typical PPX extension is `ppx_deriving`, a family of
+Another typical PPX is `ppx_deriving`, a family of
 extensions that automatically generate code from OCaml data
 structures. For example, if you add the annotation:
 
@@ -67,7 +67,7 @@ the compiler how to invoke the plugin. (For example, for
 `ppx_deriving` and its `show` component, one usually adds the flags
 `-package ppx_deriving.show` when invoking `ocamlfind`.)
 
-## How does a PPX extension work behind the scenes?
+## How does a PPX work behind the scenes?
 
 The OCaml compiler operates in several steps. When it reads your
 program, the first thing it does is convert the OCaml code into an
@@ -109,7 +109,7 @@ Since the AST is constructed before type-checking, optimizations, and code
 generation, the transformation is syntactic.  A PPX can, however, access
 compiled modules, including types, though the compiler library.
 
-### Syntactic hooks for PPX extensions
+### Syntactic hooks for PPXs
 
 Since the original input must be syntactically valid, OCaml is
 systematically enriched with syntax dedicated to PPX rewriters:
@@ -153,7 +153,7 @@ acceptable for an extension to key off of `foo`, the purpose of a
 `{foo|` construct is to enable quoting of a literal `|}` inside a
 string. See the OCaml manual for details.)
 
-## Writing PPX Extensions
+## Writing PPXs
 
 _This section is woefully incomplete. Please help me turn
 it into something useful! Send me specific suggestions for things it
@@ -171,13 +171,13 @@ Thus, a PPX simply manipulates the OCaml AST, nothing more and nothing
 less, but it can manipulate the AST in quite arbitrary ways.
 
 The OCaml AST is quite complicated, so the use of libraries intended
-to aid the writing PPX extensions easy is nearly mandatory.
+to aid the writing PPXs easy is nearly mandatory.
 
 Another serious problem is that the OCaml AST format is not guaranteed
 to remain the same between versions of the compiler. Indeed, the OCaml
 AST does, in practice, change significantly enough between compiler
-versions that without the use of tools, PPX extensions would break
-with every compiler update.
+versions that without the use of tools, PPXs would break with every
+compiler update.
 
 It is therefore necessary to understand a bit both about the OCaml AST
 and about the available PPX-writing libraries in order to successfully
