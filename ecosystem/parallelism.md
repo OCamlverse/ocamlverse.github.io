@@ -14,6 +14,11 @@ Concurrency refers to running multiple computations more-or-less simultaneously,
 * [A user gives up on Async](http://rgrinberg.com/posts/abandoning-async/)
 * [Cooperative Concurrency in OCaml: A Core.Std.Async Example](http://philtomson.github.io/blog/2014/07/09/core-dot-async-example/) .
 
+## Process Management
+
+* The [standard library] contains the Unix module, which allows for low-level process management. This is fairly brittle due to the fact that it's mostly (but not entirely) tailored towards Unix.
+* [lwt]](https://github.com/ocsigen/lwt) has the [lwt_process](https://ocsigen.org/lwt/3.2.1/api/Lwt_process) module, which has cross-platform process manipulation functions.
+
 ## Parallelism
 
 As mentioned above, OCaml doesn't natively support multiple OS-level OCaml threads running simultaneously. A global lock prevents multiple OCaml threads from running simultaneously.
