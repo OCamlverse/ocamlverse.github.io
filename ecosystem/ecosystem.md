@@ -16,6 +16,7 @@ This page describes the current state of the OCaml ecosystem. Please help keep i
 * [Foreign Function Interface](ffi.md)
 * [Functional Reactive Programming](frp.md)
 * [Graphics](graphics.md)
+* [Hardware Design](hardware_design.md)
 * [Mobile](mobile.md)
 * [Metaprogramming](metaprogramming.md)
 * [Scientific Computing, Machine Learning and Data Science](scientific.md)
