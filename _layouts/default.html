@@ -30,7 +30,7 @@
         </header>
     </div>
 
-    <div id="sidebar">
+    <div class="sidebar">
         {% for tag in site.tags %}
         "{{ tag | first }}"{% unless forloop.last %},{% endunless %}
         {% endfor %}
