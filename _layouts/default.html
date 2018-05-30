@@ -11,7 +11,14 @@
   </head>
 
   <body>
-
+    
+    <div class="sidebar">
+        test
+        {% for tag in site.tags %}
+        "{{ tag | first }}"{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    </div>
+    
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
@@ -29,14 +36,7 @@
           <a href="{{site.github.repository_url}}/edit/master/{{page.path}}">Edit this page</a>
         </header>
     </div>
-
-    <div class="sidebar">
-        test
-        {% for tag in site.tags %}
-        "{{ tag | first }}"{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-    </div>
-    
+  
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
