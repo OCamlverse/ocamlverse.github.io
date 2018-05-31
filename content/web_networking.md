@@ -52,5 +52,8 @@
 * [gen_js_api](https://github.com/LexiFi/gen_js_api)  - gen_js_api aims at simplifying the creation of OCaml bindings for Javascript libraries.
 * [slacko](https://github.com/Leonidas-from-XIV/slacko) : command line interface to Slack.
 
+### Low Level Protocols
+* [mirage-tcpip](https://github.com/mirage/mirage-tcpip): Part of mirage OS -- a complete implementation of the TCP/IP stack in OCaml.
+
 ## ReasonML
 * Reason uses Bucklescript to create Javascript code that lives in the npm-world but leverages OCaml's type system.

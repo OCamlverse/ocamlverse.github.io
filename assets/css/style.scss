@@ -4,14 +4,22 @@
 @import "{{ site.theme }}";
 
 .sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
     z-index: 1;
     position: absolute;
     top: 0;
     left: 0;
-    width: 250px;
+    width: 160px;
     margin: 0;
     padding: 0;
     list-style: none;
     overflow-x: hidden; /* no horizontal scroll */
     padding-top: 20px;
+    background-color: #111; /* Black */
+}
+
+/* Style page content */
+#main-content-wrap {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
 }

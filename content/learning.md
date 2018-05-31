@@ -12,6 +12,7 @@
 * [The Beginners' Guide to OCaml Beginners](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/)  where X=OCaml.
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
+* [Ocaml file types and filename extensions](https://ocaml.org/learn/tutorials/filenames.html)
 
 ## Advanced
 
