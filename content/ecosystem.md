@@ -2,7 +2,7 @@
 
 This page describes the current state of the OCaml ecosystem. Please help keep it up to date.
 
-* [The OCaml Platform](ocaml_platform.md): a community attempt to standardize the infrastructure in the OCaml world.
+* [The OCaml Platform](ocaml_platform.md): a community endeavor to standardize the infrastructure in the OCaml world.
 
 ## Domains
 * [Audio](audio.md)
