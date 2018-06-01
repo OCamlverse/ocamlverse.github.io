@@ -1,7 +1,6 @@
 # File Formats
 
 ## Serialization
-
 * [yojson](https://github.com/mjambon/yojson): An optimized parsing and printing library for the JSON format.
 * [jsonm](http://erratique.ch/software/jsonm): Non-blocking streaming JSON codec for OCaml.
 * [biniou](https://github.com/mjambon/biniou): Extensible binary data format, like JSON but faster.
