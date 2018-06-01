@@ -42,6 +42,7 @@ In the absence of a comprehensive standard library, several competitors develope
 * [Containers](https://github.com/c-cube/ocaml-containers)  is a lightweight and modern-style standard library which extends the standard library with additional functionality while applying more modern design concepts. As of version 2.0, Containers does not use polymorphic comparison anywhere.
 * [Core](https://github.com/janestreet/core)  is Jane Street's expanded standard library, sitting on top of Base. Core is more comprehensive than Base.
 * [Batteries Included](https://github.com/ocaml-batteries-team/batteries-included)  is a mature, full-featured standard library, taking the approach of extending the standard library with additional functionality rather than replacing it wholesale. It includes many data structures and algorithms. Note that Containers came about as a split-off from Batteries.
+* [Bos - Basic OS Interaction](https://github.com/dbuenzli/bos) is an OS interaction layer containing many elements, including file manipulation, command line argument parsing, etc. It fulfills one of the main functionalities of a standard library, that being I/O.
 
 ### Recommendations
 Several non-compatible modern alternatives are recommended:
@@ -79,10 +80,8 @@ Several non-compatible modern alternatives are recommended:
 * [Tyre](https://github.com/Drup/tyre)  - Tyre is a set of combinators to build type-safe regular expressions, allowing automatic extraction and modification of matched groups.
 * The standard library contains the [Str](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Str.html) module. This module is __not__ recommended, but its availability in the standard library makes it useful when you don't have access to anything better.
 
-## File Path
-
-## IO
-* [BOS - Basic OS Interaction](https://github.com/dbuenzli/bos) is an OS interaction layer containing many elements, including file manipulation, command line argument parsing, etc.
+## File Path Strings
+* [Fpath](https://github.com/dbuenzli/fpath): Cross-platform path manipulation library.
 
 ## Pretty printing
 
