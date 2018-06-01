@@ -2,16 +2,19 @@
 
 ## Bindings
 
-* [Dbm](https://forge.ocamlcore.org/projects/camldbm/)  — A binding to the NDBM/GDBM Unix "databases".
-* [Mongo.ml](https://massd.github.io/mongo/)  – An OCaml driver for Mongodb
+* [Caqti](https://github.com/paurkedal/ocaml-caqti): Monadic, asynchronous common interface to relational databased.
+Currently supports MariahDB, PostgreSQL and SQLite3.
+* [Mongo](https://massd.github.io/mongo/)  – An OCaml driver for Mongodb
+* [OCaml-mariahdb](https://github.com/andrenth/ocaml-mariadb): Ocaml bindings to MariahDB interface.
 * [PGOCaml](http://pgocaml.forge.ocamlcore.org/)  — A type-safe interface to PostgreSQL in pure OCaml.
 * [ppx_pgsql](https://github.com/tizoc/ppx_pgsql)  – A syntax extension for embedded SQL queries using PG'OCaml.
-* [PostgreSQL-OCaml](https://mmottl.github.io/postgresql-ocaml/)  — An interface to PostgreSQL through the C API (`libpq`).
-* [SQLite3](https://github.com/mmottl/sqlite3-ocaml/)  — OCaml bindings to the SQLite3 database.
+* [PostgreSQL-OCaml](https://mmottl.github.io/postgresql-ocaml/): An interface to PostgreSQL through the C API (`libpq`).
+* [SQLite3-OCaml](https://github.com/mmottl/sqlite3-ocaml/)  — OCaml bindings to the SQLite3 database.
 * [Sqlite3EZ](https://mlin.github.io/ocaml-sqlite3EZ/)  — Thin wrapper for SQLite3 with a simplified interface.
 * [ocaml-redis](https://github.com/0xffea/ocaml-redis)  – Redis bindings for OCaml.
 * [mysql](http://ocaml-mysql.forge.ocamlcore.org/)  – Bindings to libmysqlclient for interacting with MySQL databases.
 * [mysql_protocol](https://github.com/slegrand45/mysql_protocol)  – Implementation of MySQL Protocol with the Bitstring library.
+* [Dbm](https://forge.ocamlcore.org/projects/camldbm/)  — A binding to the NDBM/GDBM Unix "databases".
 
 ## OCaml Clients
 
