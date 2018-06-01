@@ -38,7 +38,9 @@ Several non-compatible modern alternatives are recommended:
 
 * The standard library's String module is somewhat limited currently.
 * Containers has an expanded String module, with iteration functions etc.
-* [AString](https://github.com/dbuenzli/astring)  is an alternative implementation of expanded string functionality, with less regard for standard library compatibility
+* [AString](https://github.com/dbuenzli/astring): an alternative implementation of expanded string functionality, with less regard for standard library compatibility
+* [Bigstring](https://github.com/c-cube/ocaml-bigstring): allows handling C-style strings of any size as if they were OCaml strings.
+  Built on top of BigArray, and supports memory-mapping.
 
 ## Regular Expressions
 
