@@ -17,7 +17,7 @@
 
 * [PGX](https://github.com/arenadotio/pgx): a pure-OCaml PostgreSQL client library, supporting Async, LWT, or synchronous operations.
 
-## Ocaml Databased
+## Ocaml Databases
 
 * [Irmin](https://github.com/mirage/irmin) : a distributed database that follows the same design principles as Git.
 * [Obigstore](http://obigstore.forge.ocamlcore.org/) : a database with BigTable-like data model atop LevelDB.
