@@ -4,7 +4,9 @@
 
 ppx is the syntax extension format supported currently by OCaml. It replaces older techniques such as Camlp4 by limiting the scope of language extensions and dedicating to them a specific syntax.
 
-* [OCaml-migrate-parsetree](https://github.com/ocaml-ppx/ocaml-migrate-parsetree)  After a while, it was found that ppx extensions are rather fragile, as they target the AST, which can often change between OCaml versions. In response, OCaml-migrate-parsetree (OMP) was developed, which stabilizes ppx extensions by translating them between AST versions. Every ppx extension should now use OMP as its driver.
+* [ppxlib](https://github.com/ocaml-ppx/ppxlib): The modern solution for writing PPX extensions. Without this library, writing PPX
+extensions is fragile and breaks with OCaml version changes. `ppxlib` merges several older projects together to provide a complete
+platform for writing efficient, resilient PPX extensions.
 
 ### Articles
 
