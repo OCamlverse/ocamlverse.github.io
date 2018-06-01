@@ -13,7 +13,11 @@
 * [mysql](http://ocaml-mysql.forge.ocamlcore.org/)  – Bindings to libmysqlclient for interacting with MySQL databases.
 * [mysql_protocol](https://github.com/slegrand45/mysql_protocol)  – Implementation of MySQL Protocol with the Bitstring library.
 
-## Projects
+## OCaml Clients
+
+* [PGX](https://github.com/arenadotio/pgx): a pure-OCaml PostgreSQL client library, supporting Async, LWT, or synchronous operations.
+
+## Ocaml Databased
 
 * [Irmin](https://github.com/mirage/irmin) : a distributed database that follows the same design principles as Git.
 * [Obigstore](http://obigstore.forge.ocamlcore.org/) : a database with BigTable-like data model atop LevelDB.
