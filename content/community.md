@@ -4,8 +4,8 @@ OCaml has quite a few places where you can go to communicate with the community 
 ## OCaml Discussion
 
 * [OCaml The Discourse Web Forum](https://discuss.ocaml.org/) is currently the most active online forum for OCaml. Feel free to post a question under the `Learning` category.
-* [The OCaml IRC Chat](https://riot.im/app/#/room/#freenode_#ocaml:matrix.org) is where you'll get the most expert advice about OCaml.
 * [OCaml Discord Chat](https://discord.gg/ZBgYuvR) is a new chat server for everything related to OCaml, supplementing the IRC channel.
+* [The OCaml IRC Chat](https://riot.im/app/#/room/#freenode_#ocaml:matrix.org) is where some members of the community hang out.
 * [The Official OCaml Mailing List](http://caml.inria.fr/resources/forums.en.html) precedes the Discourse forum, and is generally followed by more people.
 * [The OCaml SubReddit](http://reddit.com/r/ocaml) contains both news and discussions about OCaml.
 * [The OCaml github page](https://github.com/ocaml/ocaml) is where development and some discussion on the OCaml language takes place.

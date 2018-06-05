@@ -31,6 +31,7 @@
 * [tyxml](http://ocsigen.org/tyxml) : build valid html using combinators. Leverages OCaml's type system.
 * [ocurl](https://github.com/ygrek/ocurl) : OCaml bindings to libcurl.
 * [ocaml-dns](https://github.com/mirage/ocaml-dns)  – A pure OCaml implementation of the DNS protocol.
+* [udns](https://github.com/roburio/udns): An opinionated DNS server library written in pure OCaml.
 * [fluent-logger](https://github.com/fluent/fluent-logger-ocaml) :  A fluentd logger for OCaml.
 * [charrua-unix](https://github.com/haesbaert/charrua-unix)  - charrua-unix is a Unix DHCP daemon based on [charrua-core](https://github.com/haesbaert/charrua-core)
 * [COW](https://github.com/mirage/ocaml-cow)  – Caml on the Web (COW) is a set of parsers and syntax extensions to let you manipulate HTML, CSS, XML, JSON and Markdown directly from OCaml code.
