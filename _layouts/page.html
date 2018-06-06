@@ -33,6 +33,11 @@
     <div class="sidebar">
       <h4>Table of contents:</h4>
       {% include toc.html html=content %}
+      
+      <h4>Tags:</h4>
+      {% for tag in site.tags %}
+      <li> {{ tag }} </li>
+      {% endfor %}
 
       <h4>Index:</h4>
       <ul>
