@@ -31,18 +31,21 @@
     </div>
 
     <div class="sidebar">
+      <h4>Table of contents:</h4>
+      {% include toc.html html=content %}
+
+      <h4>Index:</h4>
       <ul>
-      {% for page in site.html_pages %}
-      <li> <a href="{{ page.url }}">{{ page.title }}</a> </li>
-      {% endfor %}
+        {% for page in site.html_pages %}
+        <li> <a href="{{ page.url }}">{{ page.title }}</a> </li>
+        {% endfor %}
       </ul>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>Table of contents:</h3>
-        {% include toc.html html=content %}
+
 
         {{ content }}
       </section>
