@@ -11,7 +11,7 @@ functional programming language.
 * [Ecosystem](content/ecosystem.md)
 * [Compiler](content/compiler.md)
 * [Best Practices](content/best_practices.md)
-* [Subtleties](content/subtleties.md)
+* [OCaml Subtleties](content/subtleties.md)
 * [Windows Support](content/windows_support.md)
 
 ---
