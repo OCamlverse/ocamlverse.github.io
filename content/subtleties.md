@@ -24,8 +24,9 @@
   documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html)
   in the OCaml Manual.
 
-* **ppx**: What are these `[%% ...]` and `[@@ ...]` expressions that I
-  see in people's code?  What are extension points?
+* **ppx**: What are these `[%% ...]`, `[@@ ...]` expressions that I
+  see in people's code?  What does it mean when there's a percent sign in the 
+  middle of a name, as in `let%lwt`? What are extension points?
   
   See [A Guide to PreProcessor eXtensions](ppx.md).
 
