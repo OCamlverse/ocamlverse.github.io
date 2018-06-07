@@ -51,7 +51,7 @@ Subtle points and items difficult to find via web search
   
   At present `open!` also suppresses a warning
   indicating that no definitions in the opened module are used within
-  `open!`'s scope.  There is some disagreement about this behavior; see
-  the discussion at this OCaml PR: [unused open" warning
+  `open!`'s scope.  There is some disagreement about whether this behavior
+  is desirable; see the discussion at this OCaml PR: [unused open" warning
   was incorrectly suppressed by
   "open!"](https://github.com/ocaml/ocaml/pull/1110).
