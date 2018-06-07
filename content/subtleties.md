@@ -33,7 +33,7 @@
   The errors above say that the type `'a -> 'a` (which has probably been specified in
   an explicit signature) is too general. The signature says that the function
   will work with any type of input (and the same kind of output), but the compiler
-  thinks that your function might only will work with a single input and output type
+  thinks that your function might only work with a single input and output type
   (`int`, in the first error).
   The value restriction is the name of the heuristic that the compiler uses to assign
   weak types rather than regular polymorphic types.
