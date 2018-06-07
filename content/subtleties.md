@@ -4,7 +4,7 @@ Subtle points and items difficult to find via web search
 * **Polymorphic compare**: TODO
 
 * **The semicolon problem in `if` statements**: TODO (I can fill this
-  in unless someone else is inspired to do it first. -mars0i)
+  in later unless someone else is inspired to do it first. -mars0i)
 
 * **+'a, -'a**: Why are some type variables prefaced by "+" or "-",
   as in ```OCaml type +'a` t ``` ?  These are called "variance
