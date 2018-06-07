@@ -1,7 +1,33 @@
 # OCaml subtleties
 Subtle points and items difficult to find via web search
 
+## Gotchas
+
+* **Polymorphic compare**: TODO
+
+* **Semicolons and `if` statements**: TODO (I can fill this
+  in later unless someone else is inspired to do it first. -mars0i)
+
 ## Bits of syntax
+
+* **Printf directives**: Where can I find a list of `printf`, `sprintf`,
+  etc. directives such as `%s`, `%b`, `%d`, `%f`, etc.?  
+  
+  See the [Printf
+  module documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Printf.html)
+  in the OCaml Manual.
+
+* **Infix operators**: Where can I find documentation on standard infix
+  operators such as `@@`?
+  
+  See the [Pervasives module
+  documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html)
+  in the OCaml Manual.
+
+* **ppx**: What are these `[%% ...]` and `[@@ ...]` expressions that I
+  see in people's code?  What are *extension points*?
+  
+  See [A Guide to PreProcessor eXtensions](ppx.md).
 
 * **+'a, -'a**: Why are some type variables prefaced by "+" or "-",
   as in
@@ -33,29 +59,3 @@ Subtle points and items difficult to find via web search
   the discussion at this OCaml PR: [unused open" warning
   was incorrectly suppressed by
   "open!"](https://github.com/ocaml/ocaml/pull/1110).
-
-* **Printf directives**: Where can I find a list of `printf`, `sprintf`,
-  etc. directives such as `%s`, `%b`, `%d`, `%f`, etc.?  
-  
-  See the [Printf
-  module documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Printf.html)
-  in the OCaml Manual.
-
-* **Infix operators**: Where can I find documentation on standard infix
-  operators such as `@@`?
-  
-  See the [Pervasives module
-  documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html)
-  in the OCaml Manual.
-
-* **ppx**: What are these `[%% ...]` and `[@@ ...]` expressions that I
-  see in people's code?  What are *extension points*?
-  
-  See [A Guide to PreProcessor eXtensions](ppx.md).
-
-## Gotchas
-
-* **Polymorphic compare**: TODO
-
-* **Semicolons and `if` statements**: TODO (I can fill this
-  in later unless someone else is inspired to do it first. -mars0i)
