@@ -11,7 +11,7 @@
 * **Weak types**: Why do some of my type variables start with underscore?
   What is the difference between a function with (for example) type `'a -> 'b`,
   and one with type `'_weak1 -> '_weak2`?  Why am I getting a
-  compiler error like these?
+  compiler error like these? (It worked when I tried it out in utop!)
   ```
   Values do not match:
     val foo : int -> int
@@ -23,7 +23,6 @@
   is not included in
     val foo : 'a -> 'a
   ```
-  (It worked when I tried it out in utop!)
 
   Part of the answer is that `'_weak1`, `'_weak2`, etc., which are called
   "weak types" or "weakly polymorphic types", are roughly speaking, only *temporarily*
