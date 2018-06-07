@@ -8,13 +8,17 @@ Subtle points and items difficult to find via web search
   ```ocaml
   type +'a` t
   ```
-  ?  These are called "variance annotations".  They're used to constain
+  ?
+  
+  These are called "variance annotations".  They're used to constain
   subtyping relations.  See [+'a and
   -'a](https://blog.janestreet.com/a-and-a) at the Jane Street Tech
   Blog.
 
 * **open!**: What's the difference between `open My_module` and
-  `open!  My_module`?  Both make the values and types in `My_module`
+  `open! My_module`?
+  
+  Both make the values and types in `My_module`
   available.  `open My_module` will trigger a warning if `My_module`
   overrides existing definitions.  `open!` suppresses this warning.  See
   [Overriding in open
@@ -31,22 +35,27 @@ Subtle points and items difficult to find via web search
   "open!"](https://github.com/ocaml/ocaml/pull/1110).
 
 * **Printf directives**: Where can I find a list of `printf`, `sprintf`,
-  etc. directives such as `%s`, `%b`, `%d`, `%f`, etc.?  See the [Printf
+  etc. directives such as `%s`, `%b`, `%d`, `%f`, etc.?  
+  
+  See the [Printf
   module documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Printf.html)
   in the OCaml Manual.
 
 * **Infix operators**: Where can I find documentation on standard infix
-  operators such as `@@`?  See the [Pervasives module
+  operators such as `@@`?
+  
+  See the [Pervasives module
   documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html)
   in the OCaml Manual.
 
 * **ppx**: What are these `[%% ...]` and `[@@ ...]` expressions that I
-  see in people's code?  What are *extension points*?  See [A Guide to
-  PreProcessor eXtensions](ppx.md).
+  see in people's code?  What are *extension points*?
+  
+  See [A Guide to PreProcessor eXtensions](ppx.md).
 
 ## Gotchas
 
 * **Polymorphic compare**: TODO
 
-* **The semicolon problem in `if` statements**: TODO (I can fill this
+* **Semicolons and `if` statements**: TODO (I can fill this
   in later unless someone else is inspired to do it first. -mars0i)
