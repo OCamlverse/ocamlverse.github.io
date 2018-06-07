@@ -32,7 +32,7 @@
 * **+'a, -'a**: Why are some type variables prefaced by "+" or "-",
   as in `type +'a t`?
   
-  These are called "variance annotations".  They're used to constain
+  These are called "variance annotations".  They're used to constrain
   subtyping relations.  See [+'a and
   -'a](https://blog.janestreet.com/a-and-a) at the Jane Street Tech
   Blog.
@@ -40,18 +40,18 @@
 * **open!**: What's the difference between `open My_module` and
   `open! My_module`?
   
-  Both make the values and types in `My_module`
-  available.  `open My_module` will trigger a warning if `My_module`
-  overrides existing definitions.  `open!` suppresses this warning.  See
-  [Overriding in open
-  statements](http://caml.inria.fr/pub/docs/manual-ocaml/extn.html#sec250)
-  from [Chapter 8 Language
-  extensions](http://caml.inria.fr/pub/docs/manual-ocaml/extn.html) in
+  Both make the values and types in `My_module` available without having
+  to write `My_module.` in front of them.  `open My_module` will trigger
+  a warning if `My_module` overrides existing definitions.  `open!` suppresses
+  this warning.  See [Overriding in open statements](http://caml.inria.fr/pub/docs/manual-ocaml/extn.html#sec250)
+  from [Chapter 8 Language extensions](http://caml.inria.fr/pub/docs/manual-ocaml/extn.html) in
   the OCaml manual.  
   
-  At present `open!` also suppresses a warning
-  indicating that no definitions in the opened module are used within
+  At present `open!` also suppresses another warning as well.  This is a warning
+  that no definition in the opened module is in fact used within
   `open!`'s scope.  There is some disagreement about whether this behavior
-  is desirable; see the discussion at this OCaml PR: [unused open" warning
-  was incorrectly suppressed by
-  "open!"](https://github.com/ocaml/ocaml/pull/1110).
+  is desirable.  (Those who use `open!` for this purpose use it to open modules
+  such as `Core` or `Batteries` that shadow many built-in definitions, using such
+  a module as a way of providing an alternative standard programming environment.
+  See the discussion at this OCaml PR: [unused open" warning was incorrectly suppressed
+  by "open!"](https://github.com/ocaml/ocaml/pull/1110).)
