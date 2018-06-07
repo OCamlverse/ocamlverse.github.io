@@ -23,8 +23,7 @@
   is not included in
     val foo : 'a -> 'a
   ```
-  Why isn't `int -> int` "included" in `'a -> 'a`? It worked when I tried
-  it out in utop.
+  (It worked when I tried it out in utop!)
 
   Part of the answer is that `'_weak1`, `'_weak2`, etc., which are called
   "weak types" or "weakly polymorphic types", are roughly, are only *temporarily*
