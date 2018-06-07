@@ -1,15 +1,16 @@
 # OCaml subtleties
 Subtle points and items difficult to find via web search
 
-* **Polymorphic compare**: TODO
-
-* **The semicolon problem in `if` statements**: TODO (I can fill this
-  in later unless someone else is inspired to do it first. -mars0i)
+## Bits of syntax
 
 * **+'a, -'a**: Why are some type variables prefaced by "+" or "-",
-  as in ```OCaml type +'a` t ``` ?  These are called "variance
-  annotations".  They are used to constain subtyping relations.  See [+'a
-  and -'a](https://blog.janestreet.com/a-and-a) at the Jane Street Tech
+  as in
+  ```ocaml
+  type +'a` t
+  ```
+  ?  These are called "variance annotations".  They're used to constain
+  subtyping relations.  See [+'a and
+  -'a](https://blog.janestreet.com/a-and-a) at the Jane Street Tech
   Blog.
 
 * **open!**: What's the difference between `open My_module` and
@@ -20,7 +21,9 @@ Subtle points and items difficult to find via web search
   statements](http://caml.inria.fr/pub/docs/manual-ocaml/extn.html#sec250)
   from [Chapter 8 Language
   extensions](http://caml.inria.fr/pub/docs/manual-ocaml/extn.html) in
-  the OCaml manual.  At present `open!` also suppresses a warning
+  the OCaml manual.  
+  
+  At present `open!` also suppresses a warning
   indicating that no definitions in the opened module are used within
   `open!`'s scope.  There is some disagreement about this behavior; see
   the discussion at this OCaml PR: [unused open" warning
@@ -40,3 +43,10 @@ Subtle points and items difficult to find via web search
 * **ppx**: What are these `[%% ...]` and `[@@ ...]` expressions that I
   see in people's code?  What are *extension points*?  See [A Guide to
   PreProcessor eXtensions](ppx.md).
+
+## Gotchas
+
+* **Polymorphic compare**: TODO
+
+* **The semicolon problem in `if` statements**: TODO (I can fill this
+  in later unless someone else is inspired to do it first. -mars0i)
