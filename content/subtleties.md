@@ -1,5 +1,5 @@
 # OCaml subtleties
-Subtle points and items difficult to find via web search
+**Subtle points and items difficult to find via web search**
 
 ## Gotchas
 
