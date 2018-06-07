@@ -41,7 +41,7 @@
   `open! My_module`?
   
   Both make the values and types in `My_module` available without having
-  to write `My_module.` in front of them.  `open My_module` will trigger
+  to write "My_module." in front of them.  `open My_module` will trigger
   a warning if `My_module` overrides existing definitions.  `open!` suppresses
   this warning.  See [Overriding in open statements](http://caml.inria.fr/pub/docs/manual-ocaml/extn.html#sec250)
   from [Chapter 8 Language extensions](http://caml.inria.fr/pub/docs/manual-ocaml/extn.html) in
@@ -50,8 +50,8 @@
   At present `open!` also suppresses another warning as well.  This is a warning
   that no definition in the opened module is in fact used within
   `open!`'s scope.  There is some disagreement about whether this behavior
-  is desirable.  (Those who use `open!` for this purpose use it to open modules
+  is desirable.  Those who use `open!` for this purpose use it to open modules
   such as `Core` or `Batteries` that shadow many built-in definitions, using such
   a module as a way of providing an alternative standard programming environment.
   See the discussion at this OCaml PR: [unused open" warning was incorrectly suppressed
-  by "open!"](https://github.com/ocaml/ocaml/pull/1110).)
+  by "open!"](https://github.com/ocaml/ocaml/pull/1110).
