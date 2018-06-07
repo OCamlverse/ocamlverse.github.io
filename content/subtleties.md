@@ -6,13 +6,13 @@ Subtle points and items that are difficult to find via web search
 * **The semicolon problem in `if` statements**: TODO (I can fill this
   in unless someone else is inspired to do it first. -mars0i)
 
-* **`+'a`, `-'a`**: Why are some type variables prefaced by "+" or "-",
+* **+'a, -'a**: Why are some type variables prefaced by "+" or "-",
   as in
   ```OCaml type +'a` t ``` ?  These are called *variance annotations*;
   they're used to constain subtyping relations.  See
   https://blog.janestreet.com/a-and-a/ .
 
-* **`open!`**: What is the difference between `open My_module` and
+* **open!**: What is the difference between `open My_module` and
   `open!  My_module`?  Both make the values and types in `My_module` available.
   `open My_module` will trigger a warning if `My_module` overrides
   existing definitions.  `open!` suppresses this warning.  See
