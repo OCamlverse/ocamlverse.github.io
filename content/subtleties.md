@@ -3,7 +3,7 @@ Subtle points and items difficult to find via web search
 
 ## Gotchas
 
-* **Polymorphic compare**: TODO
+* **Polymorphic compare**: TODO (bluddy will fill in.)
 
 * **Semicolons and `if` statements**: TODO (I can fill this
   in later unless someone else is inspired to do it first. -mars0i)
@@ -25,7 +25,7 @@ Subtle points and items difficult to find via web search
   in the OCaml Manual.
 
 * **ppx**: What are these `[%% ...]` and `[@@ ...]` expressions that I
-  see in people's code?  What are *extension points*?
+  see in people's code?  What are extension points?
   
   See [A Guide to PreProcessor eXtensions](ppx.md).
 
