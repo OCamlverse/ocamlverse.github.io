@@ -8,6 +8,40 @@
 * **Semicolons and `if` statements**: TODO (I can fill this
   in later unless someone else is inspired to do it first. -mars0i)
 
+* **Weak types**: Why do some of my type variables start with underscore?
+What is the difference between a function with (for example) type `'a -> 'b`,
+and one with type `'_weak1 -> '_weak2`?  Why am I getting a
+compiler error like this?
+```
+Values do not match:
+  val foo : '_weak1 -> '_weak1
+is not included in
+  val foo : 'a -> 'a
+```
+What does that mean?  Or what about this very puzzling error?
+```
+Values do not match:
+  val foo : int -> int
+is not included in
+  val foo : 'a -> 'a
+```
+Why isn't `int -> int` "included" in `'a -> 'a`??  That doesn't
+make any sense to me.  It worked when I tried it out in utop.
+Why won't it compile?
+
+`'_weak1`, `'_weak2`, etc. are called "weak types" or "weakly 
+polymorphic types".  `'a`, `'b`, etc. are regular polymorphic types.
+You can think of weak types as, roughly, an only *temporarily* polymorphic
+type.  If a function's type includes a weak type, the compiler will replace
+the weak type with a regular concrete type (`int`, `string`, `float list`, etc.)
+the first time that it sees an application of the function.
+
+For more information see the section on [Side effects and weak polymorphism]
+(https://realworldocaml.org/v1/en/html/imperative-programming-1.html#side-effects-and-weak-polymorphism)
+in *Real World OCaml* by Madhavapeddy, Hickey, and Minsky; or see
+[Section 5.1 Weak polymorphism and mutation](http://caml.inria.fr/pub/docs/manual-ocaml/polymorphism.html#sec51) 
+in the OCaml Manual.
+
 ## Bits of syntax
 
 * **Printf directives**: Where can I find a list of `printf`, `sprintf`,
