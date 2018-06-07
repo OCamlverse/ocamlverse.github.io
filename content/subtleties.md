@@ -54,5 +54,5 @@
   is desirable.  Those who use `open!` for this purpose use it to open modules
   such as `Core` or `Batteries` that shadow many built-in definitions, using such
   a module as a way of providing an alternative standard programming environment.
-  See the discussion at this OCaml PR: [unused open" warning was incorrectly suppressed
+  See the discussion at this OCaml PR: [Fix PR6638: "unused open" warning was incorrectly suppressed
   by "open!"](https://github.com/ocaml/ocaml/pull/1110).
