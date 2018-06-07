@@ -26,7 +26,7 @@
   (It worked when I tried it out in utop!)
 
   Part of the answer is that `'_weak1`, `'_weak2`, etc., which are called
-  "weak types" or "weakly polymorphic types", are roughly, are only *temporarily*
+  "weak types" or "weakly polymorphic types", are roughly speaking, only *temporarily*
   polymorphic types (unlike `'a`, etc.).  If a function's type includes a weak type,
   the compiler will replace the weak type with a regular concrete type (`string`, 
   `float list`, etc.) the first time that it sees an application of the function.
