@@ -30,11 +30,7 @@ Subtle points and items difficult to find via web search
   See [A Guide to PreProcessor eXtensions](ppx.md).
 
 * **+'a, -'a**: Why are some type variables prefaced by "+" or "-",
-  as in
-  ```ocaml
-  type +'a` t
-  ```
-  ?
+  as in `type +'a` t`?
   
   These are called "variance annotations".  They're used to constain
   subtyping relations.  See [+'a and
