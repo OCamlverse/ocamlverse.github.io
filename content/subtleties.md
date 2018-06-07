@@ -31,7 +31,8 @@
   polymorphic types (unlike `'a`, etc.).  If a function's type includes a weak type,
   the compiler will replace the weak type with a regular concrete type (`string`, 
   `float list`, etc.) the first time that it sees an application of the function.
-  For more information see the section on [Side effects and weak polymorphism](https://realworldocaml.org/v1/en/html/imperative-    programming-1.html#side-effects-and-weak-polymorphism)
+  For more information see the section on
+  [Side effects and weak polymorphism](https://realworldocaml.org/v1/en/html/imperative-programming-1.html#side-effects-and-weak-polymorphism)
   in *Real World OCaml* or
   [Section 5.1 Weak polymorphism and mutation](http://caml.inria.fr/pub/docs/manual-ocaml/polymorphism.html#sec51) 
   in the OCaml Manual.
