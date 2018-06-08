@@ -15,7 +15,8 @@
 {% include collecttags.html %}
 
 <!-- HEADER -->
-<div id="header_wrap" class="outer">
+<div class="non-sidebar">
+  <div id="header_wrap" class="outer">
     <header class="inner">
       <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
 
@@ -30,8 +31,8 @@
       {% endif %}
       <a href="{{site.github.repository_url}}/edit/master/{{page.path}}">Edit this page</a>
     </header>
+  </div>
 </div>
-
 <div class="sidebar">
   <h4>Table of contents:</h4>
   {% include toc.html html=content %}
@@ -53,21 +54,23 @@
 </div>
 
 <!-- MAIN CONTENT -->
-<div id="main_content_wrap" class="outer">
-  <section id="main_content" class="inner">
+<div class="non-sidebar">
+  <div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
 
 
-    {{ content }}
-  </section>
+      {{ content }}
+    </section>
+  </div>
+
+  <!-- FOOTER  -->
+  <div id="footer_wrap" class="outer">
+    <footer class="inner">
+      <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+    </footer>
+  </div>
 </div>
-
-<!-- FOOTER  -->
-<div id="footer_wrap" class="outer">
-  <footer class="inner">
-    <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-  </footer>
-</div>
-
+  
 <script>
 // Script for folding
 var collapsibles = document.getElementsByClassName("collapsible");
