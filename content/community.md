@@ -1,3 +1,7 @@
+---
+tags: [community]
+---
+
 # Community
 OCaml has quite a few places where you can go to communicate with the community and learn about the language:
 

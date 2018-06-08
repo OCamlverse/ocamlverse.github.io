@@ -1,3 +1,7 @@
+---
+tags: [meta]
+---
+
 # Contributing
 
 You want to contribute? That's great. There are just a few rules to follow so we all get along.

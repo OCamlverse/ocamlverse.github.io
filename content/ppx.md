@@ -1,3 +1,7 @@
+---
+tags: [learning, ecosystem]
+---
+
 # A Guide to PreProcessor eXtensions
 
 Author: Perry Metzger @pmetzger

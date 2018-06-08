@@ -1,3 +1,7 @@
+---
+tags: [learning]
+---
+
 # Windows Support
 
 Many projects, including the OCaml compiler itself, rely on the Unix shell and its various utilities.

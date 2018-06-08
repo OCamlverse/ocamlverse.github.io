@@ -1,3 +1,7 @@
+---
+tags: [ecosystem]
+---
+
 # Static Analysis
 
 Like compilation, static analysis is another domain where OCaml excels.

@@ -1,3 +1,7 @@
+---
+tags: [ecosystem]
+---
+
 # Concurrency, Parallelism, and Distributed Systems
 
 Concurrency refers to running multiple computations more-or-less simultaneously, whereas parallelism refers to using multiple cores or OS-level threads to coordinate computation. We now know that the former is relatively safe and easy to reason about, whereas the latter is extremely difficult and causes many subtle bugs. OCaml currently supports concurrency elegantly, but parallelism support is not built in to the runtime.

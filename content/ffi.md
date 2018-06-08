@@ -1,3 +1,7 @@
+---
+tags: [ecosystem]
+---
+
 # Foreign Function Interface
 
 Interop with C is the most natural for OCaml, since the runtime is partially written in C.

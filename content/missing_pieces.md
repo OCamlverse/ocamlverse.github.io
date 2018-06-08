@@ -1,3 +1,7 @@
+---
+tags: [ecosystem]
+---
+
 # Missing Pieces
 This page details the things most lacking in the current ecosystem -- the things we wish we had. Hopefully this will direct some users to try create these things.
 

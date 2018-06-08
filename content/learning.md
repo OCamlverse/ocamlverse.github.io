@@ -1,3 +1,7 @@
+---
+tags: [learning]
+---
+
 # Learning
 
 ## Why OCaml?

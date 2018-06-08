@@ -1,3 +1,7 @@
+---
+tags: [ecosystem]
+---
+
 # Ecosystem
 
 This page describes the current state of the OCaml ecosystem. Please help keep it up to date.

@@ -1,3 +1,6 @@
+---
+tags: [meta]
+---
 # About OCamlverse
 
 OCamlverse is essentially a *modern wiki*, with the advantage that it's based on git and github's resources. Anyone can ask for contribution rights, and like a wiki, small-to-medium changes can be made instantaneously (for larger changes, a PR is required). We therefore get the low-latency advantage of wikis combined with the reliability and history of git.

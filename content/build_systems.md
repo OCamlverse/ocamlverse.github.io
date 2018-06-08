@@ -1,3 +1,7 @@
+---
+tags: [ecosystem]
+---
+
 # OCaml Package Management
 
 * [OPAM](http://opam.ocaml.org/)  is the modern package manager for OCaml. If you want to publish a library in OCaml, OPAM is your best and only option, taking care of package dependency and invoking the build system as needed.
