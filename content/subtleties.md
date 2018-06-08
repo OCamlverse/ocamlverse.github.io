@@ -29,10 +29,9 @@
   "weak types" or "weakly polymorphic types", are roughly speaking, only *temporarily*
   polymorphic types (unlike `'a`, etc.).  If a function's type includes a weak type,
   the compiler will permanently replace the weak type with a regular concrete type
-  (`string`, `float list`, etc.) the first time that it sees an application of the function.
-  The errors above say that the type `'a -> 'a` (which has probably been specified in
-  an explicit signature) is too general. The signature says that the function
-  will work with any type of input (and the same kind of output), but the compiler
+  (e.g. `float list`) the first time that it sees an application of the function.
+  The errors above say that the type `'a -> 'a` specified b a signature is too general.
+  The signature says that the function will work with any type, but the compiler
   thinks that your function might only work with a single input and output type
   (`int`, in the first error).
   The value restriction is the name of the heuristic that the compiler uses to assign
