@@ -1,6 +1,8 @@
 # OCaml subtleties
 **Subtle points and items difficult to find via web search** (in progress)
 
+Also see Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html).
+
 ## Gotchas
 
 * **Polymorphic compare**: TODO (bluddy will fill in.)
