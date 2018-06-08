@@ -39,7 +39,8 @@
       <h4>Site Contents</h4>
 
       {% for tag in tags %}
-      <h5> {{ tag }} </h5>
+      <button class="collapsible">{{ tag }}</button>
+      <div class="content">
       <ul>
         {% for page in site.pages %}
           {% if page.tags contains tag %}
@@ -47,6 +48,7 @@
           {% endif %}
         {% endfor %}
       </ul>
+      </div>
       {% endfor %}
     </div>
 
