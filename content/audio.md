@@ -1,5 +1,6 @@
 ---
-tags: ecosystem
+layout: page
+tags: [ecosystem]
 ---
 
 # Audio

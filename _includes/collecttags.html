@@ -1,11 +1,11 @@
 {% assign rawtags = "" %}
-{% for page in site.html_pages %}
+{% for page in site.pages %}
   {% assign ttags = page.tags | join:'|' | append:'|' %}
   {% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
 {% assign rawtags = rawtags | split:'|' | sort %}
 
-{% assign site.tags = "" %}
+{% assign tags = "" %}
 {% for tag in rawtags %}
   {% if tag != "" %}
     {% if tags == "" %}
