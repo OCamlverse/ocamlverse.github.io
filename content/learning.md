@@ -73,6 +73,12 @@ See [Projects](projects.md)
 * [Using, Understanding, and Unraveling OCaml](http://caml.inria.fr/pub/docs/u3-ocaml)  – This book describes both the OCaml language and the theoretical grounds behind its powerful type system.
 * [Purely Functional Data Structures](http://www.amazon.co.uk/Purely-Functional-Structures-Chris-Okasaki/dp/0521631246/ref=sr_1_1?ie=UTF8&qid=1406279836&sr=8-1&keywords=functional+data+structures) : A classic book focusing on various data structures in the functional programming world. Can be very useful for understanding functional data structures, though OCaml obviously supports imperative data structures as well.
 * [OCaml for Scientists](http://www.ffconsultancy.com/products/ocaml_for_scientists/)  - by Jon Harrop.
+* [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl) by Benjamin C. Pierce - A friendly
+but serious book on types, type checking, etc.  Much of what's covered is relevant to OCaml.  Several chapters focus
+on OCaml implementations of the concepts covered in preceding chapters.  The examples in the book have been typechecked
+using OCaml programs available at the author's site.  [Publisher site](https://mitpress.mit.edu/books/types-and-programming-languages).
+(Note: As of mid-2018, the Kindle version provides images of the hardcover's pages, which can be difficult to read on small devices.
+the iBook version allows changing and reformatting fonts, though.) 
 
 ## Online Courses
 
