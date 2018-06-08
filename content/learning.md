@@ -75,10 +75,10 @@ See [Projects](projects.md)
 * [OCaml for Scientists](http://www.ffconsultancy.com/products/ocaml_for_scientists/)  - by Jon Harrop.
 * [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl) by Benjamin C. Pierce - A friendly
 but serious book on types, type checking, etc.  Much of what's covered is relevant to OCaml.  Several chapters focus
-on OCaml implementations of the concepts covered in preceding chapters.  The examples in the book have been typechecked
+on OCaml implementations of the concepts covered in preceding chapters, and the examples in the book have been typechecked
 using OCaml programs available at the author's site.  [Publisher site](https://mitpress.mit.edu/books/types-and-programming-languages).
-(Note: As of mid-2018, the Kindle version provides images of the hardcover's pages, which can be difficult to read on small devices.
-the iBook version allows changing and reformatting fonts, though.) 
+(As of mid-2018, the Kindle version can be difficult to read on small devices because the pages are images of the hardcover's pages.
+The iBook version is a standard e-book with resizable fonts.) 
 
 ## Online Courses
 
