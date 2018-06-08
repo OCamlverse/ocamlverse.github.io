@@ -38,7 +38,7 @@
   [Side effects and weak polymorphism](https://realworldocaml.org/v1/en/html/imperative-programming-1.html#side-effects-and-weak-polymorphism)
   in *Real World OCaml*,
   [Section 5.1 Weak polymorphism and mutation](http://caml.inria.fr/pub/docs/manual-ocaml/polymorphism.html#sec51) 
-  in the OCaml Manual, [this section of "Common Error Messages" at ocaml.org](http://ocaml.org/learn/tutorials/common_error_messages.html#The-type-of-this-expression-contains-type-variables-that-cannot-be-generalized), and ["My function is not polymorphic (enough) ?" and subsequent sections](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html#eta_expansion) in ["Frequently asked Questions about Caml"](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html)
+  in the OCaml Manual, [this section of "Common Error Messages"](http://ocaml.org/learn/tutorials/common_error_messages.html#The-type-of-this-expression-contains-type-variables-that-cannot-be-generalized) at ocaml.org, and ["My function is not polymorphic (enough) ?", and subsequent sections](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html#eta_expansion) in "Frequently asked Questions about Caml".
 
 ## Bits of syntax
 
