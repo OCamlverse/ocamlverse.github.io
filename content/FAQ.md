@@ -1,3 +1,7 @@
+---
+tags: [learning]
+---
+
 # Frequently asked questions
 
 Also see [OCaml subtleties](subtleties.md).
