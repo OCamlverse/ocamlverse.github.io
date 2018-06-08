@@ -29,7 +29,7 @@ Also see Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria
 
   Part of the answer is that `'_weak1`, `'_weak2`, etc., which are called
   "weak types" or "weakly polymorphic types", are roughly speaking, only *temporarily*
-  polymorphic types (unlike `'a`, etc.).  If a function's type includes a weak type,
+  [polymorphic](ocaml.org/learn/tutorials/basics.html#Polymorphic-functions) types (unlike `'a`, etc.).  If a function's type includes a weak type,
   the compiler will permanently replace the weak type with a regular concrete type
   (e.g. `float list`) the first time that it sees an application of the function.
   The errors above say that the type `'a -> 'a` specified by a signature is too general.
