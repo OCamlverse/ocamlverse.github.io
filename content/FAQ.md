@@ -10,8 +10,7 @@ Also see [OCaml subtleties](subtleties.md).
   Read-Eval-Print loop. (It Reads what you enter, Evaluates it, and
   then Prints the result.)  Many people who use an OCaml toplevel use the
   `utop` toplevel.  It's more full-featured than the `ocaml` toplevel that
-  comes with an OCaml compiler.  
-  You can also evaluate OCaml expressions in an editor or IDE, for example.
-  See the 
+  comes with an OCaml compiler. You can also evaluate OCaml expressions in an
+  editor or IDE, for example.  See the 
   [Code tools](https://github.com/OCamlverse/ocamlverse.github.io/blob/master/content/code_tools.md)
   page.
