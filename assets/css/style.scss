@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 
 .sidebar {
+    flex: 1;
     height: 100%; /* Full-height: remove this if you want "auto" height */
     z-index: 1;
     position: relative;
@@ -59,7 +60,8 @@
 
 /* Style page content */
 .non-sidebar {
-    margin-left: 250px; /* Same as the width of the sidebar */
+    flex: 1;
+    /*margin-left: 250px;  Same as the width of the sidebar */
 }
 
 /* override inner */
@@ -71,5 +73,10 @@
     padding: 20px 10px 10px 10px;
 }
 
-.non_header_box {
+/* Flexbox container */
+.below_header_box {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
 }
