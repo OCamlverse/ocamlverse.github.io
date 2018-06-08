@@ -61,7 +61,7 @@
 /* Style page content */
 .non-sidebar {
     flex: 1;
-    flex-grow: 2;
+    flex-grow: 3;
     /*margin-left: 250px;  Same as the width of the sidebar */
 }
 
@@ -80,4 +80,5 @@
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
+    align-items: stretch;
 }
