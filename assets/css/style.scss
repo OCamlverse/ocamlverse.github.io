@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 .sidebar {
-    flex-grow: 1;
+    flex-shrink: 0;
     height: 100%; /* Full-height: remove this if you want "auto" height */
     z-index: 1;
     position: relative;
