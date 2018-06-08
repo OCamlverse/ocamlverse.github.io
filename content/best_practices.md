@@ -13,13 +13,11 @@ tooling that will automatically lay out the code for you in a canonical manner. 
 choice for automatic coding style, ocamlformat is a recent arrival that, inspired by ReasonML's `refmt` tool, uses
 a more comprehensive approach of end-to-end parsing and printing. Both tools can be integrated into editors to automatically lay out code as you write it.
 
-* [ocamlformat](https://github.com/ocaml-ppx/ocamlformat) is a comprehensive coding style formatting tool that parses the code
-and prints it out again. This follows the example of the `refmt` tool for Reason. The reliance on parsing and printing
-makes ocamlformat fairly robust and easy to maintain. This should be considered the definitivee tool for laying out OCaml
-code.
 * [ocp-indent](https://github.com/OCamlPro/ocp-indent) is a coding style formatting tool that relies on heuristics and partial
 parsing rather than a full end-to-end parsing and printing approach, like ocamlformat above. The advantage of ocp-indent's approach
 is that even partially-compiling files can be indented, as can code fragments.
+* [ocamlformat](https://github.com/ocaml-ppx/ocamlformat) is a comprehensive coding style formatting tool that parses the code
+and prints it out again. This follows the example of the `refmt` tool for Reason. While new, `ocamlformat` may eventually overtake `ocp-indent`.
 
 ## Coding Style Guidelines
 * [OCaml programming guidelines at ocaml.org](http://www.ocaml.org/learn/tutorials/guidelines.html)

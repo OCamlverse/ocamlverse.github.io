@@ -13,10 +13,11 @@ tags: [learning]
 
 ## Beginner
 
-* [The Beginners' Guide to OCaml Beginners](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
+* [The Beginner's Guide to OCaml Beginner's guides](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/)  where X=OCaml.
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
 * [Ocaml file types and filename extensions](https://ocaml.org/learn/tutorials/filenames.html)
+* [OCaml subtleties](subtleties.md)
 
 ## Advanced
 
@@ -76,6 +77,12 @@ See [Projects](projects.md)
 * [Using, Understanding, and Unraveling OCaml](http://caml.inria.fr/pub/docs/u3-ocaml)  – This book describes both the OCaml language and the theoretical grounds behind its powerful type system.
 * [Purely Functional Data Structures](http://www.amazon.co.uk/Purely-Functional-Structures-Chris-Okasaki/dp/0521631246/ref=sr_1_1?ie=UTF8&qid=1406279836&sr=8-1&keywords=functional+data+structures) : A classic book focusing on various data structures in the functional programming world. Can be very useful for understanding functional data structures, though OCaml obviously supports imperative data structures as well.
 * [OCaml for Scientists](http://www.ffconsultancy.com/products/ocaml_for_scientists/)  - by Jon Harrop.
+* [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl) by Benjamin C. Pierce - A friendly
+but serious book on types, type checking, etc.  Much of what's covered is relevant to OCaml.  Several chapters focus
+on OCaml implementations of the concepts covered in preceding chapters, and the examples in the book have been typechecked
+using OCaml programs that are available at the author's site. (As of mid-2018, the Kindle version can be difficult to read on small
+devices because the pages are images of the hardcover's pages.  The iBook version is a standard e-book with resizable fonts,
+though.) 
 
 ## Online Courses
 
