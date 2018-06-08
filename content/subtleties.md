@@ -30,13 +30,11 @@
   polymorphic types (unlike `'a`, etc.).  If a function's type includes a weak type,
   the compiler will permanently replace the weak type with a regular concrete type
   (e.g. `float list`) the first time that it sees an application of the function.
-  The errors above say that the type `'a -> 'a` specified b a signature is too general.
+  The errors above say that the type `'a -> 'a` specified by a signature is too general.
   The signature says that the function will work with any type, but the compiler
   thinks that your function might only work with a single input and output type
-  (`int`, in the first error).
-  The value restriction is the name of the heuristic that the compiler uses to assign
-  weak types rather than regular polymorphic types.
-  For more information see the section on
+  (`int`, in the first error).  The value restriction is the name of the heuristic
+  that the compiler uses to make this decision.  For more information see the section on
   [Side effects and weak polymorphism](https://realworldocaml.org/v1/en/html/imperative-programming-1.html#side-effects-and-weak-polymorphism)
   in *Real World OCaml*, or
   [Section 5.1 Weak polymorphism and mutation](http://caml.inria.fr/pub/docs/manual-ocaml/polymorphism.html#sec51) 
