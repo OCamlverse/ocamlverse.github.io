@@ -1,6 +1,6 @@
 # Frequently asked questions
 
-Also see [OCaml subtleties](subtleties.md).
+Also see [OCaml subtleties](subtleties.md) and [Frequently asked Questions about Caml](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html).
 
 * What is a "toplevel"?
 
