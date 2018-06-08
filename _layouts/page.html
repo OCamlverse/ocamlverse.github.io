@@ -15,60 +15,59 @@
 {% include collecttags.html %}
 
 <!-- HEADER -->
-<div class="non-sidebar">
-  <div id="header_wrap" class="outer">
-    <header class="inner">
-      <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+<div id="header_wrap" class="outer">
+  <header class="inner">
+    <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+ 
+    <h1 id="project_title"><a href="{{ site.github.url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+    <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
-      <h1 id="project_title"><a href="{{ site.github.url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-      <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-
-      {% if site.show_downloads %}
-        <section id="downloads">
-          <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-          <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-        </section>
-      {% endif %}
-      <a href="{{site.github.repository_url}}/edit/master/{{page.path}}">Edit this page</a>
-    </header>
-  </div>
+    {% if site.show_downloads %}
+      <section id="downloads">
+        <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
+        <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
+      </section>
+    {% endif %}
+    <a href="{{site.github.repository_url}}/edit/master/{{page.path}}">Edit this page</a>
+  </header>
 </div>
-<div class="sidebar">
-  <h4>Table of contents:</h4>
-  {% include toc.html html=content %}
+
+<div class="below_header_box">
+  <div class="sidebar">
+    <h4>Table of contents:</h4>
+    {% include toc.html html=content %}
   
-  <h4>Site Contents</h4>
+    <h4>Site Contents</h4>
 
-  {% for tag in tags %}
-  <button class="collapsible">{{ tag }}</button>
-  <div class="content">
-  <ul>
-    {% for page in site.pages %}
-      {% if page.tags contains tag %}
-        <li> <a href="{{ page.url }}">{{ page.title }}</a> </li>
-      {% endif %}
+    {% for tag in tags %}
+    <button class="collapsible">{{ tag }}</button>
+    <div class="content">
+    <ul>
+      {% for page in site.pages %}
+        {% if page.tags contains tag %}
+          <li> <a href="{{ page.url }}">{{ page.title }}</a> </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    </div>
     {% endfor %}
-  </ul>
   </div>
-  {% endfor %}
+
+  <!-- MAIN CONTENT -->
+  <div class="non-sidebar">
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
+    </div>
+  </div>
 </div>
 
-<!-- MAIN CONTENT -->
-<div class="non-sidebar">
-  <div id="main_content_wrap" class="outer">
-    <section id="main_content" class="inner">
-
-
-      {{ content }}
-    </section>
-  </div>
-
-  <!-- FOOTER  -->
-  <div id="footer_wrap" class="outer">
-    <footer class="inner">
-      <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-    </footer>
-  </div>
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+  <footer class="inner">
+    <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+  </footer>
 </div>
   
 <script>
