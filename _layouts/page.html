@@ -36,17 +36,18 @@
       <h4>Table of contents:</h4>
       {% include toc.html html=content %}
       
-      <h4>Tags:</h4>
-      {% for tag in tags %}
-      <li> {{ tag }} </li>
-      {% endfor %}
+      <h4>Site Contents</h4>
 
-      <h4>Index:</h4>
+      {% for tag in tags %}
+      <h5> {{ tag }} </h5>
       <ul>
-        {% for page in site.html_pages %}
-        <li> <a href="{{ page.url }}">{{ page.title }}</a> </li>
+        {% for page in site.pages %}
+          {% if page.tags contains tag %}
+            <li> <a href="{{ page.url }}">{{ page.title }}</a> </li>
+          {% endif %}
         {% endfor %}
       </ul>
+      {% endfor %}
     </div>
 
     <!-- MAIN CONTENT -->
