@@ -76,9 +76,8 @@ See [Projects](projects.md)
 * [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl) by Benjamin C. Pierce - A friendly
 but serious book on types, type checking, etc.  Much of what's covered is relevant to OCaml.  Several chapters focus
 on OCaml implementations of the concepts covered in preceding chapters, and the examples in the book have been typechecked
-using OCaml programs available at the author's site.  [Publisher site](https://mitpress.mit.edu/books/types-and-programming-languages).
-(As of mid-2018, the Kindle version can be difficult to read on small devices because the pages are images of the hardcover's pages.
-The iBook version is a standard e-book with resizable fonts.) 
+using OCaml programs available at the author's site. (As of mid-2018, the Kindle version can be difficult to read on small
+devices because the pages are images of the hardcover's pages.  The iBook version is a standard e-book with resizable fonts.) 
 
 ## Online Courses
 
