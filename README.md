@@ -13,6 +13,7 @@ functional programming language.
 * [Best Practices](content/best_practices.md)
 * [OCaml Subtleties](content/subtleties.md)
 * [Windows Support](content/windows_support.md)
+* [Frequently asked questions](content/FAQ.md)
 
 ---
 
