@@ -5,6 +5,8 @@ tags: [learning]
 # OCaml subtleties
 **Subtle points and items difficult to find via web search** (in progress)
 
+Also see Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html).
+
 ## Gotchas
 
 * **Polymorphic compare**: TODO (bluddy will fill in.)
@@ -31,7 +33,7 @@ tags: [learning]
 
   Part of the answer is that `'_weak1`, `'_weak2`, etc., which are called
   "weak types" or "weakly polymorphic types", are roughly speaking, only *temporarily*
-  polymorphic types (unlike `'a`, etc.).  If a function's type includes a weak type,
+  [polymorphic](http://ocaml.org/learn/tutorials/basics.html#Polymorphic-functions) types (unlike `'a`, etc.).  If a function's type includes a weak type,
   the compiler will permanently replace the weak type with a regular concrete type
   (e.g. `float list`) the first time that it sees an application of the function.
   The errors above say that the type `'a -> 'a` specified by a signature is too general.
@@ -40,9 +42,9 @@ tags: [learning]
   (`int`, in the first error).  The value restriction is the name of the heuristic
   that the compiler uses to make this decision.  For more information see the section on
   [Side effects and weak polymorphism](https://realworldocaml.org/v1/en/html/imperative-programming-1.html#side-effects-and-weak-polymorphism)
-  in *Real World OCaml*, or
+  in *Real World OCaml*,
   [Section 5.1 Weak polymorphism and mutation](http://caml.inria.fr/pub/docs/manual-ocaml/polymorphism.html#sec51) 
-  in the OCaml Manual.
+  in the OCaml Manual, [Common Error Messages](http://ocaml.org/learn/tutorials/common_error_messages.html#The-type-of-this-expression-contains-type-variables-that-cannot-be-generalized) at ocaml.org, and ["My function is not polymorphic (enough) ?"](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html#eta_expansion) and subsequent sections in "Frequently asked Questions about Caml".
 
 ## Bits of syntax
 
@@ -88,7 +90,7 @@ tags: [learning]
   that no definition in the opened module is in fact used within
   `open!`'s scope.  There is some disagreement about whether this behavior
   is desirable.  Those who use `open!` for this purpose use it to open modules
-  such as `Core` or `Batteries` that shadow many built-in definitions, using such
+  such as `Core`, `Batteries`, or `Containers` that shadow many built-in definitions, using such
   a module as a way of providing an alternative standard programming environment.
   See the discussion at this OCaml PR: [Fix PR6638: "unused open" warning was incorrectly suppressed
   by "open!"](https://github.com/ocaml/ocaml/pull/1110).
