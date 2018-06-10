@@ -3,6 +3,21 @@
 
 @import "{{ site.theme }}";
 
+body {
+   background: #f2f2f2;
+}
+
+/* override inner */
+.inner {
+   margin: 0 10%;
+}
+
+/* override */
+#header_wrap .inner {
+    margin: 0 auto; // center
+    padding: 20px 10px 10px 10px;
+}
+
 .sidebar {
     flex-shrink: 0;
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -16,7 +31,7 @@
     list-style: none;
     overflow-x: hidden; /* no horizontal scroll */
     padding-top: 20px;
-    background-color: #f1f1f1;
+    background-color: #f2f2f2;
 
     .collapsible {
         background-color: #eee;
@@ -28,11 +43,11 @@
         text-align: left;
         outline: none;
         font-size: 15px;
-         
+
         &:hover {
             background-color: #ccc;
         }
-        
+
         &:after {
             content: '\FF0B'; /* Unicode character for "plus" sign (+) */
             font-size: 13px;
@@ -41,12 +56,12 @@
             margin-left: 5px;
         }
     }
-    
+
     .active {
         background-color: #ccc;
         &:after {
             content: "\2212"; /* Unicode character for "minus" sign (-) */
-        }    
+        }
     }
 
     /* collapsible content is hidden by default */
@@ -63,15 +78,6 @@
     display: flex;
     flex-grow: 4;
     /*margin-left: 250px;  Same as the width of the sidebar */
-}
-
-/* override inner */
-.inner {
-   margin: 0 10%;
-}
-
-#header_wrap .inner {
-    padding: 20px auto 10px auto;
 }
 
 /* Flexbox container */
