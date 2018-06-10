@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,maximum-scale=2">
+  <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+{% include collecttags.html %} <!-- generate tags -->
+{% seo %}
+</head>
+
+<body>
+
+{% include collecttags.html %}
+
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+  <header class="inner">
+    <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+ 
+    <h1 id="project_title"><a href="{{ site.github.url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+    <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+
+    <a href="{{site.github.repository_url}}/edit/master/{{page.path}}">Edit this page</a>
+  </header>
+</div>
+
+<div class="below_header_box">
+  <div class="sidebar">
+    <h4>Table of contents:</h4>
+    {% include toc.html html=content %}
+  
+    <h4>Site Contents</h4>
+
+    {% for tag in tags %}
+    <button class="collapsible">{{ tag }}</button>
+    <div class="content">
+    <ul>
+      {% for page in site.pages %}
+        {% if page.tags contains tag %}
+          <li> <a href="{{ page.url }}">{{ page.title }}</a> </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="non-sidebar">
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER  -->
+<!--
+<div id="footer_wrap" class="outer">
+  <footer class="inner">
+  </footer>
+</div>
+-->
+  
+<script>
+// Script for folding
+var collapsibles = document.getElementsByClassName("collapsible");
+for (coll of collapsibles) {
+  coll.addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>

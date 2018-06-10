@@ -1,3 +1,7 @@
+---
+tags: [ecosystem]
+---
+
 # Hardware Design
 
 Ocaml has recently started to be used in the hardware design space:

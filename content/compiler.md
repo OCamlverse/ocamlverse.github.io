@@ -1,3 +1,7 @@
+---
+tags: [compiler]
+---
+
 # Compiler
 
 The OCaml compiler is a complicated software artifact. Below is an attempt to document information that could not fit easily into the codebase, including relevant papers. Feel free to break this up into pages as the need arises.

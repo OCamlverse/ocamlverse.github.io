@@ -1,3 +1,7 @@
+---
+tags: [learning]
+---
+
 # Projects
 
 A list of projects written in OCaml, useful for learning and for gaining inspiration. 

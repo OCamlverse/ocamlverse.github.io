@@ -1,3 +1,7 @@
+---
+tags: [ecosystem]
+---
+
 # Functional Reactive Programming
 
 Functional Reactive Programming is a model for programming that tries to adapt state-heavy programming such as UIs or games to the functional programming world. For example, the normal mode of operation for asynchronous event-driven programming is to use callbacks everywhere. However, this requires mutating state, since the user's code is not driving the program but is being 'driven' via events. This model is common in GUIs and in Javascript.

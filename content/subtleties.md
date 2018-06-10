@@ -1,3 +1,7 @@
+---
+tags: [learning]
+---
+
 # OCaml subtleties
 **Subtle points and items difficult to find via web search** (in progress)
 
