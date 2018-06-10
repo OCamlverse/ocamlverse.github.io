@@ -18,6 +18,17 @@ body {
     padding: 20px 10px 10px 10px;
 }
 
+/* Flexbox container */
+.below_header_box {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    align-items: stretch;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .sidebar {
     flex-shrink: 0;
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -69,7 +80,7 @@ body {
         padding: 0 18px;
         display: none;
         overflow: hidden;
-        background-color: #f1f1f1;
+        background-color: #f2f2f2;
     }
 }
 
@@ -80,13 +91,8 @@ body {
     /*margin-left: 250px;  Same as the width of the sidebar */
 }
 
-/* Flexbox container */
-.below_header_box {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    overflow: hidden;
-    align-items: stretch;
-    max-width: 1000px;
-    margin: 0 auto;
+@media screen and (max-width: 600px){
+   .sidebar {
+      display: none;
+   }
 }
