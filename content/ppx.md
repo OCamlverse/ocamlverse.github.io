@@ -30,7 +30,7 @@ that an extension should do its work. (In the example above, the
 signal to `ppx_regexp` extension is the `%pcre` appended to the
 `match` keyword.)
 
-The syntactic signals that extensions look all follow patterns that
+The syntactic signals that extensions look at all follow patterns that
 are defined by the OCaml language specification, but that mean nothing
 to the compiler itself without a plugin.
 
