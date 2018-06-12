@@ -58,7 +58,7 @@ Also see Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria
 * **Infix operators**: Where can I find documentation on standard infix
   operators such as `@@`?
   
-  See the [Index of values](http://caml.inria.fr/pub/docs/manual-ocaml/libref/index_values.html), or the [Pervasives module
+  See the [Index of values](http://caml.inria.fr/pub/docs/manual-ocaml/libref/index_values.html) or the [Pervasives module
   documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html)
   in the OCaml Manual.  For the Pervasives module docs, you'll want to search the page for "operator" 
   or for the specific operator you're interested in.
