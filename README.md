@@ -1,4 +1,4 @@
-# OCamlverse
+# Welcome!
 
 OCamlverse is an effort to document everything worth knowing about
 [OCaml](http://www.ocaml.org/), an amazingly cool industrial strength
