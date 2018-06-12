@@ -64,7 +64,7 @@ Also see Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria
   or for the specific operator you're interested in.
   
   (Also possibly useful: [Built-in operators and functions](https://www2.lib.uchicago.edu/keith/ocaml-class/operators.html)
-  at *OCaml for the Skeptical*; very old:, [Infix symbols](https://caml.inria.fr/pub/docs/manual-caml-light/node4.9.html) in the old CAML light manual.)
+  at *OCaml for the Skeptical*, and (very old) [Infix symbols](https://caml.inria.fr/pub/docs/manual-caml-light/node4.9.html) in the old CAML light manual.)
 
 * **ppx**: What are these `[%% ...]`, `[@@ ...]` expressions that I
   see in people's code?  What does it mean when there's a percent sign in the 
