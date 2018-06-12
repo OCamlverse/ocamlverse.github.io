@@ -42,6 +42,10 @@ img {
       #header_title {
          margin-left: 20px;
          flex-grow: 1;
+         a {
+            color: inherit;
+            text-decoration: inherit;
+         }
 
       }
 
