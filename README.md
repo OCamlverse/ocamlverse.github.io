@@ -1,7 +1,5 @@
 # OCamlverse
 
-![OCaml](https://ocaml.org/img/colour-transparent-icon.svg)
-
 OCamlverse is an effort to document everything worth knowing about
 [OCaml](http://www.ocaml.org/), an amazingly cool industrial strength
 functional programming language.
