@@ -58,10 +58,13 @@ Also see Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria
 * **Infix operators**: Where can I find documentation on standard infix
   operators such as `@@`?
   
-  See the [Pervasives module
+  See the [Index of values](http://caml.inria.fr/pub/docs/manual-ocaml/libref/index_values.html), or the [Pervasives module
   documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html)
-  in the OCaml Manual, or [Built-in operators and functions](https://www2.lib.uchicago.edu/keith/ocaml-class/operators.html)
-  at *OCaml for the Skeptical*.  (Also, though it's very old, [Infix symbols](https://caml.inria.fr/pub/docs/manual-caml-light/node4.9.html) in the old CAML light manual might be useful.)
+  in the OCaml Manual.  For the Pervasives module docs, you'll want to search the page for "operator" 
+  or for the specific operator you're interested in.
+  
+  (Also possibly useful: [Built-in operators and functions](https://www2.lib.uchicago.edu/keith/ocaml-class/operators.html)
+  at *OCaml for the Skeptical*; very old:, [Infix symbols](https://caml.inria.fr/pub/docs/manual-caml-light/node4.9.html) in the old CAML light manual.)
 
 * **ppx**: What are these `[%% ...]`, `[@@ ...]` expressions that I
   see in people's code?  What does it mean when there's a percent sign in the 
