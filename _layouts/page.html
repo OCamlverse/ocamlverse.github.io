@@ -16,13 +16,21 @@
 
 <!-- HEADER -->
 <div id="header_wrap" class="outer">
-  <header class="inner">
-    <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
- 
-    <h1 id="project_title"><a href="{{ site.github.url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-    <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+  <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+  <a href="{{site.github.repository_url}}/edit/master/{{page.path}}" class="button">Edit this page</a>
 
-    <a href="{{site.github.repository_url}}/edit/master/{{page.path}}">Edit this page</a>
+  <header class="inner">
+
+    <div id="header_box">
+      <div id="header_img">
+        <img src="/assets/img/ocaml-logo.png" width=100px>
+      </div>
+      <div id="header_title">
+        <h1 id="project_title"><a href="{{ site.github.url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      </div>
+    </div>
+
   </header>
 </div>
 
@@ -30,7 +38,7 @@
   <div class="sidebar">
     <h4>Table of contents:</h4>
     {% include toc.html html=content %}
-  
+
     <h4>Site Contents</h4>
 
     {% for tag in tags %}
@@ -64,7 +72,7 @@
   </footer>
 </div>
 -->
-  
+
 <script>
 // Script for folding
 var collapsibles = document.getElementsByClassName("collapsible");

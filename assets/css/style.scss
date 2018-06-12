@@ -7,15 +7,57 @@ body {
    background: #f2f2f2;
 }
 
+img {
+    border: none;
+    box-shadow: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   -o-box-shadow: none;
+   -ms-box-shadow: none;
+}
+
 /* override inner */
 .inner {
-   margin: 0 10%;
+    margin: 0 10%;
 }
 
 /* override */
-#header_wrap .inner {
-    margin: 0 auto; // center
-    padding: 20px 10px 10px 10px;
+#header_wrap {
+   .inner {
+       margin: 0 80px; // center
+       padding: 10px 10px 10px 10px;
+   }
+
+   img {
+      display: inline-block;
+   }
+
+   #header_box {
+      display: flex;
+
+      #header_img {
+         flex-shrink: 0;
+      }
+
+      #header_title {
+         margin-left: 20px;
+         flex-grow: 1;
+
+      }
+
+      h1, h2 {
+         margin: 0;
+         padding: 0;
+      }
+   }
+
+   a.button {
+      display: block;
+      position: absolute;
+      z-index: 10;
+      top: 100px;
+      right: 10px;
+   }
 }
 
 /* Flexbox container */
@@ -91,6 +133,21 @@ body {
     /*margin-left: 250px;  Same as the width of the sidebar */
 }
 
+#main_content_wrap {
+   border-top: none;
+   border-bottom: none;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+/* Drop the sidebar on small screens */
 @media screen and (max-width: 600px){
    .sidebar {
       display: none;
