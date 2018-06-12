@@ -43,7 +43,7 @@
     <h4>Site Contents</h4>
 
     {% for tag in tags %}
-    <button class="collapsible">{{ tag }}</button>
+    <button class="collapsible">{{ tag | capitalize }}</button>
     <div class="content">
     <ul>
       {% for page in site.pages %}
