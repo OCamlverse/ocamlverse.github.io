@@ -18,7 +18,7 @@ functional programming language.
 ## About OCamlverse
 
 OCamlverse is intended to be a fast-moving web site that's easy to
-contribute to. We maintain the site in GitHub and treat it almost like
+contribute to. We maintain the site on GitHub and treat it almost like
 a Wiki.
 
 * [Learn More About OCamlverse](content/about.md)
