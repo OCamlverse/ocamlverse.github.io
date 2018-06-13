@@ -9,6 +9,7 @@ tags: [ecosystem]
 * [makorel](https://github.com/sagotch/makorel)  – Release OPAM packages easily. (edit: Is this maintained?)
 * [topkg](https://github.com/dbuenzli/topkg)  is a tool that allows you to easily release and maintain many OCaml packages at once. A little bit of extra metadata in your repo gives you the ability to use the topkg command line tools and manage your authored packages.
 * [dune-release](https://github.com/samoht/dune-release): a tool for managing and releasing a package easily on OPAM. Built only for projects that use Dune as a build system.
+* [opam-check-all](http://check.ocamllabs.io/): shows you all OPAM packages and their build status. Provides filtering for specific versions, build errors, and package authors.
 
 ## OCaml Build System
 
