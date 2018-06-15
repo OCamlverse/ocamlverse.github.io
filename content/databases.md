@@ -19,6 +19,8 @@ Currently supports MariahDB, PostgreSQL and SQLite3.
 * [mysql](http://ocaml-mysql.forge.ocamlcore.org/)  – Bindings to libmysqlclient for interacting with MySQL databases.
 * [mysql_protocol](https://github.com/slegrand45/mysql_protocol)  – Implementation of MySQL Protocol with the Bitstring library.
 * [Dbm](https://forge.ocamlcore.org/projects/camldbm/)  — A binding to the NDBM/GDBM Unix "databases".
+* [camltc](https://github.com/toolslive/camltc) - OCaml bindings to [Tokyo Cabinet](https://github.com/Incubaid/tokyocabinet).
+* [orocksdb](https://github.com/domsj/orocksdb) - OCaml RocksDB bindings using ctypes.
 
 ## OCaml Clients
 
@@ -29,6 +31,7 @@ Currently supports MariahDB, PostgreSQL and SQLite3.
 * [Irmin](https://github.com/mirage/irmin) : a distributed database that follows the same design principles as Git.
 * [Obigstore](http://obigstore.forge.ocamlcore.org/) : a database with BigTable-like data model atop LevelDB.
 * [RunOrg](https://github.com/RunOrg/RunOrg) : a WIP database server written in OCaml.
+* [Arakoon](https://github.com/Incubaid/arakoon) : a consistent distributed key-value store built on top of Tokyo Cabinet.
 
 ## Overlays
 
