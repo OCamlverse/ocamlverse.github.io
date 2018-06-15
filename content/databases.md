@@ -31,7 +31,7 @@ Currently supports MariahDB, PostgreSQL and SQLite3.
 * [Irmin](https://github.com/mirage/irmin) : a distributed database that follows the same design principles as Git.
 * [Obigstore](http://obigstore.forge.ocamlcore.org/) : a database with BigTable-like data model atop LevelDB.
 * [RunOrg](https://github.com/RunOrg/RunOrg) : a WIP database server written in OCaml.
-* [Arakoon](https://github.com/Incubaid/arakoon) : a consistent distributed key-value store built on top of Tokyio Cabinet.
+* [Arakoon](https://github.com/Incubaid/arakoon) : a consistent distributed key-value store built on top of Tokyo Cabinet.
 
 ## Overlays
 
