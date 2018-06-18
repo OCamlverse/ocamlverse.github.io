@@ -66,7 +66,7 @@ See [Projects](projects.md)
 
 ## Exercises
 
-* [99 problems](http://ocaml.org/learn/tutorials/99problems.html) . 99% solutions are [https://github.com/MassD/99 here].
+* [99 problems](http://ocaml.org/learn/tutorials/99problems.html): 99% solutions are [here](https://github.com/MassD/99 here).
 * [Rosetta Code](http://rosettacode.org/wiki/Category:OCaml)
 * [OCaml at Exercism](http://exercism.io/languages/ocaml)  – Exercism is your place to engage in thoughtful conversations about code. Explore simplicity, idiomatic language features, and expressive readable code. [https://github.com/exercism/xocaml Solutions].
 
