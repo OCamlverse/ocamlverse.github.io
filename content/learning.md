@@ -40,6 +40,7 @@ tags: [learning]
 ### Efficient Code
 
 * [asm-ocaml](https://www.ocamlpro.com/2016/04/01/asm-ocaml/): Some pointers on writing very fast OCaml code for performance-critical libraries.
+* [GADTs and performance](https://blog.janestreet.com/why-gadts-matter-for-performance/)
 
 ### Exception Efficiency
 * [How OCaml exceptions are implemented](https://stackoverflow.com/questions/8564025/ocaml-internals-exceptions)
