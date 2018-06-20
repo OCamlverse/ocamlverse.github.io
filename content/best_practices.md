@@ -27,3 +27,7 @@ and prints it out again. This follows the example of the `refmt` tool for Reason
 ## Documentation Best Practices
 
 * [Documentation Guidelines](https://github.com/bobbypriambodo/ocaml-documentation-guideline) : NOTE: consider pulling inline with Bobby's permission.
+
+## Writing Efficient Code
+
+See [Optimizing OCaml performance](optimizing_performance.md)
