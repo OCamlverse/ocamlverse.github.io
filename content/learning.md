@@ -19,6 +19,9 @@ tags: [learning]
 * [Ocaml file types and filename extensions](https://ocaml.org/learn/tutorials/filenames.html)
 * [OCaml subtleties](subtleties.md)
 
+### Editor Support
+See [Editor Support](editor_support.md)
+
 ## Advanced
 
 ### Polymorphism
