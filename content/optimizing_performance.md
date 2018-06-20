@@ -1,5 +1,5 @@
 ---
-tags: [learning, best_practices]
+tags: [learning, best practices]
 ---
 # Optimizing OCaml Performance
 
