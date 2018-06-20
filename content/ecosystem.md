@@ -15,6 +15,7 @@ This page describes the current state of the OCaml ecosystem. Please help keep i
 * [Compilers](compilers.md)
 * [Concurrency, Parallelism and Distributed Computing](parallelism.md)
 * [Databases](databases.md)
+* [Editor Support](editor_support.md)
 * [Formal Software Verification](software_verification.md)
 * [File Formats](file_formats.md)
 * [Foreign Function Interface](ffi.md)
