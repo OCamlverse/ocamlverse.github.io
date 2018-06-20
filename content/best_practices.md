@@ -1,5 +1,5 @@
 ---
-tags: [learning]
+tags: [learning, best practices]
 ---
 
 # Best Practices
