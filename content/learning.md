@@ -37,13 +37,8 @@ tags: [learning]
 * [A small monads tutorial from the Monads library](http://binaryanalysisplatform.github.io/bap/api/master/Monads.Std.html#intro)
 * [Discussion on what you can do with Monads](https://discuss.ocaml.org/t/can-monads-help-me-my-refactor-code-for-an-enhanced-data-structure/1064/5?u=ivg) and what are [Monad Transformers](https://discuss.ocaml.org/t/ann-monads-the-missing-monad-transformers-library/830/6?u=ivg)
 
-### Efficient Code
-
-* [asm-ocaml](https://www.ocamlpro.com/2016/04/01/asm-ocaml/): Some pointers on writing very fast OCaml code for performance-critical libraries.
-* [GADTs and performance](https://blog.janestreet.com/why-gadts-matter-for-performance/)
-
-### Exception Efficiency
-* [How OCaml exceptions are implemented](https://stackoverflow.com/questions/8564025/ocaml-internals-exceptions)
+### Writing Efficient Code
+See [Optimizing Performance](optimizing_performance.md)
 
 ## Articles
 
