@@ -41,6 +41,9 @@ tags: [learning]
 
 * [asm-ocaml](https://www.ocamlpro.com/2016/04/01/asm-ocaml/): Some pointers on writing very fast OCaml code for performance-critical libraries.
 
+### Exception Efficiency
+* [How OCaml exceptions are implemented](https://stackoverflow.com/questions/8564025/ocaml-internals-exceptions)
+
 ## Articles
 
 * [Python to OCaml: retrospective](http://roscidus.com/blog/blog/2014/06/06/python-to-ocaml-retrospective/)
