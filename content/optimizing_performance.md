@@ -1,3 +1,6 @@
+---
+tags: [learning, best_practices]
+---
 # Optimizing OCaml Performance
 
 ## Writing Efficient Code
