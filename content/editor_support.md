@@ -109,4 +109,16 @@ let g:deoplete#auto_complete_delay = 0
 
 You now should have instant completion via Merlin!
 
+### Ale (Asynchronous Lint Engine)
+
+Vim has a default way to show compilation errors called Syntastic. Syntastic is ok, but the problem
+is that it slows down Vim since it's not asynchronous. Instead, we'll install Ale. It's as simple as
+adding this line to our plugin section:
+
+```
+Plug 'w0rp/ale'
+```
+
+That's it! After `:PlugInstall` and a restart, you should now see errors visually in your OCaml files.
+
 ## emacs
