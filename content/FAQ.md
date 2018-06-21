@@ -23,6 +23,6 @@ Also see [OCaml subtleties](subtleties.md), the [FAQ](http://ocaml.org/learn/faq
 
   No reason; this is how it's always been done in OCaml, and it might be a bad idea
   to change the syntax of types in a language that puts so much emphasis on them.
-  The type syntax kind of makes sense if you think about English syntax:  A "passenger
+  However, the type syntax kind of makes sense if you think about English syntax:  A "passenger
   ship" is a ship that carries passengers.  An `int list` is a list that contains `int`s.
   (You could also write "list of integers" in English, but then you need to add the "of".)
