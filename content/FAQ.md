@@ -22,7 +22,10 @@ Also see [OCaml subtleties](subtleties.md), the [FAQ](http://ocaml.org/learn/faq
 * Why are compound types such as `float list` and `int option` written with the "enclosing", polymorphic type last?
 
   There's no real reason, except that this is how it's always been done in OCaml.
-  It might be a bad idea to change the syntax of types in a language that puts so much emphasis on them.
+  It might be a bad idea to change the syntax of types in a language that puts so much emphasis on
+  types.  (Standard ML uses the same convention.  Since it and OCaml both developed from an earlier
+  ML, it's likely that the convention predates OCaml.)
+  
   However, the type syntax kind of makes sense if you think about English syntax:  A "passenger
   ship" is a ship that carries passengers.  An `int list` is a list that contains `int`s.
   (You could also write "list of integers" in English, but then you need to add the "of".)
