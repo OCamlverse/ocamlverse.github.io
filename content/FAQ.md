@@ -18,3 +18,7 @@ Also see [OCaml subtleties](subtleties.md), the [FAQ](http://ocaml.org/learn/faq
   editor or IDE, for example.  See the 
   [Code tools](https://github.com/OCamlverse/ocamlverse.github.io/blob/master/content/code_tools.md)
   page.
+
+* Why are compound types such as `float list` and `int option` written with the "enclosing", polymorphic type last?
+
+  [In need of a clear answer.]
