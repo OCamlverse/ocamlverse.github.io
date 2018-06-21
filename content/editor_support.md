@@ -7,7 +7,11 @@ tags: [ecosystem, learning]
 [Merlin](https://github.com/ocaml/merlin) is the tool used for code completion, type querying, locating definitions etc for OCaml. Regardless of which editor you use, you'll want to install Merlin for your ocaml compiler with `opam install merlin`.
 
 ## Visual Studio Code
-This is the easiest editor to set up for OCaml.
+This is the easiest editor to set up for OCaml. Just install the [OCaml and Reason IDE extension](https://github.com/reasonml-editor/vscode-reasonml):
+
+```
+code --install-extension freebroccolo.reasonml
+```
 
 ## Vim or Neovim
 Vim and Neovim are relatively complex tools, and their configuration requires editing their `.vimrc` file (in the case of Neovim, it's `.config/nvim/init.vim` on Linux). 
