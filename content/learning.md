@@ -32,6 +32,7 @@ See [Editor Support](editor_support.md)
 ### PPX (PreProcessor eXtensions)
 
 * [A Guide to PreProcessor eXtensions](ppx.md)
+* [A PPX Tutorial](https://www.victor.darvariu.me/jekyll/update/2018/06/19/ppx-tutorial.html)
 
 ### Monads
 
