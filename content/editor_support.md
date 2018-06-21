@@ -33,9 +33,9 @@ You can disable Merlin's default keybindings and create your own with the line
 ```
 let g:merlin_disable_default_keybindings = 1.
 ```
-but normally, Merlin's keybindings are good enough. Note that Merlin precedes all its bindings with <LocalLeader>, which by default is backslash ('\'). You can find out more about the leader keys and changing them in vim's help (type `:help leader`).
+but normally, Merlin's keybindings are good enough. Note that Merlin precedes all its bindings with <LocalLeader>, which by default is backslash (`\`). You can find out more about the leader keys and changing them in vim's help (type `:help leader`).
   
-Here are the default bindings (substitute your choice of LocalLeader instead of '\':
+Here are the default bindings (substitute your choice of LocalLeader instead of `\`:
 * `\t`: get the type of the current expression
 * `gd`: this is a standard binding that Merlin overrides for OCaml files. Go to definition.
 * `C-x C-o`: get a completion suggestion from Merlin.
