@@ -17,7 +17,6 @@ Vim and Neovim are relatively complex tools, and their configuration requires ed
 In order to just have basic Merlin support, all you need is to add this snippet to enable Merlin's VIM plugin:
 
 ```
-" Merlin from opam
 if executable('opam')
   let g:opamshare=substitute(system('opam config var share'),'\n$','','''')
   if isdirectory(g:opamshare."/merlin/vim")
@@ -39,6 +38,7 @@ but normally, Merlin's keybindings are good enough. Note that Merlin precedes al
 Here are the default bindings (substitute your choice of LocalLeader instead of '\':
 * `\t`: get the type of the current expression
 * `gd`: this is a standard binding that Merlin overrides for OCaml files. Go to definition.
+* `C-x C-o`: get a completion suggestion from Merlin.
 * `\t` in visual mode: get the type of the selection
 * `\n`: grow the enclosing expression to get its type
 * `\p`: shrink the enclosing expression
@@ -51,6 +51,62 @@ Here are the default bindings (substitute your choice of LocalLeader instead of 
   ```
   let g:merlin_completion_with_doc = 1
   ```
+  This is particularly useful when using Deoplete for instant completion.
 
+## Vim-Plug
+
+Installing anything beyond Merlin itself gets much easier once we have a proper plugin manager for Vim/Neovim.
+We recommend [Vim-Plug](https://github.com/junegunn/vim-plug).
+Installing Vim-Plug involves placing the following lines in your config file:
+
+```
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/plugged')
+
+" Put plugin calls here
+" Example plugin declaration. (Github repo path minus the github.com part)
+" Plug 'junegunn/seoul256.vim'
+
+call plug#end()
+```
+
+Once you start up Vim/Neovim, use `:PlugInstall` to install any plugins in your config file
+that are yet to be installed, and `:PlugUpdate` to update the plugins that are installed.
+
+## Deoplete
+
+To make the most of Merlin's completions, you'll want to install Deoplete, which instantly
+suggests completion options for you, like Intellisense on Visual Studio Code.
+
+In the plugin section, add the plugins
+
+```
+Plug 'Shougo/deoplete.nvim'
+Plug 'copy/deoplete-ocaml'
+```
+
+Elsewhere in your config file, add these lines:
+
+```
+" enable deoplete
+let g:deoplete#enable_at_startup = 1
+
+" this is the default, make sure it is not set to "omnifunc" somewhere else in your vimrc
+let g:deoplete#complete_method = "complete"
+
+" other completion sources suggested to disable
+let g:deoplete#ignore_sources = {}
+let g:deoplete#ignore_sources.ocaml = ['buffer', 'around', 'member', 'tag']
+
+" no delay before completion
+let g:deoplete#auto_complete_delay = 0
+```
+
+You now should have instant completion via Merlin!
 
 ## emacs
