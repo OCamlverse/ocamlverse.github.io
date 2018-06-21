@@ -4,7 +4,8 @@ tags: [ecosystem, learning]
 
 # Editor Support
 
-## Visual Code
+## Visual Studio Code
+This is the easiest editor to set up for OCaml.
 
 ## vim or Neovim
 The preferred way to use vim is with Merlin.
