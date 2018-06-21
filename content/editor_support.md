@@ -36,14 +36,14 @@ let g:merlin_disable_default_keybindings = 1.
 ```
 but normally, Merlin's keybindings are good enough. Note that Merlin precedes all its bindings with <LocalLeader>, which by default is backslash ('\'). You can find out more about the leader keys and changing them in vim's help (type `:help leader`).
   
-Here are the default bindings:
-* <LocalLeader>t: get the type of the current expression
-* gd: this is a standard binding that Merlin overrides for OCaml files. Go to definition.
-* <LocalLeader>t in visual mode: get the type of the selection
-* <LocalLeader>n: grow the enclosing expression to get its type
-* <LocalLeader>p: shrink the enclosing expression
-* ]]: Another standard Vim binding -- Merlin makes sure it jumps between phrases properly.
-* [[: The opposite of the above binding.
+Here are the default bindings (substitute your choice of LocalLeader instead of '\':
+* `\t`: get the type of the current expression
+* `gd`: this is a standard binding that Merlin overrides for OCaml files. Go to definition.
+* `\t` in visual mode: get the type of the selection
+* `\n`: grow the enclosing expression to get its type
+* `\p`: shrink the enclosing expression
+* `]]`: Another standard Vim binding -- Merlin makes sure it jumps between phrases properly.
+* `[[`: The opposite of the above binding.
 
 #### Extra Options
 
