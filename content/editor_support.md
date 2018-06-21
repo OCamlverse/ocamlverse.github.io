@@ -53,7 +53,7 @@ Here are the default bindings (substitute your choice of LocalLeader instead of 
   ```
   This is particularly useful when using Deoplete for instant completion.
 
-## Vim-Plug
+### Vim-Plug
 
 Installing anything beyond Merlin itself gets much easier once we have a proper plugin manager for Vim/Neovim.
 We recommend [Vim-Plug](https://github.com/junegunn/vim-plug).
@@ -78,7 +78,7 @@ call plug#end()
 Once you start up Vim/Neovim, use `:PlugInstall` to install any plugins in your config file
 that are yet to be installed, and `:PlugUpdate` to update the plugins that are installed.
 
-## Deoplete
+### Deoplete
 
 To make the most of Merlin's completions, you'll want to install Deoplete, which instantly
 suggests completion options for you, like Intellisense on Visual Studio Code.
