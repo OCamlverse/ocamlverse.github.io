@@ -13,11 +13,11 @@ program term `42` has type `int` and could be used anywhere where
 
 If a term could be used in several different typing contexts (i.e.,
 when the type of the term varies), then it is denoted by a type
-variable in the term type. For example, `'a list` denotes a term that
-fits into any place where some list is expected, e.g., `int list`,
-`float list`, etc. We call such types _polymorphic_, as opposed to
-_monomorphic_ types. (Monomorphic types are sometimes called _ground_
-types. These are types without any type variables.)
+variable in the type of the term. For example, `'a list` denotes a
+term that fits into any place where some list is expected, e.g., `int
+list`, `float list`, etc. We call such types _polymorphic_, as opposed
+to _monomorphic_ types. (Monomorphic types are sometimes called
+_ground_ types. These are types without any type variables.)
 
 In OCaml, the type of a term is inferred from its definition. OCaml
 tries to find the most unrestrictive type, i.e., the most general
@@ -32,15 +32,16 @@ Problems arise when we have to deal with mutable values.
 In pure languages without mutability, we can treat values as pure
 mathematical objects. This is nice, because all the properties of a
 mathematical object are fully defined by its structure. So, our
-knowledge is static and there are no time variation involved.
+knowledge is static and there is no time variation involved.
 
 In not so pure languages, i.e., in languages that support mutability,
-a mutable value is represented as a cell of memory, a placeholder. An
-assignment places a real value into the cell. (This real value could
-also be a cell by itself, but let's not complicate things any
-further.) We can't allow the type of a value in the cell to change
-along with time, as in a statically typed programming language the
-type of a term is static, i.e., it doesn't change in time.
+a mutable value is represented as a cell of memory, which is a
+placeholder. An assignment places a real value into the cell. (This
+real value could also be a cell by itself, but let's not complicate
+things any further by discussing that now.) We can't allow the type of
+a value in the cell to change with time, as in a statically typed
+programming language the type of a term is static, i.e., the type
+cannot change with time.
 
 Thus, a program is not well-typed if someone attempts to put a value
 of the wrong type into the cell. Of course, OCaml is a statically typed
@@ -66,17 +67,17 @@ type has the following representation:
 type 'a ref = {mutable contents : 'a}
 ```
 
-So which type the compiler should give to the value `x`? The value we
-have asked to put intto the reference has type `'a option`, which
-denotes a whole family of types, among which no type is better than
-another.
+So which ground type should the compiler give to the value `x`? The
+value we have asked to put into the reference has type `'a option`,
+which denotes a whole family of types, among which no type is better
+than another.
 
 Since compiler can't make any choice here, it denotes it by weakening
 the type variable, and ascribing to `x` the following type `'_a
 option`. (Modern versions of OCaml use `'_weak1` to make it more
 noticable and explicit.)
 
-Although `'_a` is called a "weak type variable" it is not actually a
+Although `'_a` is called a "weak type variable", it is not actually a
 variable, but rather an _unknown_ type. What the compiler is trying to
 say is: "this type must be monomorphic, because it is mutable, but I
 can't infer its type yet, because I haven't yet collected enough
@@ -85,25 +86,26 @@ compiler, and the weak type variable will then be transformed to a
 ground type. For example, `x := Some 42` will say to the compiler that
 `'_a` is actualy `int`.
 
-This gives us yet another insight into what a weak type variable is -
+This gives us yet another insight into what a weak type variable is —
 it is a delayed concrete type. However, the compiler may not delay the
 decision indefinitely, it must determine a ground type before the end
-of the file, aka compilation unit. Indeed, because OCaml allows for
-separate compilation, other files cannot provide information to infer
-the type of a variable defined in our file. So, if the compiler cannot
-find enough evidence for the ground type of the weak type variable
-before the end of the file, then an error is signaled, and we need to
-intervene and manually ascribe ground types for the weak type
-variable. This the rare case where a type annotation is actually
-required in OCaml.
+of the file, a.k.a. the compilation unit. Indeed, because OCaml allows
+for separate compilation, other files cannot provide information to
+infer the type of a variable defined in our file.
+
+If the compiler cannot find enough evidence for the ground type of the
+weak type variable before the end of the file, then an error is
+signaled, and we need to intervene and manually ascribe ground types
+for the weak type variable. This the rare case where a type annotation
+is actually required in OCaml.
 
 ## Why does my immutable value have a weak polymorphic type?
 
 Now it is clear why references and other mutable values can't have
-polymorphic type, and why weak variables arise in case if the compiler
+polymorphic type, and why weak variables arise if the compiler
 can't infer the ground type for a mutable value.
 
-This is reasonable limitation and a fair tradeoff - if you need a
+This is a reasonable limitation and a fair tradeoff — if you need a
 mutable cell, then you may need to type it manually. (As a courtesy,
 the compiler may type it for you if it can.)
 
@@ -118,15 +120,15 @@ let const x y = y
 Why does `const ()` have type `'_a -> '_a`?
 
 The problem is that `const ()` is a partial application. The result of
-a function application is a runtime value called _closure_. Since this
-value will be created only in runtime, the typechecker can't inspect
-it, so it is left beyond its reach. The typechecker needs to be very
-pessimistic (if not paranoid!) and must assume that the closure may
-create arbitrary references and could use them to breach type
-soundness.
+a function application is a runtime value called a _closure_. Since
+this value will be created only at runtime, the typechecker can't
+inspect it, so it is left beyond its reach. The typechecker needs to
+be very pessimistic (if not paranoid!) and must assume that the
+closure may create arbitrary references and could use them to breach
+type soundness.
 
-And in this case, it is _not_ overcautious, as we indeed can breach
-it, as we show below:
+And in this case, it is _not_ overcautious, as we can indeed breach
+type safety, as we show below:
 
 ```ocaml
 let const _ =
@@ -143,7 +145,7 @@ function that uses a reference for storage, and, if the last value is
 structurally equal to the current value, the last value is
 returned.
 
-Let's suppose that the typechecker were more lax gave the
+Let's suppose that the typechecker were more lax, and gave the
 type `'a -> 'a` to function `id` in `let id = const ()`.
 
 Then this function could be applied as follows: `id []; id None`.
@@ -172,14 +174,14 @@ And, although `fun _ x -> x` is totally benign, it has the same type
 as the cached version of `const`, so to the typechecker they are
 indistinguishable.
 
-This basically puts partial applications in the same group as
-references, arrays, hashtables, and other program constructs that the
-type checker must suspect of impurity.
+This puts partial applications in the same category as references,
+arrays, hashtables, and other program constructs that the type checker
+must suspect of impurity.
 
-As for the origin of the name "value restriction: computer scientists
+As for the origin of the name "value restriction": computer scientists
 decided to specify a class of program terms that are always pure, and
-to require all other terms to have monomorphic type and weaken all
-type variables associated with them. They defined this class of pure
+to require all other terms to have monomorphic type and to weaken all
+type variables associated with them. They defined the class of pure
 terms syntactically, and called it _values_. Hence the name _value
 restriction_.
 
@@ -211,10 +213,10 @@ be generalized (i.e., to have polymoprhic type).
 
 First of all, OCaml allows polymorphism for _non-expansive_
 expressions, where an expression is non-expansive if it doesn't have
-any observable side-effects during the evaluation. That basically
-extends the notion of constant from purely syntactic definition
-(something that looks like a constant is a constant) to semantic
-definition (something that acts like a constant is a constant).
+any observable side-effects during evaluation. That extends the notion
+of a constant from the purely syntactic definition (something that
+looks like a constant is a constant) to a semantic definition
+(something that acts like a constant is a constant).
 
 For example, this rule allows the following expressions to have
 polymorphic type: `lazy None`, ` let _ = ref None in 1`, and even
@@ -227,43 +229,52 @@ typechecker doesn't look into the body of a function).
 
 ## Subtyping???
 
-Now comes the most confusing part, the final bit of laxing the value
-restriction is allowing the generalizaton of covariant type
-variables. So how did this happen, that subtyping has any relation to
-the value restriction?  Does OCaml objects break polymorphism and
-complicates things even more? No, nothing like this. In fact, it has
-nothing to do with the OCaml object system and with the way how
-objects are typed in OCaml. Before we will delve into description we
-need to build some intuition about the variance. Most of the articles
-are of no help for us, as they focus on subtyping.  And it is really
-hard to connect subtyping with value restriction. So let's forget
-about subtyping and focus on functions.
+Now comes the most confusing part. The final relaxation of the value
+restriction is allowing the generalization of covariant type
+variables.
+
+So how did this happen? Why would subtyping have any relationship to
+the value restriction?  Do OCaml objects break polymorphism and
+complicate things even more? No, it is nothing like this. In fact, it
+has nothing to do with the OCaml object system and with the way how
+objects are typed in OCaml.
+
+Before we delve into our explanation, we need to build some intuition
+about variance. Most of the articles are of no help for us, as they
+focus on subtyping, and it is really hard to connect subtyping with
+the value restriction. So let's forget about subtyping and focus on
+functions.
 
 In a function type, a type variable is _covariant_ if it occurs _only_
-to the right of the arrow, if a variable occurs _only_ to the left of
+to the right of the arrow. If a variable occurs _only_ to the left of
 the arrow, then it is _contravariant_. Otherwise, a variable is
 _invariant_. That is all that we need to know about variance in to
-build the right intuition to understand why it matters for the value
-restriction.  In OCaml it is possible to specify variance of a type
-variable: covariant variables are denoted with the prefix `+`, and
-contravariant are denoted with the `-` prefix, e.g., `type (-'a,+'b)
-fn = 'a -> 'b`. OCaml typechecker will infer the variance
-automatically if the type definition is available. For example, for
-the `'a -> 'b` type OCaml will know without any further ado that `'a`
-is contravarint and `'b` is covariant. But if the type is abstract,
-the the only way to preserve this information is to use the above type
-annotations. It is also useful to play with variance annotations in
-the toplevel, to get the intuition.
+build the right intuition to understand why it matters for the
+value restriction.
 
-So, let's go back to the value restriction. The intuition behind the
-covariant type, is that values of this type are never consumed, but
-only produced (e.g., `unit -> 'a`, `int -> 'a`, etc). Thus if a
-computation produced a value that is polymoprhic in some type `'a`
-which is covariant, then it is guaranteed that values of this type was
-never stored/captured or anyhow abused during the computation. Thus it
-is safe to ascribe the polymoprhic type to this value.
+In OCaml it is possible to specify variance of a type variable:
+covariant variables are denoted with the prefix `+`, and contravariant
+are denoted with the `-` prefix, e.g., `type (-'a,+'b) fn = 'a ->
+'b`.
 
-Since OCaml has variance inference this usually works out of box,
+The OCaml typechecker will infer the variance automatically if the
+type definition is available. For example, for the `'a -> 'b` type
+OCaml will know without any further ado that `'a` is contravarint and
+`'b` is covariant. But, if a type is abstract, the the only way to
+preserve this information is to use the above type annotations. (It is
+also useful to play with variance annotations in the toplevel, to gain
+intuition.)
+
+So, let's go back to the value restriction. The intuition behind a
+covariant type is that values of this type are never _consumed_, but
+only _produced_ (e.g., `unit -> 'a`, `int -> 'a`, etc). Thus if a
+computation produces a value that is polymorphic in some type `'a`
+which is covariant, then it is guaranteed that values of this type
+were never stored, captured, or otherwise abused during the
+computation. Thus it is safe to ascribe a polymorphic type to this
+value.
+
+Since OCaml has variance inference, this usually works out of box,
 e.g., given a function `val f : unit -> unit -> 'a` a partial
 application `f ()` will have polymorphic type `unit -> 'a`. However,
 if we will decide to abstact `unit -> 'a` as
@@ -278,16 +289,16 @@ end = struct
 end
 ```
 
-Then semantically the same code will suddenly get the weak type again:
+Then semantically, the same code will suddenly get a weak type again:
 
 ```
 Thunk.create ();;
 - : '_a Thunk.t = <abstr>
 ```
 
-The reason is that since we hide the type definition, OCaml can't
-infer variance and pessimistically assume that `'a` is invariant in
-`'a Thunk.t`. We can help the typechecker with the variance annotation
+The reason is that since we hid the type definition, OCaml can't infer
+variance, and must pessimistically assume that `'a` is invariant in
+`'a Thunk.t`. We can help the typechecker with a variance annotation
 in module signature:
 
 ```ocaml
@@ -299,7 +310,8 @@ end = struct
    let create () = fun () -> assert false
 end
 ```
-and now everyone is happy:
+
+and now, everyone is happy:
 
 ```
 # Thunk.create ();;
@@ -310,17 +322,18 @@ and now everyone is happy:
 
 The value restriction is a pessimistic assumption that compilers must
 make in the face of the possible mutability, and it is a price that
-must be payed even if mutability is not used. Weak type variables
-alleviate the problem a little, by allowing us to omit type
-annotations for values that don't have concrete or polymorphic
-type. However, since types are analyzed on the compilation unit level
-(the file level), weak type variables can't escape the scope of a
-compilation unit (the scope of a file). So it is not possible to have
-a weak type variable in the module interface (e.g., in the `mli`
-file). The compiler will reject all toplevel definitions that have
-weak types, unless they are either hidden from the module interface
-(i.e., omitted in the interface - e.g., when the mli file is empty) or
-given a concrete type.
+must be payed even if mutability is not used.
+
+Weak type variables alleviate the problem a little, by allowing us to
+omit type annotations for values that don't have concrete or
+polymorphic type. However, since types are analyzed at the compilation
+unit level (i.e., the file level), weak type variables can't escape
+the scope of a compilation unit (the scope of a file). So it is not
+possible to have a weak type variable in a module interface (e.g., in
+the `mli` file). The compiler will reject all toplevel definitions
+that have weak types, unless they are either hidden from the module
+interface (i.e., omitted in the interface, for example, when the mli
+file is empty) or given a concrete type.
 
 If for some reason the compiler refuses to generalize your expression
 and weak type variables occur in your type, then you can try the
@@ -330,14 +343,14 @@ following options to fix the situation:
 function, aka eta-expansion. E.g., `let x = ref None` could be made
 polymorphic by making `x` a function, e.g., `let x () = ref None`
 - If the problematic type is abstract, then the compiler can't perform
-the variance analysis on it. You can expose that some type variables
-of your abstract type are covariant, by making the variance
-annotations, e.g., `type +'a t` in the  signature will tell the
-compiler that values of that type could be safely given the
-polymorphic type. (Of course, the definition should correspond to the
-specification, that is checked by the compiler, for example, `type +'a
+variance analysis on it. You can expose that some type variables
+of your abstract type are covariant by making variance
+annotations. For example, `type +'a t` in the  signature will tell the
+compiler that values of that type could be safely given a
+polymorphic type. (Of course, the definition must correspond to the
+specification that is checked by the compiler. For example, `type +'a
 t = 'a list` would be accepted by the type checker, where `type +'a t
-= 'a ref` will be rejected).
+= 'a ref` will be rejected.)
 - If nothing else helps, then you need to manually annotate your value
 with a concrete type and/or hide it from the interface (by adding an
 mli file).
