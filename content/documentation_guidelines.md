@@ -48,14 +48,6 @@ This guideline is expected to evolve with the latest discovered practices,
 language features, tooling features, and feedback from community. This document
 maintain a changelog to track these changes.
 
-## Structure
-
-This guideline will be separated into three sections:
-
-1. Writing documentation
-2. Generating documentation
-3. Putting documentation online
-
 # 1. Writing documentation
 
 ## Documentation <> Comments
@@ -163,7 +155,6 @@ let add a b = a + b
 val add : int -> int -> int
 (** [add a b] returns the result of a + b *)
 ```
-
 
 ### Write introductory documentation for the toplevel module
 
