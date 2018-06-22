@@ -114,8 +114,10 @@
   covariant type variables. So how did this happen, that subtyping has any relation to the value restriction? 
   Does OCaml objects break polymorphism and complicates things even more? No, nothing like this. In fact, it has nothing
   to do with the OCaml object system and with the way how objects are typed in OCaml. Before we will delve into description 
-  we need to build some intuition about the variance. Most of the articles are of no help for us, as they focus on subtyping.
-  And it is really hard to connect subtyping with value restriction. So let's forget about subtyping and focus on functions.
+  we need to build some intuition about the variance. Most of the articles are of no help for us, as they focus on
+  subtyping.   And it is really hard to connect subtyping with value restriction. So let's forget about subtyping and 
+  focus on functions.
+  
   In a function type, a type variable is _covariant_ if it occurs _only_ to the right of the arrow, if a variable occurs 
   _only_ to the left of the arrow,  then it is _contravariant_. Otherwise, a variable is _invariant_. That is all that we 
   need to know about variance in to build the right intuition to understand why it matters for the value restriction. 
@@ -150,20 +152,8 @@
  Thunk.create ();;
  - : '_a Thunk.t = <abstr>
   ```
-
-[observed]() that there is a nice interaction
-173
-  between [variance](https://realworldocaml.org/v1/en/html/objects.html#variance) and value restriction.
-174
-  If a value occurs only in covariant positions, then it can be safely generalized and given the polymorphic type. 
-175
-  With this rule, it is possible to give the polymorphic type to the following expressions: `fun () -> []`, 
-176
-  `fun () -> ref None`. However, it will still disallow `List.map (fun x -> x)` to have the polymorphic type, because if
-177
-  we will look at the type of the `List.map` function `('a -> b) -> ('a list -> 'b list)`, we will find out that both 
-178
-  type variables are nor covariant neither contravariant (they are invariant).   The reason is that since we hide the type definition, OCaml can't infer variance and pessimistically assume that
+  
+ The reason is that since we hide the type definition, OCaml can't infer variance and pessimistically assume that
   `'a` is invariant in `'a Thunk.t`. We can help the typechecker with the variance annotation in module signature:
   ```ocaml
   module Thunk : sig 
