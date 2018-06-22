@@ -2,6 +2,8 @@
 tags: [learning, best practices]
 ---
 
+{% raw %}
+
 # OCaml Documentation Guidelines
 
 This document aims to be the community-driven one-stop reference of how to write
@@ -90,8 +92,6 @@ syntax, and we recommend familiarizing yourself with it.
 
 Here is the table that maps common markdown syntax to the OCamldoc counterpart:
 
-{% raw %}
-
 | Description             | Markdown         | OCamldoc         |
 | ----------------------- | ---------------- | ---------------- |
 | Section header          | `# text`         | `{0 text}`       |
@@ -111,7 +111,6 @@ Here is the table that maps common markdown syntax to the OCamldoc counterpart:
 | Raw HTML                | _Directly_       | `{%html: ... %}` |
 | Images                  | `![alt text](url)` | `{%html: <img src=.../> %}`}
 
-{% endraw %}
 
 Note that OCamldoc _the syntax_ is a different from OCamldoc _the tool_. The
 latter is a documentation generation tool that understands OCamldoc syntax. We
@@ -582,3 +581,5 @@ Keep calm and write docs!
 
 - Originally taken from
 [Bobby Priambodo's document](https://github.com/bobbypriambodo/ocaml-documentation-guideline/blob/master/README.md)
+
+{% endraw %}
