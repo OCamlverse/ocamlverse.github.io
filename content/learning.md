@@ -19,8 +19,11 @@ tags: [learning]
 * [Ocaml file types and filename extensions](https://ocaml.org/learn/tutorials/filenames.html)
 * [OCaml subtleties](subtleties.md)
 
-### Editor Support
-See [Editor Support](editor_support.md)
+### Best Practices
+Several guidelines for best practices have been established by the community. See [Best Practices](best_practices.md).
+
+### Setting Up Your Editor
+OCaml can be edited conveniently with many different editors. See [Editor Support](editor_support.md).
 
 ## Advanced
 
@@ -57,9 +60,6 @@ See [Optimizing OCaml Performance](optimizing_performance.md)
 * [A safe but strange way of modifying OCaml compiler](https://bitbucket.org/camlspotter/compiler-libs-hack)
 * [Fiddling with the OCaml Type System](http://technotroph.wordpress.com/2013/10/25/fiddling-with-the-ocaml-type-system/)
 * [Quick and Dirty Guide to Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
-
-## Best Practices
-See [Best Practices](best_practices.md)
 
 ## Projects
 
