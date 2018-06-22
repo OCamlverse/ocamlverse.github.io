@@ -2,9 +2,9 @@
 tags: [learning, best practices]
 ---
 
-{% raw %}
-
 # OCaml Documentation Guidelines
+
+{% raw %}
 
 This document aims to be the community-driven one-stop reference of how to write
 good documentation for OCaml libraries.
