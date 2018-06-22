@@ -14,37 +14,25 @@ Also see Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria
 * **Semicolons and `if` statements**: TODO (I can fill this
   in later unless someone else is inspired to do it first. -mars0i)
 
-* **Weak types**: What is "the value restriction"?
+* **Weak type variables**: What is "the value restriction"?
   Why do some of my type variables start with underscore?
   What is the difference between a function with (for example) type `'a -> 'b`,
   and one with type `'_weak1 -> '_weak2`?  Why am I getting a
   compiler error like these? (It worked when I tried it out in utop!)
   ```
   Values do not match:
-    val foo : int -> int
-  is not included in
-    val foo : 'a -> 'a
-  
-  Values do not match:
     val foo : '_weak1 -> '_weak1
   is not included in
     val foo : 'a -> 'a
   ```
+  This means that your function (or any other value that gets this type) is not really polymorphic, 
+and the compiler doesn't have enough information to infer its concrete type, thus it represents the unknown
+parts of the type with so called "weak type variables", the placeholders the need to be filled in by you.
+(The compiler will do it yourself, if possible, but when you see the weak type in the error produced by 
+the compiler, then it means, that it wasn't possible and your help is needed). 
 
-  Part of the answer is that `'_weak1`, `'_weak2`, etc., which are called
-  "weak types" or "weakly polymorphic types", are roughly speaking, only *temporarily*
-  [polymorphic](http://ocaml.org/learn/tutorials/basics.html#Polymorphic-functions) types (unlike `'a`, etc.).  If a function's type includes a weak type,
-  the compiler will permanently replace the weak type with a regular concrete type
-  (e.g. `float list`) the first time that it sees an application of the function.
-  The errors above say that the type `'a -> 'a` specified by a signature is too general.
-  The signature says that the function will work with any type, but the compiler
-  thinks that your function might only work with a single input and output type
-  (`int`, in the first error).  The value restriction is the name of the heuristic
-  that the compiler uses to make this decision.  For more information see the section on
-  [Side effects and weak polymorphism](https://realworldocaml.org/v1/en/html/imperative-programming-1.html#side-effects-and-weak-polymorphism)
-  in *Real World OCaml*,
-  [Section 5.1 Weak polymorphism and mutation](http://caml.inria.fr/pub/docs/manual-ocaml/polymorphism.html#sec51) 
-  in the OCaml Manual, [Common Error Messages](http://ocaml.org/learn/tutorials/common_error_messages.html#The-type-of-this-expression-contains-type-variables-that-cannot-be-generalized) at ocaml.org, and ["My function is not polymorphic (enough) ?"](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html#eta_expansion) and subsequent sections in "Frequently asked Questions about Caml".
+  The [Weak Type Variables](weak_type_variables.md) article describes in details why they exists in OCaml and
+how to cope with them.   
 
 ## Bits of syntax
 

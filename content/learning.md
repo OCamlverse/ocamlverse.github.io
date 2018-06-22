@@ -31,6 +31,7 @@ OCaml can be edited conveniently with many different editors. See [Editor Suppor
 
 * [OCaml polymorphism examples](http://stackoverflow.com/questions/14440531/ocaml-polymorphism-example-other-than-template-function)
 * [OCaml - polymorphic print and type erasure](http://stackoverflow.com/questions/7442449/ocaml-polymorphic-print-and-type-losing)
+* [Weak Type Variables - when impurity breaks polymorphism](weak_type_variables.md)
 
 ### PPX (PreProcessor eXtensions)
 
