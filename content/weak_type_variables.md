@@ -4,7 +4,7 @@ tags: [learning, types]
 
 # Weak Type Variables
   
-## Introduction - polymorphism and type variables
+## Polymorphism and type variables
   
 All terms of a well-typed program must have a type. The type of a term denotes in which context the term 
 could be used. For example, a program term `42` has type `int` and could be used anywhere, where `int` 
@@ -50,7 +50,7 @@ compiler didn't find enough evidences that will reveal the true nature of the we
 is signaled and we need to intervene and ascribe manually ground types for all weak type variables. This is
 the rare case, when type annotation is really required in OCaml. 
   
-## Why is my immutable value has weak polymorphic type?
+## Why does my immutable value have a weak polymorphic type?
   
 Now it is clear, why references and other mutable values can't have polymoprhic type, and why weak variables
 arise in case if the compiler can't infer the ground type for a mutable value. This is reasonable limitation
