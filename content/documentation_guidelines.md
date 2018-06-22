@@ -90,6 +90,8 @@ syntax, and we recommend familiarizing yourself with it.
 
 Here is the table that maps common markdown syntax to the OCamldoc counterpart:
 
+{% raw %}
+
 | Description             | Markdown         | OCamldoc         |
 | ----------------------- | ---------------- | ---------------- |
 | Section header          | `# text`         | `{0 text}`       |
@@ -108,6 +110,8 @@ Here is the table that maps common markdown syntax to the OCamldoc counterpart:
 | Ordered lists           | 1. foo<br/>2. bar<br />3. baz | + foo<br/>+ bar<br />+ baz |
 | Raw HTML                | _Directly_       | `{%html: ... %}` |
 | Images                  | `![alt text](url)` | `{%html: <img src=.../> %}`}
+
+{% endraw %}
 
 Note that OCamldoc _the syntax_ is a different from OCamldoc _the tool_. The
 latter is a documentation generation tool that understands OCamldoc syntax. We
