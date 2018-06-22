@@ -200,5 +200,5 @@
   in the OCaml Manual, 
   - [Common Error Messages](http://ocaml.org/learn/tutorials/common_error_messages.html#The-type-of-this-expression-contains-type-variables-that-cannot-be-generalized) at ocaml.org,
   - ["My function is not polymorphic (enough) ?"](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html#eta_expansion) and subsequent sections in "Frequently asked Questions about Caml".
-  - [Relaxing Value Restriction in OCaml](https://caml.inria.fr/pub/papers/garrigue-value_restriction-fiwflp04.pdf)
+  - [Relaxing the Value Restriction in OCaml](https://caml.inria.fr/pub/papers/garrigue-value_restriction-fiwflp04.pdf)
   
