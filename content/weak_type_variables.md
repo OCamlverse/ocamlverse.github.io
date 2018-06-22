@@ -8,89 +8,125 @@ tags: [learning, types]
 
 All terms of a well-typed program must have a type. The type of a term
 denotes in which context the term could be used. For example, a
-program term `42` has type `int` and could be used anywhere, where
-`int` is accepted. If a term could be used in several different typing
-contexts (i.e., when the type of the term varies), then it is denoted
-by a type variable in the term type. For example, `'a list` denotes a
-term that fits into any place where some list is expected, e.g., `int
-list`, `float list`, etc. We call such types _polymorphic_, as opposed
-to _monomorphic_ types, that are sometimes called _ground_ types.
+program term `42` has type `int` and could be used anywhere where
+`int` is accepted.
 
-In OCaml a type of a term is inferred from its definition. OCaml tries
-to find the most unrestrictive type, i.e., the most general type. For
-example, a term `fun (x,y) -> (y,x)` has type `('a * 'b) -> ('b *
-'a)`.  That is a term, that accepts a term that is a pair of any two
-types, and swaps them.
+If a term could be used in several different typing contexts (i.e.,
+when the type of the term varies), then it is denoted by a type
+variable in the term type. For example, `'a list` denotes a term that
+fits into any place where some list is expected, e.g., `int list`,
+`float list`, etc. We call such types _polymorphic_, as opposed to
+_monomorphic_ types. (Monomorphic types are sometimes called _ground_
+types. These are types without any type variables.)
+
+In OCaml, the type of a term is inferred from its definition. OCaml
+tries to find the most unrestrictive type, i.e., the most general
+type. For example, a term `fun (x,y) -> (y,x)` has type `('a * 'b) ->
+('b * 'a)`.  That is, a term that accepts a term that is a pair of
+_any_ two types, and swaps them.
 
 ## Why so weak?
 
-The problems arise when we have to deal with mutable values. In pure
-languages without mutability, we can treat values as pure mathematical
-objects. This is nice, because all the properties of a mathematical
-object are fully defined by its structure. So our knowledge is static
-and there are no time variables involved. In not so pure languages,
-i.e., in languages that support mutablility, a mutable value is
-represented as a cell of memory, a placeholder. An assignment places a
-real value into the cell (this real value could also be a cell by
-itself, but let's not complicate things any further). We can't allow
-the type of a value in the cell to change along the time, as in the
-statically typed programming languages the type of a term is static,
-i.e., it doesn't change in time. We can't say that this program is
-well-formed _until_ someone puts a value of a wrong type into the
-cell. Of course, OCaml is a statically typed language and it doesn't
-allow a reference to change its type during the time, so after we put
-a value of some type into a cell, the cell type is sealed. But what if
-we put into the cell a value, that can have several types, i.e., a
-value that has polymorphic type. Which type the compiler shall select?
+Problems arise when we have to deal with mutable values.
 
-For example let's consider the following simple program `let x = ref
-None`. The `None` value is pure and has type `'a option`. The `ref`
+In pure languages without mutability, we can treat values as pure
+mathematical objects. This is nice, because all the properties of a
+mathematical object are fully defined by its structure. So, our
+knowledge is static and there are no time variation involved.
+
+In not so pure languages, i.e., in languages that support mutability,
+a mutable value is represented as a cell of memory, a placeholder. An
+assignment places a real value into the cell. (This real value could
+also be a cell by itself, but let's not complicate things any
+further.) We can't allow the type of a value in the cell to change
+along with time, as in a statically typed programming language the
+type of a term is static, i.e., it doesn't change in time.
+
+Thus, a program is not well-typed if someone attempts to put a value
+of the wrong type into the cell. Of course, OCaml is a statically typed
+language and it doesn't allow a reference to change its type over the
+time, so after we put a value of some type into a cell, the cell type
+is sealed.
+
+But, what if we put into the cell a value that can have several types,
+i.e., a value that has polymorphic type? Which type should the compiler
+select?
+
+For example, let's consider the following simple program:
+
+```ocaml
+let x = ref None
+```
+
+The `None` value is pure and has type `'a option`. The `ref`
 value is also pure, and has type `'a -> 'a ref`. However, the `'a ref`
-type has the following representation `type 'a ref = {mutable contents
-: 'a}`. So which type the compiler should give to the value `x`. The
-value put to the reference has type `'a option`, that denotes a whole
-family of types, where no type is better than another. Since compiler
-can't make any choice here, it denotes it by weakening the type
-variable, and ascribing to `x` the following type `'_a option` (modern
-versions of OCaml use `'_weak1` to make it more noticable and
-explicit). Although `'_a` is named "weak type variable" it is not
-actually a variable, but rather an _unknown_ type. What the compiler
-is trying to say is: "this type is monomorphic, because it is mutable,
-but I can't infer its type yet, because I didn't collect enough
-information". Later usages of `x` may provide more insights to the
-compiler, and the weak type variable will be transformed to a ground
-type. E.g., `x := Some 42` will say to the compiler, that `'_a` is
-actualy `int`. This gives us yet another insight on what the weak type
-variable is - it is a delayed concrete type. However, the compiler may
-not delay the decision infinitely, it must decide before the end of
-file, aka compilation unit. Indeed, we do not want other files to
-define what is the type of a variable defined in our file. So, if in
-the scope of a file, the compiler didn't find enough evidences that
-will reveal the true nature of the weak type variable, then an error
-is signaled and we need to intervene and ascribe manually ground types
-for all weak type variables. This is the rare case, when type
-annotation is really required in OCaml.
+type has the following representation:
+
+```ocaml
+type 'a ref = {mutable contents : 'a}
+```
+
+So which type the compiler should give to the value `x`? The value we
+have asked to put intto the reference has type `'a option`, which
+denotes a whole family of types, among which no type is better than
+another.
+
+Since compiler can't make any choice here, it denotes it by weakening
+the type variable, and ascribing to `x` the following type `'_a
+option`. (Modern versions of OCaml use `'_weak1` to make it more
+noticable and explicit.)
+
+Although `'_a` is called a "weak type variable" it is not actually a
+variable, but rather an _unknown_ type. What the compiler is trying to
+say is: "this type must be monomorphic, because it is mutable, but I
+can't infer its type yet, because I haven't yet collected enough
+information." Later uses of `x` may provide more insights to the
+compiler, and the weak type variable will then be transformed to a
+ground type. For example, `x := Some 42` will say to the compiler that
+`'_a` is actualy `int`.
+
+This gives us yet another insight into what a weak type variable is -
+it is a delayed concrete type. However, the compiler may not delay the
+decision indefinitely, it must determine a ground type before the end
+of the file, aka compilation unit. Indeed, because OCaml allows for
+separate compilation, other files cannot provide information to infer
+the type of a variable defined in our file. So, if the compiler cannot
+find enough evidence for the ground type of the weak type variable
+before the end of the file, then an error is signaled, and we need to
+intervene and manually ascribe ground types for the weak type
+variable. This the rare case where a type annotation is actually
+required in OCaml.
 
 ## Why does my immutable value have a weak polymorphic type?
 
-Now it is clear, why references and other mutable values can't have
-polymoprhic type, and why weak variables arise in case if the compiler
-can't infer the ground type for a mutable value. This is reasonable
-limitation and a fair tradeoff - if you need a mutable cell, then type
-it manually (as a courtesy, compiler may type it for you, if it
-can). But unfortunately, this is only the start of the story, as
-compiler may give weak types to terms that do not involve any mutable
-values. Consider the following example. Suppose we have a function
-`let const x y = y`. Why does `const ()` have type `'_a -> '_a`?
+Now it is clear why references and other mutable values can't have
+polymorphic type, and why weak variables arise in case if the compiler
+can't infer the ground type for a mutable value.
+
+This is reasonable limitation and a fair tradeoff - if you need a
+mutable cell, then you may need to type it manually. (As a courtesy,
+the compiler may type it for you if it can.)
+
+But unfortunately, this is only the start of the story, as compiler
+may give weak types to terms that do not involve any mutable
+values. Consider the following example. Suppose we have a function:
+
+```ocaml
+let const x y = y
+```
+
+Why does `const ()` have type `'_a -> '_a`?
 
 The problem is that `const ()` is a partial application. The result of
 a function application is a runtime value called _closure_. Since this
 value will be created only in runtime, the typechecker can't inspect
-it, so it is left beyond its reach, so it should be very pessimistic
-if not to say paranoid, and assume that the closure may create
-arbitrary references and use them to breach the type
-soundnessness. And in this case it is not over precautious, as we
-indeed can breach it, as show below
+it, so it is left beyond its reach. The typechecker needs to be very
+pessimistic (if not paranoid!) and must assume that the closure may
+create arbitrary references and could use them to breach type
+soundness.
+
+And in this case, it is _not_ overcautious, as we indeed can breach
+it, as we show below:
 
 ```ocaml
 let const _ =
@@ -101,67 +137,97 @@ let const _ =
 ```
 
 This function has the same type as the benign `const` function, `'a ->
-'b -> 'b`, however its behavior is quite different. This function adds
+'b -> 'b`. However, its behavior is quite different. This function adds
 a sort of hash-consing/memoization capability. It creates an identity
-function, that reference to a storage, and if the last value is
+function that uses a reference for storage, and, if the last value is
 structurally equal to the current value, the last value is
-returned. Let's suppose that the typechecker would be more lax and
-will give type `'a -> 'a` function `id` in `let id = const ()`. Then
-this function could be applied as follows `id []; id None`. The first
-application of `id` will cache the empty list, while the second
-application will compare an empty list with `None`, that will breach
-the type system. Even funnier, passing references to this function
-will establish unsafe value aliasing, e.g., `let x = ref 0 and y = ref
-3.14 in id x; id y := 0.0` will cause a segmentation fault.
+returned.
 
-Fortunately, nothing like this will happen in the real world, as OCaml
-typechecker will give the weak polymorphic `'_a -> '_a` type to the
-identity function created by the partial application to `const`. And
-although `fun _ x -> x` is totally benign it has the same type as the
-cached version of `const` so for the typechecker they are
-indistinguishable. This basically puts partial applications in the
-same group with references, arrays, hashtables, and other program
-constructs that the type checker will suspect in impurity. In fact,
-computer scientists decided instead to specify a class of program
-terms that are always pure and require all other terms to have the
-monomorphic type and weaken all type variables. They defined this
-class syntactically and called it _values_. Hence the name _value
-restriction_. The name _value_ here has nothing to do with the runtime
-notion of a value, unfortunately this is an example when the locally
-defined terminology leaks out of the context of its definition and
-wreaks havoc around the world. In the context of the type systems, the
-word "value" corresponds to a syntactic class of non-reducible terms,
-in other words to syntactic constructs that are defined on the source
-level, static constants. So the better name would be static
-restriction, that allows only statically defined terms to have
-polymoprhic type. But unfortunately the value restriction is the
-historic name, so let's take it as granted.
+Let's suppose that the typechecker were more lax gave the
+type `'a -> 'a` to function `id` in `let id = const ()`.
+
+Then this function could be applied as follows: `id []; id None`.
+
+The first application of `id` will cache the empty list, while the
+second application will compare an empty list with `None`, and this
+will breach the type system.
+
+Even worse, passing references to this function will establish
+unsafe value aliasing, e.g.:
+
+```ocaml
+let x = ref 0 and y = ref 3.14 in
+  id x;
+  id y := 0.0
+```
+
+will cause a segmentation fault.
+
+Fortunately, nothing like this will happen in the real world, as the
+OCaml typechecker will give the weak polymorphic type `'_a -> '_a` to
+the identity function created by the partial application to
+`const`.
+
+And, although `fun _ x -> x` is totally benign, it has the same type
+as the cached version of `const`, so to the typechecker they are
+indistinguishable.
+
+This basically puts partial applications in the same group as
+references, arrays, hashtables, and other program constructs that the
+type checker must suspect of impurity.
+
+As for the origin of the name "value restriction: computer scientists
+decided to specify a class of program terms that are always pure, and
+to require all other terms to have monomorphic type and weaken all
+type variables associated with them. They defined this class of pure
+terms syntactically, and called it _values_. Hence the name _value
+restriction_.
+
+The word _value_ here has nothing to do with the runtime notion of a
+value. Unfortunately this is an example when locally defined
+terminology leaks out of the context of its definition and wreaks
+havoc around the world.
+
+In the context of the type systems, the word "value" corresponds to a
+syntactic class of non-reducible terms, or in other words, to
+syntactic constructs that are defined on the source level, i.e.,
+static constants. So a better name would be "the static restriction",
+that allows only statically defined terms to have polymoprhic
+type.
+
+But, unfortunately, "the value restriction" is the historic name, so
+we're stuck with it.
 
 ## Relaxed Value Restriction
 
 The value restriction was the first and rather pessimistic restriction
 on value polymorphism, as it allowed only static constants to have a
-polymorphic type. E.g., values such as `[]`, `None`, `fun x ->
-x`. While all other values were considered as possibly impure. The
-good news is thatin OCaml this restriction is relaxed, and besides
-syntactic constants OCaml allows some other classes of expressions to
-be generalized (i.e., to have the polymoprhic type).  First of all,
-OCaml allows polymorphism for _non-expansive_ expressions, where an
-expression is non-expansive if it doesn't have any observable
-side-effects during the evaluation. That basically extends the notion
-of constant from purely syntactic definition (something that looks
-like a constant, is a constant) to semantic definition (something that
-acts like a constant, is a constant). For example, this rule allows
-the following expressions to have polymorphic type: `lazy None`, ` let
-_ = ref None in 1`, and even `assert false`. However, the following
-expression `(fun _ _ -> 0) ()`, will be given a non-polymorphic type
-`'_a -> unit`, since the function `fun _ _ -> 0` can perform some
-observable side-effect (it doesn't, but the typechecker doesn't look
-into the body of a function).
+polymorphic type, e.g. values such as `[]`, `None`, `fun x ->
+x`, while all other values were considered possibly impure.
+
+The good news is that in OCaml, this restriction is relaxed. Besides
+syntactic constants, OCaml allows some other classes of expressions to
+be generalized (i.e., to have polymoprhic type).
+
+First of all, OCaml allows polymorphism for _non-expansive_
+expressions, where an expression is non-expansive if it doesn't have
+any observable side-effects during the evaluation. That basically
+extends the notion of constant from purely syntactic definition
+(something that looks like a constant is a constant) to semantic
+definition (something that acts like a constant is a constant).
+
+For example, this rule allows the following expressions to have
+polymorphic type: `lazy None`, ` let _ = ref None in 1`, and even
+`assert false`.
+
+However, the expression `(fun _ _ -> 0) ()` will be given a
+non-polymorphic type `'_a -> unit`, since the function `fun _ _ -> 0`
+could perform some observable side-effect (it doesn't, but the
+typechecker doesn't look into the body of a function).
 
 ## Subtyping???
 
-Now is the most confusing part, the final bit of laxing the value
+Now comes the most confusing part, the final bit of laxing the value
 restriction is allowing the generalizaton of covariant type
 variables. So how did this happen, that subtyping has any relation to
 the value restriction?  Does OCaml objects break polymorphism and
