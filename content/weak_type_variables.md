@@ -43,11 +43,14 @@ a value in the cell to change with time, as in a statically typed
 programming language the type of a term is static, i.e., the type
 cannot change with time.
 
-Thus, a program is not well-typed if someone attempts to put a value
-of the wrong type into the cell. Of course, OCaml is a statically typed
-language and it doesn't allow a reference to change its type over the
-time, so after we put a value of some type into a cell, the cell type
-is sealed.
+Since the well-typed property is static, the typechecker can't claim
+that a program will be well-typed until some moment in the time, when 
+someone puts a value of a wrong type into a cell and breaks it. In other 
+words, there should not be any temporalities in the typechecker judgments, 
+if a program may break, then the pessimistic assumption is that it will break. 
+Of course since OCaml is a statically typed language, it doesn't allow a 
+reference to change its type over the time, so after we put a value of 
+some type into a cell, the cell type is sealed.
 
 But, what if we put into the cell a value that can have several types,
 i.e., a value that has polymorphic type? Which type should the compiler
