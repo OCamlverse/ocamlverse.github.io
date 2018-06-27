@@ -1,4 +1,8 @@
-# Starting an OCaml app project using Dune
+---
+tags: [learning, quickstart]
+---
+
+# Quickstart an OCaml app project using Dune
 
 (adapted from @bobbypriambodo's post [here](https://medium.com/@bobbypriambodo/starting-an-ocaml-app-project-using-dune-d4f74e291de8))
 
