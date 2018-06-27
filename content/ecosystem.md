@@ -94,6 +94,15 @@ For metaprogramming facilities such as PPX, see [Metaprogramming](metaprogrammin
 ## Protocols
 For support of protocols, see [Protocols](protocols.md)
 
+## Profiling
+
+* [SpaceTime](https://caml.inria.fr/pub/docs/manual-ocaml/spacetime.html) is integrated into the compiler
+and allows profiling of memory allocation.
+* [landmarks](https://github.com/LexiFi/landmarks): a profiling library for OCaml, taking into account both
+memory allocation and CPU time.
+* Standard tools such as [gprof](https://sourceware.org/binutils/docs/gprof/) can also be used to debug OCaml
+programs.
+
 ## Regular Expressions
 
 * [Re](https://github.com/ocaml/ocaml-re)  – a pure OCaml regular expressions library with combinators, supporting several formats (glob, posix, str...)
