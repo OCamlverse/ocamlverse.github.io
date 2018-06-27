@@ -12,7 +12,7 @@ This page describes the current state of the OCaml ecosystem. Please help keep i
 For a list of things currently missing in OCaml's ecosystem, see [Missing Pieces](missing_pieces.md)
 
 ## Standard Libraries
-For an overview of the different stdlib options and recommendations, see [Standard Libraries](standard_libraries.md).
+For an overview of the different standard library options and recommendations, see [Standard Libraries](standard_libraries.md).
 
 ## Data Structures and Common Algorithms
 
