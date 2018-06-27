@@ -29,3 +29,9 @@ Also see [OCaml subtleties](subtleties.md), the [FAQ](http://ocaml.org/learn/faq
   However, the type syntax kind of makes sense if you think about English syntax:  A "passenger
   ship" is a ship that carries passengers.  An `int list` is a list that contains `int`s.
   (You could also write "list of integers" in English, but then you need to add the "of".)
+
+* Why do OCaml's constructors not work like haskell's ie. they can't be curried?
+
+  Originally, there was thought of doing them that way. The implementation was more complicated though,
+  and OCaml's module system makes it hard to deal with them. See the full answer
+  [here](http://caml-list.inria.narkive.com/WUIPH06Z/why-can-t-i-use-constructors-as-functions)
