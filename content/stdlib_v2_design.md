@@ -13,6 +13,9 @@ This is a hypothetical list of modules that would be included in the V2 stdlib:
 
 * List
 * Array
+* BigArray
+* String
+* BigString
 * Map
 * Hashtbl
 * Hashtrie?
