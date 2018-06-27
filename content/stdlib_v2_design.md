@@ -21,11 +21,14 @@ This is a hypothetical list of modules that would be included in the V2 stdlib:
 * Bytes
 * Buffer
 * BigString?
+* Set
 * Map
 * Hashtbl
 * Hashtrie?
 * Stack
+* Heap
 * Queue
+* Dequeue? (see Containers.Data.Dequeue)
 * FQueue (functional queue)?
 * FStack (functional stack)?
 * Vector
@@ -42,13 +45,14 @@ This is a hypothetical list of modules that would be included in the V2 stdlib:
 * Option
 * Result
 * Lazy
+* Pair? (see Containers.CCPair)
 
 ### OS
 
 * Path
 * File
 * Dir
-* IO? (needs to be fleshed out, some from Unix)
+* IO (see [CCIO](https://github.com/c-cube/ocaml-containers/blob/master/src/core/CCIO.mli))
 * Process
 * Mutex
 * Thread
