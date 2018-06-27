@@ -4,17 +4,14 @@ tags: [learning]
 
 # Learning
 
-## Why OCaml?
-
-Some motivation:
-
-* [Why OCaml, why now?](http://spyder.wordpress.com/2014/03/16/why-ocaml-why-now/)
-* [Why OCaml?](http://web.archive.org/web/20140713005224/http://www.mimisbrunnr.net/~munin/blog/why-ocaml.html)
-* [OCaml for the Masses](http://queue.acm.org/detail.cfm?id=2038036)
-* [Why We Use OCaml](https://espertech.wordpress.com/2014/07/15/why-we-use-ocaml/)
-
 ## Beginner
 
+Some motivation for using OCaml can be found [here](http://spyder.wordpress.com/2014/03/16/why-ocaml-why-now/),
+[here](http://web.archive.org/web/20140713005224/http://www.mimisbrunnr.net/~munin/blog/why-ocaml.html),
+[here](http://queue.acm.org/detail.cfm?id=2038036) and
+[here](https://espertech.wordpress.com/2014/07/15/why-we-use-ocaml/).
+
+* The [quickstart](quickstart.md) page to get you up and running as fast as possible.
 * [Quick Start an OCaml project with Dune](quickstart_ocaml_project_dune.md)
 * [The Beginner's Guide to OCaml Beginner's guides](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/)  where X=OCaml.
