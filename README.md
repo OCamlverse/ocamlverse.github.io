@@ -5,6 +5,7 @@ OCamlverse is an effort to document everything worth knowing about
 functional programming language.
 
 * [Community](content/community.md)
+* [Quickstart](content/quickstart.md)
 * [Learning](content/learning.md)
 * [Ecosystem](content/ecosystem.md)
 * [Compiler](content/compiler.md)
