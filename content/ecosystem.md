@@ -86,7 +86,7 @@ For usage of OCaml in hardware design, see [Hardware Design](hardware_design.md)
 For compilation of OCaml to mobile platforms, see [Mobile](mobile.md)
 
 ## Metaprogramming
-For metaprogramming facilities such as PPX, see [Metaprogramming](metaprogramming.md)
+For metaprogramming facilities such as PPX, camlp4 and MetaOCaml see [Metaprogramming](metaprogramming.md)
 
 ## Pretty printing
 * [easy-format](https://github.com/mjambon/easy-format)  – Pretty-printing library for OCaml.
