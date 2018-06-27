@@ -6,6 +6,8 @@ tags: [learning]
 
 ## Why OCaml?
 
+Some motivation:
+
 * [Why OCaml, why now?](http://spyder.wordpress.com/2014/03/16/why-ocaml-why-now/)
 * [Why OCaml?](http://web.archive.org/web/20140713005224/http://www.mimisbrunnr.net/~munin/blog/why-ocaml.html)
 * [OCaml for the Masses](http://queue.acm.org/detail.cfm?id=2038036)
@@ -13,6 +15,7 @@ tags: [learning]
 
 ## Beginner
 
+* [Quick Start an OCaml project with Dune](quickstart_ocaml_project_dune.md)
 * [The Beginner's Guide to OCaml Beginner's guides](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/)  where X=OCaml.
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
