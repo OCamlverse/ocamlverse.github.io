@@ -16,7 +16,7 @@ For an overview of the different standard library options and recommendations, s
 
 ## Data Structures and Common Algorithms
 
-* In effect, a standard library's primary role is providing basic data structures and algorithms. All the standard libraries (Containers, Base, Core and Batteries) provide both.
+* In effect, a standard library's primary role is providing basic data structures and algorithms. All the [standard libraries](standard_libraries.md) (Containers, Base, Core and Batteries) provide both.
 * [OCamlGraph](https://github.com/backtracking/ocamlgraph) is a library for graphs and graph algorithms.
 * [ods](https://github.com/owainlewis/ods) is an algorithm/data structure, though it isn't as fully-featured as the standard libraries.
 
