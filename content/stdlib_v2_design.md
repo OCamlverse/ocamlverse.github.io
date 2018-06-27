@@ -43,8 +43,6 @@ This is a hypothetical list of modules that would be included in the V2 stdlib:
 
 ### OS
 
-Note: we may want to use libuv for cross-platform support here.
-
 * Path
 * File
 * Dir
