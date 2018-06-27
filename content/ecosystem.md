@@ -61,6 +61,12 @@ Several non-compatible modern alternatives are recommended:
 * [OCamlGraph](https://github.com/backtracking/ocamlgraph) is a library for graphs and graph algorithms.
 * [ods](https://github.com/owainlewis/ods) is an algorithm/data structure, though it isn't as fully-featured as the standard libraries.
 
+## Debugging
+
+* OCaml comes with a built-in debugger for the bytecode compiler. You invoke it with the `ocamldebug` command. See [the manual] for more details.
+* The easiest way to debug OCaml code, other than inserting print statements, is choosing bytecode as your compilation target, and using teh OCaml debugger.
+* Additionally, one can use `gdb` to debug native code.
+
 ## Command Line Arguments
 
 * The standard library contains the [Arg](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Arg.html) module, which has a simple syntax for defining command line arguments. However, it uses mutable state for arguments, and doesn't have a built-in way to handle things such as sub-arguments, or argument aliases (long and short) for the same command, though these things can be done.
