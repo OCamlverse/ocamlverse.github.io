@@ -35,3 +35,4 @@ Please contribute! You can:
 They explain the rules for contributing to OCamlverse and how to be a
 good contributor.
 
+* [Design document for Stdlib 2.0](content/stdlib_v2_design.md)
