@@ -8,6 +8,9 @@
 * Keep the underlying machinery for OS interaction stable.
 * Controversial: avoid polymorphic comparison (see Containers, Core)
 
+## Ideas
+These are ideas that may not be doable, but are worth considering:
+
 ## Hypothetical Module List
 
 This is a hypothetical list of modules that would be included in the V2 stdlib:
