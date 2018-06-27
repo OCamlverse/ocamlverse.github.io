@@ -97,19 +97,20 @@ $ opam install merlin ocp-indent jbuilder utop
 
 Using this command, we install:
 
-merlin, available via the ocamlmerlin command, is the tool providing OCaml IDE experience that can
+- `merlin`, available via the `ocamlmerlin` command, is the tool providing OCaml IDE experience that can
 be integrated to your editor. Its features include context-sensitive auto-completion, error-reporting,
 querying type information and documentation, and jumping to definition. Merlin will most likely be used
 by your editor plugins and not you directly.
-ocp-indent, a simple, customizable tool to indent your OCaml source code. As with Merlin, most editor
+- `ocp-indent`, a simple, customizable tool to indent your OCaml source code. As with Merlin, most editor
 plugins also make use of this to indent your code automatically. If you want a more opinionated solution,
 there is also ocamlformat, but it’s still in active development and might not be stable yet.
 You might still want to try it, though.
-jbuilder, the installable library of Dune. The command-line tool is still named after Jbuilder
+- `jbuilder`, the installable library of Dune. The command-line tool is still named after Jbuilder
 currently, but there is plan in motion to adapt it to the new name, which probably will happen soon.
 At the point of this writing, Dune’s latest version is 1.0+beta19.1.
-utop, an improved REPL (toplevel) for OCaml. It is based on lambda-term and supports auto-completion.
+- `utop`, an improved REPL (toplevel) for OCaml. It is based on lambda-term and supports auto-completion.
 In general, I favor utop as our REPL instead of the builtin ocaml, since the former have better UX.
+
 Wait for the install to finish, and our initial setup is done!
 
 ## Dune basics
@@ -379,10 +380,11 @@ It’s necessary to tell utop that we want to evaluate the expression.
 
 In this snippet, we tried opening the Lib, and:
 
-Querying a type of a function;
-Actually invoking a function;
-Partially applying a function; and
-Invoking the partially-applied function with the remaining arguments.
+1. Querying a type of a function;
+2. Actually invoking a function;
+3. Partially applying a function; and
+4. Invoking the partially-applied function with the remaining arguments.
+
 I personally find utop to be a helpful tool when I want to interactively try the
 functions I defined.
 It can give fast feedback on the behavior and the API of the modules,
