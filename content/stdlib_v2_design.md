@@ -5,6 +5,7 @@
 * Keep data structure compatibility.
 * Lay out good principles for API design.
 * Keep the underlying machinery for OS interaction stable.
+* Controversial: avoid polymorphic comparison.
 
 ## Hypothetical Module List
 
