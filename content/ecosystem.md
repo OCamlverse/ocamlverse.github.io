@@ -8,31 +8,77 @@ This page describes the current state of the OCaml ecosystem. Please help keep i
 
 * [The OCaml Platform](ocaml_platform.md): a community endeavor to standardize the infrastructure in the OCaml world.
 
-## Domains
-* [Audio](audio.md)
-* [Build System and Package Management](build_systems.md)
-* [Code Tools](code_tools.md)
-* [Compilers](compilers.md)
-* [Concurrency, Parallelism and Distributed Computing](parallelism.md)
-* [Databases](databases.md)
-* [Editor Support](editor_support.md)
-* [Formal Software Verification](software_verification.md)
-* [File Formats](file_formats.md)
-* [Foreign Function Interface](ffi.md)
-* [Functional Reactive Programming](frp.md)
-* [Graphics](graphics.md)
-* [Hardware Design](hardware_design.md)
-* [Mobile](mobile.md)
-* [Metaprogramming](metaprogramming.md)
-* [Scientific Computing, Machine Learning and Data Science](scientific.md)
-* [Protocols](protocols.md)
-* [Static Analysis](static_analysis.md)
-* [Searching](searching.md)
-* [Systems Programming](systems_programming.md)
-* [Testing](testing.md)
-* [User Interface (GUI/TUI)](ui.md)
-* [Web and Networking](web_networking.md)
-* [Missing Pieces](missing_pieces.md)
+## Audio
+See [Audio](audio.md)
+
+## Build System/Package Management
+See [Build System and Package Management](build_systems.md)
+
+## Code Tools
+See [Code Tools](code_tools.md)
+
+## Compilers
+For compilation tools made in OCaml, see [Compilers](compilers.md)
+
+## Concurrency, Parallelism, Distributed Computing
+See [Concurrency, Parallelism and Distributed Computing](parallelism.md)
+
+## Databases
+See [Databases](databases.md)
+
+## Editor Support
+See [Editor Support](editor_support.md)
+
+## Formal Software Verification
+See [Formal Software Verification](software_verification.md)
+
+## File Formats
+For manipulating different file formats from OCaml, see [File Formats](file_formats.md)
+
+## Foreign Function Interce
+For integrating with C, C++, Python etc., see [Foreign Function Interface](ffi.md)
+
+## Functional Reactive Programming
+See [Functional Reactive Programming](frp.md)
+
+## Graphics
+For graphic libraries, see [Graphics](graphics.md)
+
+## Hardware Design
+For usage of OCaml in hardware design, see [Hardware Design](hardware_design.md)
+
+## Mobile
+For compilation of OCaml to mobile platforms, see [Mobile](mobile.md)
+
+## Metaprogramming
+For metaprogramming facilities such as PPX, see [Metaprogramming](metaprogramming.md)
+
+## Scientific Computing, Machine Learning
+For machine learning, data science and scientific computing, see [Scientific Computing](scientific.md)
+
+## Protocols
+For support of protocols, see [Protocols](protocols.md)
+
+## Static Analysis
+For static analysis using OCaml, see [Static Analysis](static_analysis.md)
+
+## Searching
+For libraries related to search, see [Searching](searching.md)
+
+## Systems Programming
+For low-level systems programming, see [Systems Programming](systems_programming.md)
+
+## Testing Frameworks
+For testing frameworks in OCaml, see [Testing](testing.md)
+
+## User Interface
+For GUIs, TUIs, see [User Interface](ui.md)
+
+## Web and Networking
+For libraries related to web development and networking, see [Web and Networking](web_networking.md)
+
+## Missing Pieces
+For a list of things currently missing in OCaml's ecosystem, see [Missing Pieces](missing_pieces.md)
 
 ## Standard Libraries
 
