@@ -8,75 +8,6 @@ This page describes the current state of the OCaml ecosystem. Please help keep i
 
 * [The OCaml Platform](ocaml_platform.md): a community endeavor to standardize the infrastructure in the OCaml world.
 
-## Audio
-See [Audio](audio.md)
-
-## Build System/Package Management
-See [Build System and Package Management](build_systems.md)
-
-## Code Tools
-See [Code Tools](code_tools.md)
-
-## Compilers
-For compilation tools made in OCaml, see [Compilers](compilers.md)
-
-## Concurrency, Parallelism, Distributed Computing
-See [Concurrency, Parallelism and Distributed Computing](parallelism.md)
-
-## Databases
-See [Databases](databases.md)
-
-## Editor Support
-See [Editor Support](editor_support.md)
-
-## Formal Software Verification
-See [Formal Software Verification](software_verification.md)
-
-## File Formats
-For manipulating different file formats from OCaml, see [File Formats](file_formats.md)
-
-## Foreign Function Interce
-For integrating with C, C++, Python etc., see [Foreign Function Interface](ffi.md)
-
-## Functional Reactive Programming
-See [Functional Reactive Programming](frp.md)
-
-## Graphics
-For graphic libraries, see [Graphics](graphics.md)
-
-## Hardware Design
-For usage of OCaml in hardware design, see [Hardware Design](hardware_design.md)
-
-## Mobile
-For compilation of OCaml to mobile platforms, see [Mobile](mobile.md)
-
-## Metaprogramming
-For metaprogramming facilities such as PPX, see [Metaprogramming](metaprogramming.md)
-
-## Scientific Computing, Machine Learning
-For machine learning, data science and scientific computing, see [Scientific Computing](scientific.md)
-
-## Protocols
-For support of protocols, see [Protocols](protocols.md)
-
-## Static Analysis
-For static analysis using OCaml, see [Static Analysis](static_analysis.md)
-
-## Searching
-For libraries related to search, see [Searching](searching.md)
-
-## Systems Programming
-For low-level systems programming, see [Systems Programming](systems_programming.md)
-
-## Testing Frameworks
-For testing frameworks in OCaml, see [Testing](testing.md)
-
-## User Interface
-For GUIs, TUIs, see [User Interface](ui.md)
-
-## Web and Networking
-For libraries related to web development and networking, see [Web and Networking](web_networking.md)
-
 ## Missing Pieces
 For a list of things currently missing in OCaml's ecosystem, see [Missing Pieces](missing_pieces.md)
 
@@ -107,11 +38,14 @@ Several non-compatible modern alternatives are recommended:
 * [OCamlGraph](https://github.com/backtracking/ocamlgraph) is a library for graphs and graph algorithms.
 * [ods](https://github.com/owainlewis/ods) is an algorithm/data structure, though it isn't as fully-featured as the standard libraries.
 
-## Debugging
+## Audio
+See [Audio](audio.md)
 
-* OCaml comes with a built-in debugger for the bytecode compiler. You invoke it with the `ocamldebug` command. See [the manual] for more details.
-* The easiest way to debug OCaml code, other than inserting print statements, is choosing bytecode as your compilation target, and using teh OCaml debugger.
-* Additionally, one can use `gdb` to debug native code.
+## Build System/Package Management
+See [Build System and Package Management](build_systems.md)
+
+## Code Tools
+See [Code Tools](code_tools.md)
 
 ## Command Line Arguments
 
@@ -121,13 +55,62 @@ Several non-compatible modern alternatives are recommended:
 * Jane Street's Core standard library contains the Command module, which takes a similar approach to Cmdliner.
 * [Minicli](https://github.com/UnixJunkie/minicli)  is a self-described minimalist library for command line parsing.
 
-## String Manipulation
+## Compilers
+For compilation tools made in OCaml, see [Compilers](compilers.md)
 
-* The standard library's String module is somewhat limited currently.
-* Containers has an expanded String module, with iteration functions etc.
-* [AString](https://github.com/dbuenzli/astring): an alternative implementation of expanded string functionality, with less regard for standard library compatibility
-* [Bigstring](https://github.com/c-cube/ocaml-bigstring): allows handling C-style strings of any size as if they were OCaml strings.
-  Built on top of BigArray, and supports memory-mapping.
+## Concurrency, Parallelism, Distributed Computing
+See [Concurrency, Parallelism and Distributed Computing](parallelism.md)
+
+## Databases
+See [Databases](databases.md)
+
+## Debugging
+
+* OCaml comes with a built-in debugger for the bytecode compiler. You invoke it with the `ocamldebug` command. See [the manual] for more details.
+* The easiest way to debug OCaml code, other than inserting print statements, is choosing bytecode as your compilation target, and using teh OCaml debugger.
+* Additionally, one can use `gdb` to debug native code.
+
+## Editor Support
+See [Editor Support](editor_support.md)
+
+## Formal Software Verification
+See [Formal Software Verification](software_verification.md)
+
+## File Formats
+For manipulating different file formats from OCaml, see [File Formats](file_formats.md)
+
+## File Path Manipulation
+* [Fpath](https://github.com/dbuenzli/fpath): Cross-platform path manipulation library.
+
+## Foreign Function Interce
+For integrating with C, C++, Python etc., see [Foreign Function Interface](ffi.md)
+
+## Functional Reactive Programming
+See [Functional Reactive Programming](frp.md)
+
+## Graphics
+For graphic libraries, see [Graphics](graphics.md)
+
+## Hardware Design
+For usage of OCaml in hardware design, see [Hardware Design](hardware_design.md)
+
+## Logging
+
+* [dolog](https://github.com/UnixJunkie/dolog) : simple OCaml logger.
+* [Volt](https://github.com/codinuum/volt) : a variant of Bolt OCaml logging tool.
+* [Logs](http://erratique.ch/software/logs) : provides a logging infrastructure for OCaml.
+
+## Mobile
+For compilation of OCaml to mobile platforms, see [Mobile](mobile.md)
+
+## Metaprogramming
+For metaprogramming facilities such as PPX, see [Metaprogramming](metaprogramming.md)
+
+## Pretty printing
+* [easy-format](https://github.com/mjambon/easy-format)  – Pretty-printing library for OCaml.
+
+## Protocols
+For support of protocols, see [Protocols](protocols.md)
 
 ## Regular Expressions
 
@@ -137,19 +120,28 @@ Several non-compatible modern alternatives are recommended:
 * [Tyre](https://github.com/Drup/tyre)  - Tyre is a set of combinators to build type-safe regular expressions, allowing automatic extraction and modification of matched groups.
 * The standard library contains the [Str](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Str.html) module. This module is __not__ recommended, but its availability in the standard library makes it useful when you don't have access to anything better.
 
-## File Path Strings
-* [Fpath](https://github.com/dbuenzli/fpath): Cross-platform path manipulation library.
+## Scientific Computing and Machine Learning
+For machine learning, data science and scientific computing, see [Scientific Computing](scientific.md)
 
-## Pretty printing
+## Static Analysis
+For static analysis using OCaml, see [Static Analysis](static_analysis.md)
 
-* [easy-format](https://github.com/mjambon/easy-format)  – Pretty-printing library for OCaml.
+## Searching
+For libraries related to search, see [Searching](searching.md)
 
+## String Manipulation
 
-## Logging
+* The standard library's String module is somewhat limited currently.
+* Containers has an expanded String module, with iteration functions etc.
+* [AString](https://github.com/dbuenzli/astring): an alternative implementation of expanded string functionality, with less regard for standard library compatibility
+* [Bigstring](https://github.com/c-cube/ocaml-bigstring): allows handling C-style strings of any size as if they were OCaml strings.
+  Built on top of BigArray, and supports memory-mapping.
 
-* [dolog](https://github.com/UnixJunkie/dolog) : simple OCaml logger.
-* [Volt](https://github.com/codinuum/volt) : a variant of Bolt OCaml logging tool.
-* [Logs](http://erratique.ch/software/logs) : provides a logging infrastructure for OCaml.
+## Systems Programming
+For low-level systems programming, see [Systems Programming](systems_programming.md)
+
+## Testing Frameworks
+For testing frameworks in OCaml, see [Testing](testing.md)
 
 ## Time and Date
 
@@ -158,3 +150,12 @@ Several non-compatible modern alternatives are recommended:
 * [ISO8601](https://github.com/sagotch/ISO8601.ml/) 
 * [calendar](http://calendar.forge.ocamlcore.org/) 
 * [odate](https://github.com/hhugo/odate) 
+
+## User Interface
+For GUIs, TUIs, see [User Interface](ui.md)
+
+## Web and Networking
+For libraries related to web development and networking, see [Web and Networking](web_networking.md)
+
+
+
