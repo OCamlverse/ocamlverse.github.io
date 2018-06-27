@@ -34,4 +34,4 @@ Also see [OCaml subtleties](subtleties.md), the [FAQ](http://ocaml.org/learn/faq
 
   Originally, there was thought of doing them that way. The implementation was more complicated though,
   and OCaml's module system makes it hard to deal with them. See the full answer
-  [here](http://caml-list.inria.narkive.com/WUIPH06Z/why-can-t-i-use-constructors-as-functions)
+  [here](http://caml-list.inria.narkive.com/WUIPH06Z/why-can-t-i-use-constructors-as-functions).
