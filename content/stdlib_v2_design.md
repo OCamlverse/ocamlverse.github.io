@@ -4,6 +4,7 @@
 * Create a more user-friendly, modern interface for OCaml's stdlib.
 * Keep data structure compatibility.
 * Lay out good principles for API design.
+* Apply useful lessons from other stdlibs (Containers, Base, Batteries)
 * Keep the underlying machinery for OS interaction stable.
 * Controversial: avoid polymorphic comparison (see Containers, Core)
 
