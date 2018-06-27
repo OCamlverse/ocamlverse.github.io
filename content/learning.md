@@ -73,7 +73,7 @@ See [Projects](projects.md)
 * [99 problems](http://ocaml.org/learn/tutorials/99problems.html): classic 99 problems, with solutions.
 * [Rosetta Code](http://rosettacode.org/wiki/Category:OCaml)
 * [OCaml at Exercism](http://exercism.io/languages/ocaml)  – Exercism is your place to engage in thoughtful conversations about code. Explore simplicity, idiomatic language features, and expressive readable code.
-  [Solutions](https://github.com/exercism/xocaml Solutions).
+  [Solutions](https://github.com/exercism/xocaml).
 
 ## Books
 
