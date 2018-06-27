@@ -2,7 +2,7 @@
 tags: [learning, quickstart]
 ---
 
-# Quickstart Page
+# Quickstart OCaml
 
 Want to get up and running with OCaml as fast as possible? Here's how.
 
