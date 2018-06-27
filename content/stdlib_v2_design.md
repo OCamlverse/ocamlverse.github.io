@@ -15,19 +15,50 @@ This is a hypothetical list of modules that would be included in the V2 stdlib:
 * Array
 * BigArray
 * String
-* BigString
+* Bytes
+* Buffer
+* BigString?
 * Map
 * Hashtbl
 * Hashtrie?
+* Stack
+* Queue
+* FQueue (functional queue)?
+* FStack (functional stack)?
+* Vector
+* WeakArray? (from Weak)
+* WeakHash? (from Weak)
 
 ### Data Types
 
-* Int/32/64
+* Int/32/64/NativeInt
 * Float
 * Bool
+* Char?
+* Uchar (expanded)
 * Option
 * Result
+* Lazy
 
-### File System
+### OS
 
+Note: we may want to use libuv for cross-platform support here.
+
+* Path
 * File
+* Dir
+* IO? (needs to be fleshed out, some from Unix)
+* Process
+* Mutex
+* Thread
+* Socket (from Unix)
+* Time (from Unix & Sys)
+
+### Utilities
+
+* Arg
+* Marshal
+* Printf (unify with Format?)
+* Random
+* Regex (incorporate ocamlre)
+* Terminal? (from Unix)
