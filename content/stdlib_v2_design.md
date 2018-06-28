@@ -11,6 +11,14 @@
 ## Ideas
 These are ideas that may not be doable, but are worth considering:
 
+### Redesigning channels
+(suggested by @companion-cube)
+Channels as they are right now are simple file handlers.
+While these could remain as low level entities, it would be nice to have a more flexible
+abstraction for a stream, as exists in other languages.
+These streams could wrap each other, allowing for additional capabilities,
+such as compression, buffering, etc.
+
 ## Hypothetical Module List
 
 This is a hypothetical list of modules that would be included in the V2 stdlib:
