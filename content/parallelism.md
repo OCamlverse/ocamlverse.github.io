@@ -28,7 +28,7 @@ Concurrency refers to running multiple computations more-or-less simultaneously,
 As mentioned above, OCaml currently doesn't natively support multiple OS-level OCaml threads running simultaneously. A global lock prevents multiple OCaml threads from running simultaneously.
 
 * The most promising and powerful way to use multicore is with the new [multicore](https://github.com/ocamllabs/ocaml-multicore) branch. This branch uses a parallel garbage collector, which means that OCaml will eventually be able to run on multiple cores in the same process. Note that this branch is not yet ready for real work, but it's rapidly advancing. For more information, consult the [Multicore Wiki](https://github.com/ocamllabs/ocaml-multicore/wiki)
-* By interfacing with external C code through the FFI, OCaml can pass off long-running computations to C threads running at the same time as the OCaml code. This is made easier nowadays due to CTypes (see [ffi](ffi.md))
+* By interfacing with external C code through the FFI, OCaml can pass off long-running computations to C threads running at the same time as OCaml code. This is made easier nowadays due to CTypes (see [ffi](ffi.md))
 * [Parmap](http://rdicosmo.github.io/parmap/)  provides easy-to-use parallel map and fold functions. The library makes use of forking to create short-lived child processes, and memory mapping to feed the data back to the parent process.
 * [ForkWork](https://github.com/mlin/forkwork)  is a simple library for forking child processes to perform work on multiple cores.
 * [Functory](http://functory.lri.fr/About.html)  is a distributed computing library which facilitates distributed execution of parallelizable computations in a seamless fashion.
