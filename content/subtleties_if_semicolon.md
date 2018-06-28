@@ -41,7 +41,7 @@ let buggy_baz x =
     print_string message;
   print_string "done\n"
 ```
-Now let's try it out in `utop`:
+Let's try it out in `utop`:
 ```ocaml
 # buggy_baz 42;;
 high
