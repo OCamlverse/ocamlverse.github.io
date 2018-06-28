@@ -29,7 +29,7 @@ let bar x =
   else print_string "high\n";
   print_string "done\n"
 ```
-This behaves identically to the `foo` function defined above.
+This behaves identically to the `foo` function defined above.  Great.
 
 Next we define a function in which the let is in the second branch of
 the `if`:
