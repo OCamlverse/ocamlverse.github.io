@@ -13,6 +13,7 @@ Also see Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria
 
 * **Semicolons and `if` statements**: TODO (I can fill this
   in later unless someone else is inspired to do it first. -mars0i)
+  See [if with semicolons](subtleties_if_semicolon.md).
 
 * **Weak type variables**: What is "the value restriction"?
   Why do some of my type variables start with underscore?
