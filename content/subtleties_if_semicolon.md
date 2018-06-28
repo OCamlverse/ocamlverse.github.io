@@ -82,6 +82,13 @@ let baz x =
 ```
 These functions will behave identically to the original `foo` function above.
 
-This problem also occurs with a single-branch `if`/`then` expression.
+Note that you have to include a semicolon after the closing `)` or `end`.
+Otherwise you will get a confusing error message:
+```
+Error: This expression has type unit
+       This is not a function; it cannot be applied.
+```
+
+The semicolon problem also occurs with a single-branch `if`/`then` expression.
 `let` will capture anything that's sequenced in whatever happens to be the last 
 `if` clause.
