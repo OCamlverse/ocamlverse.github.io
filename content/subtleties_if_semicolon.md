@@ -1,6 +1,6 @@
 Suppose we have an `if` expression executed for the sake of
-side effects.  With the `else` clause, this is a complete expression; 
-a following semicolon will sequence the next expression so that it
+side effects.  With the `else` clause, this is a complete expression. 
+A subsequent semicolon will sequence the next expression so that it
 is always executed:
 ```ocaml
 let foo n = 
