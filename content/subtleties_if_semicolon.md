@@ -110,8 +110,8 @@ require `let` to have a different behavior when it was placed inside an `if` exp
 ## The solution
 
 Misleading indentation can be avoided by using an in-editor code formatting tool
-such as `ocp-indent`.  See the [Code Tools](https://github.com/OCamlverse/ocamlverse.github.io/blob/master/content/code_tools.md)
-page.
+such as `ocp-indent`.  See the [Editor Tools](https://github.com/OCamlverse/ocamlverse.github.io/blob/master/content/code_tools.md#editor-tools)
+on the Code Tools page.
 
 We can make the code after the semicolon execute *after* the `if` and `let` expressions
 by explicitly delimiting the scope of the inner `let` using parentheses or `begin`/`end`:
