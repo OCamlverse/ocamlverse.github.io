@@ -28,17 +28,17 @@ let foo n =
   if n < 0 
   then print_string "low\n" 
   else print_string "high\n";
-  print_string "done\n"
+  print_string "ok\n"
 ```
 Let's try it out in `utop`:
 ```ocaml
 # foo 42;;
 high
-done
+ok
 - : unit = ()
 # foo (-42);;
 low
-done
+ok
 - : unit = ()
 ```
 So far, so good.  Now we decide to introduce a `let` inside the first,
@@ -49,7 +49,7 @@ let bar x =
   then let message = "low\n" in
     print_string message
   else print_string "high\n";
-  print_string "done\n"
+  print_string "ok\n"
 ```
 This behaves identically to the `foo` function defined above.  Great.
 
@@ -61,19 +61,19 @@ let buggy_baz x =
   then print_string "low\n"
   else let message = "high\n" in
     print_string message;
-  print_string "done\n"
+  print_string "ok\n"
 ```
 Let's try it out in `utop`:
 ```ocaml
 # buggy_baz 42;;
 high
-done
+ok
 - : unit = ()
 # buggy_baz (-42);;
 low
 - : unit = ()
 ```
-What happened to the final "done" output in the second example?
+What happened to the final "ok" output in the second example?
 
 This problem will also occur with a single-branch `if`/`then` expression
 and a `let` in the `then` branch.
@@ -81,9 +81,9 @@ and a `let` in the `then` branch.
 ## Why does the problem occur?
 
 The problem is that the `let` expression captured the final `print_string`.
-OCaml interpreted the semicolon before `print_string "done\n"` as sequencing
+OCaml interpreted the semicolon before `print_string "ok\n"` as sequencing
 it *within* the scope of the `let` expression, rather than after the entire 
-`if`/`then`/`else`.  As a result, `print_string "done\n"` only runs when 
+`if`/`then`/`else`.  As a result, `print_string "ok\n"` only runs when 
 the `else` clause is executed.  
 
 Misleading indentation, as in the example above, can make it difficult to see
@@ -121,7 +121,7 @@ let baz x =
   then print_string "low\n"
   else (let message = "high\n" in
     print_string message);
-  print_string "done\n"
+  print_string "ok\n"
 ```
 Or:
 ```ocaml
@@ -132,7 +132,7 @@ let baz x =
     let message = "high\n" in
     print_string message
   end;
-  print_string "done\n"
+  print_string "ok\n"
 ```
 These functions will behave identically to the original `foo` function above.
 Another solution is to wrap the entire `if` expression in parentheses
