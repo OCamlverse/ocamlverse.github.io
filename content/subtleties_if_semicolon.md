@@ -75,7 +75,7 @@ low
 ```
 What happened to the final "done" output in the second example?
 
-This problem will also occurs with a single-branch `if`/`then` expression
+This problem will also occur with a single-branch `if`/`then` expression
 and a `let` in the `then` branch.
 
 ## Why does the problem occur?
