@@ -4,15 +4,19 @@ tags: [learning]
 
 # `if`, semicolon, and `let`
 
-**tl;dr**: If a `let` expression in the final branch of an `if` expression is followed
-by a semicolon, the `let` expression will include what's after the semicolon.
-One might expect that the semicolon ends the `if` expression, and that the code
-following it will execute *after* the entire `if` expression, but instead that
-code is part of the  `if` expression.  This can introduce subtle bugs, which
-may be difficult to see if indentation makes it look like the code after the
-semicolon is not part of the `if` and `let` expressions.  To instead make the
-semicolon follow the entire `if` with the embedded `let`, wrap the `let` expression
-in parentheses or `begin`/`end`.
+(**tl;dr**) When a `let` expression begins in the final branch of an `if` expression,
+a semicolon will not terminate the `let`; instead the `let` expression will include 
+the code that comes after the semicolon.  One might expect that the semicolon ends the
+`if` expression, and that the code following it will execute *after* the entire `if` expression,
+but instead that code is part of the  `if` expression.  This can introduce subtle bugs because
+the code may behave as expected when the final branch of the `if` executes, but not when it
+doesn't.  Indentation that suggests that the code after the semicolon is not part of the `if` 
+and `let` can also make the bug difficult to see.  To make the semicolon follow the entire `if`
+with the embedded `let`, wrap the `let` expression in parentheses or `begin`/`end`.
+(There may be other ways that `if` and semicolon can generate similar problems, but if so,
+the `let` version of the problem is probably the most common variant.)
+
+----
 
 Suppose we have an `if` expression executed for the sake of
 side effects.  This is a complete expression. A subsequent semicolon
