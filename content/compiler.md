@@ -13,20 +13,22 @@ The OCaml compiler is a complicated software artifact. Below is an attempt to do
 
 ## Interesting Branches of the Compiler
 
-* Multicore OCaml
-* Typed Algebraic Effects
+* [Multicore OCaml](https://github.com/ocamllabs/ocaml-multicore) and its associated
+[wiki](https://github.com/ocamllabs/ocaml-multicore/wiki)
 * [WASM backend](https://github.com/SanderSpies/ocaml/tree/wasm-backend)
+* [Typed Algebraic Effects](https://github.com/lpw25/ocaml-typed-effects)
 
-## Parser
-### ppx
-## Typechecker
-## Lambda
-### Pattern Matching
+## Compiler Internals
+### Parser
+#### ppx
+### Typechecker
+### Lambda
+#### Pattern Matching
 
 * [Compiling Pattern Matching to Good Decision Trees](http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf)
 
-## Flambda
-## Clambda
-## cmm
-### Register Coloring
-## assembly
+### Flambda
+### Clambda
+### cmm
+#### Register Coloring
+### assembly
