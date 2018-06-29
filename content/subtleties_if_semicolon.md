@@ -13,8 +13,8 @@ the code may behave as expected when the final branch of the `if` executes, but 
 doesn't.  Indentation that suggests that the code after the semicolon is not part of the `if` 
 and `let` can also make the bug difficult to see.  To make the semicolon follow the entire `if`
 with the embedded `let`, wrap the `let` expression in parentheses or `begin`/`end`.
-(There may be other ways that `if` and semicolon can generate similar problems, but if so,
-the `let` version of the problem is probably the most common variant.)
+(The apparent problem is a consequence of the normal, useful behavior of `let` interacting
+user expectations for how `if` works.)
 
 ----
 
@@ -79,8 +79,25 @@ it *within* the scope of the `let` expression, rather than after the entire
 `if`/`then`/`else`.  As a result, `print_string "done\n"` only runs when 
 the `else` clause is executed.  Don't let the misleading indentation fool you.
 
-We can fix the problem by explicitly delimiting the scope of `let` using
-parentheses or `begin`/`end`:
+This behavior is really just a consequence of the normal (and useful) scoping
+rule for `let`.  Here's an example in `utop`:
+```ocaml
+# let x = 3 in
+print_int x;
+print_string ",";
+print_int x;
+print_string "\n";;
+3,3
+- : unit = ()
+```
+`let` is designed have a scope that extends past semicolons. (How far? That's a
+bigger question about OCaml syntax more generally.)  The problem is that 
+when the `let` is in the last branch of the `if`, it can be natural to 
+think that the semicolon ends the `if` expression, as it would if the `let` wasn't
+part of the branch.
+
+We can make the code after the semicolon execute *after* the `if` and `let` expressions
+by explicitly delimiting the scope of the inner `let` using parentheses or `begin`/`end`:
 ```ocaml
 let baz x =
   if x < 0
@@ -101,6 +118,8 @@ let baz x =
   print_string "done\n"
 ```
 These functions will behave identically to the original `foo` function above.
+Another solution is to wrap the entire `if` expression in parentheses
+or `begin`/`end`.
 
 Note that you have to include a semicolon after the closing `)` or `end`.
 Otherwise you will get a potentially confusing error message such as this one:
@@ -110,5 +129,6 @@ Error: This expression has type unit
 ```
 
 The semicolon problem also occurs with a single-branch `if`/`then` expression.
-`let` will capture anything that's sequenced in whatever happens to be the last 
-`if` clause.
+The general rule is that `let` will capture anything that's sequenced in whatever happens
+to be the last `if` clause.  This is because the scope of `let` always extends
+as far as it can into subsequent semicolon-delimited expressions.
