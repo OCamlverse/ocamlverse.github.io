@@ -4,7 +4,9 @@ tags: [learning]
 
 # `if`, semicolon, and `let`
 
-(**tl;dr**) When a `let` expression begins in the final branch of an `if` expression,
+## tl;dr
+
+When a `let` expression begins in the final branch of an `if` expression,
 a semicolon will not terminate the `let`; instead the `let` expression will include 
 the code that comes after the semicolon.  One might expect that the semicolon ends the
 `if` expression, and that the code following it will execute *after* the entire `if` expression,
@@ -16,7 +18,7 @@ with the embedded `let`, wrap the `let` expression in parentheses or `begin`/`en
 (The apparent problem is a consequence of the normal, useful behavior of `let` interacting
 user expectations for how `if` works.)
 
-----
+## The problem
 
 Suppose we have an `if` expression executed for the sake of
 side effects.  This is a complete expression. A subsequent semicolon
@@ -39,8 +41,8 @@ low
 done
 - : unit = ()
 ```
-So far, so good.  Now we decide to introduce a `let` inside the first 
-branch of the `if`, like this:
+So far, so good.  Now we decide to introduce a `let` inside the first,
+`then` branch of the `if`, like this:
 ```ocaml
 let bar x =
   if x < 0
@@ -51,8 +53,8 @@ let bar x =
 ```
 This behaves identically to the `foo` function defined above.  Great.
 
-Next we define a function in which the let is in the second branch of
-the `if`:
+Next we define a function in which the let is in the second, `else`, 
+branch of the `if`:
 ```ocaml
 let buggy_baz x =
   if x < 0
@@ -72,6 +74,11 @@ low
 - : unit = ()
 ```
 What happened to the final "done" output in the second example?
+
+This problem will also occurs with a single-branch `if`/`then` expression
+and a `let` in the `then` branch.
+
+## Why does the problem occur?
 
 The problem is that the `let` expression captured the final `print_string`.
 OCaml interpreted the semicolon before `print_string "done\n"` as sequencing
@@ -96,6 +103,8 @@ when the `let` is in the last branch of the `if`, it can be natural for us to
 think that the semicolon ends the `if` expression, as it would if the `let` wasn't
 part of the branch.  However, for `if`, `let` and semicolon to behave *that* way would
 require `let` to have a different behavior when it was placed inside an `if` expression.
+
+## The solution
 
 We can make the code after the semicolon execute *after* the `if` and `let` expressions
 by explicitly delimiting the scope of the inner `let` using parentheses or `begin`/`end`:
@@ -129,7 +138,10 @@ Error: This expression has type unit
        This is not a function; it cannot be applied.
 ```
 
-The semicolon problem also occurs with a single-branch `if`/`then` expression.
+## Summary
+
 The general rule is that `let` will capture anything that's sequenced in whatever happens
 to be the last `if` clause.  This is because the scope of `let` always extends
-as far as it can into subsequent semicolon-delimited expressions.
+as far as it can into subsequent semicolon-delimited expressions.  You can prevent
+this behavior by explicitly delimiting the `let` (or the `if`) using parentheses
+or `begin`/`end`.
