@@ -88,7 +88,8 @@ it *within* the scope of the `let` expression, rather than after the entire
 the `else` clause is executed.  
 
 Misleading indentation, as in the example above, can make it difficult to see
-the problem.
+the problem.  `print_string "ok\n"` should be indented in the same way as the
+line above it.
 
 This behavior is really just a consequence of the normal (and useful) scoping
 rule for `let`.  Here's an example in `utop`:
