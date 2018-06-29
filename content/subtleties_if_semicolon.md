@@ -1,4 +1,18 @@
+---
+tags: [learning]
+---
+
 # `if`, semicolon, and `let`
+
+**tl;dr**: If a `let` expression in the final branch of an `if` expression is followed
+by a semicolon, the `let` expression will include what's after the semicolon.
+One might expect that the semicolon ends the `if` expression, and that the code
+following it will execute *after* the entire `if` expression, but instead that
+code is part of the  `if` expression.  This can introduce subtle bugs, which
+may be difficult to see if indentation makes it look like the code after the
+semicolon is not part of the `if` and `let` expressions.  To instead make the
+semicolon follow the entire `if` with the embedded `let`, wrap the `let` expression
+in parentheses or `begin`/`end`.
 
 Suppose we have an `if` expression executed for the sake of
 side effects.  This is a complete expression. A subsequent semicolon
@@ -21,7 +35,7 @@ low
 done
 - : unit = ()
 ```
-So far, so good.  Now we decide to introduce a `let` inside the first
+So far, so good.  Now we decide to introduce a `let` inside the first 
 branch of the `if`, like this:
 ```ocaml
 let bar x =
@@ -85,7 +99,7 @@ let baz x =
 These functions will behave identically to the original `foo` function above.
 
 Note that you have to include a semicolon after the closing `)` or `end`.
-Otherwise you will get a confusing error message:
+Otherwise you will get a potentially confusing error message such as this one:
 ```
 Error: This expression has type unit
        This is not a function; it cannot be applied.
