@@ -92,9 +92,10 @@ print_string "\n";;
 ```
 `let` is designed have a scope that extends past semicolons. (How far? That's a
 bigger question about OCaml syntax more generally.)  The problem is that 
-when the `let` is in the last branch of the `if`, it can be natural to 
+when the `let` is in the last branch of the `if`, it can be natural for us to 
 think that the semicolon ends the `if` expression, as it would if the `let` wasn't
-part of the branch.
+part of the branch.  (For `if`, `let` and semicolon to behave *that* way would
+require `let` to have a different behavior when it was placed inside an `if` expression.)
 
 We can make the code after the semicolon execute *after* the `if` and `let` expressions
 by explicitly delimiting the scope of the inner `let` using parentheses or `begin`/`end`:
