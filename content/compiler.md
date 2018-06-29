@@ -8,8 +8,8 @@ The OCaml compiler is a complicated software artifact. Below is an attempt to do
 
 ## Articles
 
-[Presentation on OCaml Internals (pdf)](http://ocaml.wikidot.com/local--files/compiler:compiler/OCaml%20Internals.pdf)
-[Exception handling in OCaml](https://stackoverflow.com/questions/8564025/ocaml-internals-exceptions)
+* [Presentation on OCaml Internals (pdf)](http://ocaml.wikidot.com/local--files/compiler:compiler/OCaml%20Internals.pdf)
+* [Exception handling in OCaml](https://stackoverflow.com/questions/8564025/ocaml-internals-exceptions)
 
 ## Interesting Branches of the Compiler
 
