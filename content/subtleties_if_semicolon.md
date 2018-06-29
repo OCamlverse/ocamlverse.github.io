@@ -143,5 +143,5 @@ Error: This expression has type unit
 The general rule is that `let` will capture anything that's sequenced in whatever happens
 to be the last `if` clause.  This is because the scope of `let` always extends
 as far as it can into subsequent semicolon-delimited expressions.  You can prevent
-this behavior by explicitly delimiting the `let` (or the `if`) using parentheses
+this behavior by explicitly delimiting the `let` or the `if` using parentheses
 or `begin`/`end`.
