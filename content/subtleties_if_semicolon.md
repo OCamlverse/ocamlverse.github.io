@@ -84,7 +84,10 @@ The problem is that the `let` expression captured the final `print_string`.
 OCaml interpreted the semicolon before `print_string "done\n"` as sequencing
 it *within* the scope of the `let` expression, rather than after the entire 
 `if`/`then`/`else`.  As a result, `print_string "done\n"` only runs when 
-the `else` clause is executed.  Don't let the misleading indentation fool you.
+the `else` clause is executed.  
+
+Misleading indentation, as in the example above, can make it difficult to see
+the problem.
 
 This behavior is really just a consequence of the normal (and useful) scoping
 rule for `let`.  Here's an example in `utop`:
@@ -105,6 +108,10 @@ part of the branch.  However, for `if`, `let` and semicolon to behave *that* way
 require `let` to have a different behavior when it was placed inside an `if` expression.
 
 ## The solution
+
+Misleading indentation can be avoided by using an in-editor code formatting tool
+such as `ocp-indent`.  See the [Code Tools](https://github.com/OCamlverse/ocamlverse.github.io/blob/master/content/code_tools.md)
+page.
 
 We can make the code after the semicolon execute *after* the `if` and `let` expressions
 by explicitly delimiting the scope of the inner `let` using parentheses or `begin`/`end`:
