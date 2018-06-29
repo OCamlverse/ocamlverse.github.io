@@ -73,7 +73,8 @@ ok
 low
 - : unit = ()
 ```
-What happened to the final "ok" output in the second example?
+Why is the final "ok" output missing in the second example?  This isn't
+what we intended.
 
 This problem will also occur with a single-branch `if`/`then` expression
 and a `let` in the `then` branch.
