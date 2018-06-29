@@ -36,10 +36,10 @@ the `let` expression in parentheses or `begin`/`end`.  For more, see
   This means that your function (or any other value that gets this type) is not really polymorphic, 
 and the compiler doesn't have enough information to infer its concrete type, thus it represents the unknown
 parts of the type with so called "weak type variables", the placeholders the need to be filled in by you.
-(The compiler will do it yourself, if possible, but when you see the weak type in the error produced by 
-the compiler, then it means, that it wasn't possible and your help is needed). 
+(The compiler will do it itself, if possible, but when you see the weak type in the error produced by 
+the compiler, it means that it wasn't possible, and your help is needed). 
 
-  The [Weak Type Variables](weak_type_variables.md) article describes in details why they exists in OCaml and
+  The [Weak Type Variables](weak_type_variables.md) article describes in detail why they exist in OCaml and
 how to cope with them.   
 
 ## Bits of syntax
