@@ -1,3 +1,5 @@
+# `if`, semicolon, and `let`
+
 Suppose we have an `if` expression executed for the sake of
 side effects.  This is a complete expression. A subsequent semicolon
 will sequence the next expression so that it is always executed:
