@@ -2,7 +2,7 @@
 tags: [learning]
 ---
 
-# `if`, semicolon, and `let`
+# if, semicolon, and let
 
 ## tl;dr
 
