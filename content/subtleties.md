@@ -11,9 +11,16 @@ Also see Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria
 
 * **Polymorphic compare**: TODO (bluddy will fill in.)
 
-* **Semicolons and `if` statements**: TODO (I can fill this
-  in later unless someone else is inspired to do it first. -mars0i)
-  See [if with semicolons](subtleties_if_semicolon.md).
+* **Semicolons and `if` statements with `let`**: 
+When a `let` expression begins in the final branch of an `if` expression,
+a semicolon will not terminate the `let`; instead the `let` expression will include 
+the code that comes after the semicolon.  One might expect that the semicolon ends the
+`if` expression, and that the code following it will execute *after* the entire `if` 
+expression, but instead that code is part of the  `if` expression.  This can introduce
+subtle bugs, although it is a consequence of the normal (and useful) scoping rule
+for `let`.  To make the semicolon follow the entire `if` with the embedded `let`, wrap
+the `let` expression in parentheses or `begin`/`end`.  For more, see
+[if with semicolons](subtleties_if_semicolon.md).
 
 * **Weak type variables**: What is "the value restriction"?
   Why do some of my type variables start with underscore?
