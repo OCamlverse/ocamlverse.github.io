@@ -122,7 +122,7 @@ let baz x =
   if x < 0
   then print_string "low\n"
   else (let message = "high\n" in
-    print_string message);
+        print_string message);
   print_string "ok\n"
 ```
 Or:
