@@ -15,6 +15,7 @@ The OCaml compiler is a complicated software artifact. Below is an attempt to do
 
 * Multicore OCaml
 * Typed Algebraic Effects
+* [WASM backend](https://github.com/SanderSpies/ocaml/tree/wasm-backend)
 
 ## Parser
 ### ppx
