@@ -20,6 +20,9 @@ For an OCaml beginner, the recommended editor of choice is Visual Studio code wi
   * [Sublime text package](https://sublime.wbond.net/packages/OCaml%20Autocompletion)
 * [ocp-indent](http://www.typerex.org/ocp-indent.html)  – Indentation tool for OCaml, to be used from editors like Emacs and Vim.
   * [Vim plugin](https://github.com/def-lkb/ocp-indent-vim) .
+  
+* [user-setup](https://github.com/OCamlPro/opam-user-setup) - Automatically configures several editors to use merlin,
+ocp-indent, and ocp-index if they are installed.  (Politely works to avoid messing up your existing configuration, but can occasionally come into conflict with something you already have set up.)  Run `opam install user-setup` and follow the instruction to then run `opam user-setup install`.
 
 ## Developer Tools
 
