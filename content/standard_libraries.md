@@ -37,14 +37,14 @@ Core is more comprehensive than Base.
 standard library, taking the approach of extending the standard library with additional functionality rather than
 replacing it wholesale. It includes many data structures and algorithms. Note that Containers came about as a
 split-off from Batteries.
-* [Bos - Basic OS Interaction](https://github.com/dbuenzli/bos) is an OS interaction layer containing many elements,
+* [BOS - Basic OS Interaction](https://github.com/dbuenzli/bos) is an OS interaction layer containing many elements,
 including file manipulation, command line argument parsing, etc. It fulfills one of the main functionalities of a
 standard library, that being I/O.
 
 ## Recommendations
 Several non-compatible modern alternatives are recommended:
 
-* Containers + stdlib: Containers is a modern extension of the stdlib, and extends it in powerful ways.
-For OS interaction, BOS (see below) is a great fit.
+* Containers + stdlib + BOS: Containers is a modern extension of the stdlib, and extends it in powerful ways.
+For OS interaction, BOS is a great fit.
 * Base + Core: The Jane Street standard libraries eschew the conventions of the stdlib, and present an
 alternative, powerful combination that works particularly well with other Jane Street libraries.
