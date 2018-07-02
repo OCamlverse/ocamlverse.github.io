@@ -124,9 +124,11 @@ For libraries related to search, see [Searching](searching.md)
 
 * The standard library's String module is somewhat limited currently.
 * Containers has an expanded String module, with iteration functions etc.
-* [AString](https://github.com/dbuenzli/astring): an alternative implementation of expanded string functionality, with less regard for standard library compatibility
-* [Bigstring](https://github.com/c-cube/ocaml-bigstring): allows handling C-style strings of any size as if they were OCaml strings.
-  Built on top of BigArray, and supports memory-mapping.
+* [AString](https://github.com/dbuenzli/astring): an alternative implementation of expanded string functionality,
+with less regard for standard library compatibility
+* [Bigstring](https://github.com/c-cube/ocaml-bigstring): allows handling C-style strings of any
+size as if they were OCaml strings.
+Built on top of BigArray, and supports memory-mapping.
 
 ## Systems Programming
 For low-level systems programming, see [Systems Programming](systems_programming.md)
@@ -136,7 +138,10 @@ For testing frameworks in OCaml, see [Testing](testing.md)
 
 ## Time and Date
 
-* [mtime](https://github.com/dbuenzli/mtime): Monotonic time.
+* For short-term timing requirements,
+[Sys.time](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Sys.html) can do the job.
+* [mtime](https://github.com/dbuenzli/mtime): wall-clock monotonic time, and the best choice for
+longer-running timing requirements.
 * [ptime](http://erratique.ch/software/ptime): POSIX time.
 * [ISO8601](https://github.com/sagotch/ISO8601.ml/) 
 * [calendar](http://calendar.forge.ocamlcore.org/) 
