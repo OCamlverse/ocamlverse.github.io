@@ -262,8 +262,8 @@ are denoted with the `-` prefix, e.g., `type (-'a,+'b) fn = 'a ->
 
 The OCaml typechecker will infer the variance automatically if the
 type definition is available. For example, for the `'a -> 'b` type
-OCaml will know without any further ado that `'a` is contravarint and
-`'b` is covariant. But, if a type is abstract, the the only way to
+OCaml will know without any further ado that `'a` is contravariant and
+`'b` is covariant. But, if a type is abstract, then the only way to
 preserve this information is to use the above type annotations. (It is
 also useful to play with variance annotations in the toplevel, to gain
 intuition.)
