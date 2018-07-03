@@ -8,7 +8,8 @@ Hopefully this will direct some users to try create these things.
 
 
 ## Need Help
-The following projects could really use some help and attention in some ways.
+
+The following projects could really use some help and attention:
 
 - GraphQL client. Having [ppx_graphql](https://github.com/andreas/ppx_graphql) support the full
 [GraphQL spec](http://facebook.github.io/graphql/June2018/) opens up the possibility to interact
@@ -18,7 +19,10 @@ with many APIs that expose a GraphQL endpoint including Github.
 [ocaml-elasticsearch](https://github.com/skydeck/ocaml-elasticsearch) is abandoned. 
 
 ## New Projects
-The following projects need to be built from scratch.
+
+The following projects need to be built to allow the ecosystem to grow:
+
+### UI
 
 - Bindings to GTK3
 
