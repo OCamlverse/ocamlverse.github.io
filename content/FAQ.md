@@ -30,7 +30,7 @@ Also see [OCaml subtleties](subtleties.md), the [FAQ](http://ocaml.org/learn/faq
   ship" is a ship that carries passengers.  An `int list` is a list that contains `int`s.
   (You could also write "list of integers" in English, but then you need to add the "of".)
 
-* Why do OCaml's constructors not work like haskell's i.e. they can't be curried?
+* Why do OCaml's constructors not work like Haskell's, i.e. they can't be curried?
 
   Originally, there was thought of doing them that way. The implementation was more complicated though,
   and OCaml's module system makes it hard to deal with them. See the full answer
