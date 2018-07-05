@@ -70,7 +70,7 @@ how to cope with them.
   see in people's code?  What does it mean when there's a percent sign in the 
   middle of a name, as in `let%lwt`? What are extension points?
   
-  See [A Guide to PreProcessor eXtensions](ppx.md).
+  See [A Guide to PreProcessor eXtensions](ppx.md) or [A Tutorial to OCaml -ppx Language Extensions](https://www.victor.darvariu.me/jekyll/update/2018/06/19/ppx-tutorial.html).
 
 * **+'a, -'a**: Why are some type variables prefaced by "+" or "-",
   as in `type +'a t`?
