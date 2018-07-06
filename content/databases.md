@@ -10,8 +10,11 @@ tags: [ecosystem]
 Currently supports MariahDB, PostgreSQL and SQLite3.
 * [Mongo](https://massd.github.io/mongo/): OCaml driver for Mongodb
 * [OCaml-mariahdb](https://github.com/andrenth/ocaml-mariadb): OCaml bindings to MariahDB interface.
-* [PGOCaml](http://pgocaml.forge.ocamlcore.org/): a type-safe interface to PostgreSQL in pure OCaml.
+* [PG'OCaml](http://pgocaml.forge.ocamlcore.org/): a type-safe interface to PostgreSQL in pure OCaml.
+*NOTE:* uses camlp4, which is deprecated.
 * [ppx_pgsql](https://github.com/tizoc/ppx_pgsql): a syntax extension for embedded SQL queries using PG'OCaml.
+* [ezpostgreSQL](https://github.com/bobbypriambodo/ezpostgresql): simple, non-type-safe interface to PostgreSQL.
+Prioritizes simplicity. Wraps around PG'OCaml.
 * [PostgreSQL-OCaml](https://mmottl.github.io/postgresql-ocaml/): a low-level interface to PostgreSQL through the C API (`libpq`).
 * [SQLite3-OCaml](https://github.com/mmottl/sqlite3-ocaml/): OCaml bindings to the SQLite3 database.
 * [Sqlite3EZ](https://mlin.github.io/ocaml-sqlite3EZ/): thin wrapper for SQLite3 with a simplified interface.
