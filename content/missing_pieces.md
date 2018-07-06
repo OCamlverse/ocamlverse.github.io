@@ -9,6 +9,13 @@ If you're looking to contribute to OCaml but not sure where to focus
 your attention, this page should give you some ideas of where the community
 thinks work is needed.
 
+## Documentation
+- [odoc](https://github.com/ocaml/odoc/tree/master/src/odoc) (needs help):
+the new standard documentation tool for OCaml.
+Unfortunately, it still needs some love -- check out the issues.
+This is a great place to contribute since a little effort on the documentation
+front can go a long way.
+
 ## Web and Networking
 
 - HTTP2 (*high priority*): no bindings.
