@@ -55,8 +55,5 @@ machine learning professionals.
 ## Cloud Technology
 
 - [Google Cloud Platform](https://cloud.google.com/apis/): no bindings.
-
-## Messaging 
-
 - [NATS/NATS Streaming](https://nats.io/): no bindings.
 Part of the [Cloud Native Foundation](https://www.cncf.io/) and gaining increased adoption. 
