@@ -9,10 +9,14 @@ If you're looking to contribute to OCaml but not sure where to focus
 your attention, this page should give you some ideas of where the community
 thinks work is needed.
 
+It's worth keeping in mind that making the ecosystem just a little more usable,
+especially at critical points, can have massive implications downstream.
+
 ## Documentation
-- [odoc](https://github.com/ocaml/odoc/tree/master/src/odoc) (needs help):
+
+- [odoc](https://github.com/ocaml/odoc/tree/master/src/odoc) (needs help, *high priority*):
 the new standard documentation tool for OCaml.
-Unfortunately, it still needs some love -- check out the issues.
+Unfortunately, it still needs some love -- check out the Issues.
 This is a great place to contribute since a little effort on the documentation
 front can go a long way.
 
