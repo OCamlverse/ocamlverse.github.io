@@ -27,8 +27,10 @@ Real World OCaml code examples translated from Async to lwt.
 
 * [The blog post that introduced Async](https://blog.janestreet.com/announcing-async/)
 * [A user gives up on Async](http://rgrinberg.com/posts/abandoning-async/)
-* [Cooperative Concurrency in OCaml: A Core.Std.Async Example]
-(http://philtomson.github.io/blog/2014/07/09/core-dot-async-example/).
+* [Cooperative Concurrency in OCaml][cooperative concurrency]: Using Async
+
+[cooperative concurrency]: http://philtomson.github.io/blog/2014/07/09/core-dot-async-example/
+
 
 ## Process Management
 
@@ -76,8 +78,10 @@ a functional parallel skeleton compiler and programming system for OCaml program
 
 ### Articles
 
-* [What is the state of OCaml's parallelization abilities?](http://stackoverflow.com/questions/6588500/what-is-the-state-of-ocamls-parallelization-abilities):
-Note that this article is quite a bit out-of-date.
+* [What is the state of OCaml's parallelization abilities?][parallelization]:
+note that this is quite a bit out-of-date.
+
+[parallelization]: http://stackoverflow.com/questions/6588500/what-is-the-state-of-ocamls-parallelization-abilities
 
 ## Distributed Computing
 
