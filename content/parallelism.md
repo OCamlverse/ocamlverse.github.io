@@ -76,8 +76,7 @@ a functional parallel skeleton compiler and programming system for OCaml program
 
 ### Articles
 
-* [What is the state of OCaml's parallelization abilities?]
-(http://stackoverflow.com/questions/6588500/what-is-the-state-of-ocamls-parallelization-abilities):
+* [What is the state of OCaml's parallelization abilities?](http://stackoverflow.com/questions/6588500/what-is-the-state-of-ocamls-parallelization-abilities):
 Note that this article is quite a bit out-of-date.
 
 ## Distributed Computing
