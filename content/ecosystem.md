@@ -191,7 +191,7 @@ and the best choice for longer-running timing requirements.
 * [odate](https://github.com/hhugo/odate) 
 
 ## User Interface
-For GUIs, TUIs, see [User Interface](ui.md)
+For GUIs and TUIs (Terminal User Interfaces), see [User Interface](ui.md)
 
 ## Web and Networking
 For libraries related to web development and networking,
