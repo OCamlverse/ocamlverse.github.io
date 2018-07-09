@@ -157,14 +157,20 @@ For libraries related to search, see [Searching](searching.md)
 
 ## String Manipulation
 
-* The standard library's String module is somewhat limited currently.
-* Containers has an expanded String module, with iteration functions etc.
-* [AString](https://github.com/dbuenzli/astring): an alternative implementation of
-expanded string functionality,
+* The standard library's String module is somewhat lacking in terms of functionality.
+* [Containers](https://github.com/c-cube/ocaml-containers) has an expanded String module,
+with iteration functions and so on.
+Containers strives to be backwards-compatible with the Stdlib.
+* [AString](https://github.com/dbuenzli/astring):
+another implementation of expanded string functionality,
 with less regard for standard library compatibility
-* [Bigstring](https://github.com/c-cube/ocaml-bigstring): allows handling C-style
-strings of any size as if they were OCaml strings.
+* [Bigstring](https://github.com/c-cube/ocaml-bigstring):
+On 32-bit platforms, OCaml strings are constrained to 20MB sizes.
+This library allows one to handle strings of any sizes, and also
+to handle C-style strings as if they were OCaml strings.
 Built on top of BigArray, and supports memory-mapping.
+* [Bigstring/af](https://github.com/inhabitedtype/bigstringaf):
+another implementation of a string overlay on top of BigArray, with similar benefits.
 
 ## Systems Programming
 For low-level systems programming, see [Systems Programming](systems_programming.md)
