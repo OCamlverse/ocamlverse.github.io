@@ -4,10 +4,15 @@ tags: [ecosystem]
 
 # Testing
 
-* [ppx_expect](https://github.com/janestreet/ppx_expect): a Cram-like framework for OCaml
+* [ppx_expect](https://github.com/janestreet/ppx_expect):
+a Cram-like framework for OCaml, enabled by PPX metaprogramming.
+Write some code that creates output, and then create expectation tests that match
+the output against a canonical version you write.
 * [craml](https://github.com/realworldocaml/craml):
-another cram-like framework, testing the expected output of command-line apps.
-* [Alcotest](https://github.com/mirage/alcotest): a lightweight and colourful test framework.
+another cram-like framework, this one testing the expected output of command-line
+applications instead of code within OCaml.
+* [Alcotest](https://github.com/mirage/alcotest):
+a lightweight and colourful test framework.
 * [OUnit](http://ounit.forge.ocamlcore.org/):
 a unit test framework for OCaml based on HUnit,
 a unit testing framework for Haskell.
