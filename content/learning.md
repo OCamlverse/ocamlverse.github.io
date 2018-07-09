@@ -33,6 +33,14 @@ OCaml can be edited conveniently with many different editors. See [Editor Suppor
 * [OCaml - polymorphic print and type erasure](http://stackoverflow.com/questions/7442449/ocaml-polymorphic-print-and-type-losing)
 * [Weak Type Variables - when impurity breaks polymorphism](weak_type_variables.md)
 
+### The Format Module
+The Stdlib has the [Format](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Format.html)
+module for pretty printing.
+It's a little tricky to get a hang of.
+[This tutorial](https://ocaml.org/learn/tutorials/format.html)
+and [this blog post](https://cedeela.fr/format-all-the-data-structures.html)
+might help.
+
 ### PPX (PreProcessor eXtensions)
 
 * [A Guide to PreProcessor eXtensions](ppx.md)
