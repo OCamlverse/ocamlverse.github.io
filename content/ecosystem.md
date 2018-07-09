@@ -171,6 +171,7 @@ to handle C-style strings as if they were OCaml strings.
 Built on top of BigArray, and supports memory-mapping.
 * [Bigstring/af](https://github.com/inhabitedtype/bigstringaf):
 another implementation of a string overlay on top of BigArray, with similar benefits.
+Emphasizes speed.
 
 ## Systems Programming
 For low-level systems programming, see [Systems Programming](systems_programming.md)
