@@ -17,12 +17,14 @@ Some motivation for using OCaml can be found [here](http://spyder.wordpress.com/
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/)  where X=OCaml.
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
 * [Ocaml file types and filename extensions](https://ocaml.org/learn/tutorials/filenames.html)
-* [OCaml subtleties](subtleties.md)
+* [OCaml subtleties](subtleties.md) are good to watch out for.
 
 ### Best Practices
+
 Several guidelines for best practices have been established by the community. See [Best Practices](best_practices.md).
 
 ### Setting Up Your Editor
+
 OCaml can be edited conveniently with many different editors. See [Editor Support](editor_support.md).
 
 ## Advanced
