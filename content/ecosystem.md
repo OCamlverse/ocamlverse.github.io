@@ -112,6 +112,11 @@ For metaprogramming facilities such as PPX, camlp4 and MetaOCaml,
 see [Metaprogramming](metaprogramming.md)
 
 ## Pretty printing
+* [Format](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Format.html):
+stdlib module using the notion of boxes to lay out pretty-printing commands.
+It's recommended to use one of the abstractions below instead.
+* [fmt](http://erratique.ch/software/fmt):
+pretty-printing library abstracting over the Format module in the stdlib.
 * [easy-format](https://github.com/mjambon/easy-format): a pretty-printing library for OCaml.
 
 ## Protocols
