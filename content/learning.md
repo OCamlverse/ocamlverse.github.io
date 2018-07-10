@@ -39,9 +39,9 @@ OCaml can be edited conveniently with many different editors. See [Editor Suppor
 The Stdlib has the [Format](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Format.html)
 module for pretty printing.
 It's a little tricky to get a hang of.
-[This tutorial](https://ocaml.org/learn/tutorials/format.html)
-and [this blog post](https://cedeela.fr/format-all-the-data-structures.html)
-might help.
+* [Tutorial](https://ocaml.org/learn/tutorials/format.html)
+* [Blog post on Format](https://cedeela.fr/format-all-the-data-structures.html)
+* [Paper](https://hal.archives-ouvertes.fr/hal-01503081/file/format-unraveled.pdf) on Format
 
 ### PPX (PreProcessor eXtensions)
 
