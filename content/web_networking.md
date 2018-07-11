@@ -17,7 +17,12 @@ tags: [ecosystem]
 
 ## Web Frameworks
 
-* [Ocsigen Eliom](http://ocsigen.org/eliom/)  – Eliom is a full-featured multi-tier framework, for developing multi-platform Web and mobile apps as 100% OCaml distributed applications. It can also be used for more traditional Web or mobile apps: Web sites, single page applications, REST API, etc.
+* [Ocsigen Eliom](http://ocsigen.org/eliom/): a full-featured multi-tier framework,
+for developing multi-platform Web and mobile apps as 100% OCaml distributed applications.
+It can also be used for more traditional Web or mobile apps.
+Eliom lets you write client and server code in OCaml, where both are typechecked against
+each other, the client being compiled to JS and the backend to OCaml.
+  * [Thesis on Eliom](https://www.irif.fr/~gradanne/papers/phdthesis.pdf)
 * [webmachine](https://github.com/inhabitedtype/ocaml-webmachine)  – A REST toolkit for OCaml. OCaml webmachine is a layer on top of cohttp that implements a state-machine-based HTTP request processor. It's particularly well-suited for writing RESTful APIs. As the name suggests, this is an OCaml port of the webmachine project.
 * [Ohm](http://ohm-framework.com/)  - Ohm was an open source web framework for the OCaml language which is now dead.
 
