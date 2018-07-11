@@ -4,6 +4,7 @@ tags: [learning, best practices]
 # Optimizing OCaml Performance
 
 ## Writing Efficient Code
+* Use [iterators](iterators.md) instead of allocating data structures where possible.
 * [asm-ocaml](https://www.ocamlpro.com/2016/04/01/asm-ocaml/): A tongue-in-cheek approach to heavily optimizing OCaml.
 Note the date of the post: for our American friends, remember that European dates reverse the month and day :)
 The post starts with the extreme premise of trying to remove all allocation and proceeding from there.
