@@ -98,6 +98,9 @@ For graphic libraries, see [Graphics](graphics.md)
 ## Hardware Design
 For usage of OCaml in hardware design, see [Hardware Design](hardware_design.md)
 
+## Iterators
+See [Iterators](iterators.md)
+
 ## Logging
 
 * [dolog](https://github.com/UnixJunkie/dolog): a simple OCaml logger.
