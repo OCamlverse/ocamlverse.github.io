@@ -38,7 +38,7 @@ does a good job of differentiating them.
 type, which every Stdlib data structure can convert to and from.
 Making use of this iterator type will greatly increase performance when doing
 whole-datastructure operations such as maps.
-* Additionally, the [Standard Libraries](standard_libraries.ml) have their own iterator types which
+* Additionally, the [Standard Libraries](standard_libraries.md) have their own iterator types which
 act similarly.
 * For example, Containers has 2 different iterator types, `gen` and `sequence`, each of which
 works slightly differently.
