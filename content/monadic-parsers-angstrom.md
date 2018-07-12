@@ -85,7 +85,7 @@ let is_whitespace = function
 let whitespace = take_while is_whitespace
 ```
 
-Start utop and have Angstrom available there (TODO: Link to a tutorial on doing this), then paste the above definitions, and we'll get something like this evaluated:
+Start utop and have Angstrom available there ([here is a good tutorial on doing that](quickstart_ocaml_project_dune.md)), then paste the above definitions, and we'll get something like this evaluated:
 
 ```ocaml
 val is_whitespace : char -> bool = <fun>
