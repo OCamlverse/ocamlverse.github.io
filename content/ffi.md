@@ -22,6 +22,11 @@ This method is error prone, and you're advised to stay away from it unless it's 
 * [Pyml](https://github.com/thierry-martinez/pyml): Library for interacting with python. Uses C stubs.
 * [lymp](https://github.com/dbousque/lymp): Another library for interacting with Python, this one using a Python process.
 
+## Rust
+
+* [rust-ocaml-derive](https://github.com/ahrefs/rust-ocaml-derive): provides an FFI with Rust.
+Works on both the OCaml-to-Rust and Rust-to-OCaml directions.
+
 ## Articles
 
 * [Modular foreign function bindings](http://openmirage.org/blog/modular-foreign-function-bindings) with ctypes.
