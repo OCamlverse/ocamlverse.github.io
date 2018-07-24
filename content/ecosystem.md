@@ -86,7 +86,7 @@ For manipulating different file formats from OCaml, see [File Formats](file_form
 ## File Path Manipulation
 * [Fpath](https://github.com/dbuenzli/fpath): a cross-platform path manipulation library.
 
-## Foreign Function Interce
+## Foreign Function Interface
 For integrating with C, C++, Python etc., see [Foreign Function Interface](ffi.md)
 
 ## Functional Reactive Programming
