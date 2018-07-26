@@ -7,7 +7,7 @@ tags: [learning, ecosystem]
 Author: Perry Metzger @pmetzger
 
 > This is a _very very_ rough work in progress. Please help the author
-  improving it.
+  improve it.
 
 OCaml provides a syntactic extension facility known as "PreProcessor
 eXtensions", or **PPX**s. A PPX allows you to add entirely new syntax and
