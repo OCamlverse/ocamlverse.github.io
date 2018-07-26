@@ -23,9 +23,12 @@ on OPAM. Built only for projects that use Dune as a build system.
 
 ## OCaml Build System
 
-* [Dune](https://github.com/ocaml/dune)  (formerly jbuilder) is a fast, easy to use build system for OCaml
+* [dune](https://github.com/ocaml/dune)  (formerly jbuilder) is a fast, easy to use build system for OCaml
 projects, and is seen as the main choice for new projects in OCaml. Dune can handle both OCaml (.ml) and
 Reason (.re) files.
+
+  * [dune-starter](https://github.com/mjambon/dune-starter):
+  a sample project indicating ideal code layout for an OCaml project.
 
 * [ocamlfind](http://projects.camlcity.org/projects/findlib.html)  is a utility similar to //pkg-config//
 that allows local libraries to find each other on your system. You don't need to have much awareness of 
