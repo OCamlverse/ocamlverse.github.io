@@ -25,4 +25,4 @@ tags: [ecosystem]
 * [OWL](https://github.com/owlbarn/owl) : Numerical library, useful for fast linear algebra operations.
 
 ## Functional Reactive Programming
-See [frp.md]
+See [FRP](frp.md)
