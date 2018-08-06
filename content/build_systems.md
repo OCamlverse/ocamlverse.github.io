@@ -2,7 +2,7 @@
 tags: [ecosystem]
 ---
 
-# OCaml Package Management
+# Package Management
 
 * [OPAM](http://opam.ocaml.org/)  is the modern package manager for OCaml. If you want to publish a library
 in OCaml, OPAM is your best and only option, taking care of package dependency and invoking the build system as needed.
@@ -14,12 +14,18 @@ on multiple versions of the compiler.
 Provides filtering for specific package versions, build errors, and package authors.
 * [OPAM for Windows](https://fdopen.github.io/opam-repository-mingw)  - opam repository and experimental
 native build for Windows.
-* [makorel](https://github.com/sagotch/makorel)  – Release OPAM packages easily. (edit: Is this maintained?)
-* [topkg](https://github.com/dbuenzli/topkg)  is a tool that allows you to easily release and maintain
-many OCaml packages at once. A little bit of extra metadata in your repo gives you the ability to use the
-topkg command line tools and manage your authored packages.
+
+## Package Release System
+
 * [dune-release](https://github.com/samoht/dune-release): a tool for managing and releasing a package easily
-on OPAM. Built only for projects that use Dune as a build system.
+on OPAM.
+Built only for projects that use Dune as a build system.
+This is the tool you should use for easily updating your OPAM projects.
+* [topkg](https://github.com/dbuenzli/topkg):
+an alternative, older tool that allows you to easily release and maintain
+many OCaml packages at once.
+A little bit of extra metadata in your repo gives you the ability to use the
+topkg command line tools and manage your authored packages.
 
 ## OCaml Build System
 
