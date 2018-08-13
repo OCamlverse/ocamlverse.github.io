@@ -15,6 +15,12 @@ tags: [ecosystem]
 * [httpaf](https://github.com/inhabitedtype/httpaf) : A high performance web server written in OCaml. Written as a response to a scaling deficiency found in cohttp.
 * [Opium](https://github.com/rgrinberg/opium)  – Sinatra like web toolkit for OCaml.
 
+## HTTP2 Support
+
+OCaml currently does not support HTTP2. However, work is ongoing and the following parts exist:
+
+* [hpack](https://github.com/314eter/ocaml-hpack): Header compression algorithm required for HTTP2.
+
 ## Web Frameworks
 
 * [Ocsigen Eliom](http://ocsigen.org/eliom/): a full-featured multi-tier framework,
