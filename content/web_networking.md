@@ -19,6 +19,7 @@ tags: [ecosystem]
 
 OCaml currently does not support HTTP2. However, work is ongoing and the following parts exist:
 
+* [h2](https://github.com/anuragsoni/h2): HTTP2 types.
 * [hpack](https://github.com/314eter/ocaml-hpack): Header compression algorithm required for HTTP2.
 
 ## Web Frameworks
