@@ -105,9 +105,7 @@ by your editor plugins and not you directly.
 plugins also make use of this to indent your code automatically. If you want a more opinionated solution,
 there is also ocamlformat, but it’s still in active development and might not be stable yet.
 You might still want to try it, though.
-- `jbuilder`, the installable library of Dune. The command-line tool is still named after Jbuilder
-currently, but there is plan in motion to adapt it to the new name, which probably will happen soon.
-At the point of this writing, Dune’s latest version is 1.0+beta19.1.
+- `dune`, the installable library of Dune. At the point of this writing, Dune’s latest version is 1.0.1.
 - `utop`, an improved REPL (toplevel) for OCaml. It is based on lambda-term and supports auto-completion.
 In general, I favor utop as our REPL instead of the builtin ocaml, since the former have better UX.
 
@@ -120,27 +118,25 @@ In this section, we’re going to create a new Dune project.
 The first concept that we’re going to explore is an executable. An executable is, as the name implies,
 a program that can be executed. This is contrast to a library, which we will explore in the later section.
 
-Let’s get started! First, we need to create a `jbuild` configuration file.
+Let’s get started! First, we need to create a `dune` configuration file.
 Make sure you’re in the todolist directory, and create the file with the following contents on your editor:
 
 ```
-(jbuild_version 1)
-
 (executable
-  ((name main)
-    (libraries ()))
+  (name main))
 ```
     
-The file should pretty much be self-explanatory. jbuild files are written using S-expressions
+The file should pretty much be self-explanatory. dune files are written using S-expressions
 (those lisp-y parentheses).
 In this particular file, we note that we’re using version 1 of jbuild specification.
-Each of the top-level elements are called stanzas, and currently we have two stanzas.
+Each of the top-level elements are called stanzas, and currently we have one stanza.
 
 In the executable stanza, the value of name field denotes the module (file) name that contains the
 entry point of the program.
 In this case, we set it to main, meaning that Dune will look for a main.ml file on the
-directory. We also have the libraries field — that is now currently empty — which will be the place
-to list the libraries our executable depends on (more on that in a moment).
+directory. This is a barest minimum of a dune configuration file. We can also have a libraries
+field which will be the place to list the libraries our executable depends on (more on that in a
+moment).
 
 We’re now still missing the required main.ml file, so let’s create one:
 
@@ -153,7 +149,7 @@ This is a simple OCaml program that is going to print a hello world to the conso
 Let’s try to build it via Dune:
 
 ```
-$ jbuilder build main.exe
+$ dune build main.exe
 ```
 
 The build should be instant! This command will create a new directory `_build` containing
@@ -166,7 +162,7 @@ extension on MacOS and Linux.
 After it is built, we can ask Dune to run it:
 
 ```
-$ jbuilder exec main.exe
+$ dune exec ./main.exe
 Hello, world!
 ```
 
@@ -181,14 +177,14 @@ a convention I use as a place to put entry point modules for executables:
 
 ```
 $ mkdir bin
-$ mv jbuild main.ml bin/
+$ mv dune main.ml bin/
 ```
 
 Let’s make sure that it’s all working correctly by cleaning and rebuilding the program:
 
 ```
-$ jbuilder clean
-$ jbuilder exec bin/main.exe
+$ dune clean
+$ dune exec bin/main.exe
 Hello, world!
 ```
 
@@ -214,18 +210,15 @@ our library code:
 $ mkdir lib
 ```
 
-After that, we’ll create another jbuild file inside the lib directory as follows:
+After that, we’ll create another dune file inside the lib directory as follows:
 
 ```
-(jbuild_version 1)
-
 (library
-  ((name lib)
-   (libraries ())))
+  (name lib))
 ```
 
 Observe that instead of executable, we now use the library stanza.
-It also has the field name and libraries just like an executable.
+It also has the field name just like an executable.
 The value you put in the name field will be the identifier that you can use to refer to this library
 from other executables or libraries.
 
@@ -240,15 +233,13 @@ let sub x y = x - y
 
 Nothing too hard here, we only defined the two functions. Now, let’s make our main executable
 depends on this library.
-Open bin/jbuild file on your editor and add lib (the name of your library) to the libraries
+Open bin/dune file on your editor and add lib (the name of your library) to the libraries
 field of your executable:
 
 ```
-(jbuild_version 1)
-
 (executable
- ((name main)
-  (libraries (lib))))
+  (name main)
+  (libraries lib))
 ```
 
 Great!
@@ -256,7 +247,7 @@ Then, let’s first rebuild the project so our editor can pick up and resolve th
 dependency that we just add:
 
 ```
-$ jbuilder build bin/main.exe
+$ dune build bin/main.exe
 ```
 
 (The above step is not really necessary, but if we don’t do it we will see errors on
@@ -282,7 +273,7 @@ We then use functions from the new Math module and print out the results.
 Let’s try it:
 
 ```
-$ jbuilder exec bin/main.exe
+$ dune exec bin/main.exe
 5
 2
 ```
@@ -308,8 +299,8 @@ and leave sub unexposed for now.
 We can do it by defining the following math.mli file inside lib directory:
 
 ```ocaml
-(** [add x y] returns the result of x + y. *)
 val add : int -> int -> int
+(** [add x y] returns the result of x + y. *)
 ```
 
 In this instance, you might consider the comment redundant,
@@ -319,10 +310,13 @@ It gives me that sense of safety: “hey, it’s documented, so it should be saf
 Now, what happens if you leave main.ml as it is and you try to build the project?
 
 ```
-$ jbuilder exec bin/main.exe
+$ dune exec bin/main.exe
 (...some output...)
 File "bin/main.ml", line 6, characters 15-23:
 Error: Unbound value Math.sub
+(...some output...)
+File "lib/math.ml", line 3, characters 4-7:
+Error (warning 32): unused value sub.
 ```
 
 Whoops, the build fails because Math.sub is no longer found!
@@ -335,14 +329,14 @@ Okay, so how could we change the interface file to solve this build failure?
 You would add a declaration of sub! Here’s what you might end up with:
 
 ```ocaml
-(** [add x y] returns the result of x + y. *)
 val add : int -> int -> int
+(** [add x y] returns the result of x + y. *)
 
-(** [sub x y] returns the result of x - y. *)
 val sub : int -> int -> int
+(** [sub x y] returns the result of x - y. *)
 ```
 
-You can try to build and run it with jbuilder exec like we did before,
+You can try to build and run it with `dune exec` like we did before,
 and it will run correctly.
 
 ## Trying out libraries interactively via utop
@@ -355,9 +349,9 @@ so if any of it produces a side-effect on evaluation time
 it will be run on starting the REPL, which may not be what you want.
 
 Let’s have a look on how to use the REPL.
-With Dune and utop installed, let’s invoke jbuilder utop lib.
+With Dune and utop installed, let’s invoke dune utop lib.
 
-The command `jbuilder utop <dir>` is a convenient way to invoke utop while having the
+The command `dune utop <dir>` is a convenient way to invoke utop while having the
 source inside `<dir>` (in this case, lib) automatically built and loaded.
 
 Let’s try out our library (I will only be showing the prompt and result, and not the
