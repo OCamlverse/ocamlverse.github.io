@@ -10,3 +10,8 @@ tags: [ecosystem]
 * [ocaml-fat](https://github.com/mirage/ocaml-fat)  – Read and write FAT format filesystems from OCaml.
 * [ocaml-git](https://github.com/mirage/ocaml-git)  – Pure OCaml low-level git bindings.
 * [ocaml-vchan](https://github.com/mirage/ocaml-vchan)  – Pure OCaml implementation of the "vchan" shared-memory communication protocol.
+
+## Mirage OS Applications
+
+* [Canopy](https://github.com/Engil/Canopy): A blogging MirageOS unikernel based on git.
+Can be compiled to Unix as well.
