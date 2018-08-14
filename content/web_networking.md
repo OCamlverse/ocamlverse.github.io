@@ -4,11 +4,6 @@ tags: [ecosystem]
 
 # Web and Networking
 
-## Example Projects:
-
-* [Cumulus](https://github.com/Cumulus/Cumulus) : Hackernews-like website with the OCaml framework Ocsigen (demo is currently down).
-* [Prose](https://gitlab.com/adrien-n/prose/) : A Google-docs-like collaborative editing application written using Eliom/Ocsigen. See the demo [here](https://prose.yaxm.org/pads/foo-ocaml)
-
 ## HTTP Servers
 
 * [cohttp](https://github.com/mirage/ocaml-cohttp) : A lightweight HTTP server using either Lwt or Async.
@@ -33,6 +28,12 @@ each other, the client being compiled to JS and the backend to OCaml.
   * [Thesis on Eliom](https://www.irif.fr/~gradanne/papers/phdthesis.pdf)
 * [webmachine](https://github.com/inhabitedtype/ocaml-webmachine)  – A REST toolkit for OCaml. OCaml webmachine is a layer on top of cohttp that implements a state-machine-based HTTP request processor. It's particularly well-suited for writing RESTful APIs. As the name suggests, this is an OCaml port of the webmachine project.
 * [Ohm](http://ohm-framework.com/)  - Ohm was an open source web framework for the OCaml language which is now dead.
+
+## Web Apps
+* [Cumulus](https://github.com/Cumulus/Cumulus) : Hackernews-like website with the OCaml framework Ocsigen (demo is currently down).
+* [Prose](https://gitlab.com/adrien-n/prose/) : A Google-docs-like collaborative editing application written using Eliom/Ocsigen. See the demo [here](https://prose.yaxm.org/pads/foo-ocaml)
+* [Canopy](https://github.com/Engil/Canopy): A blogging MirageOS unikernel based on git.
+Can be compiled to Unix as well.
 
 ## Javascript Compiler
 
