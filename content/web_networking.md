@@ -41,6 +41,16 @@ Can be compiled to Unix as well.
   * [commonjs_of_ocaml](https://github.com/AngryLawyer/commonjs_of_ocaml) : Easily import and export CommonJS modules from a js_of_ocaml project.
 * [BuckleScript](https://github.com/bloomberg/bucklescript)  compiles OCaml to Javascript directly, prioritizing readability. The code lives in the Javascript ecosystem and generally requires a Javascript toolchain. ReasonML is enabled by this compiler.
 
+## Virtual DOM
+The browser's Document Object Model is very expensive to manipulate,
+and some frameworks work on making DOM manipulation more efficient.
+
+* [vdom](https://github.com/LexiFi/ocaml-vdom):
+A version of virtual DOM manipulation that goes well with Ocsigen.
+* [incr_dom](https://github.com/janestreet/incr_dom):
+Jane Street's version of virtual DOM,
+backed by the very powerful [Incremental](https://github.com/janestreet/incremental) library.
+
 ## Cloud Computing
 * [aws-s3](https://github.com/andersfugmann/aws-s3): Access to Amazon's Simple Storage Solution (S3)
 
