@@ -53,6 +53,8 @@ backed by the very powerful [Incremental](https://github.com/janestreet/incremen
 
 ## Cloud Computing
 * [aws-s3](https://github.com/andersfugmann/aws-s3): Access to Amazon's Simple Storage Solution (S3)
+* [Google Drive OCamlFuse](https://github.com/astrada/google-drive-ocamlfuse):
+A User file system for Google Drive. Also one of the few ways to sync Google Drive from Linux.
 
 ## Protocol Libraries
 
