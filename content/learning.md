@@ -12,6 +12,7 @@ Some motivation for using OCaml can be found [here](http://spyder.wordpress.com/
 [here](https://espertech.wordpress.com/2014/07/15/why-we-use-ocaml/).
 
 * The [quickstart](quickstart.md) page to get you up and running as fast as possible.
+* Play around with OCaml online using [sketch.sh](https://sketch.sh).
 * [Quick Start an OCaml project with Dune](quickstart_ocaml_project_dune.md)
 * [The Beginner's Guide to OCaml Beginner's guides](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/)  where X=OCaml.
