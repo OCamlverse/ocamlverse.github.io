@@ -51,11 +51,6 @@ A version of virtual DOM manipulation that goes well with Ocsigen.
 Jane Street's version of virtual DOM,
 backed by the very powerful [Incremental](https://github.com/janestreet/incremental) library.
 
-## Cloud Computing
-* [aws-s3](https://github.com/andersfugmann/aws-s3): Access to Amazon's Simple Storage Solution (S3)
-* [Google Drive OCamlFuse](https://github.com/astrada/google-drive-ocamlfuse):
-A User file system for Google Drive. Also one of the few ways to sync Google Drive from Linux.
-
 ## Protocol Libraries
 
 * [tyxml](http://ocsigen.org/tyxml) : build valid html using combinators. Leverages OCaml's type system.
