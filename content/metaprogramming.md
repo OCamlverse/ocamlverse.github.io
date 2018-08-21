@@ -28,6 +28,7 @@ platform for writing efficient, resilient PPX extensions.
 
 ## Other
 
+* [cppo](https://github.com/mjambon/cppo): A simple C++-like preprocessor for OCaml files.
 * [MetaOCaml](http://okmij.org/ftp/ML/MetaOCaml.html)  – an OCaml dialect for multi-stage programming.
 * [Fan](http://thinkinginmeta.com/Fan)  – Fan is a compile-time metaprogramming system for OCaml, originally inspired from Camlp4. It's a combination of OCaml and Lispy Macros. It shares the same concrete syntax with OCaml.
 * [camlp5](http://camlp5.gforge.inria.fr/)  - Camlp5 is a preprocessor-pretty-printer of OCaml.
