@@ -25,6 +25,9 @@ platform for writing efficient, resilient PPX extensions.
 * [ppx_string_interpolate](https://github.com/sheijk/ppx_string_interpolate)  – A simple ppx filter to support string interpolation like `[%str "value of foo is $(foo)"]`.
 * [ppx_monad](https://github.com/rizo/ppx_monad)  – Monad syntax extension for OCaml.
 * [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson)  – A Yojson codec generator for OCaml.
+* [ppx_regex](https://github.com/paurkedal/ppx_regexp): Contains 2 ppx parsers to OCaml [regex](regular_expressions.md) libraries:
+  * ppx_regexp: maps to use Re (untyped regex)
+  * ppx_tyre: maps to use Tyre for typed regex.
 
 ## Other
 
