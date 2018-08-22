@@ -141,22 +141,7 @@ memory allocation and CPU time.
 can also be used to debug OCaml programs.
 
 ## Regular Expressions
-
-* [Re](https://github.com/ocaml/ocaml-re): a pure OCaml regular expressions library
-with combinators, supporting several formats (glob, posix, str...)
-* [ocaml-pcre](https://github.com/mmottl/pcre-ocaml): bindings to the PCRE library
-(perl-compatible regular expressions)
-* [Humane-re](https://github.com/rgrinberg/humane-re): attempts to provide an easy
-interface for 90% of your regex needs.
-This is a binding on top of Re.
-* [Tyre](https://github.com/Drup/tyre): Tyre is a set of combinators to build
-type-safe regular expressions, allowing automatic extraction and modification of
-matched groups.
-* The standard library contains the
-[Str](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Str.html) module.
-This module is __not__ recommended,
-but its availability in the standard library makes it useful when you don't
-have access to anything better.
+See [Regular Rxpressions](regular_expressions.md)
 
 ## Scientific Computing and Machine Learning
 For machine learning, data science and scientific computing,
