@@ -27,6 +27,7 @@ ocp-indent, and ocp-index if they are installed.  (Politely works to avoid messi
 ## Developer Tools
 
 * [utop](https://github.com/diml/utop)  – Universal toplevel for OCaml with support of multiline edition, history, real-time and context sensitive completion, colors, and more. This is a must-install for every OCaml programmer.
+* [sketch.sh](https://sketch.sh/ml): Online tool for playing around with OCaml (most up-to-date version).
 * [Try OCaml](http://try.ocamlpro.com/)  – Try OCaml in your web browser.
 * [codingground](https://www.tutorialspoint.com/compile_ocaml_online.php)  – Compile and execute OCaml code online.
 * [iocaml](https://github.com/andrewray/iocaml)  – An OCaml kernel for the IPython notebook.
