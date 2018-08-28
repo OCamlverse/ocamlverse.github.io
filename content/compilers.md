@@ -22,7 +22,6 @@ Because OCaml is one of the best tools for creating compilers, typecheckers, etc
 * [Quick C-- Target Language](http://www.cminusminus.org/)  - It is now a dead project. [https://github.com/nrnrnr/qc-- Github Repo]. [http://www.cs.tufts.edu/~nr/c--/qc--.html Alternative website].
 * [tis-interpreter](https://github.com/TrustInSoft/tis-interpreter)  - An interpreter for finding subtle bugs in programs written in standard C
 * [Reason](https://reasonml.github.io/)  - Friendly syntax & toolchain for OCaml by Facebook.
-* [Others](http://caml.inria.fr/cgi-bin/hump.en.cgi?sort=0&browse=88)  - Some other compilers implemented in OCaml, quite a few dead now.
 
 # Parser and Lexer Generators:
 
