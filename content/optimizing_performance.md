@@ -39,12 +39,11 @@ Very useful for optimization.
 ## Writing Efficient Code
 
 * Use [iterators](iterators.md) instead of allocating data structures where possible.
+Every standard library now has them, and they reduce the weight of functional data structure allocations.
 * [asm-ocaml](https://www.ocamlpro.com/2016/04/01/asm-ocaml/): A tongue-in-cheek approach to heavily optimizing OCaml.
 Note the date of the post: for our American friends, remember that European dates reverse the month and day :)
 The post starts with the extreme premise of trying to remove all allocation and proceeding from there.
 We don't recommend following this advice, but it's useful for understanding how to write efficient code without Flambda.
 * [GADTs and performance](https://blog.janestreet.com/why-gadts-matter-for-performance/)
-
-## Exception Efficiency
-
-* [How OCaml exceptions are implemented](https://stackoverflow.com/questions/8564025/ocaml-internals-exceptions)
+* [How OCaml exceptions are implemented](https://stackoverflow.com/questions/8564025/ocaml-internals-exceptions):
+Good to know to work efficiently with exceptions.
