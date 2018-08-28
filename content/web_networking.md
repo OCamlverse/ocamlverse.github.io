@@ -14,9 +14,11 @@ tags: [ecosystem]
 
 OCaml currently does not support HTTP2. However, work is ongoing and the following parts exist:
 
-* [h2](https://github.com/anuragsoni/h2): HTTP2 types. [Not usable yet: Still experimenting with the serialization/deserialization]
+* [h2](https://github.com/anuragsoni/h2): HTTP/2 framing. WIP: encoding/decoding of binary streams into HTTP/2 frames using Angstrom and Faraday. Parsing is more or less completed, needs help with serialization using Faraday + adding automated testing.
 * [hpack](https://github.com/314eter/ocaml-hpack): Header compression algorithm required for HTTP2.
-* ALPN (currently only a pull request for [ocaml-tls](https://github.com/mirleft/ocaml-tls/pull/378) and [ocaml-ssl](https://github.com/savonet/ocaml-ssl/pull/38)): A TLS extension necessary for secure HTTP2.
+* ALPN:
+  1. [ocaml-tls](https://github.com/mirleft/ocaml-tls)
+  2. Open pull request for [ocaml-ssl](https://github.com/savonet/ocaml-ssl/pull/38): https://github.com/savonet/ocaml-ssl/pull/38
 
 ## Web Frameworks
 
