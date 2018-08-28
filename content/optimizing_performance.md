@@ -3,7 +3,7 @@ tags: [learning, best practices]
 ---
 # Optimizing OCaml Performance
 
-OCaml benefits from having a very lean runtime representation for a GC-based languages.
+OCaml benefits from having a very lean runtime representation for a GC-based language.
 Other languages that use a tracing GC generally need to allocate a lot more memory to do the same operations.
 This often results in a serious speed boost, since modern architectures are dominated by caching.
 However, this in itself is not always enough:
