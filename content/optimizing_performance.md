@@ -23,8 +23,8 @@ Due to these reasons, it's good to know how to optimize OCaml for performance wh
 is OCaml's built-in optimizer.
 By default, OCaml will compile without Flambda since it takes longer to do so.
 Compiling without Flambda is recommended when running code that isn't performance-sensitive.
-To switch to a compiler with flambda, use opam's `opam switch XXX+flambda` command,
-where XXX refers to a compiler version.
+To switch to a compiler with flambda, use opam's `opam switch X.YY+flambda` command,
+where `X.YY` refers to a compiler version.
 Flambda will try to inline and then optimize code where possible.
 * [Spacetime](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Spacetime.html)
 is an allocation profiler included with OCaml.
