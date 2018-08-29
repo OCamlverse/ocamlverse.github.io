@@ -8,21 +8,34 @@ tags: [ecosystem]
 
 For an OCaml beginner, the recommended editor of choice is Visual Studio code with the ReasonML plugin.
 
-* [VSCode-Reason](https://github.com/reasonml-editor/vscode-reasonml)  is the Reason/OCaml plugin for Visual Studio code. It allows for all the advantages provided by Merlin with the convenience of the VSCode IDE.
-
-* [merlin](https://github.com/ocaml/merlin)  is the main tool used to provide information to editors about OCaml codebases. Note that to provide information, the code must first be compiled. Dune is able to automatically create /.merlin/ files, which are needed to help merlin find the compiled files.
-* [tuareg](https://github.com/ocaml/tuareg)  - OCaml mode for Emacs that can run the toplevel and the debugger within Emacs.
-* [Sublime better ocaml](https://github.com/whitequark/sublime-better-ocaml)  – Better OCaml mode for Sublime Text.
+* [VSCode-Reason](https://github.com/reasonml-editor/vscode-reasonml):
+the Reason/OCaml plugin for Visual Studio code.
+It allows for all the advantages provided by Merlin with the convenience of the VSCode IDE.
+* [merlin](https://github.com/ocaml/merlin):
+the main tool used to provide information to editors about OCaml codebases.
+Note that to provide information, the code must first be compiled.
+Dune is able to automatically create /.merlin/ files, which are needed to help merlin find the compiled files.
+* [tuareg](https://github.com/ocaml/tuareg):
+OCaml mode for Emacs that can run the toplevel and the debugger within Emacs.
+* [Sublime better ocaml](https://github.com/whitequark/sublime-better-ocaml):
+better OCaml mode for Sublime Text.
   * [Sublime text package](https://github.com/def-lkb/sublime-text-merlin)
-* [ocp-index](http://www.typerex.org/ocp-index.html)  – Easy access to the interface information of installed OCaml libraries. a few standalone tools:
-  * [ocp-browser](http://www.typerex.org/ocp-index.html#ocp-browser)  – Small ncurses-based API and documentation browser.
-  * [ocp-index-top](https://github.com/reynir/ocp-index-top)  – Toplevel directive for looking up documentation using ocp-index.
-  * [Sublime text package](https://sublime.wbond.net/packages/OCaml%20Autocompletion)
-* [ocp-indent](http://www.typerex.org/ocp-indent.html)  – Indentation tool for OCaml, to be used from editors like Emacs and Vim.
-  * [Vim plugin](https://github.com/def-lkb/ocp-indent-vim) .
+* [ocp-index](http://www.typerex.org/ocp-index.html):
+Easy access to the interface information of installed OCaml libraries.
+Contains a few standalone tools:
+  * [ocp-browser](http://www.typerex.org/ocp-index.html#ocp-browser):
+  Excellent, easily accessible ncurses-based API and documentation browser.
+  Available independently on OPAM.
+  * [ocp-index-top](https://github.com/reynir/ocp-index-top):
+  toplevel directive for looking up documentation using ocp-index.
+* [ocp-indent](http://www.typerex.org/ocp-indent.html):
+indentation tool for OCaml, to be used from editors like Emacs and Vim.
+  * [Vim plugin](https://github.com/def-lkb/ocp-indent-vim)
   
-* [user-setup](https://github.com/OCamlPro/opam-user-setup) - Automatically configures several editors to use merlin,
-ocp-indent, and ocp-index if they are installed.  (Politely works to avoid messing up your existing configuration, but can occasionally come into conflict with something you already have set up.)  Run `opam install user-setup` to install it, and then follow the instructions, which tell you to run `opam user-setup install`. (Note different order of terms.)
+* [user-setup](https://github.com/OCamlPro/opam-user-setup):
+automatically configures several editors to use merlin, ocp-indent, and ocp-index if they are installed.
+Run `opam install user-setup` to install it, and then follow the instructions,
+which tell you to run `opam user-setup install`.
 
 ## Developer Tools
 
@@ -34,6 +47,8 @@ ocp-indent, and ocp-index if they are installed.  (Politely works to avoid messi
 * [ocamlbrowser](http://caml.inria.fr/pub/docs/manual-ocaml/browser.html)  – A source and compiled interface browser, written using LablTk. Included in the standard distribution for ocaml <= 4.01 and with labltk for ocaml >= 4.02.
 * [ghim](https://github.com/samoht/ghim)  – A command-line tool to manage Github Issues.
 * [OCaml Yeoman Generator](https://github.com/mabrasil/generator-ocaml)  – Yeoman generator to scaffold OCaml modules.
+* [Dead Code Analyzer](https://github.com/LexiFi/dead_code_analyzer):
+OCaml dead code analysis.
 
 ## Code Coverage
 
