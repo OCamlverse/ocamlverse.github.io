@@ -48,3 +48,9 @@ We don't recommend following this advice, but it's useful for understanding how 
 * [GADTs and performance](https://blog.janestreet.com/why-gadts-matter-for-performance/)
 * [How OCaml exceptions are implemented](https://stackoverflow.com/questions/8564025/ocaml-internals-exceptions):
 Good to know to work efficiently with exceptions.
+* [Performance and Profiling](https://ocaml.org/learn/tutorials/performance_and_profiling.html):
+Some good information about OCaml's internals.
+* [Owl](https://github.com/owlbarn/owl):
+a scientific computing library that accelerates mathematical code.
+If you're considering writing code that's heavy in floating point math,
+you should be using Owl.
