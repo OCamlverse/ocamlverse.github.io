@@ -150,6 +150,10 @@ a.button {
     color: initial;
 }
 
+#searchbar {
+   float: right;
+}
+
 /* Drop the sidebar on small screens */
 @media screen and (max-width: 600px){
    .sidebar {
