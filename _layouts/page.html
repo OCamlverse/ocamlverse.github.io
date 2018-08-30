@@ -52,8 +52,6 @@
 
 <div class="below_header_box">
   <div class="sidebar">
-    <input id="searchbar" type="text" placeholder="Search...">
-    
     <h4>Table of Contents</h4>
     
     {% include toc.html html=content %}
@@ -76,6 +74,8 @@
 
   <!-- MAIN CONTENT -->
   <div class="non-sidebar">
+    <input id="searchbar" type="text" placeholder="Search...">
+    
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
