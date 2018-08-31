@@ -32,6 +32,7 @@ Prioritizes simplicity. Wraps around PostgreSQL-OCaml.
 ## Ocaml Databases
 
 * [Irmin](https://github.com/mirage/irmin): a distributed database that follows the same design principles as Git.
+  * A fairly through tutorial for Irmin can be found [here](https://zshipko.github.io/irmin-tutorial/Introduction.html).
 * [Obigstore](http://obigstore.forge.ocamlcore.org/): a database with BigTable-like data model atop LevelDB.
 * [RunOrg](https://github.com/RunOrg/RunOrg): a WIP database server written in OCaml.
 * [Arakoon](https://github.com/openvstorage/arakoon): a consistent distributed key-value store built on top of Tokyo Cabinet.
