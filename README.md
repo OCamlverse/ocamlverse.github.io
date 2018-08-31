@@ -16,7 +16,8 @@ functional programming language.
 
 ---
 
-Want to contribute to the OCaml community look at some of the main
+Want to contribute to the OCaml community?
+Look at some of the main
 [missing pieces](content/missing_pieces.md) and see if you can help.
 
 ## About OCamlverse
