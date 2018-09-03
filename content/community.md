@@ -24,7 +24,7 @@ contains both news and discussions about OCaml, but tends to have minimal traffi
 * [The OCaml github page](https://github.com/ocaml/ocaml):
 where development and some discussion on the internals of the OCaml language takes place.
 * [OCaml Mantis](https://caml.inria.fr/mantis/main_page.php):
-Bugs with the compiler, runtime or langauge are reported here rather than on github.
+Bugs with the compiler, runtime or language are reported here rather than on github.
 You'll need to sign up for an account.
 
 ## OCaml News
