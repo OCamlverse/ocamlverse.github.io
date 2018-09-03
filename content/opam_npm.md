@@ -1,4 +1,5 @@
-tags: package_management, quickstart
+---
+tags: [package_management, quickstart]
 ---
 
 # OPAM for npm/yarn users
