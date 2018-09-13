@@ -31,7 +31,7 @@ module Int_Set = struct
   let rec is_element i (set : t) =
     match set with
     | [] -> false
-    | x :: xs -> if x = i then true else is_element i xs
+    | x :: xs -> x = i || is_element i xs
 
   let add i set = if is_element i set then set else i :: set
 end
@@ -146,7 +146,7 @@ Then we define the general signature for a set module:
 module type SET = sig
   type elt
   type t
-  val empty
+  val empty : t
   val is_element : elt -> t -> bool
   val add : elt -> t -> t
 end
@@ -166,7 +166,7 @@ module Make_Set (Elt : EQ) : SET with type elt = Elt.t = struct
   let rec is_element i set =
     match set with
     | [] -> false
-    | x :: xs -> if Elt.eq x i then true else is_element i xs
+    | x :: xs -> Elt.eq x i || is_element i xs
 
   let add i set = if is_element i set then set else i :: set
 end
