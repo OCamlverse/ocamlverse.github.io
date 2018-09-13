@@ -30,6 +30,10 @@ OCaml can be edited conveniently with many different editors. See [Editor Suppor
 
 ## Advanced
 
+### Modules and Functors
+
+* [A Very Basic Introduction to Functors](functors.md)
+
 ### Polymorphism
 
 * [OCaml polymorphism examples](http://stackoverflow.com/questions/14440531/ocaml-polymorphism-example-other-than-template-function)
