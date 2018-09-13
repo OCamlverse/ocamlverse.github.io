@@ -10,7 +10,7 @@ Good documentation on the module system and functors is given here:
 
 We'll explain how modules and functors work with a simple example.
 
-## Modules.
+## Modules
 
 Imagine that you want to define the notion of sets of `int` with one
 predefined value and two functions on it:
@@ -72,7 +72,7 @@ Int_Set.add 3 (2 :: s);;
 
 The solution is to use what is called an *abstract* type.
 
-## Signatures.
+## Signatures
 
 When you define a module, the compiler automatically infers its type
 or its *signature*. For the module defined above, the toplevel
@@ -124,11 +124,11 @@ preserve an invariant, but what do we do if we want to *generalize*
 this notion to have sets over other types without repeating ourselves?
 That's where *functors* come into play.
 
-## Functors.
+## Functors
 
-In the same way that functions are used to *construct* new values from
-a given one, functors are used to *construct* new modules from a given
-one.
+In the same way that functions are used to *construct* new values
+given other values as parameters, functors are used to *construct* new
+modules given other modules as parameters.
 
 First, as in our `int` case, to define sets for a given type we need
 to know when two values are equal. So we define this signature:
@@ -140,9 +140,9 @@ module type EQ = sig
 end
 ```
 
-Then then we define the general signature for a set module:
+Then we define the general signature for a set module:
 
-```
+```ocaml
 module type SET = sig
   type elt
   type t
@@ -177,7 +177,7 @@ The code is mostly the same as before, except in the function
 given by the parameter of the functor.
 
 Now, with this *generic* way to construct module of sets, we can
-easily redifine our previous module:
+easily redefine our previous module:
 
 ```ocaml
 module Abstract_Int_Set = Make_Set (struct type t = int let eq = (=) end)
