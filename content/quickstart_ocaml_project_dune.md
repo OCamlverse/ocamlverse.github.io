@@ -4,7 +4,7 @@ tags: [learning, quickstart]
 
 # Quickstart an OCaml app project using Dune
 
-(adapted from @bobbypriambodo's post [here](https://medium.com/@bobbypriambodo/starting-an-ocaml-app-project-using-dune-d4f74e291de8) )
+(adapted from @bobbypriambodo's post [here](https://medium.com/@bobbypriambodo/starting-an-ocaml-app-project-using-dune-d4f74e291de8))
 
 Apr 3, 2018
 
@@ -170,7 +170,8 @@ Hello, world!
 
 Great! The program is working correctly.
 
-**IMPORTANT**: Note that since Dune 1.0+beta18, **exec command also implies build**, so going forward we will mostly only use exec to build and run our program.
+**IMPORTANT**: Note that since Dune 1.0+beta18, **exec command also implies build**, so going 
+forward we will mostly only use exec to build and run our program.
 
 You might notice that currently, our created files reside at the root of the project directory.
 In most cases, this is not desirable since the project root is reserved for project metadata
