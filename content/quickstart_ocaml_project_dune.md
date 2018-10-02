@@ -168,7 +168,7 @@ Hello, world!
 
 Great! The program is working correctly.
 
-**IMPORTANT**: Note that since Dune 1.0+beta18, **exec command also implies build**, so going 
+**IMPORTANT**: Note that **Dune exec command also implies build**, so going 
 forward we will mostly only use exec to build and run our program.
 
 You might notice that currently, our created files reside at the root of the project directory.
