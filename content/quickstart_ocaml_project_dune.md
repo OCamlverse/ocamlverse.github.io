@@ -6,8 +6,6 @@ tags: [learning, quickstart]
 
 (adapted from @bobbypriambodo's post [here](https://medium.com/@bobbypriambodo/starting-an-ocaml-app-project-using-dune-d4f74e291de8))
 
-Apr 3, 2018
-
 Let's explore how to start building an OCaml project. The project we will be building is a To-Do List app,
 which connects to a PostgreSQL database as its datastore.
 However, this post will only cover initializing and bootstrapping the project.
