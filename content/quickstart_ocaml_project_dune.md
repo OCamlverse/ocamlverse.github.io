@@ -4,7 +4,9 @@ tags: [learning, quickstart]
 
 # Quickstart an OCaml app project using Dune
 
-(adapted from @bobbypriambodo's post [here](https://medium.com/@bobbypriambodo/starting-an-ocaml-app-project-using-dune-d4f74e291de8))
+(adapted from @bobbypriambodo's post [here](https://medium.com/@bobbypriambodo/starting-an-ocaml-app-project-using-dune-d4f74e291de8) )
+
+Apr 3, 2018
 
 Let's explore how to start building an OCaml project. The project we will be building is a To-Do List app,
 which connects to a PostgreSQL database as its datastore.
@@ -92,7 +94,7 @@ Neat! This will, among others, make sure that opam-installed libraries are avail
 Next up, we’re going to install some tools via opam:
 
 ```
-$ opam install merlin ocp-indent jbuilder utop
+$ opam install merlin ocp-indent dune utop
 ```
 
 Using this command, we install:
@@ -166,8 +168,9 @@ $ dune exec ./main.exe
 Hello, world!
 ```
 
-Great! The program is working correctly. Note that since Dune 1.0+beta18, exec command also
-implies build, so going forward we will mostly only use exec to build and run our program.
+Great! The program is working correctly.
+
+**IMPORTANT**: Note that since Dune 1.0+beta18, **exec command also implies build**, so going forward we will mostly only use exec to build and run our program.
 
 You might notice that currently, our created files reside at the root of the project directory.
 In most cases, this is not desirable since the project root is reserved for project metadata
