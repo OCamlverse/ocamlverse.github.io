@@ -8,6 +8,8 @@ tags: [ecosystem]
 
 * [yojson](https://github.com/mjambon/yojson):
 an optimized parsing and printing library for the JSON format.
+    * [yojson_ppx](https://github.com/NathanReb/ppx_yojson):
+    use yojson more easily with a PPX writer.
 * [jsonm](http://erratique.ch/software/jsonm):
 non-blocking streaming JSON codec for OCaml.
 * [biniou](https://github.com/mjambon/biniou): 
