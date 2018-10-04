@@ -19,14 +19,16 @@ see [Standard Libraries](standard_libraries.md).
 
 ## Data Structures and Common Algorithms
 
-* In effect, a standard library's primary role is providing basic
+* A major part of a standard library's role is providing basic
 data structures and algorithms.
 All the [standard libraries](standard_libraries.md)
 (Containers, Base, Core and Batteries) provide both.
 * [OCamlGraph](https://github.com/backtracking/ocamlgraph) is a library for
 graphs and graph algorithms.
-* [ods](https://github.com/owainlewis/ods) is an algorithm/data structure,
+* [ods](https://github.com/owainlewis/ods) is an algorithm/data structure library,
 though it isn't as fully-featured as the standard libraries.
+* [Discrete Interval Encoding Trees](https://github.com/djs55/ocaml-diet):
+Useful for storing interval sets and testing membership efficiently.
 
 ## Audio
 See [Audio](audio.md)
