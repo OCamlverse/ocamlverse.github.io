@@ -29,6 +29,8 @@ graphs and graph algorithms.
 though it isn't as fully-featured as the standard libraries.
 * [Discrete Interval Encoding Trees](https://github.com/djs55/ocaml-diet):
 Useful for storing interval sets and testing membership efficiently.
+* [Interval](https://github.com/Chris00/ocaml-interval):
+An interval arithmetic library.
 
 ## Audio
 See [Audio](audio.md)
