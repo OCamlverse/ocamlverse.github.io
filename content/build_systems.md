@@ -36,6 +36,9 @@ Reason (.re) files.
 
   * [dune-starter](https://github.com/mjambon/dune-starter):
   a sample project indicating ideal code layout for an OCaml project.
+  * [dune-configurator](https://github.com/ocaml/dune/blob/master/doc/configurator.rst):
+  a tool similar to configure scripts that can query the state of a given system at the library level
+  and produce configuration files to build differently based on said configuration.
 
 * [ocamlfind](http://projects.camlcity.org/projects/findlib.html)  is a utility similar to //pkg-config//
 that allows local libraries to find each other on your system. You don't need to have much awareness of 
