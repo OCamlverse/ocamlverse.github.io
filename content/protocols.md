@@ -3,15 +3,20 @@ tags: [ecosystem]
 ---
 
 # Protocols
-
-* [ocaml-zmq](https://github.com/issuu/ocaml-zmq)  – ZeroMQ bindings for OCaml.
-* [async-zmq](https://github.com/rgrinberg/async-zmq)  – Async wrapper around ocaml-zmq.
-* [lwt-zmq](https://github.com/hcarty/lwt-zmq)  – Lwt-friendly interface to ZeroMQ for OCaml.
 * [onanomsg](https://github.com/rgrinberg/onanomsg)  – nanomsg bindings for OCaml.
 * [Kafka](https://github.com/didier-wenzek/ocaml-kafka)  – OCaml bindings for Apache Kafka.
 * [AMQP](https://github.com/andersfugmann/amqp-client)  – AMQP client library for Async and Lwt.
 * [MPI](https://github.com/xavierleroy/ocamlmpi)  – Message Passing Interface bindings for OCaml.
 * [MQTT](https://github.com/j0sh/ocaml-mqtt)  – OCaml implementation of the MQTT pubsub protocol.
+
+## ZeroMQ
+* [ocaml-zmq](https://github.com/issuu/ocaml-zmq)  – ZeroMQ bindings for OCaml.
+* [async-zmq](https://github.com/rgrinberg/async-zmq)  – Async wrapper around ocaml-zmq.
+* [lwt-zmq](https://github.com/hcarty/lwt-zmq)  – Lwt-friendly interface to ZeroMQ for OCaml.
+
+## Protobuf
+* [protoc](https://github.com/mransan/ocaml-protoc): Compiler from protobuf files to OCaml types.
+* [ppx_deriving_protobuf](https://github.com/ocaml-ppx/ppx_deriving_protobuf): Derive Protobuf files from OCaml types.
 
 # Security and Cryptography
 
