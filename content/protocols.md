@@ -18,6 +18,10 @@ tags: [ecosystem]
 * [protoc](https://github.com/mransan/ocaml-protoc): Compiler from protobuf files to OCaml types.
 * [ppx_deriving_protobuf](https://github.com/ocaml-ppx/ppx_deriving_protobuf): Derive Protobuf files from OCaml types.
 
+## Capn-Proto
+* [capnp-ocaml](https://github.com/capnproto/capnp-ocaml): Code generator for cap'n-proto.
+* [capnp-rpc](https://github.com/mirage/capnp-rpc): RPC implemented over cap'n-proto.
+
 # Security and Cryptography
 
 * [ocaml-tls](https://github.com/mirleft/ocaml-tls)  – TLS in pure OCaml.
