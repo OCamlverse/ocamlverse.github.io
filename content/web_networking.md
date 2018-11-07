@@ -56,6 +56,7 @@ backed by the very powerful [Incremental](https://github.com/janestreet/incremen
 ## Protocol Libraries
 
 * [tyxml](http://ocsigen.org/tyxml) : build valid html using combinators. Leverages OCaml's type system.
+* [omd](https://github.com/ocaml/omd): convert Markdown to html.
 * [ocurl](https://github.com/ygrek/ocurl) : OCaml bindings to libcurl.
 * [ocaml-dns](https://github.com/mirage/ocaml-dns)  – A pure OCaml implementation of the DNS protocol.
 * [udns](https://github.com/roburio/udns): An opinionated DNS server library written in pure OCaml.
