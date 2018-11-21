@@ -63,6 +63,9 @@ It's a little tricky to get a hang of.
 * [Cornell's CS 3110 Lecture about monads](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/lec.pdf), with [code](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/code.ml) and [recitation](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/lab.html)
 * [A small monads tutorial from the Monads library](http://binaryanalysisplatform.github.io/bap/api/master/Monads.Std.html#intro)
 * [Discussion on what you can do with Monads](https://discuss.ocaml.org/t/can-monads-help-me-my-refactor-code-for-an-enhanced-data-structure/1064/5?u=ivg) and what are [Monad Transformers](https://discuss.ocaml.org/t/ann-monads-the-missing-monad-transformers-library/830/6?u=ivg)
+* [Monadic Error Handling](https://medium.com/@huund/monadic-error-handling-1e2ce66e3810)
+* [More Typeclasses in OCaml](http://blog.shaynefletcher.org/2017/05/more-type-classes-in-ocaml.html)
+* [First steps with Category Theory and OCaml](http://www.mseri.me/typeclass-ocaml/) (focusing more on Monoids and Applicatives)
 
 ### Writing Efficient Code
 See [Optimizing OCaml Performance](optimizing_performance.md)
