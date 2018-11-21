@@ -23,6 +23,7 @@ and prints it out again. This follows the example of the `refmt` tool for Reason
 * [OCaml programming guidelines at ocaml.org](http://www.ocaml.org/learn/tutorials/guidelines.html)
 * [XEN – OCaml Best Practices for Developers](http://wiki.xen.org/wiki/OCaml_Best_Practices_for_Developers)
 * [Jane Street Style](https://opensource.janestreet.com/standards/)
+* [Ocaml Towards Clarity and Grace](https://github.com/lindig/ocaml-style)
 
 ## Documentation Best Practices
 
