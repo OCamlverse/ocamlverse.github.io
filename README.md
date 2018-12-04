@@ -12,6 +12,7 @@ functional programming language.
 * [Best Practices](content/best_practices.md)
 * [OCaml Subtleties](content/subtleties.md)
 * [Windows Support](content/windows_support.md)
+* [Future of OCaml](content/future_ocaml.md)
 * [Frequently asked questions](content/FAQ.md)
 
 ---
