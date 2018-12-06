@@ -2,7 +2,12 @@
 
 Some interesting developments coming up in OCaml's future:
 
-## Modular Implicits
+## Immediate Plans
+* [Post on plans for OCaml 4.08](https://blog.janestreet.com/plans-for-ocaml-408/)
+
+## Long-Term Plans
+
+### Modular Implicits
 A type-based dispatch similar to Haskell's typeclasses.
 As [this paper](https://arxiv.org/pdf/1512.01895.pdf) clarifies, creating typeclasses in OCaml is harder due to the way
 it preserves type abstraction.
