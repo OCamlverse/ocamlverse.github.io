@@ -79,7 +79,7 @@ See [Optimizing OCaml Performance](optimizing_performance.md)
 * [Higher-Rank Polymorphism in OCaml](http://devmusings.legiasoft.com/blog/2008/05/23/higher-rank_polymorphism_in_ocaml)
 * [mikmatch](https://github.com/mjambon/mikmatch)  – OCaml pattern-matching extended with regexps
 * [Inlined records in constructors](http://www.lexifi.com/blog/ocaml/inlined-records-constructors)
-* [Algebraic Data Types](http://tech.esper.com/2014/07/30/algebraic-data-types/)
+* [Algebraic Data Types](https://espertech.wordpress.com/2014/07/30/algebraic-data-types/)
 * [A safe but strange way of modifying OCaml compiler](https://bitbucket.org/camlspotter/compiler-libs-hack)
 * [Fiddling with the OCaml Type System](http://technotroph.wordpress.com/2013/10/25/fiddling-with-the-ocaml-type-system/)
 * [Quick and Dirty Guide to Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
