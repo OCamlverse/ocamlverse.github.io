@@ -30,7 +30,7 @@ You'll need to sign up for an account.
 ## OCaml News
 
 * [OCaml Planet](http://ocaml.org/community/planet/):
-an aggregator for many blogs concerning OCaml or some related concept.
+an aggregator for many blogs about OCaml and related concepts.
 * [The Official OCaml Website](http://ocaml.org/):
 a central hub for online OCaml information.
 * [OPAM](https://opam.ocaml.org/):
