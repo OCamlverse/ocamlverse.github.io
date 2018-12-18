@@ -60,6 +60,8 @@ This is made easier nowadays due to CTypes (see [ffi](ffi.md))
 * [Parmap](http://rdicosmo.github.io/parmap/): provides easy-to-use parallel map and fold functions.
 The library makes use of forking to create short-lived child processes,
 and memory mapping to feed the data back to the parent process.
+* [parallel](https://github.com/ivg/parallel):
+Distributed computing with lwt support.
 * [ForkWork](https://github.com/mlin/forkwork): a simple library for forking child processes
 to perform work on multiple cores.
 * [Functory](http://functory.lri.fr/About.html):
