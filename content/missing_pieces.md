@@ -47,7 +47,8 @@ endpoint including Github.
 
 ## GUI
 
-- GTK3: no bindings.
+- [LablGTK3](https://github.com/garrigue/lablgtk) (needs help) - not yet feature
+complete as GTK2 state, see `lablgtk3` branch.
 
 ## Machine Learning
 
