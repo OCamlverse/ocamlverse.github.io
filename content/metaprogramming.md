@@ -39,7 +39,7 @@ Contains 2 ppx parsers to OCaml [regex](regular_expressions.md) libraries:
 
 ## Other
 
-* [cppo](https://github.com/mjambon/cppo):
+* [cppo](https://github.com/ocaml-community/cppo):
 A simple C++-like preprocessor for OCaml files.
 * [MetaOCaml](http://okmij.org/ftp/ML/MetaOCaml.html):
 An OCaml dialect for multi-stage programming.
