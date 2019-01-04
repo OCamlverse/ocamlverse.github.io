@@ -24,18 +24,31 @@ platform for writing efficient, resilient PPX extensions.
 * [ppx_deriving](https://github.com/ocaml-ppx/ppx_deriving):
 Type-based framework for ppx extensions.
 Contains built-in plugins for `show`, `eq`, `ord`, `enum`, `iter`, `map`, `fold`, and `make`.
-* [ppx_import](https://github.com/whitequark/ppx_import)  – Import is a syntax extension that allows to pull in types or signatures from other compiled interface files.
-* [ppx_string_interpolate](https://github.com/sheijk/ppx_string_interpolate)  – A simple ppx filter to support string interpolation like `[%str "value of foo is $(foo)"]`.
-* [ppx_monad](https://github.com/rizo/ppx_monad)  – Monad syntax extension for OCaml.
-* [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson)  – A Yojson codec generator for OCaml.
-* [ppx_regex](https://github.com/paurkedal/ppx_regexp): Contains 2 ppx parsers to OCaml [regex](regular_expressions.md) libraries:
+* [ppx_import](https://github.com/whitequark/ppx_import):
+Import is a syntax extension that allows to pull in types or signatures from other compiled interface files.
+* [ppx_string_interpolate](https://github.com/sheijk/ppx_string_interpolate):
+A simple ppx filter to support string interpolation like `[%str "value of foo is $(foo)"]`.
+* [ppx_monad](https://github.com/rizo/ppx_monad):
+Monad syntax extension for OCaml.
+* [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
+A Yojson codec generator for OCaml.
+* [ppx_regex](https://github.com/paurkedal/ppx_regexp):
+Contains 2 ppx parsers to OCaml [regex](regular_expressions.md) libraries:
   * ppx_regexp: maps to use Re (untyped regex)
   * ppx_tyre: maps to use Tyre for typed regex.
 
 ## Other
 
-* [cppo](https://github.com/mjambon/cppo): A simple C++-like preprocessor for OCaml files.
-* [MetaOCaml](http://okmij.org/ftp/ML/MetaOCaml.html)  – an OCaml dialect for multi-stage programming.
-* [Fan](http://thinkinginmeta.com/Fan)  – Fan is a compile-time metaprogramming system for OCaml, originally inspired from Camlp4. It's a combination of OCaml and Lispy Macros. It shares the same concrete syntax with OCaml.
-* [camlp5](http://camlp5.gforge.inria.fr/)  - Camlp5 is a preprocessor-pretty-printer of OCaml.
-* [camlp4](http://caml.inria.fr/pub/docs/manual-camlp4/manual002.html)  - Camlp4 is part of the standard OCaml distribution and is different from Camlp5.
+* [cppo](https://github.com/mjambon/cppo):
+A simple C++-like preprocessor for OCaml files.
+* [MetaOCaml](http://okmij.org/ftp/ML/MetaOCaml.html):
+An OCaml dialect for multi-stage programming.
+* [Fan](http://thinkinginmeta.com/Fan):
+Fan is a compile-time metaprogramming system for OCaml, originally inspired from Camlp4.
+It's a combination of OCaml and Lispy Macros.
+It shares the same concrete syntax with OCaml.
+* [camlp4](http://caml.inria.fr/pub/docs/manual-camlp4/manual002.html):
+Camlp4 is an older way of modifying OCaml syntax and applying metaprogramming.
+It is generally discouraged nowadays -- use ppx instead.
+* [camlp5](http://camlp5.gforge.inria.fr/):
+Another variant of metaprogramming that is discouraged nowadays.
