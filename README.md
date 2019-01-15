@@ -14,6 +14,7 @@ functional programming language.
 * [Windows Support](content/windows_support.md)
 * [Future of OCaml](content/future_ocaml.md)
 * [Frequently asked questions](content/FAQ.md)
+* [Google Summer of Code](content/gsoc.md)
 
 ---
 
