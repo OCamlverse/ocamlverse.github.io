@@ -79,9 +79,16 @@ backed by the very powerful [Incremental](https://github.com/janestreet/incremen
 * [Lambda Soup](https://github.com/aantron/lambda-soup)  - Functional HTML scraping and manipulation with CSS selectors, à la Python's Beautiful Soup.
 * [Markup.ml](https://github.com/aantron/markup.ml)  - Error-recovering streaming HTML5 and XML parsers, serializers.
 * [gen_js_api](https://github.com/LexiFi/gen_js_api)  - gen_js_api aims at simplifying the creation of OCaml bindings for Javascript libraries.
+
+### Chat Protocols
+
 * [slacko](https://github.com/Leonidas-from-XIV/slacko) : command line interface to Slack.
+* [dis.ml](https://gitlab.com/Mishio595/disml): API for Discord servers. Uses Async and Core.
+* [irc-client](https://github.com/johnelse/ocaml-irc-client): Client and API for IRC.
+* [ocaml-orc](https://github.com/pymander/ocaml-irc): IRC library.
 
 ### Low Level Protocols
+
 * [mirage-tcpip](https://github.com/mirage/mirage-tcpip): Part of mirage OS -- a complete implementation of the TCP/IP stack in OCaml.
 
 ## ReasonML
