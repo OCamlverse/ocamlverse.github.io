@@ -4,6 +4,13 @@ tags: [ecosystem]
 
 # Scientific Computing, Data Science, Machine Learning
 
+## Machine Learning/Data Science
+
+* [Owl](https://github.com/ryanrhymes/owl)  - OCaml numerical library: dense and sparse matrix, linear algebra, regressions, maths and stats functions.
+* [torch-ocaml](https://github.com/LaurentMazare/ocaml-torch): OCaml bindings for PyTorch.
+* [tensorflow-ocaml](https://github.com/LaurentMazare/tensorflow-ocaml)  – OCaml bindings for TensorFlow.
+* [hdf5-OCaml](https://github.com/vbrankov/hdf5-ocaml)  - OCaml implementation of hdf5 reader/writer. hdf5 is a file format commonly used in data science.
+
 ## Numerical Computing
 
 * [Owl](https://github.com/ryanrhymes/owl)  - OCaml numerical library: dense and sparse matrix, linear algebra, regressions, maths and stats functions.
@@ -14,13 +21,10 @@ tags: [ecosystem]
 * [obandit](http://freux.fr/oss/obandit.html)  - OCaml library for multi-armed bandits.
 * [ocephes](https://github.com/rleonid/ocephes)  - Bindings to frequently used `C` special functions library.
 
+## Data Visualization
 
-## Machine Learning/Data Science
-
-* [Owl](https://github.com/ryanrhymes/owl)  - OCaml numerical library: dense and sparse matrix, linear algebra, regressions, maths and stats functions.
-* [torch-ocaml](https://github.com/LaurentMazare/ocaml-torch): OCaml bindings for PyTorch.
-* [tensorflow-ocaml](https://github.com/LaurentMazare/tensorflow-ocaml)  – OCaml bindings for TensorFlow.
-* [hdf5-OCaml](https://github.com/vbrankov/hdf5-ocaml)  - OCaml implementation of hdf5 reader/writer. hdf5 is a file format commonly used in data science.
+* [ocaml-matplotlib](https://github.com/LaurentMazare/ocaml-matplotlib):
+Bindings to python's excellent matplotlib visualization library.
 
 ## Bioinformatics
 
