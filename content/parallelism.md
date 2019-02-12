@@ -15,6 +15,8 @@ but parallelism support is not built in to the runtime.
 
 * [lwt](https://github.com/ocsigen/lwt): a monadic concurrency library.
 Concurrent code uses monads to express the higher-level abstractions of control flow.
+    * [lwt-pipe](https://github.com/c-cube/lwt-pipe):
+    Stream/queue for lwt.
 * [Async](https://github.com/janestreet/async):
 another monadic concurrency library developed by Jane Street.
 This library is covered in Real World OCaml.
