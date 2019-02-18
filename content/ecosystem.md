@@ -116,12 +116,16 @@ See [Iterators](iterators.md)
 * [Volt](https://github.com/codinuum/volt): a variant of Bolt OCaml logging tool.
 * [Logs](http://erratique.ch/software/logs): provides a logging infrastructure for OCaml.
 
-## Mobile
-For compilation of OCaml to mobile platforms, see [Mobile](mobile.md)
+## Machine Learning, Data Science, Scientific Computing
+For machine learning, data science and scientific computing,
+see [Scientific Computing](scientific.md)
 
-## Metaprogramming
+## Metaprogramming and PPX
 For metaprogramming facilities such as PPX, camlp4 and MetaOCaml,
 see [Metaprogramming](metaprogramming.md)
+
+## Mobile
+For compilation of OCaml to mobile platforms, see [Mobile](mobile.md)
 
 ## Pretty printing
 * [Format](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Format.html):
@@ -146,10 +150,6 @@ can also be used to debug OCaml programs.
 
 ## Regular Expressions
 See [Regular Rxpressions](regular_expressions.md)
-
-## Scientific Computing and Machine Learning
-For machine learning, data science and scientific computing,
-see [Scientific Computing](scientific.md)
 
 ## Static Analysis
 For static analysis using OCaml, see [Static Analysis](static_analysis.md)
