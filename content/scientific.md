@@ -2,7 +2,7 @@
 tags: [ecosystem]
 ---
 
-# Scientific Computing, Data Science, Machine Learning
+# Machine Learning, Scientific Computing and Data Science
 
 ## Machine Learning/Data Science
 
@@ -13,13 +13,22 @@ tags: [ecosystem]
 
 ## Numerical Computing
 
-* [Owl](https://github.com/ryanrhymes/owl)  - OCaml numerical library: dense and sparse matrix, linear algebra, regressions, maths and stats functions.
-* [lacaml](https://mmottl.github.io/lacaml/)  - OCaml bindings for BLAS/LAPACK (high-performance linear algebra Fortran libraries).
-* [onumerical](https://github.com/cheshire/onumerical)  – Numerical library for OCaml.
-* [oml](https://github.com/hammerlab/oml)  - OCaml library for general numerical work.
-* [slap](https://github.com/akabe/slap)  - A linear algebra library in OCaml with type-based static size checking for matrix operations.
-* [obandit](http://freux.fr/oss/obandit.html)  - OCaml library for multi-armed bandits.
-* [ocephes](https://github.com/rleonid/ocephes)  - Bindings to frequently used `C` special functions library.
+* [Owl](https://github.com/ryanrhymes/owl):
+OCaml numerical library: dense and sparse matrix, linear algebra, regressions, maths and stats functions.
+* [lacaml](https://mmottl.github.io/lacaml/):
+OCaml bindings for BLAS/LAPACK (high-performance linear algebra Fortran libraries).
+* [onumerical](https://github.com/cheshire/onumerical):
+Numerical library for OCaml.
+* [oml](https://github.com/hammerlab/oml):
+OCaml library for general numerical work.
+* [slap](https://github.com/akabe/slap):
+A linear algebra library in OCaml with type-based static size checking for matrix operations.
+* [obandit](http://freux.fr/oss/obandit.html):
+OCaml library for multi-armed bandits.
+* [ocephes](https://github.com/rleonid/ocephes):
+Bindings to frequently used `C` special functions library.
+* [glpk](https://github.com/smimram/ocaml-glpk):
+Bindings to the [glpk](http://www.gnu.org/software/glpk/glpk.html) linear programming kit.
 
 ## Data Visualization
 
