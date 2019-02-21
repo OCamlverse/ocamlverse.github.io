@@ -6,9 +6,14 @@ tags: [ecosystem]
 
 ## HTTP Servers
 
-* [cohttp](https://github.com/mirage/ocaml-cohttp) : A lightweight HTTP server using either Lwt or Async.
-* [httpaf](https://github.com/inhabitedtype/httpaf) : A high performance web server written in OCaml. Written as a response to a scaling deficiency found in cohttp.
-* [Opium](https://github.com/rgrinberg/opium)  – Sinatra like web toolkit for OCaml.
+* [httpkit](https://github.com/ostera/httpkit):
+High level HTTP server/client creation. Uses httpaf.
+* [httpaf](https://github.com/inhabitedtype/httpaf):
+A high performance web server written in OCaml. Compatible with Async and Lwt.
+* [cohttp](https://github.com/mirage/ocaml-cohttp):
+An alternative, lightweight HTTP server.
+* [Opium](https://github.com/rgrinberg/opium):
+Sinatra like web toolkit for OCaml. Uses cohttp.
 
 ## HTTP2 Support
 
