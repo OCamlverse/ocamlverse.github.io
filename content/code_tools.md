@@ -39,18 +39,31 @@ which tell you to run `opam user-setup install`.
 
 ## Developer Tools
 
-* [utop](https://github.com/diml/utop)  – Universal toplevel for OCaml with support of multiline edition, history, real-time and context sensitive completion, colors, and more. This is a must-install for every OCaml programmer.
-* [sketch.sh](https://sketch.sh/ml): Online tool for playing around with OCaml (most up-to-date version).
-* [Try OCaml](http://try.ocamlpro.com/)  – Try OCaml in your web browser.
-* [codingground](https://www.tutorialspoint.com/compile_ocaml_online.php)  – Compile and execute OCaml code online.
-* [iocaml](https://github.com/andrewray/iocaml)  – An OCaml kernel for the IPython notebook.
-* [ocamlbrowser](http://caml.inria.fr/pub/docs/manual-ocaml/browser.html)  – A source and compiled interface browser, written using LablTk. Included in the standard distribution for ocaml <= 4.01 and with labltk for ocaml >= 4.02.
-* [ghim](https://github.com/samoht/ghim)  – A command-line tool to manage Github Issues.
-* [OCaml Yeoman Generator](https://github.com/mabrasil/generator-ocaml)  – Yeoman generator to scaffold OCaml modules.
+* [utop](https://github.com/diml/utop):
+Very powerful toplevel for OCaml, that is far better than the default one.
+A must-install for every OCaml programmer.
+* [sketch.sh](https://sketch.sh/ml):
+Online tool for playing around with OCaml (most up-to-date version).
+* [Try OCaml](http://try.ocamlpro.com/):
+Try OCaml in your web browser.
+* [codingground](https://www.tutorialspoint.com/compile_ocaml_online.php):
+Compile and execute OCaml code online.
+* [mdx](https://github.com/realworldocaml/mdx):
+Tool for executing code or shell snippets inside markdown files.
+* [iocaml](https://github.com/andrewray/iocaml):
+An OCaml kernel for the IPython notebook.
+* [ocamlbrowser](http://caml.inria.fr/pub/docs/manual-ocaml/browser.html):
+A source and compiled interface browser, written using LablTk and included with it.
+* [ghim](https://github.com/samoht/ghim):
+A command-line tool to manage Github Issues.
+* [OCaml Yeoman Generator](https://github.com/mabrasil/generator-ocaml):
+Yeoman generator to scaffold OCaml modules.
 * [Dead Code Analyzer](https://github.com/LexiFi/dead_code_analyzer):
 OCaml dead code analysis.
 
-## Code Coverage
+### Code Coverage
 
-* [Bisect](http://bisect.x9c.fr/)
-* [Bisect_ppx](https://github.com/rleonid/bisect_ppx)  a more recent fork of the previous tool, using ppx processing.
+* [Bisect](http://bisect.x9c.fr/):
+A coverage tool for OCaml.
+* [Bisect_ppx](https://github.com/rleonid/bisect_ppx):
+A more recent fork of the previous tool, making use of ppx processing.
