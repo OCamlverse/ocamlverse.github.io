@@ -80,13 +80,6 @@ thus solving the problem of sharing memory with tracing garbage collectors.
 * [Sklml](http://sklml.inria.fr):
 a functional parallel skeleton compiler and programming system for OCaml programs.
 
-### Articles
-
-* [What is the state of OCaml's parallelization abilities?][parallelization]:
-note that this is quite a bit out-of-date.
-
-[parallelization]: http://stackoverflow.com/questions/6588500/what-is-the-state-of-ocamls-parallelization-abilities
-
 ## Distributed Computing
 
 * [Rpc.Parallel](https://github.com/janestreet/rpc_parallel):
