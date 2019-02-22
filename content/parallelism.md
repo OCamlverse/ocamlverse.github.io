@@ -87,7 +87,7 @@ A functional parallel skeleton compiler and programming system for OCaml program
 
 ### Distributed Computing
 
-Distribute computing is similar to process-based parallelism, except that the child
+Distributed computing is similar to process-based parallelism, except that the child
 processes may or may not be on remote (though generally not too remote) machines.
 Therefore, distributed computing libraries generally can perform parallelism on the same machine.
 
