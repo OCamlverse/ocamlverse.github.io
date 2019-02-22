@@ -11,7 +11,7 @@ had trouble expanding the library due to namespacing issues.
 
 * Note, however, that since OCaml 4.07, the namespace issue has mostly been fixed, and the standard library is
 being expanded to cover more missing use-cases. Additionally, many functions that threw exceptions now have
-no-exception counterparts.*
+no-exception counterparts.
 
 In the absence of a comprehensive standard library, several competitors developed. Due to OCaml's support for
 modularity, each can be swapped out for the other wholesale.
