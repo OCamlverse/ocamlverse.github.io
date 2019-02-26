@@ -5,6 +5,19 @@ Some interesting developments coming up in OCaml's future:
 ## Immediate Plans
 * [Post on plans for OCaml 4.08](https://blog.janestreet.com/plans-for-ocaml-408/)
 
+## Medium-Term Plans
+
+### Multicore OCaml
+
+Currently, OCaml has a global runtime lock,
+with support for green threads (concurrency) via `lwt` and `Async`.
+The plan is to allow OCaml to run in parallel (which are termed `domains`),
+while also allowing for native green thread support.
+
+See [this post](https://discuss.ocaml.org/t/ocaml-multicore-report-on-a-june-2018-development-meeting-in-paris/2202),
+the [multicore ocaml github repo](https://github.com/ocamllabs/ocaml-multicore),
+and its associated [wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
+
 ## Long-Term Plans
 
 ### Modular Implicits
