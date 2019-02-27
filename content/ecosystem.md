@@ -17,20 +17,8 @@ see [Missing Pieces](missing_pieces.md)
 For an overview of the different standard library options and recommendations,
 see [Standard Libraries](standard_libraries.md).
 
-## Data Structures and Common Algorithms
-
-* A major part of a standard library's role is providing basic
-data structures and algorithms.
-All the [standard libraries](standard_libraries.md)
-(Containers, Base, Core and Batteries) provide both.
-* [OCamlGraph](https://github.com/backtracking/ocamlgraph) is a library for
-graphs and graph algorithms.
-* [ods](https://github.com/owainlewis/ods) is an algorithm/data structure library,
-though it isn't as fully-featured as the standard libraries.
-* [Discrete Interval Encoding Trees](https://github.com/djs55/ocaml-diet):
-Useful for storing interval sets and testing membership efficiently.
-* [Interval](https://github.com/Chris00/ocaml-interval):
-An interval arithmetic library.
+## Data Structures and Algorithms
+See [Data Structures and Algorithms](data_struct.md)
 
 ## Audio
 See [Audio](audio.md)
