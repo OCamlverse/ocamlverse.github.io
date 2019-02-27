@@ -6,7 +6,7 @@ tags: [ecosystem]
 
 Because OCaml is one of the best tools for creating compilers, typecheckers, etc, you'll find a wide variety of projects made in OCaml.
 
-# Languages and Compilers:
+## Languages and Compilers:
 
 * [cDuce](http://www.cduce.org/)  - cDuce is a modern XML-oriented functional language with innovative features.
 * [Compcert C Compiler](http://compcert.inria.fr/)  - It is a C Compiler supporting most of the ISO C90 and C99 / ANSI C  features.
@@ -23,7 +23,7 @@ Because OCaml is one of the best tools for creating compilers, typecheckers, etc
 * [tis-interpreter](https://github.com/TrustInSoft/tis-interpreter)  - An interpreter for finding subtle bugs in programs written in standard C
 * [Reason](https://reasonml.github.io/)  - Friendly syntax & toolchain for OCaml by Facebook.
 
-# Parser and Lexer Generators:
+## Parser and Lexer Generators:
 
 * [Opal](https://github.com/pyrocat101/opal)  – Self-contained monadic parser combinators for OCaml.
 * [Sedlex](https://github.com/alainfrisch/sedlex)  is a modern, encoding-agnostic (read: Unicode-supporting) lexer generator (the ppx-based successor to [http://www.cduce.org/download.html#side ulex].)
@@ -33,7 +33,14 @@ Because OCaml is one of the best tools for creating compilers, typecheckers, etc
 * [ocamllex/ocamlyacc](http://caml.inria.fr/pub/docs/manual-ocaml-4.01/lexyacc.html)  – lex and yacc implementation for OCaml.
 * [Angstrom](https://github.com/inhabitedtype/angstrom)  - Parser combinators built for speed and memory efficiency
 
-# Articles:
+## Typecheckers
+
+* [Flow](https://github.com/facebook/flow):
+A typechecker for Javascript written by Facebook.
+* [Pyre](https://github.com/facebook/pyre-check):
+A typechecker for Python written by Facebook.
+
+## Articles:
 
 * [Kaleidoscope: Implementing a Language with LLVM in Objective Caml](http://llvm.org/docs/tutorial/OCamlLangImpl1.html) 
 * [Getting started with OCaml bindings for LLVM](http://nopaniers.calepin.co/getting-started-with-ocaml-bindings-for-llvm.html) 
