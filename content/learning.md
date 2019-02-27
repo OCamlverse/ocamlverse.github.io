@@ -28,6 +28,17 @@ Several guidelines for best practices have been established by the community. Se
 
 OCaml can be edited conveniently with many different editors. See [Editor Support](editor_support.md).
 
+## Intermediate
+
+### The Format Module
+
+The Stdlib has the [Format](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Format.html)
+module for pretty printing.
+It's a little tricky to get a hang of.
+* [Tutorial](https://ocaml.org/learn/tutorials/format.html)
+* [Blog post on Format](https://cedeela.fr/format-all-the-data-structures.html)
+* [Paper](https://hal.archives-ouvertes.fr/hal-01503081/file/format-unraveled.pdf) on Format
+
 ## Advanced
 
 ### Modules and Functors
@@ -40,14 +51,9 @@ OCaml can be edited conveniently with many different editors. See [Editor Suppor
 * [OCaml - polymorphic print and type erasure](http://stackoverflow.com/questions/7442449/ocaml-polymorphic-print-and-type-losing)
 * [Weak Type Variables - when impurity breaks polymorphism](weak_type_variables.md)
 
-### The Format Module
+### Phantom Types
 
-The Stdlib has the [Format](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Format.html)
-module for pretty printing.
-It's a little tricky to get a hang of.
-* [Tutorial](https://ocaml.org/learn/tutorials/format.html)
-* [Blog post on Format](https://cedeela.fr/format-all-the-data-structures.html)
-* [Paper](https://hal.archives-ouvertes.fr/hal-01503081/file/format-unraveled.pdf) on Format
+* [Article from Jane Street](https://blog.janestreet.com/howto-static-access-control-using-phantom-types/)
 
 ### Iterators
 * [Article](http://gallium.inria.fr/blog/generators-iterators-control-and-continuations/)
