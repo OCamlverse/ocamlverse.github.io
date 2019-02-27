@@ -6,13 +6,6 @@ tags: [learning]
 
 A list of projects written in OCaml, useful for learning and for gaining inspiration. 
 
-## Compilers & Analysers
-
-* [Flow](https://github.com/facebook/flow) - A typechecker for Javascript written by facebook.
-* [Pyre](https://github.com/facebook/pyre-check) - A type checker for Python written by facebook.
-* [Haxe](https://github.com/HaxeFoundation/haxe) - A cross-platform programming language.
-* [bap](https://github.com/BinaryAnalysisPlatform/bap) - The Carnegie Mellon University Binary Analysis Platform (CMU BAP) 
-reverse engineering and program analysis platform 
 
 ## Web 
 
