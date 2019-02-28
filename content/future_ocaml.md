@@ -21,11 +21,16 @@ and its associated [wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
 ## Long-Term Plans
 
 ### Modular Implicits
+
 A type-based dispatch similar to Haskell's typeclasses.
-As [this paper](https://arxiv.org/pdf/1512.01895.pdf) clarifies, creating typeclasses in OCaml is harder due to the way
-it preserves type abstraction.
+
+See a video demonstration [here](https://www.youtube.com/watch?v=3wVUXTd4WNc).
+As [this paper](https://arxiv.org/pdf/1512.01895.pdf) clarifies,
+creating typeclasses in OCaml is difficult due to its adherence to
+type abstraction.
 Put simply, you can have functors or type classes, but not both, and OCaml already has functors.
-While the community eagerly awaits this solution, its implementation appears to be years away.
+While the community eagerly awaits this solution, its implementation unfortunately appears to be years away.
+
 To see how complicated the solution is, see [this response](https://discuss.ocaml.org/t/modular-implicits/144/18).
 You can follow some of the work that is taking place [here](https://github.com/lpw25/implicits-module-system)
 and [here](https://github.com/ocamllabs/ocaml-modular-implicits).
