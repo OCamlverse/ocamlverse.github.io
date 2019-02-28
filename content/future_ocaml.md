@@ -27,4 +27,5 @@ it preserves type abstraction.
 Put simply, you can have functors or type classes, but not both, and OCaml already has functors.
 While the community eagerly awaits this solution, its implementation appears to be years away.
 To see how complicated the solution is, see [this response](https://discuss.ocaml.org/t/modular-implicits/144/18).
-You can follow some of the work that is taking place [here](https://github.com/lpw25/implicits-module-system).
+You can follow some of the work that is taking place [here](https://github.com/lpw25/implicits-module-system)
+and [here](https://github.com/ocamllabs/ocaml-modular-implicits).
