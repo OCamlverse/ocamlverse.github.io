@@ -44,6 +44,8 @@ Very powerful toplevel for OCaml, that is far better than the default one.
 A must-install for every OCaml programmer.
 * [sketch.sh](https://sketch.sh/ml):
 Online tool for playing around with OCaml (most up-to-date version).
+* [odoc](https://github.com/ocaml/odoc):
+An automatic documentation generator for OCaml that creates beautiful html.
 * [Try OCaml](http://try.ocamlpro.com/):
 Try OCaml in your web browser.
 * [codingground](https://www.tutorialspoint.com/compile_ocaml_online.php):
