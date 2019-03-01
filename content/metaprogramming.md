@@ -35,7 +35,7 @@ A simple ppx filter to support string interpolation like `[%str "value of foo is
 * [ppx_monad](https://github.com/rizo/ppx_monad):
 Monad syntax extension for OCaml.
 * [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
-A [Yojson](serialization.md) codec generator for OCaml.
+A [Yojson](file_formats.md) codec generator for OCaml.
 * [ppx_regex](https://github.com/paurkedal/ppx_regexp):
 Contains 2 ppx parsers to OCaml [regex](regular_expressions.md) libraries:
   * ppx_regexp: maps to use Re (untyped regex)
