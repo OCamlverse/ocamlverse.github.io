@@ -19,7 +19,7 @@ platform for writing efficient, resilient PPX extensions.
 * [Extension Points, or how OCaml is becoming more like Lisp](https://blogs.janestreet.com/extension-points-or-how-ocaml-is-becoming-more-like-lisp)
 * [Syntax extensions without Camlp4: let's do it!](http://www.lexifi.com/blog/ocaml/syntax-extensions-without-camlp4-lets-do-it)
 
-### Extensions
+### PPX Extensions
 
 * [ppx_deriving](https://github.com/ocaml-ppx/ppx_deriving):
 Type-based framework for ppx extensions.
@@ -35,13 +35,21 @@ A simple ppx filter to support string interpolation like `[%str "value of foo is
 * [ppx_monad](https://github.com/rizo/ppx_monad):
 Monad syntax extension for OCaml.
 * [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
-A [Yojson](file_formats.md) codec generator for OCaml.
+A Yojson codec generator for OCaml. See [Serialization](file_formats.md#Serialization).
 * [yojson_ppx](https://github.com/NathanReb/ppx_yojson):
 Another Yojson ppx generator.
 * [ppx_regex](https://github.com/paurkedal/ppx_regexp):
 Contains 2 ppx parsers to OCaml [regex](regular_expressions.md) libraries:
   * ppx_regexp: maps to use Re (untyped regex)
   * ppx_tyre: maps to use Tyre for typed regex.
+* [ppx_expect](https://github.com/janestreet/ppx_expect):
+Cram-like tests for OCaml. See [Testing](testing.md).
+* [Bisect_ppx](https://github.com/rleonid/bisect_ppx):
+Code coverage for OCaml. See [Code Tools](code_tools.md).
+* [ppx_pgsql](https://github.com/tizoc/ppx_pgsql):
+A syntax extension for embedded SQL queries using PG'OCaml. See [Databases](databases.md).
+* [ppx_deriving_protobuf](https://github.com/ocaml-ppx/ppx_deriving_protobuf):
+Derive Protobuf files from OCaml types. See [Protocols](protocols.md).
 
 ## Other
 
