@@ -24,6 +24,9 @@ platform for writing efficient, resilient PPX extensions.
 * [ppx_deriving](https://github.com/ocaml-ppx/ppx_deriving):
 Type-based framework for ppx extensions.
 Contains built-in plugins for `show`, `eq`, `ord`, `enum`, `iter`, `map`, `fold`, and `make`.
+* [ppx_visitors](https://gitlab.inria.fr/fpottier/visitors):
+Automatically use the visitor OOP pattern on a data structure,
+extending it with behaviors rather than needing to specify each variant's behavior.
 * [ppx_import](https://github.com/whitequark/ppx_import):
 Import is a syntax extension that allows to pull in types or signatures from other compiled interface files.
 This can be handy when not wanting to repeat a type in both the `.ml` and `.mli` file, for example.
