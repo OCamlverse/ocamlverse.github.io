@@ -17,6 +17,8 @@ though it isn't as fully-featured as the standard libraries.
 Useful for storing interval sets and testing membership efficiently.
 * [Interval](https://github.com/Chris00/ocaml-interval):
 An interval arithmetic library.
+* [bitv](https://github.com/backtracking/bitv/):
+A bit-vector library.
 
 ### Heterogeneous Maps
 
