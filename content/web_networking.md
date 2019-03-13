@@ -16,6 +16,8 @@ Sinatra like web toolkit for OCaml. Uses cohttp.
 **Experimental.**
 High level HTTP server/client creation. Uses httpaf.
 Currently requires an OPAM pin to install.
+* [ocamlapi](https://github.com/nosman/Ocamlapi):
+Routing with ppx support. Uses cohttp and Core.
 
 ## HTTP2 Support
 
