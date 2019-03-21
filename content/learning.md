@@ -19,6 +19,8 @@ Some motivation for using OCaml can be found [here](http://spyder.wordpress.com/
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
 * [Ocaml file types and filename extensions](https://ocaml.org/learn/tutorials/filenames.html)
 * [OCaml subtleties](subtleties.md) are good to watch out for.
+* [Real World OCaml](https://dev.realworldocaml.org/):
+A free online book, and a great introduction to OCaml.
 
 ### Best Practices
 
@@ -105,8 +107,10 @@ See [Projects](projects.md)
 
 ## Books
 
-* [Real World OCaml](https://realworldocaml.org/)  by Y. Minsky, A. Madhavapeddy and J. Hickey - Functional programming for the masses. The latest, and arguably the most readable book on OCaml. Note that the book uses only Jane Street libraries, but the material can be applied to other libraries.
+* [Real World OCaml](https://dev.realworldocaml.org/)  by Y. Minsky, A. Madhavapeddy and J. Hickey - Functional programming for the masses. The latest, and arguably the most readable book on OCaml. Note that the book uses only Jane Street libraries, but the material can be applied to other libraries.
   * [RWO-lwt](https://github.com/dkim/rwo-lwt) : translating the Async code examples from Real World OCaml to lwt.
+* [Free Cornell OCaml Textbook](http://www.cs.cornell.edu/courses/cs3110/2019sp/textbook/):
+Great free online book, covering both beginner and advanced topics.
 * [More OCaml: Algorithms, Methods, and Diversions](http://www.amazon.com/More-OCaml-Algorithms-Methods-Diversions/dp/0957671113/)  – In More OCaml John Whitington takes a meandering tour of functional programming with OCaml, introducing various language features and describing some classic algorithms. The book ends with a large worked example dealing with the production of PDF files. There are questions for each chapter together with worked answers and hints.
 * [How to Think Like a (Functional) Programmer](http://www.greenteapress.com/thinkocaml/index.html)  by Allen Downey and Nicholas Monje – How to Think Like a Computer Scientist is an introductory programming textbook based on the OCaml language. It is a modified version of Think Python by Allen Downey. It is intended for newcomers to programming and also those who know some programming but want to learn programming in the function-oriented paradigm, or those who simply want to learn OCaml.
 * [OCaml from the Very Beginning](http://ocaml-book.com/)  by J. Whitington - OCaml from the Very Beginning will appeal both to new programmers, and experienced programmers eager to explore functional languages such as OCaml.
