@@ -1,3 +1,7 @@
+---
+tags: [ecosystem]
+---
+
 # Data Structures and Algorithms
 
 ## Standard Library Data Structures
@@ -19,6 +23,8 @@ Useful for storing interval sets and testing membership efficiently.
 An interval arithmetic library.
 * [bitv](https://github.com/backtracking/bitv/):
 A bit-vector library.
+* [psq](https://github.com/pqwy/psq):
+Functional priority search queues library.
 
 ### Heterogeneous Maps
 
