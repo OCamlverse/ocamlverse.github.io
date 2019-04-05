@@ -20,6 +20,11 @@ a StackOverflow answer detailing how exceptions work in OCaml.
 * [WASM backend](https://github.com/SanderSpies/ocaml/tree/wasm-backend)
 * [Typed Algebraic Effects](https://github.com/lpw25/ocaml-typed-effects)
 
+## Commands
+
+* `ocamlc -config`:
+show all configuration parameters for the compiler. Very useful.
+
 ## Compiler Internals
 
 * [hacking.adoc](https://github.com/ocaml/ocaml/blob/trunk/HACKING.adoc): a basic guide to the compiler's internals.
