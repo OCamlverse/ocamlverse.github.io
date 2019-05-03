@@ -38,4 +38,4 @@ Also see [OCaml subtleties](subtleties.md), the [FAQ](http://ocaml.org/learn/faq
 
 * What does `+'a` and `-'a` mean?
 
-  They indicate variance. See [this blog post](https://blog.janestreet.com/a-and-a/)
+  They indicate variance. See [this blog post](https://blog.janestreet.com/a-and-a/).
