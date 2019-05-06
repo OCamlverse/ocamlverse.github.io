@@ -20,6 +20,8 @@ Prioritizes simplicity. Wraps around PostgreSQL-OCaml.
 * [Sqlite3EZ](https://mlin.github.io/ocaml-sqlite3EZ/): thin wrapper for SQLite3 with a simplified interface.
 * [ocaml-redis](https://github.com/0xffea/ocaml-redis): Redis bindings for OCaml.
 * [mysql](http://ocaml-mysql.forge.ocamlcore.org/): bindings to libmysqlclient for interacting with MySQL databases.
+* [ppx_mysql](https://github.com/issuu/ppx_mysql):
+Syntax extension for mysql bindings. [Blog post](https://engineering.issuu.com/2019/05/06/announcing-ppx-mysql).
 * [mysql_protocol](https://github.com/slegrand45/mysql_protocol): implementation of MySQL Protocol with the Bitstring library.
 * [Dbm](https://forge.ocamlcore.org/projects/camldbm/): a binding to the NDBM/GDBM Unix "databases".
 * [camltc](https://github.com/toolslive/camltc): OCaml bindings to [Tokyo Cabinet](https://github.com/Incubaid/tokyocabinet).
