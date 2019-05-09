@@ -15,6 +15,8 @@ All the [standard libraries](standard_libraries.md)
 
 * [OCamlGraph](https://github.com/backtracking/ocamlgraph) is a library for
 graphs and graph algorithms.
+* [bimap](https://github.com/pat227/bimap):
+Bi-directional map, from key to value and value-to-key.
 * [ods](https://github.com/owainlewis/ods) is an algorithm/data structure library,
 though it isn't as fully-featured as the standard libraries.
 * [Discrete Interval Encoding Trees](https://github.com/djs55/ocaml-diet):
