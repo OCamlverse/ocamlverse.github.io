@@ -32,6 +32,9 @@ extending it with behaviors rather than needing to specify each variant's behavi
 * [ppx_import](https://github.com/whitequark/ppx_import):
 Import is a syntax extension that allows to pull in types or signatures from other compiled interface files.
 This can be handy when not wanting to repeat a type in both the `.ml` and `.mli` file, for example.
+* [ppx_override](https://gitlab.inria.fr/tmartine/override):
+Override allows you to import a module or its types, and then easily change and modify aspects, such as
+using `ppx_deriving` on that module's types.
 * [ppx_optcomp](https://github.com/janestreet/ppx_optcomp):
 Conditional compilation like `#ifdef` for OCaml.
 * [ppx_string_interpolate](https://github.com/sheijk/ppx_string_interpolate):
