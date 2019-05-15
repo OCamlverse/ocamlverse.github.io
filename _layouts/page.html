@@ -21,7 +21,7 @@
 
   gtag('config', 'UA-121816895-1');
 </script>
-  
+
 </head>
 
 <body>
@@ -31,14 +31,12 @@
 <!-- HEADER -->
 <div id="header_wrap" class="outer">
   <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-  <a href="{{site.github.repository_url}}/edit/master/{{page.path}}" class="button">Edit this page</a>
 
-  <header class="inner">
-
+  <header class="container">
     <div id="header_box">
       <div id="header_img">
         <a href="{{ site.github.url }}">
-        <img src="{{site.baseurl}}/assets/img/ocaml-logo.png" width=100px>
+        <img src="{{site.baseurl}}/assets/img/ocaml-logo.png" alt="ocaml logo" width="100">
         </a>
       </div>
       <div id="header_title">
@@ -50,13 +48,9 @@
   </header>
 </div>
 
-<div class="below_header_box">
+<div class="container content_wrapper">
   <div class="sidebar">
-    <h4>Table of Contents</h4>
-    
-    {% include toc.html html=content %}
-
-    <h4>Site Contents</h4>
+    <input id="searchbar" type="text" placeholder="Search...">
 
     {% for tag in tags %}
     <button class="collapsible">{{ tag | capitalize }}</button>
@@ -70,13 +64,19 @@
     </ul>
     </div>
     {% endfor %}
+
+    <div class="toc">
+      <h2 class="toc_heading">Page Contents</h2>
+      {% include toc.html html=content %}
+    </div>
+
   </div>
 
   <!-- MAIN CONTENT -->
   <div class="non-sidebar">
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <input id="searchbar" type="text" placeholder="Search...">
+        <a href="{{site.github.repository_url}}/edit/master/{{page.path}}" class="edit_this_page">Edit</a>
         {{ content }}
       </section>
     </div>
