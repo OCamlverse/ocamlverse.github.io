@@ -6,7 +6,7 @@ tags: [ecosystem]
 
 This page describes the current state of the OCaml ecosystem.
 
-* http://check.ocamllabs.io/:
+* [check.ocamllabs.io](http://check.ocamllabs.io):
 View current build status of the entire OPAM ecosystem.
 * [The OCaml Platform](ocaml_platform.md): a community endeavor to standardize the
 infrastructure in the OCaml world.
