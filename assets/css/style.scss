@@ -3,8 +3,43 @@
 
 @import "{{ site.theme }}";
 
+* {
+   box-sizing: border-box;
+}
+
 body {
    background: #f2f2f2;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+   font-family: system-ui, sans-serif;
+}
+
+h1 {
+   line-height: 1.2;
+   margin: 20px 0 15px;
+
+   &:first-of-type {
+      margin-top: 0;
+   }
+}
+
+h2 {
+  background: none;
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+  margin: 1.5em 0 0.5em;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+h3, h4, h5, h6 {
+   font-size: 1em;
+   letter-spacing: 0;
+}
+
+a {
+  color: #ed7007;
 }
 
 img {
@@ -16,16 +51,29 @@ img {
    -ms-box-shadow: none;
 }
 
-/* override inner */
-.inner {
-    margin: 0 10%;
+pre, code, .highlight {
+   box-shadow: none;
+   background: #e5e5e5;
+   padding: 0;
+}
+
+code {
+   margin: 0;
+   padding: 2px 5px;
+   border-radius: 2px;
+
+   pre & {
+      padding: 10px;
+      font-size: 0.9em;
+   }
 }
 
 /* override */
 #header_wrap {
-   .inner {
-       margin: 0 auto; // center
-       padding: 10px 10px 10px 10px;
+   #project_tagline {
+     font-weight: bold;
+     font-size: 0.9em;
+     opacity: 0.8;
    }
 
    img {
@@ -34,10 +82,7 @@ img {
 
    #header_box {
       display: flex;
-
-      #header_img {
-         flex-shrink: 0;
-      }
+      align-items: center;
 
       #header_title {
          margin-left: 20px;
@@ -64,15 +109,23 @@ img {
    }
 }
 
+#project_title {
+   font-size: 30px;
+   line-height: 1.2;
+}
+
 /* Flexbox container */
-.below_header_box {
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.content_wrapper {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    overflow: hidden;
     align-items: stretch;
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 .sidebar {
@@ -83,26 +136,34 @@ img {
     top: 0;
     left: 0;
     width: 250px;
-    margin: 0;
+    margin: 0 20px 0 0;
     padding: 0;
     list-style: none;
-    overflow-x: hidden; /* no horizontal scroll */
-    padding-top: 20px;
-    background-color: #f2f2f2;
+    padding-top: 50px;
+    background: none;
+
+    .toc {
+       padding-left: 10px;
+       margin-top: 4em;
+    }
 
     .collapsible {
-        background-color: #eee;
+        background: none;
         color: #444;
         cursor: pointer;
-        padding: 18px;
+        font-weight: bold;
+        letter-spacing: 0.06em;
+        padding: 15px 10px;
         width: 100%;
         border: none;
         text-align: left;
         outline: none;
-        font-size: 15px;
+        text-transform: uppercase;
+        font-size: 13px;
 
         &:hover {
-            background-color: #ccc;
+            background: linear-gradient(#fafafa, #eaeaea);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
 
         &:after {
@@ -114,7 +175,6 @@ img {
     }
 
     .active {
-        background-color: #ccc;
         &:after {
             content: "\2212"; /* Unicode character for "minus" sign (-) */
         }
@@ -122,10 +182,19 @@ img {
 
     /* collapsible content is hidden by default */
     .content {
-        padding: 0 18px;
+        padding: 0 0 0 14px;
         display: none;
         overflow: hidden;
-        background-color: #f2f2f2;
+
+        ul {
+           padding-left: 0;
+        }
+
+        li {
+           list-style-type: none;
+           line-height: 1.2;
+           margin-top: 12px;
+        }
     }
 }
 
@@ -136,27 +205,57 @@ img {
     /*margin-left: 250px;  Same as the width of the sidebar */
 }
 
+#main_content {
+   padding-top: 48px;
+   line-height: 1.65;
+}
+
 #main_content_wrap {
    border-top: none;
    border-bottom: none;
 }
 
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
+.algolia-autocomplete {
+   display: block !important;
 }
 
 #searchbar {
-   float: right;
+   display: block;
+   border: 1px solid #ddd;
+   background: rgba(255,255,255,0.3);
+   font-family: inherit;
+   margin-bottom: 10px;
+   padding: 10px;
+   font-size: 1em;
+   width: 100%;
 }
 
-/* Drop the sidebar on small screens */
-@media screen and (max-width: 600px){
+.edit_this_page {
+   float: right;
+   margin-top: 12px;  // Hack to align with the <h1> at top of page
+   text-transform: uppercase;
+   border: 1px solid currentColor;
+   padding: 2px 4px;
+   border-radius: 3px;
+   font-size: 13px;
+
+   &:hover {
+      text-decoration: none;
+   }
+}
+
+/* Show sidebar stuff below page contents on small screens */
+@media screen and (max-width: 700px) {
+   .content_wrapper {
+      flex-direction: column-reverse;
+   }
+
    .sidebar {
+      width: 100%;
+      border-top: 1px dotted #bbb;
+   }
+
+   .toc {
       display: none;
    }
 }
