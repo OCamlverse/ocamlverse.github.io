@@ -18,7 +18,7 @@ Some motivation for using OCaml can be found [here](http://spyder.wordpress.com/
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/)  where X=OCaml.
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
 * [Ocaml file types and filename extensions](https://ocaml.org/learn/tutorials/filenames.html)
-* [OCaml subtleties](subtleties.md) are good to watch out for.
+* [The faq](faq.md) is good to read up on.
 * [Real World OCaml](https://dev.realworldocaml.org/):
 A free online book, and a great introduction to OCaml.
 
