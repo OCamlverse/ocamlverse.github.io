@@ -40,7 +40,9 @@ Conditional compilation like `#ifdef` for OCaml.
 * [ppx_string_interpolate](https://github.com/sheijk/ppx_string_interpolate):
 A simple ppx filter to support string interpolation like `[%str "value of foo is $(foo)"]`.
 * [ppx_monad](https://github.com/rizo/ppx_monad):
-Monad syntax extension for OCaml.
+Monadic syntax extension.
+* [ocaml-monadic](https://github.com/zepalmer/ocaml-monadic):
+Another monadic syntax extension.
 * [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
 A Yojson codec generator for OCaml. See [Serialization](file_formats.md#Serialization).
 * [yojson_ppx](https://github.com/NathanReb/ppx_yojson):
