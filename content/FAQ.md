@@ -82,7 +82,7 @@ expression, but instead that code is part of the  `if` expression.  This can int
 subtle bugs, although it is a consequence of the normal (and useful) scoping rule
 for `let`.  To make the semicolon follow the entire `if` with the embedded `let`, wrap
 the `let` expression in parentheses or `begin`/`end`.  For more, see
-[if with semicolons](subtleties_if_semicolon.md).
+[if with semicolons](faq_if_semicolon.md).
 
 * **Weak type variables**: What is "the value restriction"?
   Why do some of my type variables start with underscore?
