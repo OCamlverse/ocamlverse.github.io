@@ -65,6 +65,13 @@ It's a little tricky to get a hang of.
 * [A Guide to PreProcessor eXtensions](ppx.md)
 * [A PPX Tutorial](https://www.victor.darvariu.me/jekyll/update/2018/06/19/ppx-tutorial.html)
 
+### FFI (Foreign Function Interface)
+
+* See [FFI](ffi.md) for different options. `Ctypes` or `ppx_cstruct` is the recommended approach nowadays.
+* [Article on wrapping C functions from OCaml by hand](http://www.linux-nantes.org/~fmonnier/OCaml/ocaml-wrapping-c.html):
+If you want to get down and dirty, doing it yourself.
+May be necessary for some library wrappers.
+
 ### Monads
 
 * [Xavier Leroy's Monadic Programming Lecture Slides (pdf)](https://xavierleroy.org/mpri/2-4/monads.pdf) and [code](https://xavierleroy.org/mpri/2-4/monads.ml)
