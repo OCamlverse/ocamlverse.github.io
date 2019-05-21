@@ -73,7 +73,16 @@ It's a little tricky to get a hang of.
 * [Discussion on what you can do with Monads](https://discuss.ocaml.org/t/can-monads-help-me-my-refactor-code-for-an-enhanced-data-structure/1064/5?u=ivg) and what are [Monad Transformers](https://discuss.ocaml.org/t/ann-monads-the-missing-monad-transformers-library/830/6?u=ivg)
 * [Monadic Error Handling](https://medium.com/@huund/monadic-error-handling-1e2ce66e3810)
 * [More Typeclasses in OCaml](http://blog.shaynefletcher.org/2017/05/more-type-classes-in-ocaml.html)
-* [First steps with Category Theory and OCaml](http://www.mseri.me/typeclass-ocaml/) (focusing more on Monoids and Applicatives)
+
+### Category Theory
+
+Category Theory is a branch of abstract math that discusses concepts that pop up as patterns in functional programming.
+
+* [First steps with Category Theory and OCaml](http://www.mseri.me/typeclass-ocaml/) (focusing on Monoids and Applicatives)\
+* [Category Theory For Programmers](https://github.com/hmemcpy/milewski-ctfp-pdf):
+Not OCaml-specific, but a good book to learn Category Theory from.
+* [Category Theory For Programmers in Ocaml](https://github.com/ArulselvanMadhavan/ocaml-ctfp):
+An ongoing work to translate CTFP's code from Haskell to OCaml.
 
 ### Writing Efficient Code
 See [Optimizing OCaml Performance](optimizing_performance.md)
