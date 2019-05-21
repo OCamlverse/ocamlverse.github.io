@@ -76,9 +76,11 @@ It's a little tricky to get a hang of.
 
 ### Category Theory
 
-Category Theory is a branch of abstract math that discusses concepts that pop up as patterns in functional programming.
+Category Theory is a branch of abstract mathematics that discusses concepts
+that tend to pop up as patterns in functional programming.
 
-* [First steps with Category Theory and OCaml](http://www.mseri.me/typeclass-ocaml/) (focusing on Monoids and Applicatives)\
+* [First steps with Category Theory and OCaml](http://www.mseri.me/typeclass-ocaml/):
+Focuses on Monoids and Applicatives.
 * [Category Theory For Programmers](https://github.com/hmemcpy/milewski-ctfp-pdf):
 Not OCaml-specific, but a good book to learn Category Theory from.
 * [Category Theory For Programmers in Ocaml](https://github.com/ArulselvanMadhavan/ocaml-ctfp):
