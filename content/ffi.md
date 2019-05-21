@@ -32,4 +32,6 @@ Works on both the OCaml-to-Rust and Rust-to-OCaml directions.
 
 ## Articles
 
+* [How to call C functions from OCaml](https://www.linux-nantes.org/~fmonnier/OCaml/ocaml-wrapping-c.html):
+Article describing how to call C functions from OCaml without using CTypes or other modern methods.
 * [Modular foreign function bindings](http://openmirage.org/blog/modular-foreign-function-bindings) with ctypes.
