@@ -57,6 +57,8 @@ Code coverage for OCaml. See [Code Tools](code_tools.md).
 A syntax extension for embedded SQL queries using PG'OCaml. See [Databases](databases.md).
 * [ppx_deriving_protobuf](https://github.com/ocaml-ppx/ppx_deriving_protobuf):
 Derive Protobuf files from OCaml types. See [Protocols](protocols.md).
+* [ppx_cstubs](https://github.com/fdopen/ppx_cstubs):
+Write C functions directly in your OCaml code. See [FFI](ffi.md).
 
 ## Other
 
