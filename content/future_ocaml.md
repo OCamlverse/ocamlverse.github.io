@@ -18,6 +18,22 @@ See [this post](https://discuss.ocaml.org/t/ocaml-multicore-report-on-a-june-201
 the [multicore ocaml github repo](https://github.com/ocamllabs/ocaml-multicore),
 and its associated [wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
 
+### Typed Algebraic Effects
+
+Part of the plan for multicore OCaml is to include non-monadic green threading into the runtime.
+In order to allow for this, algebraic effects are being added to the language.
+These are similar to exceptions but with a bookmark to the current position of the execution
+(aka continutation) added to each "exception" thrown,
+so one has the option to continue execution after handling the "exception" (aka effect).
+
+Initially, this was going to exist outside of the type system.
+However, this introduces many issues, and we'd much rather have it be typed and handled by the
+type system.
+Extending OCaml's type system with algebraic effects would make it similar to Haskell's,
+but without requiring monads for effects.
+
+Work is ongoing [here](https://github.com/lpw25/ocaml-typed-effects).
+
 ## Long-Term Plans
 
 ### Modular Implicits
