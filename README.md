@@ -8,11 +8,11 @@ functional programming language.
 * [Quickstart](content/quickstart.md)
 * [Learning](content/learning.md)
 * [Frequently asked questions](content/faq.md)
-* [Ecosystem](content/ecosystem.md)
-* [Compiler](content/compiler.md)
 * [Best Practices](content/best_practices.md)
 * [Windows Support](content/windows_support.md)
+* [Ecosystem](content/ecosystem.md)
 * [Future of OCaml](content/future_ocaml.md)
+* [Compiler](content/compiler.md)
 * [Google Summer of Code](content/gsoc.md)
 
 ---
