@@ -3,13 +3,39 @@ tags: [learning]
 ---
 
 # OCaml subtleties
-**Subtle points and items difficult to find via web search** (in progress)
+**Subtle points and items difficult to find via web search**
 
 Also see Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html).
 
 ## Gotchas
 
-* **Polymorphic compare**: TODO (bluddy will fill in.)
+* **Polymorphic compare**:
+OCaml's comparison functions - `=`, `<`, `>` etc. use structural comparison by default.
+This means that while they work on any type, they don't understand the meaning of the data,
+but instead rely on the layout of the data in memory.
+This is a problem, and most standard library replacements have disabled this feature by
+making standard polymorphic comparison work only on integers.
+
+To understand why this is a problem, let's think about how a `Map.t` is organized.
+`Map.t` uses a tree of variants to store its data.
+Suppose I store `1, 2, 3 and 4` in map `a`, in that order.
+Now suppose I store `4, 3, 2, 1` in map `b`, in that order.
+Content-wise, the maps are the same. But do their backing trees look the same? No.
+The semantic meaning of the maps don't match their structure, and in fact each logical
+`Map.t` can be backed by many possible structures in memory.
+This is a problem when comparing maps using the default comparisons.
+
+It's an even worse problem when you have a higher-order function, such as `find`.
+`find` will work fine on a list of integers, because integers can only have one
+possible structural representation each.
+But it will often fail if you pass it a list of maps.
+Even worse, if you pass it a list of hashtables, which are backed by arrays mixed
+with buckets of lists, the arrays will match, but once in a while, the lists will not,
+causing subtle, quite horrible bugs.
+
+This is why polymorphic comparison should never be used.
+Even if you know what you're doing with your code today, someone will come and modify
+it someday and use your polymorphic comparison on a data structure that doesn't support it.
 
 * **Semicolons and `if` statements with `let`**: 
 When a `let` expression begins in the final branch of an `if` expression,
