@@ -29,6 +29,27 @@ show all configuration parameters for the compiler. Very useful.
 
 * [hacking.adoc](https://github.com/ocaml/ocaml/blob/trunk/HACKING.adoc): a basic guide to the compiler's internals.
 
+### Driver
+
+The compiler driver, residing in the [/driver](https://github.com/ocaml/ocaml/tree/trunk/driver) directory,
+runs the entire compilation process from start to finish.
+The 2 entry points into the system are [optmain.ml](https://github.com/ocaml/ocaml/blob/trunk/driver/optmain.ml)
+for the native compiler and [main.ml](https://github.com/ocaml/ocaml/blob/trunk/driver/main.ml)
+for the bytecode compiler,
+setting up 2 separate execution paths through the code.
+
+Both paths go through the [pparse.ml](https://github.com/ocaml/ocaml/blob/trunk/driver/pparse.ml) file,
+which handles PPX rewriters.
+This file dumps the current parsed AST, calls a given PPX executable,
+and reloads the resulting AST.
+
+The two compilation files are [compile.ml](https://github.com/ocaml/ocaml/blob/trunk/driver/compile.ml)
+for bytecode, and [optcompile.ml](https://github.com/ocaml/ocaml/blob/trunk/driver/optcompile.ml) for native.
+Both files pipe the different kinds of data through all the compilation stages.
+While native compilation has options for
+either `clambda` (naive) or `flambda` (optimized) compilation, bytecode compilation currently has only
+one mode, which is equivalent to `clambda` compilation.
+
 ### Parser
 #### ppx
 ### Typechecker
