@@ -7,12 +7,12 @@ functional programming language.
 * [Community](content/community.md)
 * [Quickstart](content/quickstart.md)
 * [Learning](content/learning.md)
+* [Frequently asked questions](content/faq.md)
 * [Ecosystem](content/ecosystem.md)
 * [Compiler](content/compiler.md)
 * [Best Practices](content/best_practices.md)
 * [Windows Support](content/windows_support.md)
 * [Future of OCaml](content/future_ocaml.md)
-* [Frequently asked questions](content/faq.md)
 * [Google Summer of Code](content/gsoc.md)
 
 ---
