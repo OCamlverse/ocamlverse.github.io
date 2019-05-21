@@ -10,10 +10,9 @@ functional programming language.
 * [Ecosystem](content/ecosystem.md)
 * [Compiler](content/compiler.md)
 * [Best Practices](content/best_practices.md)
-* [OCaml Subtleties](content/subtleties.md)
 * [Windows Support](content/windows_support.md)
 * [Future of OCaml](content/future_ocaml.md)
-* [Frequently asked questions](content/FAQ.md)
+* [Frequently asked questions](content/faq.md)
 * [Google Summer of Code](content/gsoc.md)
 
 ---
