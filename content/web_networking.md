@@ -42,6 +42,10 @@ Eliom lets you write client and server code in OCaml, where both are typechecked
 each other, the client being compiled to JS and the backend to OCaml.
   * [Thesis on Eliom](https://www.irif.fr/~gradanne/papers/phdthesis.pdf)
 * [webmachine](https://github.com/inhabitedtype/ocaml-webmachine)  – A REST toolkit for OCaml. OCaml webmachine is a layer on top of cohttp that implements a state-machine-based HTTP request processor. It's particularly well-suited for writing RESTful APIs. As the name suggests, this is an OCaml port of the webmachine project.
+* [OCaml-graphql-server](https://github.com/andreas/ocaml-graphql-server):
+A GraphQL server library. GraphQL is a regimented approach to data management in web apps.
+* [ppx_graphql](https://github.com/andreas/ppx_graphql):
+Generate type-safe code for graphql queries from GraphQL schema and queries.
 
 ## Web Apps
 * [Cumulus](https://github.com/Cumulus/Cumulus) : Hackernews-like website with the OCaml framework Ocsigen (demo is currently down).
