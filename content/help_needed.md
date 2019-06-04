@@ -18,6 +18,10 @@ the new standard documentation tool for OCaml.
 Unfortunately, it still needs some love -- check out the Issues.
 This is a great place to contribute since a little effort on the documentation
 front can go a long way.
+- doc.ocaml.org (non-existent):
+We need to have a central site for documentation of all packages.
+Odoc already does a good job on package documentation generation.
+We would like the CI infrastructure to build docs for each package as it tests it.
 
 ## Web and Networking
 
