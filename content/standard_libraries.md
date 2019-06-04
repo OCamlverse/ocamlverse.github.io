@@ -34,8 +34,9 @@ extends the standard library with additional functionality while applying more m
 * [Core](https://github.com/janestreet/core)  is Jane Street's expanded standard library, sitting on top of Base.
 Core is more comprehensive than Base.
 * [Batteries Included](https://github.com/ocaml-batteries-team/batteries-included)  is a mature, full-featured
-standard library, taking the approach of extending the standard library with additional functionality rather than
-replacing it wholesale. It includes many data structures and algorithms. Note that Containers came about as a
+standard library,
+taking the approach of extending the standard library with additional functionality (like Containers) rather than
+replacing it wholesale (unlike Base). It includes many data structures and algorithms. Note that Containers came about as a
 split-off from Batteries.
 * [BOS - Basic OS Interaction](https://github.com/dbuenzli/bos)
 is a higher-level OS interaction layer containing many elements,
