@@ -117,6 +117,10 @@ see [Metaprogramming](metaprogramming.md)
 ## Mobile
 For compilation of OCaml to mobile platforms, see [Mobile](mobile.md)
 
+## Monads
+* [BAP Monads](http://binaryanalysisplatform.github.io/bap/api/master/Monads.Std.html):
+BAP (Binary Analysis Platform) has an independent and comprehensive monad library.
+
 ## Pretty printing
 * [Format](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Format.html):
 stdlib module using the notion of boxes to lay out pretty-printing commands.
