@@ -2,11 +2,10 @@
 tags: [ecosystem]
 ---
 
-# Missing Pieces in the OCaml Ecosystem
+# Help Needed
 
-This page details the things most lacking in the current ecosystem.
-If you're looking to contribute to OCaml but not sure where to focus
-your attention, this page should give you some ideas of where the community
+Are you looking to help the OCaml ecosystem, but not sure where to start?
+This page should give you some ideas of where the community
 thinks work is needed.
 
 It's worth keeping in mind that making the ecosystem just a little more usable,
