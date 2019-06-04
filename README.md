@@ -12,6 +12,7 @@ functional programming language.
 * [Windows Support](content/windows_support.md)
 * [Ecosystem](content/ecosystem.md)
 * [Future of OCaml](content/future_ocaml.md)
+* Want to help OCaml but don't know how? Check out our [Help Needed](content/help_needed.md) page.
 * [Compiler](content/compiler.md)
 * [Google Summer of Code](content/gsoc.md)
 
