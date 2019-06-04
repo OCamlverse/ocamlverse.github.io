@@ -69,7 +69,8 @@ and Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria.fr/p
     with buckets of lists, the arrays will match, but once in a while, the lists will not,
     causing subtle, quite horrible bugs.
 
-    This is why polymorphic comparison should never be used.
+    This is why polymorphic comparison should never be used except in places where you know
+    the code will not be changed (which is hard to predict).
     Even if you know what you're doing with your code today, someone will come and modify
     it someday and use your polymorphic comparison on a data structure that doesn't support it.
 
