@@ -6,12 +6,13 @@ tags: [learning]
 
 ## Beginner
 
-Some motivation for using OCaml can be found [here](http://spyder.wordpress.com/2014/03/16/why-ocaml-why-now/),
+Some motivations for using OCaml can be found [here](http://spyder.wordpress.com/2014/03/16/why-ocaml-why-now/),
 [here](http://web.archive.org/web/20140713005224/http://www.mimisbrunnr.net/~munin/blog/why-ocaml.html),
 [here](http://queue.acm.org/detail.cfm?id=2038036) and
 [here](https://espertech.wordpress.com/2014/07/15/why-we-use-ocaml/).
 
 * The [quickstart](quickstart.md) page to get you up and running as fast as possible.
+* [OCaml cheat sheet](https://github.com/alhassy/OCamlCheatSheet/blob/master/CheatSheet.pdf)
 * Play around with OCaml online using [sketch.sh](https://sketch.sh/ml).
 * [Quick Start an OCaml project with Dune](quickstart_ocaml_project_dune.md)
 * [The Beginner's Guide to OCaml Beginner's guides](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
