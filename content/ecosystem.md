@@ -11,9 +11,9 @@ View current build status of the entire OPAM ecosystem.
 * [The OCaml Platform](ocaml_platform.md): a community endeavor to standardize the
 infrastructure in the OCaml world.
 
-## Missing Pieces
+## Help Needed
 For a list of things currently missing in OCaml's ecosystem,
-see [Missing Pieces](missing_pieces.md)
+see [Help Needed](help_needed.md)
 
 ## Standard Libraries
 For an overview of the different standard library options and recommendations,
