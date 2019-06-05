@@ -9,29 +9,24 @@ tags: [learning, quickstart]
 Let's explore how to start building an OCaml project. The project we will be building is a To-Do List app,
 which connects to a PostgreSQL database as its datastore.
 However, this post will only cover initializing and bootstrapping the project.
-Specifically, we will be setting up Dune (formerly named Jbuilder) to build our app.
-
-Dune, formerly Jbuilder, is the state-of-the-art build system that is currently overtaking OASIS
-as the de facto build system for new projects.
-The overview and strengths sections of Dune’s readme explain why so: it’s fast, has no system dependencies,
-supports parallel builds, generates configuration and install files easily, and has first-class Windows support.
-If it’s not enough, Dune also supports cross-compilation, builtin testing, and ReasonML syntax out-of-the-box!
+Specifically, we will be setting up Dune to build our app.
 
 ## Requirements
+
 To be able to follow this tutorial, you would need to have opam, the OCaml package manager, installed.
-Consult the official docs on how to install it on your machine. I recommend using your OS package manager,
-but if you’re downloading the binary, don’t forget to also download an external solver beforehand.
+Consult the official docs on how to install it on your machine. I recommend using your OS package manager.
 
 You can verify your opam installation with the following command:
 
 ```
 $ opam --version
-1.2.2
+2.0.1
 ```
 
-This tutorial assumes MacOS or Linux environment, but theoretically it should also work on Windows.
+This tutorial assumes MacOS or Linux environment. For Windows, see [Windows Support](windows.md).
 
 ## Editor setup
+
 You will also need to setup your editor to handle OCaml files. I highly recommend Microsoft’s VSCode
 with the vscode-reasonml extension as it works great out of the box (seriously, it rocks!).
 
@@ -45,6 +40,7 @@ Note that after you get these plugins or extensions installed there are some ext
 give you that smooth IDE experience, which will be addressed in the next section.
 
 ## Initial setup
+
 Let’s create a new directory for our awesome project! As naming is one of the hardest problems in Computer Science,
 we will choose to be uninspired and pick the most perfect name for our project: todolist.
 
@@ -56,19 +52,13 @@ $ cd todolist
 Next up, we are going to create an opam switch. Opam install packages globally, and switches makes it easy
 to have a isolated environment in which you can install packages that will not be shared between switches,
 and therefore reduce the chance of dependencies conflict. You can think of it as an analog to Python’s
-virtualenv. For more on switches, have a look at the “Switching OCaml version” section of my previous article.
+virtualenv.
 
 We are going to name the switch todolist, the same as our project name, for consistency.
-We will be using OCaml version 4.05.0 as the base compiler. To create the switch, use this command:
+We will be using OCaml version 4.07.1 as the base compiler. To create the switch, use this command:
 
 ```
-$ opam switch todolist --alias-of 4.05.0
-```
-
-If you’re on opam v2, use this instead to create a local switch:
-
-```
-opam switch create . ocaml-base-compiler.4.05.0.
+opam switch create . ocaml-base-compiler.4.07.1.
 ```
 
 Local switches are self-contained only in the current directory instead of an ~/.opam/<switch-name> directory.
@@ -77,12 +67,6 @@ Creating a switch will involve downloading and building the compiler.
 Depending on your machine and internet connection, this could take a while!
 
 After that, run this command to make sure our environment is properly synced:
-
-```
-$ eval $(opam config env)
-```
-
-Or, for opam 2:
 
 ```
 $ eval $(opam env)
@@ -112,9 +96,11 @@ In general, I favor utop as our REPL instead of the builtin ocaml, since the for
 Wait for the install to finish, and our initial setup is done!
 
 ## Dune basics
+
 In this section, we’re going to create a new Dune project.
 
 ### Executables
+
 The first concept that we’re going to explore is an executable. An executable is, as the name implies,
 a program that can be executed. This is contrast to a library, which we will explore in the later section.
 
@@ -128,7 +114,6 @@ Make sure you’re in the todolist directory, and create the file with the follo
     
 The file should pretty much be self-explanatory. dune files are written using S-expressions
 (those lisp-y parentheses).
-In this particular file, we note that we’re using version 1 of jbuild specification.
 Each of the top-level elements are called stanzas, and currently we have one stanza.
 
 In the executable stanza, the value of name field denotes the module (file) name that contains the
@@ -194,6 +179,7 @@ Still working as expected.
 Next up, we’re going to look at putting reusable code as library modules to be used from the executable.
 
 ### Libraries
+
 Structuring your code in a modular way is one of software engineering best practices.
 In OCaml and Dune, such structure can be achieved through the use of libraries.
 While there may be a formal definition of it, I like to think of a library as a collection of modules
@@ -284,6 +270,7 @@ If I remember my elementary school math subject correctly, our program now print
 the correct result of the functions from our library!
 
 ## Interface files
+
 One thing you may (or may not) observe from the above steps is that anything you write
 on math.ml module will be automatically visible from the client module (in this case, main.ml).
 This is how OCaml works; by default all identifiers are exposed from a module.
@@ -392,4 +379,4 @@ To exit the utop session, you can use `CTRL+D` or use `#quit;;`.
 
 That concludes our exploration on Dune to build our OCaml app project.
 I have by no means exhausted the capabilities that Dune have, but what I demonstrated
-in this article is sufficient to get you up and running with your own app.
+here is sufficient to get you up and running with your own app.
