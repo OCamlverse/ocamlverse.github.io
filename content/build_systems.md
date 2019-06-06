@@ -15,6 +15,12 @@ on multiple versions of the compiler.
 Provides filtering for specific package versions, build errors, and package authors.
 * [OPAM for Windows](https://fdopen.github.io/opam-repository-mingw)  - opam repository and experimental
 native build for Windows.
+* [esy](https://esy.sh/)
+is a tool that is fully compatible with OPAM on the client side, while also allowing for the installation of
+ReasonML packages.
+Currently it is installed either via `npm` (the node.js package manager) or your operating system's package manager.
+What `esy` brings to the table that OPAM lacks is the ability to cache all installed packages,
+allowing for reuse of binaries, and for the effortless creation of sandboxed environments for each of your projects.
 
 ## Package Release System
 
