@@ -27,6 +27,8 @@ An interval arithmetic library.
 A bit-vector library.
 * [psq](https://github.com/pqwy/psq):
 Functional priority search queues library.
+* [bloomf](https://github.com/mirage/bloomf):
+Fast [Bloom-filter](https://en.wikipedia.org/wiki/Bloom_filter) library.
 
 ### Heterogeneous Maps
 
