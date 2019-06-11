@@ -17,3 +17,5 @@ A typeclass-like system for OCaml.
 
 * [Format Unravelled](https://hal.archives-ouvertes.fr/hal-01503081/file/format-unraveled.pdf):
 The Format module and its design.
+* [Pattern Matching](http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf):
+How the compiler compiles pattern matching code to be efficient.
