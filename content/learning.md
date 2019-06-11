@@ -95,7 +95,10 @@ Not OCaml-specific, but a good book to learn Category Theory from.
 An ongoing work to translate CTFP's code from Haskell to OCaml.
 
 ### Writing Efficient Code
-See [Optimizing OCaml Performance](optimizing_performance.md)
+See [Optimizing OCaml Performance](optimizing_performance.md).
+
+### Papers
+See [Papers on OCaml](papers.md).
 
 ## Articles
 
