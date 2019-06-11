@@ -186,6 +186,9 @@ and the best choice for longer-running timing requirements.
 * [calendar](http://calendar.forge.ocamlcore.org/) 
 * [odate](https://github.com/hhugo/odate) 
 
+## Unicode Support
+See [Unicode](unicode.md)
+
 ## User Interface
 For GUIs and TUIs (Terminal User Interfaces), see [User Interface](ui.md)
 
