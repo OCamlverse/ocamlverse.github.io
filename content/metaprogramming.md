@@ -41,6 +41,8 @@ Conditional compilation like `#ifdef` for OCaml.
 A simple ppx filter to support string interpolation like `[%str "value of foo is $(foo)"]`.
 * [ppx_monad](https://github.com/rizo/ppx_monad):
 Monadic syntax extension.
+* [ppx_let](https://github.com/janestreet/ppx_let):
+A monadic syntax extension from Jane Street.
 * [ocaml-monadic](https://github.com/zepalmer/ocaml-monadic):
 Another monadic syntax extension.
 * [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
