@@ -112,14 +112,13 @@ see [Scientific Computing](scientific.md)
 
 ## Metaprogramming and PPX
 For metaprogramming facilities such as PPX, camlp4 and MetaOCaml,
-see [Metaprogramming](metaprogramming.md)
+see [Metaprogramming](metaprogramming.md).
 
 ## Mobile
-For compilation of OCaml to mobile platforms, see [Mobile](mobile.md)
+For compilation of OCaml to mobile platforms, see [Mobile](mobile.md).
 
 ## Monads
-* [BAP Monads](http://binaryanalysisplatform.github.io/bap/api/master/Monads.Std.html):
-BAP (Binary Analysis Platform) has an independent and comprehensive monad library.
+See [Monads](monads.md).
 
 ## Pretty printing
 * [Format](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Format.html):
