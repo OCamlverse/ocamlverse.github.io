@@ -11,6 +11,8 @@ with a syntax such as `let%bind x = ...`.
 
 Additionally, as of OCaml 4.08, the langauge itself contains syntax for calling
 monadic functions.
+See [this blog post](https://jobjo.github.io/2019/04/24/ocaml-has-some-new-shiny-syntax.html)
+and the [OCaml manual on this](https://caml.inria.fr/pub/docs/manual-ocaml-4.08/manual046.html).
 
 ## Monadic Synax Extensions
 
