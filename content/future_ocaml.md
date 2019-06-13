@@ -12,11 +12,13 @@ Some interesting developments coming up in OCaml's future:
 Currently, OCaml has a global runtime lock,
 with support for green threads (concurrency) via `lwt` and `Async`.
 The plan is to allow OCaml to run in parallel (which are termed `domains`),
-while also allowing for native green thread support.
+while also allowing for native green thread support via algebraic effects.
 
 See [this post](https://discuss.ocaml.org/t/ocaml-multicore-report-on-a-june-2018-development-meeting-in-paris/2202),
 the [multicore ocaml github repo](https://github.com/ocamllabs/ocaml-multicore),
 and its associated [wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
+
+A great explanation of algebraic effects can be found [here](https://github.com/ocamllabs/ocaml-effects-tutorial).
 
 ### Typed Algebraic Effects
 
@@ -32,7 +34,8 @@ type system.
 Extending OCaml's type system with algebraic effects would make it similar to Haskell's,
 but without requiring monads for effects.
 
-Work is ongoing [here](https://github.com/lpw25/ocaml-typed-effects).
+See the tutorial above for an introduction to (untyped) algebraic effects.
+Work on typed effects is ongoing [here](https://github.com/lpw25/ocaml-typed-effects).
 
 ## Long-Term Plans
 
