@@ -17,6 +17,7 @@ while also allowing for native green thread support via algebraic effects.
 See [this post](https://discuss.ocaml.org/t/ocaml-multicore-report-on-a-june-2018-development-meeting-in-paris/2202),
 the [multicore ocaml github repo](https://github.com/ocamllabs/ocaml-multicore),
 and its associated [wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
+You can also look for things to help with on the [roadmap](https://github.com/ocaml-multicore/ocaml-multicore/projects/3).
 
 A great explanation of algebraic effects can be found [here](https://github.com/ocamllabs/ocaml-effects-tutorial).
 
