@@ -40,6 +40,7 @@ for developing multi-platform Web and mobile apps as 100% OCaml distributed appl
 It can also be used for more traditional Web or mobile apps.
 Eliom lets you write client and server code in OCaml, where both are typechecked against
 each other, the client being compiled to JS and the backend to OCaml.
+  * [Oscigen Tutorial](http://ocsigen.org/tuto/6.4/manual/application.html)
   * [Thesis on Eliom](https://www.irif.fr/~gradanne/papers/phdthesis.pdf)
 * [webmachine](https://github.com/inhabitedtype/ocaml-webmachine)  – A REST toolkit for OCaml. OCaml webmachine is a layer on top of cohttp that implements a state-machine-based HTTP request processor. It's particularly well-suited for writing RESTful APIs. As the name suggests, this is an OCaml port of the webmachine project.
 * [OCaml-graphql-server](https://github.com/andreas/ocaml-graphql-server):
