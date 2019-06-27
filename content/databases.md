@@ -8,6 +8,8 @@ tags: [ecosystem]
 
 * [Caqti](https://github.com/paurkedal/ocaml-caqti): monadic, asynchronous common interface to relational databases.
 Currently supports MariahDB, PostgreSQL and SQLite3.
+* [Sequoia](https://github.com/andrenth/sequoia):
+Create type-safe queries. Currently with bindings to MySQL/MariaDB and SQLite.
 * [Mongo](https://massd.github.io/mongo/): OCaml driver for Mongodb
 * [OCaml-mariahdb](https://github.com/andrenth/ocaml-mariadb): OCaml bindings to MariahDB interface.
 * [PG'OCaml](http://pgocaml.forge.ocamlcore.org/): a type-safe interface to PostgreSQL in pure OCaml.
