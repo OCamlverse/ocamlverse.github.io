@@ -3,6 +3,10 @@ tags: [ecosystem]
 ---
 
 # Protocols
+
+* [obus](https://github.com/ocaml-community/obus):
+Pure OCaml implementation of the [D-bus IPC protocol](https://en.wikipedia.org/wiki/D-Bus),
+used by Freedesktop and Linux.
 * [onanomsg](https://github.com/rgrinberg/onanomsg)  – nanomsg bindings for OCaml.
 * [Kafka](https://github.com/didier-wenzek/ocaml-kafka)  – OCaml bindings for Apache Kafka.
 * [AMQP](https://github.com/andersfugmann/amqp-client)  – AMQP client library for Async and Lwt.
