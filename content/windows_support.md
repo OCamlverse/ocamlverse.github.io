@@ -48,6 +48,8 @@ without cygwin or some other unix-like environment.
 
 There is work being put in by [OCaml Labs](http://ocamllabs.io/doc/windows.html) to improve
 the windows situtation.
+Additionally, OPAM is being extended to support a Windows environment.
+See [this post](https://discuss.ocaml.org/t/ann-opam-2-0-5-release/4081/7) for details.
 
 [ocaml-win]: https://fdopen.github.io/opam-repository-mingw/
 [ocaml-ocpwin]: http://www.typerex.org/ocpwin.html
