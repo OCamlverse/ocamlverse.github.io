@@ -12,10 +12,12 @@ A list of projects written in OCaml, useful for learning and for gaining inspira
 * [Cumulus](https://github.com/Cumulus/Cumulus) - Hacker news like website with the OCaml framework Ocsigen
 * [OCamURL](https://github.com/RightThisMinute/OCamURL-server) - A url shortening server with a GraphQL API.
 
-## Desktop GUI's
+## Desktop Apps
 
 * [0install](https://github.com/0install/0install) - A decentralized cross-distribution software installation system,
 uses GTK2.
+* [onivim 2](https://github.com/onivim/oni2):
+A modern editor that's got vim on the inside and modern sensibilities on the outside.
 
 ## Command line applications
 
