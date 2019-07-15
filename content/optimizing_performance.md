@@ -36,6 +36,8 @@ is a Linux performance tool that works with OCaml.
 * Flame graph tools like [speedscope](https://github.com/jlfwong/speedscope) give a great view of
 where your program spends its time.
 Very useful for optimization.
+* [This is a great article](https://github.com/ocaml-bench/notes/blob/master/profiling_notes.md)
+on the details of profiling with different tools and the comparison between them.
 
 ## Writing Efficient Code
 
