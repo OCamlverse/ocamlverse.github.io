@@ -57,7 +57,7 @@ Another monadic syntax extension.
 * [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
 A Yojson codec generator for OCaml. See [Serialization](file_formats.md#Serialization).
 * [ppx_yojson](https://github.com/NathanReb/ppx_yojson):
-Another Yojson ppx generator.
+Convert JSON expressions to `yojson` AST, allowing your code to be cleaner.
 * [ppx_regex](https://github.com/paurkedal/ppx_regexp):
 Contains 2 ppx parsers to OCaml [regex](regular_expressions.md) libraries:
   * ppx_regexp: maps to use Re (untyped regex)
@@ -72,6 +72,8 @@ A syntax extension for embedded SQL queries using PG'OCaml. See [Databases](data
 Derive Protobuf files from OCaml types. See [Protocols](protocols.md).
 * [ppx_cstubs](https://github.com/fdopen/ppx_cstubs):
 Write C functions directly in your OCaml code. See [FFI](ffi.md).
+* [ppx_sexp_conv](https://github.com/janestreet/ppx_sexp_conv):
+Derive converters to s-expressions.
 
 ## Other
 
