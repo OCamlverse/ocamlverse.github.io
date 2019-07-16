@@ -16,13 +16,15 @@ platform for writing efficient, resilient PPX extensions.
 
 * [A Guide to PreProcessor EXtensions](ppx.md)
 * [Introduction to the PPX Ecosystem](https://tarides.com/blog/2019-05-09-an-introduction-to-ocaml-ppx-ecosystem.html):
-Nice and thorough introduction to writing PPXs using ppx_lib.
+Nice and thorough introduction to writing PPXs using `ppxlib`.
 * [A Guide to Extension Points in OCaml](http://whitequark.org/blog/2014/04/16/a-guide-to-extension-points-in-ocaml/)
 * [Extension Points, or how OCaml is becoming more like Lisp](https://blogs.janestreet.com/extension-points-or-how-ocaml-is-becoming-more-like-lisp)
 * [Syntax extensions without Camlp4: let's do it!](http://www.lexifi.com/blog/ocaml/syntax-extensions-without-camlp4-lets-do-it)
 
 ### PPX Extensions
 
+* [ppx_enum](https://github.com/cryptosense/ppx_enum):
+A nice, simple ppx using `ppxlib` that serves as a good example for potential ppx writers.
 * [ppx_deriving](https://github.com/ocaml-ppx/ppx_deriving):
 Type-based framework for ppx extensions.
 Contains built-in plugins for `show`, `eq`, `ord`, `enum`, `iter`, `map`, `fold`, and `make`.
