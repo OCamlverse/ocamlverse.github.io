@@ -56,7 +56,7 @@ A monadic syntax extension from Jane Street.
 Another monadic syntax extension.
 * [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
 A Yojson codec generator for OCaml. See [Serialization](file_formats.md#Serialization).
-* [yojson_ppx](https://github.com/NathanReb/ppx_yojson):
+* [ppx_yojson](https://github.com/NathanReb/ppx_yojson):
 Another Yojson ppx generator.
 * [ppx_regex](https://github.com/paurkedal/ppx_regexp):
 Contains 2 ppx parsers to OCaml [regex](regular_expressions.md) libraries:
