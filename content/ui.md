@@ -12,12 +12,15 @@ Revery stands as a native, cross-platform alternative to Electron.
 * [Brisk](https://github.com/briskml/brisk) **WIP**:
 Rather than taking Revery's approach of having a uniform interface,
 Brisk aims to use native platform APIs do draw OS-based GUI elements.
+* [bogue](https://github.com/sanette/bogue):
+A new, SDL-based GUI. Ideal for integration in games.
 * [lablgtk](http://lablgtk.forge.ocamlcore.org/):
 GTK2 bindings for OCaml with various higher-level facilities to define GUIs.
 * [lablqml](https://github.com/Kakadu/lablqml):
 QML Qt5 bindings for OCaml.
 * [labltk](https://forge.ocamlcore.org/projects/labltk/):
 Interface to the Tcl/Tk GUI framework.
+[demo video](https://youtu.be/isFLxnDooL8)
 
 ## TUI (Terminals)
 * [Lambda-Term](https://github.com/diml/lambda-term):
