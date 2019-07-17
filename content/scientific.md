@@ -7,7 +7,7 @@ tags: [ecosystem]
 ## Machine Learning/Data Science
 
 * [Owl](https://github.com/ryanrhymes/owl)  - OCaml numerical library: dense and sparse matrix, linear algebra, regressions, maths and stats functions.
-* [torch-ocaml](https://github.com/LaurentMazare/ocaml-torch): OCaml bindings for PyTorch.
+* [ocaml-torch](https://github.com/LaurentMazare/ocaml-torch): OCaml bindings for PyTorch.
 * [tensorflow-ocaml](https://github.com/LaurentMazare/tensorflow-ocaml)  – OCaml bindings for TensorFlow.
 * [hdf5-OCaml](https://github.com/vbrankov/hdf5-ocaml)  - OCaml implementation of hdf5 reader/writer. hdf5 is a file format commonly used in data science.
 
