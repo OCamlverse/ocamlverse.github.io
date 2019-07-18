@@ -76,6 +76,8 @@ Derive Protobuf files from OCaml types. See [Protocols](protocols.md).
 Write C functions directly in your OCaml code. See [FFI](ffi.md).
 * [ppx_sexp_conv](https://github.com/janestreet/ppx_sexp_conv):
 Derive converters to s-expressions.
+* [ppx_protocol_conv](https://github.com/andersfugmann/ppx_protocol_conv):
+Framework for multiple serializers for different protocols.
 
 ## Other
 
