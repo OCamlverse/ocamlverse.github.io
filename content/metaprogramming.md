@@ -54,12 +54,6 @@ Monadic syntax extension.
 A monadic syntax extension from Jane Street.
 * [ocaml-monadic](https://github.com/zepalmer/ocaml-monadic):
 Another monadic syntax extension.
-* [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
-A Yojson codec generator for OCaml. See [Serialization](file_formats.md#Serialization).
-* [ppx_yojson_conv](https://github.com/janestreet/ppx_yojson_conv):
-Alternative to `ppx_deriving_yojson` from Jane Street.
-* [ppx_yojson](https://github.com/NathanReb/ppx_yojson):
-Convert JSON expressions to `yojson` AST, allowing your code to be cleaner.
 * [ppx_regex](https://github.com/paurkedal/ppx_regexp):
 Contains 2 ppx parsers to OCaml [regex](regular_expressions.md) libraries:
   * ppx_regexp: maps to use Re (untyped regex)
@@ -70,10 +64,19 @@ Cram-like tests for OCaml. See [Testing](testing.md).
 Code coverage for OCaml. See [Code Tools](code_tools.md).
 * [ppx_pgsql](https://github.com/tizoc/ppx_pgsql):
 A syntax extension for embedded SQL queries using PG'OCaml. See [Databases](databases.md).
-* [ppx_deriving_protobuf](https://github.com/ocaml-ppx/ppx_deriving_protobuf):
-Derive Protobuf files from OCaml types. See [Protocols](protocols.md).
 * [ppx_cstubs](https://github.com/fdopen/ppx_cstubs):
 Write C functions directly in your OCaml code. See [FFI](ffi.md).
+
+#### Protocol-related
+
+* [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
+A Yojson codec generator for OCaml. See [Serialization](file_formats.md#Serialization).
+* [ppx_yojson_conv](https://github.com/janestreet/ppx_yojson_conv):
+Alternative to `ppx_deriving_yojson` from Jane Street.
+* [ppx_yojson](https://github.com/NathanReb/ppx_yojson):
+Convert JSON expressions to `yojson` AST, allowing your code to be cleaner.
+* [ppx_deriving_protobuf](https://github.com/ocaml-ppx/ppx_deriving_protobuf):
+Derive Protobuf files from OCaml types. See [Protocols](protocols.md).
 * [ppx_sexp_conv](https://github.com/janestreet/ppx_sexp_conv):
 Derive converters to s-expressions.
 * [ppx_protocol_conv](https://github.com/andersfugmann/ppx_protocol_conv):
