@@ -1,9 +1,17 @@
 # Future of OCaml
 
-Some interesting developments coming up in OCaml's future:
+Some interesting news/developments coming up in OCaml's future:
+
+## Recently Introduced
+
+* [Post on plans for OCaml 4.08](https://blog.janestreet.com/plans-for-ocaml-408/):
+Pre-4.08 blog post.
+* [A Look at OCaml 4.08](https://blog.janestreet.com/a-look-at-ocaml-4.08/):
+Looking at what 4.08 included.
 
 ## Immediate Plans
-* [Post on plans for OCaml 4.08](https://blog.janestreet.com/plans-for-ocaml-408/)
+
+* OCaml 4.09
 
 ## Medium-Term Plans
 
