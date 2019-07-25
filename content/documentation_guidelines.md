@@ -209,15 +209,15 @@ The `.mli` file is basically a document much like a book, so feel free to
 organize the contents to be as coherent as possible without caring about the
 order of values in the implementation file.
 
-An example would be Simon Cruanes' [sequence] documentation, where the elements
+An example would be Simon Cruanes' [iter] documentation, where the elements
 are neatly organized into sections, such as "Build a sequence", "Consume a
 sequence", etc. Another example is Daniel Bünzli's [Fmt][fmt] documentation.
 
 Note that you can also add paragraphs after every section headers should you
 deem it necessary.
 
-[sequence]: http://c-cube.github.io/sequence/sequence/Sequence/index.html
-[fmt]: http://erratique.ch/software/fmt/doc/Fmt.html
+[iter]: http://c-cube.github.io/iter/1.2/iter/Iter/index.html
+[fmt]: https://erratique.ch/software/fmt/doc/Fmt/index.html
 
 ### Document all your signatures
 
