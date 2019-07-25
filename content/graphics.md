@@ -28,6 +28,11 @@ OpenGL bindings for OCaml. Provides an experimental functional API.
 Interface to OpenGL. Integrates well with lablgtk.
 * [tgls](http://erratique.ch/software/tgls):
 Thin bindings to OpenGL 3.{2,3},4.{0,1,2,3,4} and OpenGL ES {2,3}.
+* [glfw-ocaml](https://github.com/SylvainBoilard/GLFW-OCaml):
+Bindings to [GLFW](https://www.glfw.org/), an OpenGL library providing OS-specific
+functionality, such as window, surface and input management.
+* [ocaml-glfw](https://github.com/rizo/ocaml-glfw):
+Another library with bindings to [GLFW](https://www.glfw.org/).
 
 ## Linear Algebra
 
