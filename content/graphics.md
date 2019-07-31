@@ -6,6 +6,8 @@ tags: [ecosystem]
 
 ## 2D
 
+* [wall](https://github.com/let-def/wall):
+Vector drawing library using OpenGL as the backend.
 * [archimedes](http://archimedes.forge.ocamlcore.org/):
 2D plotting library.
 * [cairo2](https://github.com/Chris00/ocaml-cairo):
