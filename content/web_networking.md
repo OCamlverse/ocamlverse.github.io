@@ -7,6 +7,7 @@ tags: [ecosystem]
 ## HTTP Servers
 
 * [httpaf](https://github.com/inhabitedtype/httpaf):
+**Recommended.**
 A high performance web server written in OCaml. Compatible with Async and Lwt.
 * [h2](https://github.com/anmonteiro/ocaml-h2):
 High performance http2 server.
