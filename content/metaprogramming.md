@@ -66,6 +66,8 @@ Code coverage for OCaml. See [Code Tools](code_tools.md).
 A syntax extension for embedded SQL queries using PG'OCaml. See [Databases](databases.md).
 * [ppx_cstubs](https://github.com/fdopen/ppx_cstubs):
 Write C functions directly in your OCaml code. See [FFI](ffi.md).
+* [ppx-tyxml](https://ocsigen.org/tyxml/4.3.0/manual/ppx):
+Convert html/xml syntax to `tyxml` function calls.
 
 #### Protocol-related
 
