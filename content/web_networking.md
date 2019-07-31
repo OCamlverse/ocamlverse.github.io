@@ -49,6 +49,7 @@ A GraphQL server library. GraphQL is a regimented approach to data management in
 Generate type-safe code for graphql queries from GraphQL schema and queries.
 
 ## Web Apps
+
 * [Cumulus](https://github.com/Cumulus/Cumulus) : Hackernews-like website with the OCaml framework Ocsigen (demo is currently down).
 * [Prose](https://gitlab.com/adrien-n/prose/) : A Google-docs-like collaborative editing application written using Eliom/Ocsigen. See the demo [here](https://prose.yaxm.org/pads/foo-ocaml)
 * [Canopy](https://github.com/Engil/Canopy): A blogging MirageOS unikernel based on git.
@@ -72,7 +73,10 @@ backed by the very powerful [Incremental](https://github.com/janestreet/incremen
 
 ## Protocol Libraries
 
-* [tyxml](http://ocsigen.org/tyxml) : build valid html using combinators. Leverages OCaml's type system.
+* [tyxml](http://ocsigen.org/tyxml):
+build valid html using combinators. Leverages OCaml's type system.
+  * [tyxml-ppx](https://ocsigen.org/tyxml/4.3.0/manual/ppx):
+  PPX syntax extension to translate html/xml syntax into `tyxml` function calls.
 * [omd](https://github.com/ocaml/omd): convert Markdown to html.
 * [ocurl](https://github.com/ygrek/ocurl) : OCaml bindings to libcurl.
 * [ocaml-dns](https://github.com/mirage/ocaml-dns)  – A pure OCaml implementation of the DNS protocol.
