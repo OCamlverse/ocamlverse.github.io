@@ -54,6 +54,11 @@ It's a little tricky to get a hang of.
 * [OCaml - polymorphic print and type erasure](http://stackoverflow.com/questions/7442449/ocaml-polymorphic-print-and-type-losing)
 * [Weak Type Variables - when impurity breaks polymorphism](weak_type_variables.md)
 
+### GADTs
+
+* [Diff Lists](https://drup.github.io/2016/08/02/difflists/):
+An application of GADTs to produce heterogenous lists.
+
 ### Phantom Types
 
 * [Article from Jane Street](https://blog.janestreet.com/howto-static-access-control-using-phantom-types/)
