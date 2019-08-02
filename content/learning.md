@@ -58,6 +58,9 @@ It's a little tricky to get a hang of.
 
 * [Diff Lists](https://drup.github.io/2016/08/02/difflists/):
 An application of GADTs to produce heterogenous lists.
+* [Detecting use-cases for GADTs](https://mads-hartmann.com/ocaml/2015/01/05/gadt-ocaml.html)
+* [Tradeoffs with GADTs](https://engineering.issuu.com/2015/09/17/gadt-practicalities)
+* [Why GADTs matter for performance](https://blog.janestreet.com/why-gadts-matter-for-performance/)
 
 ### Phantom Types
 
