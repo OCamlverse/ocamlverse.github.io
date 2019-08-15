@@ -14,7 +14,6 @@ Some motivations for using OCaml can be found [here](http://spyder.wordpress.com
 * The [quickstart](quickstart.md) page to get you up and running as fast as possible.
 * [OCaml cheat sheet](https://github.com/alhassy/OCamlCheatSheet/blob/master/CheatSheet.pdf)
 * Play around with OCaml online using [sketch.sh](https://sketch.sh/ml).
-* [Quick Start an OCaml project with Dune](quickstart_ocaml_project_dune.md)
 * [The Beginner's Guide to OCaml Beginner's guides](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/)  where X=OCaml.
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
@@ -30,6 +29,11 @@ Several guidelines for best practices have been established by the community. Se
 ### Setting Up Your Editor
 
 OCaml can be edited conveniently with many different editors. See [Editor Support](editor_support.md).
+
+### Using the OCaml Build Tools
+
+* [Quick Start an OCaml project with Dune](quickstart_ocaml_project_dune.md)
+* [Project showing how to use OPAM with/without dune](https://github.com/jserot/opam-howto)
 
 ## Intermediate
 
