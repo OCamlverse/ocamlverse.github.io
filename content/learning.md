@@ -15,18 +15,14 @@ Some motivations for using OCaml can be found [here](http://spyder.wordpress.com
 * [OCaml cheat sheet](https://github.com/alhassy/OCamlCheatSheet/blob/master/CheatSheet.pdf)
 * Play around with OCaml online using [sketch.sh](https://sketch.sh/ml).
 * [The Beginner's Guide to OCaml Beginner's guides](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
-* [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/)  where X=OCaml.
+* [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/) where X=OCaml.
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
 * [Ocaml file types and filename extensions](https://ocaml.org/learn/tutorials/filenames.html)
-* [The faq](faq.md) is good to read up on.
+* [The faq](faq.md): a good place to find answers to questions about OCaml.
 * [Real World OCaml](https://dev.realworldocaml.org/):
 A free online book, and a great introduction to OCaml.
 
-### Best Practices
-
-Several guidelines for best practices have been established by the community. See [Best Practices](best_practices.md).
-
-### Setting Up Your Editor
+### Setting Up Your Editor for OCaml
 
 OCaml can be edited conveniently with many different editors. See [Editor Support](editor_support.md).
 
@@ -34,6 +30,13 @@ OCaml can be edited conveniently with many different editors. See [Editor Suppor
 
 * [Quick Start an OCaml project with Dune](quickstart_ocaml_project_dune.md)
 * [Project showing how to use OPAM with/without dune](https://github.com/jserot/opam-howto)
+* [OPAM for npm/yarn users](opam_npm.md)
+* [A sample Dune project](https://github.com/mjambon/dune-starter)
+
+### Best Practices
+
+Several guidelines for best practices have been established by the community.
+See [Best Practices](best_practices.md).
 
 ## Intermediate
 
