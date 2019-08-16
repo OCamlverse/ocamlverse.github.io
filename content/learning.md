@@ -30,6 +30,7 @@ OCaml can be edited conveniently with many different editors. See [Editor Suppor
 
 * [Quick Start an OCaml project with Dune](quickstart_ocaml_project_dune.md)
 * [Project showing how to use OPAM with/without dune](https://github.com/jserot/opam-howto)
+* [Project showing how to use Dune in different configurations](https://github.com/jserot/dune-howto)
 * [OPAM for npm/yarn users](opam_npm.md)
 * [A sample Dune project](https://github.com/mjambon/dune-starter)
 
