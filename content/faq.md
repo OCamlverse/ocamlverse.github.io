@@ -45,6 +45,11 @@ and Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria.fr/p
 
 ## OCaml Gotchas
 
+Every language has its weak spots, or 'gotchas'.
+This could be either a result of needing to maintain backwards compatibility,
+or of the specific design choices of the language.
+It's good to know what the 'gotchas' are before you head in, so you can look out for them.
+
 * **Polymorphic compare**:
     OCaml's comparison functions - `=`, `<`, `>` etc. use structural comparison by default.
     This means that while they work on any type, they don't understand the meaning of the data,
