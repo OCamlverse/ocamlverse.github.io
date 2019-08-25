@@ -31,7 +31,7 @@ Contains a few standalone tools:
 * [ocp-indent](http://www.typerex.org/ocp-indent.html):
 indentation tool for OCaml, to be used from editors like Emacs and Vim.
   * [Vim plugin](https://github.com/def-lkb/ocp-indent-vim)
-  
+
 * [user-setup](https://github.com/OCamlPro/opam-user-setup):
 automatically configures several editors to use merlin, ocp-indent, and ocp-index if they are installed.
 Run `opam install user-setup` to install it, and then follow the instructions,
@@ -65,7 +65,5 @@ OCaml dead code analysis.
 
 ### Code Coverage
 
-* [Bisect](http://bisect.x9c.fr/):
+* [Bisect_ppx](https://github.com/aantron/bisect_ppx):
 A coverage tool for OCaml.
-* [Bisect_ppx](https://github.com/rleonid/bisect_ppx):
-A more recent fork of the previous tool, making use of ppx processing.
