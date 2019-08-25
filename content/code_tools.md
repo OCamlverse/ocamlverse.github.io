@@ -65,7 +65,5 @@ OCaml dead code analysis.
 
 ### Code Coverage
 
-* [Bisect](http://bisect.x9c.fr/):
-A coverage tool for OCaml.
 * [Bisect_ppx](https://github.com/aantron/bisect_ppx):
-A more recent fork of the previous tool, making use of ppx processing.
+A coverage tool for OCaml.
