@@ -61,7 +61,7 @@ Contains 2 ppx parsers to OCaml [regex](regular_expressions.md) libraries:
   * ppx_tyre: maps to use Tyre for typed regex.
 * [ppx_expect](https://github.com/janestreet/ppx_expect):
 Cram-like tests for OCaml. See [Testing](testing.md).
-* [Bisect_ppx](https://github.com/rleonid/bisect_ppx):
+* [Bisect_ppx](https://github.com/aantron/bisect_ppx):
 Code coverage for OCaml. See [Code Tools](code_tools.md).
 * [ppx_pgsql](https://github.com/tizoc/ppx_pgsql):
 A syntax extension for embedded SQL queries using PG'OCaml. See [Databases](databases.md).
