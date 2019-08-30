@@ -15,6 +15,12 @@ Looking at what 4.08 included.
 
 ## Medium-Term Plans
 
+### Flambda 2.0
+
+Flambda is the framework that currently optionally optimizes OCaml code.
+Work is ongoing to create the next version at OCamlPro.
+See [this post](https://www.ocamlpro.com/2019/08/30/ocamlpros-compiler-team-work-update/).
+
 ### Multicore OCaml
 
 Currently, OCaml has a global runtime lock,
