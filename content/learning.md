@@ -51,6 +51,9 @@ It's a little tricky to get a hang of.
 * [Blog post on Format](https://cedeela.fr/format-all-the-data-structures.html)
 * [Paper](https://hal.archives-ouvertes.fr/hal-01503081/file/format-unraveled.pdf) on Format
 
+### Tools
+* [Fuzzing OCaml programs](https://tarides.com/blog/2019-09-04-an-introduction-to-fuzzing-ocaml-with-afl-crowbar-and-bun.html)
+ 
 ## Advanced
 
 ### Modules and Functors
