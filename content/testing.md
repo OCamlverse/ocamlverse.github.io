@@ -28,3 +28,11 @@ general inline testing macros.
 a lightweight unit testing framework
 compatible with the [Test Anything Protocol](https://testanything.org/).
 * [Cucumber.ml](https://github.com/cucumber/cucumber.ml): Behavior Driven Development using Cucumber.
+
+## Fuzzing
+
+* [Crowbar](https://github.com/stedolan/crowbar/):
+Quickcheck tests + fuzzing courtesy of [afl-fuzz](http://lcamtuf.coredump.cx/afl/).
+* [bun](https://github.com/yomimono/ocaml-bun/):
+Integrate fuzzing into your CI.
+* [Article about fuzzing with Crowbar, bun and afl-fuzz](https://tarides.com/blog/2019-09-04-an-introduction-to-fuzzing-ocaml-with-afl-crowbar-and-bun.html)
