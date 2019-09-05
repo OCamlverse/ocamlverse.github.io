@@ -29,6 +29,8 @@ used by Freedesktop and Linux.
 # Security and Cryptography
 
 * [ocaml-tls](https://github.com/mirleft/ocaml-tls): TLS in pure OCaml.
+  * [Excellent series of articles](https://mirage.io/blog/introducing-ocaml-tls)
+  on ocaml-tls and its design.
 * [Digestif](https://github.com/mirage/digestif): Hash algorithms (like SHA* or BLAKE2*) in OCaml and C.
 * [cryptokit](https://github.com/xavierleroy/cryptokit): The Cryptokit library for OCaml provides a variety of cryptographic primitives that can be used to implement cryptographic protocols in security-sensitive applications.
 * [nocrypto](https://github.com/mirleft/ocaml-nocrypto): A small cryptographic library behind the ocaml-tls project. It is built to be straightforward to use, adhere to functional programming principles and able to run in a Xen-based unikernel.
