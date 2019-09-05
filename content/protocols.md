@@ -12,6 +12,8 @@ used by Freedesktop and Linux.
 * [AMQP](https://github.com/andersfugmann/amqp-client): AMQP client library for Async and Lwt.
 * [MPI](https://github.com/xavierleroy/ocamlmpi): Message Passing Interface bindings for OCaml.
 * [MQTT](https://github.com/j0sh/ocaml-mqtt): OCaml implementation of the MQTT pubsub protocol.
+* [asn1-combinators](https://github.com/mirleft/ocaml-asn1-combinators):
+Use the ASN.1 standard. See [introducing ASN.1](https://mirage.io/blog/introducing-asn1)
 
 ## ZeroMQ
 * [ocaml-zmq](https://github.com/issuu/ocaml-zmq): ZeroMQ bindings for OCaml.
