@@ -288,7 +288,7 @@ it after the element has several benefits:
    less cognitive dissonance when you switch from one to the other. A
    documentation generator output will then just be a prettified view of
    your `.mli`.
-   
+
 An exception to this rule is for the first toplevel documentation and for
 inner-modules documentation. For the latter, documentation should go
 before the module declaration.
@@ -427,22 +427,22 @@ opam install odoc
 
 [Dune] (formerly Jbuilder) is a build system by Jane Street. It supports
 generating documentations out of the box. To be able to generate documentation
-for your Dune-powered projects (usually notable by the presence of `jbuild` or
-`jbuild-workspace` files), you need to:
+for your Dune-powered projects (usually notable by the presence of `dune` or
+`dune-workspace` files), you need to:
 
-- make sure that `jbuilder` and `odoc` are installed, and
+- make sure that `dune` and `odoc` are installed, and
 - make sure that a `<package>.opam` file exists.
 
 If you haven't already, install Dune and odoc:
 
 ```
-opam install jbuilder odoc
+opam install dune odoc
 ```
 
 To generate the documentation, run this command:
 
 ```
-jbuilder build @doc
+dune build @doc
 ```
 
 The documentation will then be available at
@@ -452,7 +452,7 @@ browser.
 For more on Dune, consult the [official docs][dunedocs].
 
 [dune]: https://github.com/ocaml/dune
-[dunedocs]: http://jbuilder.readthedocs.io/en/latest/
+[dunedocs]: https://dune.readthedocs.io/en/latest/
 
 ## odig
 
