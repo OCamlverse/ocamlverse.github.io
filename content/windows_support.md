@@ -40,11 +40,11 @@ It has some OPAM support, though not all OPAM packages will be available.
 
 ## Limitations
 
-Using OCaml on WSL is virtually the same as using it on Linux. Otherwise, the versions supported by the
+* Using OCaml on WSL is virtually the same as using it on Linux. Otherwise, the versions supported by the
 windows distributions seem to lag behind the versions 
 supported on Unix.
-Many tools (`ocamlbuild`, `ocamlfind`, etc.) can't be used 
-without cygwin or some other unix-like environment.  
+* Many tools (`ocamlbuild`, `ocamlfind`, etc.) can't be used 
+without cygwin or some other unix-like environment.
 
 There is work being put in by [OCaml Labs](http://ocamllabs.io/doc/windows.html) to improve
 the windows situtation.
@@ -54,3 +54,7 @@ See [this post](https://discuss.ocaml.org/t/ann-opam-2-0-5-release/4081/7) for d
 [ocaml-win]: https://fdopen.github.io/opam-repository-mingw/
 [ocaml-ocpwin]: http://www.typerex.org/ocpwin.html
 [ocaml-from-source]: https://github.com/ocaml/ocaml/blob/trunk/README.win32.adoc
+
+## Resources
+
+* [Video on getting OCaml to Windows](https://www.youtube.com/watch?v=1DAuSSljLFI).
