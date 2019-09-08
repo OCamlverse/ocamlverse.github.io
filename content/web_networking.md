@@ -4,6 +4,10 @@ tags: [ecosystem]
 
 # Web and Networking
 
+## Miscellaneous
+
+* [ICFP presentation on improving the OCaml web stack](https://www.youtube.com/watch?v=tTqqu4xh4UY&t=1156s)
+
 ## HTTP Servers
 
 * [httpaf](https://github.com/inhabitedtype/httpaf):
