@@ -53,7 +53,7 @@ but without requiring monads for effects.
 See the tutorial above for an introduction to (untyped) algebraic effects.
 Work on typed effects is ongoing [here](https://github.com/lpw25/ocaml-typed-effects).
 
-* [Presentation on typed effects at ICFP](https://www.youtube.com/watch?v=DNp3ifNpgPM)
+* [Presentation on algebraic effects at ICFP](https://www.youtube.com/watch?v=DNp3ifNpgPM)
 
 ## Long-Term Plans
 
