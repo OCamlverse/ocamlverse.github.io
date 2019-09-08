@@ -34,7 +34,8 @@ the [multicore ocaml github repo](https://github.com/ocamllabs/ocaml-multicore),
 and its associated [wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
 You can also look for things to help with on the [roadmap](https://github.com/ocaml-multicore/ocaml-multicore/projects/3).
 
-A great explanation of algebraic effects can be found [here](https://github.com/ocamllabs/ocaml-effects-tutorial).
+* [ICFP Presentation on advanced lock-free programming in multicore OCaml](https://www.youtube.com/watch?v=C0YkrerSNn0)
+
 
 ### Typed Algebraic Effects
 
@@ -53,6 +54,7 @@ but without requiring monads for effects.
 See the tutorial above for an introduction to (untyped) algebraic effects.
 Work on typed effects is ongoing [here](https://github.com/lpw25/ocaml-typed-effects).
 
+* A great explanation of algebraic effects can be found [here](https://github.com/ocamllabs/ocaml-effects-tutorial).
 * [Presentation on algebraic effects at ICFP](https://www.youtube.com/watch?v=DNp3ifNpgPM)
 
 ## Long-Term Plans
