@@ -15,6 +15,7 @@ It allows for all the advantages provided by Merlin with the convenience of the 
 the main tool used to provide information to editors about OCaml codebases.
 Note that to provide information, the code must first be compiled.
 Dune is able to automatically create /.merlin/ files, which are needed to help merlin find the compiled files.
+  * [Presentation on merlin at ICFP 2018](https://www.youtube.com/watch?v=VjLL9We1Fxc)
 * [tuareg](https://github.com/ocaml/tuareg):
 OCaml mode for Emacs that can run the toplevel and the debugger within Emacs.
 * [Sublime better ocaml](https://github.com/whitequark/sublime-better-ocaml):
