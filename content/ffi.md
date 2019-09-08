@@ -29,6 +29,7 @@ This method is error prone, and you're advised to stay away from it unless it's 
 
 * [rust-ocaml-derive](https://github.com/ahrefs/rust-ocaml-derive): provides an FFI with Rust.
 Works on both the OCaml-to-Rust and Rust-to-OCaml directions.
+  * [ICFP Presentation: Safely mixing OCaml and Rust](https://www.youtube.com/watch?v=UXfcENNM_ts)
 
 ## Articles
 
