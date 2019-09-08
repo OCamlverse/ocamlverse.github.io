@@ -34,6 +34,8 @@ OCaml can be edited conveniently with many different editors. See [Editor Suppor
 * [Project showing how to use Dune in different configurations](https://github.com/jserot/dune-howto)
 * [OPAM for npm/yarn users](opam_npm.md)
 * [A sample Dune project](https://github.com/mjambon/dune-starter)
+* [OPAM 2.0 tips](https://opam.ocaml.org/blog/opam-20-tips/):
+Local opam installs, pinning, and lock files.
 
 ### Best Practices
 
