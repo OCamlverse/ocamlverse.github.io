@@ -132,14 +132,7 @@ pretty-printing library abstracting over the Format module in the stdlib.
 For support of protocols, see [Protocols](protocols.md)
 
 ## Profiling
-
-* [SpaceTime](https://caml.inria.fr/pub/docs/manual-ocaml/spacetime.html)
-is integrated into the compiler and allows profiling of memory allocation.
-* [landmarks](https://github.com/LexiFi/landmarks): a profiling library for OCaml,
-taking into account both
-memory allocation and CPU time.
-* Standard tools such as [gprof](https://sourceware.org/binutils/docs/gprof/)
-can also be used to debug OCaml programs.
+See [Profiling](profiling.md).
 
 ## Regular Expressions
 See [Regular Rxpressions](regular_expressions.md)
