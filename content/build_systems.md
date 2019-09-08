@@ -10,6 +10,8 @@ in OCaml, OPAM is your friend, taking care of package dependency and invoking th
     * [opam-ci](https://github.com/ocaml/infrastructure/wiki/Using-the-opam-ci-tool), a plugin for OPAM,
     provides access to full continuous integration information about every package in OPAM.
     You can see which packages compile and which are broken from the command line.
+    * [OPAM 2.0 tips](https://opam.ocaml.org/blog/opam-20-tips/):
+    Local opam installs, pinning, and lock files.
 * [opam-check-all](http://check.ocamllabs.io/): shows you all OPAM packages and their build status
 on multiple versions of the compiler.
 Provides filtering for specific package versions, build errors, and package authors.
