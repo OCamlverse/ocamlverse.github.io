@@ -54,6 +54,7 @@ one mode, which is equivalent to `clambda` compilation.
 #### ppx
 ### Typechecker
 ### Lambda
+* [ICFP Presentation on Semantics of Lambda](https://www.youtube.com/watch?v=R3Uk9gt90Tk)
 #### Pattern Matching
 
 * [Compiling Pattern Matching to Good Decision Trees](http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf)
