@@ -12,6 +12,7 @@ It serves as a programming framework for constructing secure,
 high-performance network applications across a variety of cloud computing and mobile platforms.
   * [mirage-skeleton](https://github.com/mirage/mirage-skeleton):
   Examples of simple Mirage apps.
+  * [ICFP Presentation on Mirage and Irmin](https://www.youtube.com/watch?v=nUJYGFJDVVo)
 * [mirage-tcpip](https://github.com/mirage/mirage-tcpip):
 Pure OCaml TCPIP stack.
 * [Irmin](https://github.com/mirage/irmin):
