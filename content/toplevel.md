@@ -36,9 +36,11 @@ That's what `;;` is for.
 #require "library";;
 ```
 
-Note how we use a string for the library name.
+Note how we use a string for the library name. For example:
 
-#require "core_kernel";;
+```
+#require "graphics";;
+```
 
 ## Printers.
 
