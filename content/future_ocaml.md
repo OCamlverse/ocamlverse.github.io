@@ -11,7 +11,7 @@ Looking at what 4.08 included.
 
 ## Interesting Pull Requests
 
-* [array data types](https://github.com/ocaml/ocaml/pull/616):
+* [Array data types](https://github.com/ocaml/ocaml/pull/616):
 Right now, OCaml has multiple array types (string, float array, array) that are treated differently.
 This PR is an attempt to combine these into one type, while allowing for future optimization.
 
