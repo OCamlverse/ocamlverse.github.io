@@ -9,9 +9,11 @@ Pre-4.08 blog post.
 * [A Look at OCaml 4.08](https://blog.janestreet.com/a-look-at-ocaml-4.08/):
 Looking at what 4.08 included.
 
-## Immediate Plans
+## Interesting Pull Requests
 
-* OCaml 4.09
+* [array data types](https://github.com/ocaml/ocaml/pull/616):
+Right now, OCaml has multiple array types (string, float array, array) that are treated differently.
+This PR is an attempt to combine these into one type, while allowing for future optimization.
 
 ## Medium-Term Plans
 
