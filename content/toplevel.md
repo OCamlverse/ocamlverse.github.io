@@ -15,7 +15,7 @@ If you're using `ocaml`, your first command should be
 ```
 Note the `#` symbol that precedes all directives to the REPL (ie. not ocaml calls).
 
-* The `~.ocamlinit` file is executed as soon as you start up the toplevel.
+* The `~/.ocamlinit` file is executed as soon as you start up the toplevel.
 For regular `ocaml`, you want to insert the `#use "topfind;;"` line in there.
 
 * Note also the `;;` that follows every phrase in the toplevel.
