@@ -22,6 +22,7 @@ Some motivations for using OCaml can be found [here](http://spyder.wordpress.com
 * [Real World OCaml](https://dev.realworldocaml.org/):
 A free online book, and a great introduction to OCaml.
 * [Links to OCaml Q&A around the web](qna_links.md).
+* [Using the OCaml toplevel/REPL](toplevel.md)
 
 ### Setting Up Your Editor for OCaml
 
