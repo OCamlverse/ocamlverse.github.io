@@ -52,12 +52,12 @@ so that you can switch between one and another.
 The `#install_printer` directive enables custom printers for your data, which is very useful during development and debugging.
 It takes a function, which should have the type
 
-```
+```ocaml
 Format.formatter -> t -> unit
 ```
 where t is the type of your data, e.g.,
 
-```
+```ocaml
 type t = Student of int
 
 let pp_name ppf (Student id) = 
