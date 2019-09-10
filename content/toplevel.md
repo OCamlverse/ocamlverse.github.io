@@ -94,7 +94,7 @@ You can debug each piece of an application independently, and then load the piec
 
 * Another trick is to stub a needed library with a dummy interface:
 
-```
+```ocaml
 (* let's stub some complex external library which is developed 
     by some other guy, and is still not yet ready *)
 module Database  : Database.S = struct 
