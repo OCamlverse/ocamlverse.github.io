@@ -109,7 +109,7 @@ end
 (* here comes our code that needs the database, which is not yet ready,
     but it doesn't stop us anymore *)
 
-let start_driviving env = 
+let start_driving env = 
    let db = Database.connect env.main_host in
    let waypoints = Database.select db waypoints_query in
    drive_through waypoints
