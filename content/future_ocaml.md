@@ -14,6 +14,9 @@ Looking at what 4.08 included.
 * [Array data types](https://github.com/ocaml/ocaml/pull/616):
 Right now, OCaml has multiple array types (string, float array, array) that are treated differently.
 This PR is an attempt to combine these into one type, while allowing for future optimization.
+* [Quoted Extensions](https://github.com/ocaml/ocaml/pull/8820):
+Currently, a PPX extension that embeds another language must use a string type.
+This mechanism would automatically embed whatever it finds into a string.
 
 ## Medium-Term Plans
 
