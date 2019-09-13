@@ -56,3 +56,4 @@ Some good information about OCaml's internals.
 a scientific computing library that accelerates mathematical code.
 If you're considering writing code that's heavy in floating point math,
 you should be using Owl.
+* [Article on optimization of the `decompress` library](https://tarides.com/blog/2019-09-13-decompress-experiences-with-ocaml-optimization.html)
