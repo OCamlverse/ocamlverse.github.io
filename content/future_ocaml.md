@@ -41,7 +41,7 @@ and its associated [wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
 You can also look for things to help with on the [roadmap](https://github.com/ocaml-multicore/ocaml-multicore/projects/3).
 
 * [ICFP Presentation on advanced lock-free programming in multicore OCaml](https://www.youtube.com/watch?v=C0YkrerSNn0)
-
+* [Discuss post on recent past and future of integrating multicore](https://discuss.ocaml.org/t/multicore-prerequisite-patches-appearing-in-released-ocaml-compilers-now/4408)
 
 ### Typed Algebraic Effects
 
