@@ -95,6 +95,10 @@ build valid html using combinators. Leverages OCaml's type system.
   * [Netencoding](http://projects.camlcity.org/projects/dl/ocamlnet-4.0.4/doc/html-main/Netencoding.html)  Base64, Quoted Printable, URL encoding and HTML escaping.
   * [Netmime](http://projects.camlcity.org/projects/dl/ocamlnet-4.0.4/doc/html-main/Netmime.html) : MIME processing.
   * Other [OCamlnet modules](http://projects.camlcity.org/projects/dl/ocamlnet-4.0.4/doc/html-main/index.html)
+* [mrmime](https://github.com/mirage/mrmime):
+  High performance email parsing/generation library.
+  * [Announcement](https://discuss.ocaml.org/t/ann-first-release-of-mrmime-parser-and-generator-of-emails/4436)
+  * [Talk](https://www.youtube.com/watch?v=kQkRsNEo25k) about mrmime.
 * [ocaml-uri](https://github.com/mirage/ocaml-uri)  – RFC3986 URI parsing library.
 * [Goji](https://github.com/klakplok/goji)  – An OCaml bindings generator for JavaScript libraries.
 * [Syndic](https://github.com/Cumulus/Syndic)  – RSS and Atom feed parsing
