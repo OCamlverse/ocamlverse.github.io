@@ -18,6 +18,7 @@ This PR is an attempt to combine these into one type, while allowing for future 
 Currently, a PPX extension that embeds another language must use a string type.
 This mechanism would automatically embed whatever it finds into a string.
 * [Best fit allocator](https://github.com/ocaml/ocaml/pull/8809)
+* [Towards a new closure representation](https://github.com/ocaml/ocaml/pull/8984)
 
 ## Medium-Term Plans
 
