@@ -14,6 +14,8 @@ an optimized parsing and printing library for the JSON format.
     Another Yojson ppx generator.
 * [jsonm](http://erratique.ch/software/jsonm):
 non-blocking streaming JSON codec for OCaml.
+* [data-encoding](https://gitlab.com/nomadic-labs/data-encoding):
+A library for JSON and binary encoding of values.
 * [ocaml-yaml](https://github.com/avsm/ocaml-yaml):
 Parse and generate yaml 1.1 files.
 * [biniou](https://github.com/mjambon/biniou): 
