@@ -70,7 +70,7 @@ Can be compiled to Unix as well.
 The browser's Document Object Model is very expensive to manipulate,
 and some frameworks work on making DOM manipulation more efficient.
 
-* [vdom](https://github.com/LexiFi/ocaml-vdom):
+* [ocaml-vdom](https://github.com/LexiFi/ocaml-vdom):
 A version of virtual DOM manipulation that goes well with Ocsigen.
 * [incr_dom](https://github.com/janestreet/incr_dom):
 Jane Street's version of virtual DOM,
