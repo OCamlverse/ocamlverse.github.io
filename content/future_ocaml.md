@@ -19,6 +19,7 @@ Currently, a PPX extension that embeds another language must use a string type.
 This mechanism would automatically embed whatever it finds into a string.
 * [Best fit allocator](https://github.com/ocaml/ocaml/pull/8809)
 * [Towards a new closure representation](https://github.com/ocaml/ocaml/pull/8984)
+* [Creating a syntax for using constructors as functions](https://github.com/ocaml/ocaml/pull/9005)
 
 ## Medium-Term Plans
 
