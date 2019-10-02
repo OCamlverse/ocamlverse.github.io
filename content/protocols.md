@@ -21,6 +21,8 @@ Use the ASN.1 standard. See [introducing ASN.1](https://mirage.io/blog/introduci
 * [lwt-zmq](https://github.com/hcarty/lwt-zmq): Lwt-friendly interface to ZeroMQ for OCaml.
 
 ## Protobuf
+* [ocaml-protoc-plugin](https://github.com/issuu/ocaml-protoc-plugin/):
+Full findings to Protobuf messages and types. Implements the full proto3 specification.
 * [protoc](https://github.com/mransan/ocaml-protoc): Compiler from protobuf files to OCaml types.
 * [ppx_deriving_protobuf](https://github.com/ocaml-ppx/ppx_deriving_protobuf): Derive Protobuf files from OCaml types.
 
