@@ -14,7 +14,7 @@ functional programming language.
 * [Future of OCaml](content/future_ocaml.md)
 * Want to help OCaml but don't know how? Check out our [Help Needed](content/help_needed.md) page.
 * [Compiler](content/compiler.md)
-* [Interesting Videos](content/videos.md)
+* [Interesting Videos](content/video.md)
 * [Google Summer of Code](content/gsoc.md)
 
 ---
