@@ -66,9 +66,8 @@ machine learning professionals.
 - [NATS/NATS Streaming](https://nats.io/): no bindings.
 Part of the [Cloud Native Foundation](https://www.cncf.io/) and gaining increased adoption.
 
-## Chat bots
+## Discord-IRC Bridge bot
 
-- Our current bots for the discord channel use node.js code which is fairly unreliable.
-For example, rss-bot - a bot for displaying rss feeds in discord - tends to run out of memory.
+- Our IRC to Discord bot doesn't work well, and the bridge is currently broken.
 We'd much prefer to have a Discord library in OCaml, and possibly a bot creation library.
 [This](https://github.com/jerith/chaocaml) may be a good starting point.
