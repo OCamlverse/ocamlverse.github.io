@@ -23,7 +23,7 @@ $ opam --version
 2.0.1
 ```
 
-This tutorial assumes MacOS or Linux environment. For Windows, see [Windows Support](windows.md).
+This tutorial assumes MacOS or Linux environment. For Windows, see [Windows Support](windows_support.md).
 
 ## Editor setup
 
