@@ -17,12 +17,6 @@ functional programming language.
 * [Interesting Videos](content/video.md)
 * [Google Summer of Code](content/gsoc.md)
 
----
-
-Want to contribute to the OCaml community?
-Look at some of the main
-[missing pieces](content/missing_pieces.md) and see if you can help.
-
 ## About OCamlverse
 
 OCamlverse is intended to be a fast-moving web site that's easy to
