@@ -45,7 +45,7 @@ Bindings to python's excellent matplotlib visualization library.
 ## Bioinformatics
 
 * [biocaml](https://github.com/biocaml/biocaml):
-OCaml Bioinformatics Library, see also [http://biocaml.org](http://biocaml.org).
+OCaml Bioinformatics Library, see also [biocaml.org](http://biocaml.org).
 * [guizmin](https://github.com/pveber/guizmin):
 OCaml library for building bioinformatics pipelines.
 
