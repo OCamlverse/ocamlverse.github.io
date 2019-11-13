@@ -74,7 +74,7 @@ same time as OCaml code.
 This is made easier nowadays due to CTypes (see [ffi](ffi.md))
 * [Nproc](https://github.com/MyLifeLabs/nproc):
 A process pool implementation for OCaml using lwt.
-Rather than creating or forking processes as needd, preallocates them
+Rather than creating or forking processes as needed, preallocates them
 and sends them units of work as required.
 * [Ocamlnet](http://projects.camlcity.org/projects/ocamlnet.html):
 An enhanced system platform library.
