@@ -78,7 +78,7 @@ Rather than creating or forking processes as needed, preallocates them
 and sends them units of work as required.
 * [Ocamlnet](http://projects.camlcity.org/projects/ocamlnet.html):
 An enhanced system platform library.
-It contains the /netmulticore/ library to compute tasks on as many cores of the machine as needed.
+It contains the **netmulticore** library to compute tasks on as many cores of the machine as needed.
 This is the most powerful implementation of parellelism currently available for OCaml,
 as it is capable of creating a shared memory region,
 and running a *custom-made garbage collector* on said region.
