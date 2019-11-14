@@ -23,6 +23,8 @@ Sinatra like web toolkit for OCaml. Uses cohttp.
 **Experimental.**
 High level HTTP server/client creation. Uses httpaf.
 Currently requires an OPAM pin to install.
+* [SimpleHTTPServer](https://github.com/c-cube/simplehttpserver):
+Basic functionality for serving files over HTTP.
 * [ocamlapi](https://github.com/nosman/Ocamlapi):
 Routing with ppx support. Uses cohttp and Core.
 * [routes](https://github.com/anuragsoni/routes):
