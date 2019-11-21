@@ -23,6 +23,8 @@ Some people aren't on Discourse but *are* subscribed to the mailing list.
 contains both news and discussions about OCaml, but tends to have minimal traffic.
 * [The OCaml github page](https://github.com/ocaml/ocaml):
 where development and some discussion on the internals of the OCaml language takes place.
+* [OCaml RFCs](https://github.com/ocaml/rfcs):
+Repo for fully-implemented suggestions and features for OCaml's evolution.
 
 ## OCaml News
 
