@@ -100,7 +100,7 @@ May be necessary for some library wrappers.
 
 * [Xavier Leroy's Monadic Programming Lecture Slides (pdf)](https://xavierleroy.org/mpri/2-4/monads.pdf) and [code](https://xavierleroy.org/mpri/2-4/monads.ml)
 * [Cornell's CS 3110 Lecture about monads](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/lec.pdf), with [code](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/code.ml) and [recitation](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/lab.html)
-* [A small monads tutorial from the Monads library](http://binaryanalysisplatform.github.io/bap/api/master/Monads.Std.html#intro)
+* [A small monads tutorial from the Monads library](http://binaryanalysisplatform.github.io/bap/api/master/monads/Monads/Std/index.html)
 * [Discussion on what you can do with Monads](https://discuss.ocaml.org/t/can-monads-help-me-my-refactor-code-for-an-enhanced-data-structure/1064/5?u=ivg) and what are [Monad Transformers](https://discuss.ocaml.org/t/ann-monads-the-missing-monad-transformers-library/830/6?u=ivg)
 * [Monadic Error Handling](https://medium.com/@huund/monadic-error-handling-1e2ce66e3810)
 * [More Typeclasses in OCaml](http://blog.shaynefletcher.org/2017/05/more-type-classes-in-ocaml.html)
@@ -130,8 +130,6 @@ See [Papers on OCaml](papers.md).
 * [A blog about game development in OCaml](http://cranialburnout.blogspot.ca/)
 * [(Functional) Alternatives to inheritance](http://ocamltutorials.blogspot.se/2013/06/alternatives-to-subtyping.html)
 * [Higher-Rank Polymorphism in OCaml](http://devmusings.legiasoft.com/blog/2008/05/23/higher-rank_polymorphism_in_ocaml)
-* [mikmatch](https://github.com/mjambon/mikmatch)  – OCaml pattern-matching extended with regexps
-* [Inlined records in constructors](http://www.lexifi.com/blog/ocaml/inlined-records-constructors)
 * [Algebraic Data Types](https://espertech.wordpress.com/2014/07/30/algebraic-data-types/)
 * [A safe but strange way of modifying OCaml compiler](https://bitbucket.org/camlspotter/compiler-libs-hack)
 * [Fiddling with the OCaml Type System](http://technotroph.wordpress.com/2013/10/25/fiddling-with-the-ocaml-type-system/)
