@@ -25,6 +25,6 @@ Another monadic syntax extension.
 
 ## Classic Monads
 
-* [BAP Monads](http://binaryanalysisplatform.github.io/bap/api/master/Monads.Std.html):
+* [BAP Monads](http://binaryanalysisplatform.github.io/bap/api/master/monads/Monads/Std/index.html):
 BAP (Binary Analysis Platform) has an independent and comprehensive monad library.
 Rather than using a `ppx`, BAP makes use of Functors to create expressive monad hierarchies.
