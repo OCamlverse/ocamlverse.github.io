@@ -14,7 +14,7 @@ choice for automatic coding style, ocamlformat is a recent arrival that, inspire
 a more comprehensive approach of end-to-end parsing and printing. Both tools can be integrated into editors to automatically lay out code as you write it.
 
 * [ocp-indent](https://github.com/OCamlPro/ocp-indent) is a coding style formatting tool that relies on heuristics and partial
-parsing rather than a full end-to-end parsing and printing approach, like ocamlformat above. The advantage of ocp-indent's approach
+parsing rather than a full end-to-end parsing and printing approach, like ocamlformat below. The advantage of ocp-indent's approach
 is that even partially-compiling files can be indented, as can code fragments.
 * [ocamlformat](https://github.com/ocaml-ppx/ocamlformat) is a comprehensive coding style formatting tool that parses the code
 and prints it out again. This follows the example of the `refmt` tool for Reason. While new, `ocamlformat` may eventually overtake `ocp-indent`.
