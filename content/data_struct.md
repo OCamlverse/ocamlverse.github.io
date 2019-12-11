@@ -13,6 +13,8 @@ All the [standard libraries](standard_libraries.md)
 
 ## Specialized Data Structures
 
+* [Persistent Vectors](https://github.com/dbuenzli/pvec):
+Data structures that behave similar to vectors but using immutable trees (of arrays).
 * [OCamlGraph](https://github.com/backtracking/ocamlgraph) is a library for
 graphs and graph algorithms.
 * [bimap](https://github.com/pat227/bimap):
