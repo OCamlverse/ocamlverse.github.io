@@ -126,3 +126,17 @@ Plug 'w0rp/ale'
 That's it! After `:PlugInstall` and a restart, you should now see errors visually in your OCaml files.
 
 ## emacs
+
+Install tooling libraries and the user-setup assitant with
+
+```
+opam install user-setup merlin tuareg ocamlformat ocp-indent
+```
+
+Then run the user-setup installation
+
+```
+opam user-setup install
+```
+
+Enjoy!
