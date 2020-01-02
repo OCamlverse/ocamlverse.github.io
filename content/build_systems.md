@@ -42,6 +42,8 @@ topkg command line tools and manage your authored packages.
 projects, and is seen as the main choice for new projects in OCaml. Dune can handle both OCaml (.ml) and
 Reason (.re) files.
 
+  * [mkocaml](https://github.com/chrisnevers/mkocaml):
+  tool for creating a new OCaml project using dune.
   * [dune-starter](https://github.com/mjambon/dune-starter):
   a sample project indicating ideal code layout for an OCaml project.
   * [dune-configurator](https://github.com/ocaml/dune/blob/master/doc/configurator.rst):
