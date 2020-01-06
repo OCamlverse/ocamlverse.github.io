@@ -7,6 +7,7 @@ tags: [ecosystem]
 ## Miscellaneous
 
 * [ICFP presentation on improving the OCaml web stack](https://www.youtube.com/watch?v=tTqqu4xh4UY&t=1156s)
+* [Building an OCaml webapp using Opium](https://shonfeder.gitlab.io/ocaml_webapp/)
 
 ## HTTP Servers
 
