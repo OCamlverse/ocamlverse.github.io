@@ -45,6 +45,9 @@ See [Best Practices](best_practices.md).
 
 ## Intermediate
 
+### Deploying Apps
+* [Building an OCaml webapp using Opium](https://shonfeder.gitlab.io/ocaml_webapp/)
+
 ### The Format Module
 
 The Stdlib has the [Format](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Format.html)
