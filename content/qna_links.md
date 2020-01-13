@@ -1,3 +1,8 @@
+---
+layout: page
+tags: [learning]
+---
+
 # Questions and Answers around the web
 
 Many good Q & A items are left around the web: on reddit, or stack overflow, on blogs or on discuss.
