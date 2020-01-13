@@ -4,8 +4,9 @@ tags: [learning]
 
 # Frequently asked questions
 
-Also see the [ocaml.org FAQ](http://ocaml.org/learn/faq.html)
-and Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html).
+* See the [ocaml.org FAQ](http://ocaml.org/learn/faq.html)
+* Also Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html).
+* And [Question and Answers around the web](qna_links.md)
 
 ## General
 
@@ -19,7 +20,7 @@ and Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria.fr/p
   `utop` toplevel.  It's more full-featured than the `ocaml` toplevel that
   comes with an OCaml compiler. You can also evaluate OCaml expressions in an
   editor or IDE, for example.  See the 
-  [Code tools](https://github.com/OCamlverse/ocamlverse.github.io/blob/master/content/code_tools.md)
+  [Code tools](code_tools.md)
   page.
 
 * Why are compound types such as `float list` and `int option` written with the "enclosing", polymorphic type last?
