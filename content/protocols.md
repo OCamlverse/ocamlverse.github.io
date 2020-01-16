@@ -14,6 +14,8 @@ used by Freedesktop and Linux.
 * [MQTT](https://github.com/j0sh/ocaml-mqtt): OCaml implementation of the MQTT pubsub protocol.
 * [asn1-combinators](https://github.com/mirleft/ocaml-asn1-combinators):
 Use the ASN.1 standard. See [introducing ASN.1](https://mirage.io/blog/introducing-asn1)
+* [IMAP](https://github.com/nojb/ocaml-imap):
+lwt-compatible implementation of IMAP4rev1.
 
 ## ZeroMQ
 * [ocaml-zmq](https://github.com/issuu/ocaml-zmq): ZeroMQ bindings for OCaml.
