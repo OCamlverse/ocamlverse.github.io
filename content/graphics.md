@@ -17,6 +17,8 @@ Bindings to Cairo, a 2D Vector Graphics Library. Integrates well with lablgtk.
 Declarative 2D vector graphics for OCaml.
 * [TSDL](http://erratique.ch/software/tsdl):
 An OCaml module providing thin bindings to the cross-platform SDL library.
+* [OcamlSDL2](https://github.com/fccm/OCamlSDL2):
+Bindings to the SDL2 library.
 
 ### ReasonML
 
