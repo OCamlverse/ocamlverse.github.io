@@ -4,6 +4,13 @@ tags: [ecosystem]
 
 # Systems Programming
 
+## Number Types
+
+* [Integers](https://github.com/ocamllabs/ocaml-integers):
+A library for support of unsigned and signed types of different sizes.
+* [StdInt](https://github.com/andrenth/ocaml-stdint):
+Another library for manipulation of unsigned and signed types of different sizes.
+
 ## Mirage OS
 
 * [Mirage OS](https://github.com/mirage/mirage):
