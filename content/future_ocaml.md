@@ -35,7 +35,7 @@ and [this development branch](https://github.com/mshinwell/ocaml/tree/flambda2.0
 
 Currently, OCaml has a global runtime lock,
 with support for green threads (concurrency) via `lwt` and `Async`.
-The plan is to allow OCaml to run in parallel (which are termed `domains`),
+The plan is to allow OCaml to run in parallel threads (which are termed `domains`),
 while also allowing for native green thread support via algebraic effects.
 
 See [this post](https://discuss.ocaml.org/t/ocaml-multicore-report-on-a-june-2018-development-meeting-in-paris/2202),
