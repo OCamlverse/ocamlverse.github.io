@@ -9,7 +9,8 @@ tags: [ecosystem]
 * [Integers](https://github.com/ocamllabs/ocaml-integers):
 A library for support of unsigned and signed types of different sizes.
 * [StdInt](https://github.com/andrenth/ocaml-stdint):
-Another library for manipulation of unsigned and signed types of different sizes.
+More comprehensive library for manipulation of unsigned and signed types of different sizes.
+Includes the ability to read big endian and little endian numbers.
 
 ## Mirage OS
 
