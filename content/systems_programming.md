@@ -6,6 +6,9 @@ tags: [ecosystem]
 
 ## Number Types
 
+* [Bytes](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Bytes.html):
+The standard library has functions to read little endian and big endian numbers of different sizes,
+both signed and unsigned, from bytes.
 * [Integers](https://github.com/ocamllabs/ocaml-integers):
 A library for support of unsigned and signed types of different sizes.
 * [StdInt](https://github.com/andrenth/ocaml-stdint):
