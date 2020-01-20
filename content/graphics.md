@@ -21,6 +21,8 @@ An OCaml module providing thin bindings to the cross-platform SDL library.
 Bindings to the SDL2 library.
 * [camlimages](https://bitbucket.org/camlspotter/camlimages):
 Image manipulation library for different image formats.
+* [imagelib](https://github.com/rlepigre/ocaml-imagelib):
+Read and write various image formats.
 
 ### ReasonML
 
