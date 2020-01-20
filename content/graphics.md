@@ -19,10 +19,10 @@ Declarative 2D vector graphics for OCaml.
 An OCaml module providing thin bindings to the cross-platform SDL library.
 * [OcamlSDL2](https://github.com/fccm/OCamlSDL2):
 Bindings to the SDL2 library.
-* [camlimages](https://bitbucket.org/camlspotter/camlimages):
-Image manipulation library for different image formats.
 * [imagelib](https://github.com/rlepigre/ocaml-imagelib):
-Read and write various image formats.
+Read and write various image formats. Backed by BigArrays.
+* [camlimages](https://bitbucket.org/camlspotter/camlimages):
+Image manipulation library for different image formats (old).
 
 ### ReasonML
 
