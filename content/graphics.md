@@ -21,6 +21,9 @@ An OCaml module providing thin bindings to the cross-platform SDL library.
 Bindings to the SDL2 library.
 * [imagelib](https://github.com/rlepigre/ocaml-imagelib):
 Read and write various image formats. Backed by BigArrays.
+* [owl_base](https://github.com/owlbarn/owl):
+Part of `Owl`. This is essential for manipulating BigArrays efficiently (with vectorized operations),
+for graphics and such.
 * [camlimages](https://bitbucket.org/camlspotter/camlimages):
 Image manipulation library for different image formats (old).
 
@@ -45,8 +48,9 @@ Another library with bindings to [GLFW](https://www.glfw.org/).
 
 ## Linear Algebra
 
-* [OWL](https://github.com/owlbarn/owl):
+* [Owl](https://github.com/owlbarn/owl):
 Numerical library, useful for fast linear algebra operations.
+See [the Owl Manual](https://ocaml.xyz) for details.
 * [reason-gl-matrix](https://github.com/bryphe/reason-gl-matrix):
 Bindings to [glm](https://github.com/g-truc/glm),
 the OpenGL linear algebra C++ library for graphics.
