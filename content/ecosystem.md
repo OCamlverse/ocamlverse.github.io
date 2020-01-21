@@ -82,8 +82,11 @@ See [Formal Software Verification](software_verification.md)
 ## File Formats
 For manipulating different file formats from OCaml, see [File Formats](file_formats.md)
 
-## File Path Manipulation
-* [Fpath](https://github.com/dbuenzli/fpath): a cross-platform path manipulation library.
+## File Manipulation
+* [Stdio](https://github.com/janestreet/stdio):
+Expanded handling of input and output from files.
+* [Fpath](https://github.com/dbuenzli/fpath):
+a cross-platform path manipulation library.
 
 ## Foreign Function Interface
 For integrating with C, C++, Python etc., see [Foreign Function Interface](ffi.md)
