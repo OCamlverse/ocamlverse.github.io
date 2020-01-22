@@ -83,19 +83,16 @@ See [Formal Software Verification](software_verification.md)
 For manipulating different file formats from OCaml, see [File Formats](file_formats.md)
 
 ## File Manipulation
-* [Stdio](https://github.com/janestreet/stdio):
-Expanded handling of input and output from files.
-* [Fpath](https://github.com/dbuenzli/fpath):
-a cross-platform path manipulation library.
+See [File Manipulation](file_manip.md).
 
 ## Foreign Function Interface
-For integrating with C, C++, Python etc., see [Foreign Function Interface](ffi.md)
+For integrating with C, C++, Python etc., see [Foreign Function Interface](ffi.md).
 
 ## Functional Reactive Programming
-See [Functional Reactive Programming](frp.md)
+See [Functional Reactive Programming](frp.md).
 
 ## Graphics
-For graphic libraries, see [Graphics](graphics.md)
+For graphic libraries, see [Graphics](graphics.md).
 
 ## Hardware Design
 For usage of OCaml in hardware design, see [Hardware Design](hardware_design.md)
