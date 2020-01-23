@@ -28,6 +28,7 @@ Syntax extension for mysql bindings. [Blog post](https://engineering.issuu.com/2
 * [Dbm](https://forge.ocamlcore.org/projects/camldbm/): a binding to the NDBM/GDBM Unix "databases".
 * [camltc](https://github.com/toolslive/camltc): OCaml bindings to [Tokyo Cabinet](https://github.com/Incubaid/tokyocabinet).
 * [orocksdb](https://github.com/domsj/orocksdb): OCaml RocksDB bindings using ctypes.
+* [ppx_rapper](https://github.com/roddyyaga/ppx_rapper): a syntax extension for PostgreSQL using Caqti
 
 ## OCaml Clients
 
