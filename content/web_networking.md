@@ -29,7 +29,7 @@ Simple HTTP server like python's SimpleHTTPServer, for serving files.
 * [ocamlapi](https://github.com/nosman/Ocamlapi):
 Routing with ppx support. Uses cohttp and Core.
 * [routes](https://github.com/anuragsoni/routes):
-Typed routing with combinators.
+Typed bidirectional routing with combinators.
 
 ## Web Frameworks
 
