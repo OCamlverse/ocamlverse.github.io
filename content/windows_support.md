@@ -13,48 +13,48 @@ Nevertheless, OCaml is gradually making a transition towards increased Windows s
 ## Options
 
 * OCaml on [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - 
-Windows 10 supports Ubuntu or any other Linux distribution *natively*. This is by far the easiest option
+Windows 10 supports Ubuntu or any other Linux distribution *natively*. This is by far the easiest and fastest option
 for using OCaml on Windows, and the one that support OCaml most fully.
-The one disadvantage is that you'll be creating Linux binaries, which can only be run on Linux or on another
-Windows 10 machine that has WSL activated. GUI support is also limited to running via an X server (such as [Xming](https://sourceforge.net/projects/xming/)) on the Windows side.
 
-* Several other projects exist for installing OCaml under windows. We recommend sticking to 
-[OCaml for Windows][ocaml-win] as it is the most recent distribution.
+The disadvantages of this approach are:
+  * By default, you'll be creating Linux binaries, which can only be run on Linux or on another
+  Windows 10 machine that has WSL activated. However, this can be mitigated by using and following the instructions
+  at [opam-cross-windows], which can create Windows OCaml programs
+  from Linux.
+  * WSL on Windows has no direct graphical support. It thus requires communication via the X protocol, using an X server
+  such as [Xming](https://sourceforge.net/projects/xming/)) on the Windows side.
+  Again, by using [opam-cross-windows], this barrier can be eliminated.
+
+* Similar to WSL above, you can create OCaml programs on Linux proper,
+and cross-compile them so they work on Windows using [opam-cross-windows].
+
+* [OCaml for Windows][ocaml-win]:
+A [cygwin]-based Ocaml distribution, with `opam` support. 
+Keep in mind that [cygwin] is a translation layer for unix commands, and thus slows down compilation performance.
+However, the binaries produced can be run in Windows proper without cygwin.
  
-  * [OCaml for Windows][ocaml-win]:
-  The most maintained version, which installs the Cygwin toolchain 
-  and OCaml on top of that. The OCaml versions lag slightly behind, but not as much as the other projects.
-  * [OCPWin][ocaml-ocpwin]:
-  A self-contained binary distribution for Windows, supports MSVC. This distribution 
-  lags behind on OCaml versions 
-  * [Installing from source][ocaml-from-source]:
-  Its possible to also install OCaml manually using the 
-  Cygwin toolchain by following this README, published by the OCaml project.
-
-* Another obvious option is to run OCaml in a Linux virtual machine. If you have Windows 10 though, this is suboptimal,
-as WSL is much less resource-intensive than running a virtual machine.
-
-* Yet another option (in development) is to use the growing Reason ecosystem, which supports OCaml syntax as well.
-[esy](https://github.com/esy/esy) is a tool similar to OPAM that can install full OCaml binaries.
-It has some OPAM support, though not all OPAM packages will be available.
-
-## Limitations
-
-* Using OCaml on WSL is virtually the same as using it on Linux. Otherwise, the versions supported by the
-windows distributions seem to lag behind the versions 
-supported on Unix.
-* Many tools (`ocamlbuild`, `ocamlfind`, etc.) can't be used 
-without cygwin or some other unix-like environment.
+* [esy](https://esy.sh/):
+a build tool similar to npm and OPAM created by the [Reason] community.
+It operates on top of [cygwin] but hides it away, making OCaml feel completely native to windows.
+It also inherits `cygwin`'s slow compilation speed.
+Not all OPAM packages are available yet, but support is rapidly growing.
 
 There is work being put in by [OCaml Labs](http://ocamllabs.io/doc/windows.html) to improve
-the windows situtation.
+the Windows situtation further.
 Additionally, OPAM is being extended to support a Windows environment.
 See [this post](https://discuss.ocaml.org/t/ann-opam-2-0-5-release/4081/7) for details.
 
 [ocaml-win]: https://fdopen.github.io/opam-repository-mingw/
-[ocaml-ocpwin]: http://www.typerex.org/ocpwin.html
-[ocaml-from-source]: https://github.com/ocaml/ocaml/blob/trunk/README.win32.adoc
+[opam-cross-windows]: https://github.com/ocaml-cross/opam-cross-windows
+[Reason]: https://reasonml.github.io/
+[cygwin]: https://www.cygwin.com
 
 ## Resources
 
 * [Video on getting OCaml to Windows](https://www.youtube.com/watch?v=1DAuSSljLFI).
+
+## Older
+
+* [OCPWin](http://www.typerex.org/ocpwin.html): *obsolete*
+  A self-contained binary distribution for Windows that supports MSVC.
+  *This cannot be considered as an option anymore -- the latest OCaml provided is 4.01.*
