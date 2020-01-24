@@ -13,17 +13,17 @@ Nevertheless, OCaml is gradually making a transition towards increased Windows s
 ## Options
 
 * OCaml on [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - 
-Windows 10 supports Ubuntu or any other Linux distribution *natively*. This is by far the easiest and fastest option
-for using OCaml on Windows, and the one that support OCaml most fully.
+  Windows 10 supports Ubuntu or any other Linux distribution *natively*. This is by far the easiest and fastest option
+  for using OCaml on Windows, and the one that support OCaml most fully.
 
-The disadvantages of this approach are:
-  * By default, you'll be creating Linux binaries, which can only be run on Linux or on another
-  Windows 10 machine that has WSL activated. However, this can be mitigated by using and following the instructions
-  at [opam-cross-windows], which can create Windows OCaml programs
-  from Linux.
-  * WSL on Windows has no direct graphical support. It thus requires communication via the X protocol, using an X server
-  such as [Xming](https://sourceforge.net/projects/xming/)) on the Windows side.
-  Again, by using [opam-cross-windows], this barrier can be eliminated.
+  The disadvantages of this approach are:
+    * By default, you'll be creating Linux binaries, which can only be run on Linux or on another
+      Windows 10 machine that has WSL activated. However, this can be mitigated by using and following the instructions
+      at [opam-cross-windows], which can create Windows OCaml programs
+      from Linux.
+    * WSL on Windows has no direct graphical support. It thus requires communication via the X protocol, using an X server
+      such as [Xming](https://sourceforge.net/projects/xming/)) on the Windows side.
+      Again, by using [opam-cross-windows], this barrier can be eliminated.
 
 * Similar to WSL above, you can create OCaml programs on Linux proper,
 and cross-compile them so they work on Windows using [opam-cross-windows].
