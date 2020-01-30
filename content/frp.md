@@ -9,3 +9,7 @@ Functional Reactive Programming is a model for programming that tries to adapt s
 The FRP approach is to transform state mutation over time into 'signals', and to describe what happens with those signals. This approach can be used in GUI programming, web interfaces, and many other domains. There is only one known OCaml library that performs FRP:
 
 * [React](http://erratique.ch/software/react) : an OCaml library for functional reactive programming (FRP). It provides support to program with time varying values. Used by, among others, the Eliom web framework.
+
+* [Incremental](https://opensource.janestreet.com/incremental/):
+A more opinionated FRP library.
+While React is computation-agnostic, Incremental is built to maintain the computation graph efficiently.
