@@ -11,5 +11,4 @@ The FRP approach is to transform state mutation over time into 'signals', and to
 * [React](http://erratique.ch/software/react) : an OCaml library for functional reactive programming (FRP). It provides support to program with time varying values. Used by, among others, the Eliom web framework.
 
 * [Incremental](https://opensource.janestreet.com/incremental/):
-A more opinionated FRP library.
-While React is computation-agnostic, Incremental is built to maintain the computation graph efficiently.
+An FRP library used by Jane Street.
