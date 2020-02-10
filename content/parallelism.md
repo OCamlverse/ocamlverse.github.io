@@ -17,13 +17,16 @@ but parallelism support is not built in to the runtime.
 Concurrent code uses monads to express the higher-level abstractions of control flow.
     * [lwt-pipe](https://github.com/c-cube/lwt-pipe):
     Stream/queue for lwt.
+    * [RWO-lwt](https://github.com/dkim/rwo-lwt):
+    Real World OCaml code examples translated from Async to lwt.
 * [Async](https://github.com/janestreet/async):
 another monadic concurrency library developed by Jane Street.
 This library is covered in Real World OCaml.
 While the concept is very similar to lwt,
 small discrepancies make compatibility between the libraries difficult.
-* [RWO-lwt](https://github.com/dkim/rwo-lwt):
-Real World OCaml code examples translated from Async to lwt.
+* [LUV](https://github.com/aantron/luv):
+Bindings to [libuv](https://github.com/libuv/libuv),
+an event loop-based system that runs `node.io`.
 
 ### Articles
 
