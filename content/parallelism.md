@@ -27,6 +27,8 @@ small discrepancies make compatibility between the libraries difficult.
 * [LUV](https://github.com/aantron/luv):
 Bindings to [libuv](https://github.com/libuv/libuv),
 an event loop-based system that runs `node.io`.
+This is also a replacement for the `Unix` module,
+allowing for full process control in a system-independent manner.
 
 ### Articles
 
