@@ -12,8 +12,9 @@ Currently supports MariahDB, PostgreSQL and SQLite3.
 Create type-safe queries. Currently with bindings to MySQL/MariaDB and SQLite.
 * [Mongo](https://massd.github.io/mongo/): OCaml driver for Mongodb
 * [OCaml-mariahdb](https://github.com/andrenth/ocaml-mariadb): OCaml bindings to MariahDB interface.
-* [PG'OCaml](http://pgocaml.forge.ocamlcore.org/): a type-safe interface to PostgreSQL in pure OCaml.
-*NOTE:* even if the GitHub description say it uses camlp4, which is deprecated. They have also a PPX extention the modern way for meta-programming in OCaml.
+* [PG'OCaml](http://pgocaml.forge.ocamlcore.org/):
+  a type-safe interface to PostgreSQL in pure OCaml.
+  Supports both `PPX` and `camlp4` metaprogramming mechanisms (the latter of which is now deprecated).
 * [ppx_pgsql](https://github.com/tizoc/ppx_pgsql): a syntax extension for embedded SQL queries using PG'OCaml.
 * [PostgreSQL-OCaml](https://mmottl.github.io/postgresql-ocaml/): a low-level interface to PostgreSQL through the C API (`libpq`).
 * [ezpostgresql](https://github.com/bobbypriambodo/ezpostgresql): simple, non-type-safe interface to PostgreSQL.
