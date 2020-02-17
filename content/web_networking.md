@@ -47,6 +47,8 @@ A GraphQL server library. GraphQL is a regimented approach to data management in
 Generate type-safe code for graphql queries from GraphQL schema and queries.
 * [OCaml On Ice](https://github.com/roddyyaga/ocoi):
 A web framework in the style of Ruby on Rails, built on top of Opium. It is designed for building REST APIs.
+* [Naboris](https://github.com/shawn-mcginty/naboris):
+An light OCaml/Reason-based web framework.
 
 ## Web Apps
 
