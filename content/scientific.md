@@ -39,6 +39,8 @@ Bindings to the [glpk](http://www.gnu.org/software/glpk/glpk.html) linear progra
 
 ## Data Visualization
 
+* [oplot](https://github.com/sanette/oplot):
+Mathematical plotting library in OCaml.
 * [ocaml-matplotlib](https://github.com/LaurentMazare/ocaml-matplotlib):
 Bindings to python's excellent matplotlib visualization library.
 
