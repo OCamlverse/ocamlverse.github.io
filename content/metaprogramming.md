@@ -90,6 +90,8 @@ Framework for multiple serializers for different protocols.
 A simple C++-like preprocessor for OCaml files.
 * [MetaOCaml](http://okmij.org/ftp/ML/MetaOCaml.html):
 An OCaml dialect for multi-stage programming.
+* [metapp](https://github.com/thierry-martinez/metapp):
+A ppx extension that provides metaquoting facilities similar to `MetaOCaml`.
 * [Fan](http://thinkinginmeta.com/Fan):
 Fan is a compile-time metaprogramming system for OCaml, originally inspired from Camlp4.
 It's a combination of OCaml and Lispy Macros.
