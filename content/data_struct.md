@@ -20,6 +20,8 @@ All the [standard libraries](standard_libraries.md) provide these:
 
 ## Specific Data Structure Libraries
 
+* [Ropes](https://github.com/Chris00/ocaml-rope):
+Persistent, functional views on top of strings.
 * [Persistent Vectors](https://github.com/dbuenzli/pvec):
 Data structures that behave similar to vectors but using immutable trees (of arrays).
 * [OCamlGraph](https://github.com/backtracking/ocamlgraph) is a library for
