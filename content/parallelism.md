@@ -38,16 +38,6 @@ allowing for full process control in a system-independent manner.
 
 [cooperative concurrency]: http://philtomson.github.io/blog/2014/07/09/core-dot-async-example/
 
-
-## Process Management
-
-* The standard library contains the [Unix](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Unix.html) module,
-which allows for low-level process management.
-This is fairly brittle due to the fact that it's mostly (but not entirely) tailored towards Unix.
-* [lwt](https://github.com/ocsigen/lwt) has the 
-[lwt_process](https://ocsigen.org/lwt/dev/api/Lwt_process) module,
-which has cross-platform process manipulation functions.
-
 ## Parallelism
 
 As mentioned above, OCaml currently doesn't natively support multiple OS-level OCaml
