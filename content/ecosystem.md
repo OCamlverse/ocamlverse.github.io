@@ -128,6 +128,9 @@ See [Monads](monads.md).
 ## Pretty printing
 See [Pretty Printing](pretty_printing.md).
 
+## Process Management
+See [Process Management](process_management.md).
+
 ## Protocols
 For support of protocols, see [Protocols](protocols.md)
 
