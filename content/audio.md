@@ -5,6 +5,10 @@ tags: [ecosystem]
 
 # Audio
 
+* [Liquidsoap](https://github.com/savonet/liquidsoap):
+See [webpage](https://www.liquidsoap.info/).
+A languagle (DSL) for playing music.
+
 ## Encoding/Decoding
 
 * [ocaml-taglib](https://github.com/savonet/ocaml-taglib) - Bindings to the taglib library for extracting audio file metadata.
