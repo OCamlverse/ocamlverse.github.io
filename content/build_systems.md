@@ -51,6 +51,8 @@ Reason (.re) files.
   and produce configuration files to build differently based on said configuration.
   * By default, Dune treats warnings as errors when building in the dev mode (ie. a local build).
   To change this, use [this tip](https://dune.readthedocs.io/en/latest/faq.html#how-to-make-warnings-non-fatal).
+  * [dune-deps](https://github.com/mjambon/dune-deps):
+  Allows you to view your dependencies in graph form.
 
 * [ocamlscript](https://github.com/mjambon/ocamlscript):
 Allows you to run OCaml files as if they were scripts.
