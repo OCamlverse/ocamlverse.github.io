@@ -36,6 +36,8 @@ OCaml library for multi-armed bandits.
 Bindings to frequently used `C` special functions library.
 * [glpk](https://github.com/smimram/ocaml-glpk):
 Bindings to the [glpk](http://www.gnu.org/software/glpk/glpk.html) linear programming kit.
+* [scikit-learn](https://github.com/lehy/ocaml-sklearn):
+OCaml bindings to python's scikit-learn.
 
 ## Data Visualization
 
