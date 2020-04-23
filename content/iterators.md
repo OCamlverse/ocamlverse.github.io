@@ -13,19 +13,19 @@ Until that point, you want to use iterators instead.
 The classic example is something like
 
 ```ocaml
-let l1 = [1; 2; 3] |>
-  List.map (fun x -> x + 1) |>
-  List.map (fun x -> x * 3)
+let l1 = [1; 2; 3]
+  |> List.map (fun x -> x + 1)
+  |> List.map (fun x -> x * 3)
 ```
 
 In this example, each stage of the computation needs to be materialized, causing allocation.
 Instead, we can do
 
 ```ocaml
-let l1 = List.to_seq [1; 2; 3] |>
-  Seq.map (fun x -> x + 1) |>
-  Seq.map (fun x -> x * 3) |>
-  List.of_seq
+let l1 = List.to_seq [1; 2; 3]
+  |> Seq.map (fun x -> x + 1)
+  |> Seq.map (fun x -> x * 3)
+  |> List.of_seq
 ```
 
 This version will not allocate the intermediate steps.
