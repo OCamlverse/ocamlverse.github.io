@@ -31,12 +31,8 @@ You want to contribute? That's great. There are just a few rules to follow so we
 ## Protocol
 
 * The following protocol **may not be changed** without permission from the site admins.
-* On OCamlverse, *everyone* gets commit rights by default.
-* All changes *may* be submitted via a PR process. Submit a PR of your change, and another maintainer can merge it. Small and medium changes, as explained below, do not need a PR.
-* *Small changes* are those that concern adding a little bit of content, fixing mistakes, etc. These can be done at will if you're a contributor and can be merged without discussion. It's always nice to drop a note about them though.
-* *Medium changes* involve adding quite a bit of content or changing much of it. These should always be discussed first on the discussion channels, and you need to receive agreement with your change.
-* *Large changes* such as adding a new section, reorganization, adding new directories etc require using a PR.
-* If any contributor voices a serious concern about a change you made/want to make, it becomes elevated to the category of a *large change* and requires a PR. It may be undone first so you can place it in a PR.
+* Admin team members may make changes without PRs, after discussing them with other admin members.
+* Other changes require submitting a PR.
 
 ### Relaxed Protocol
 
