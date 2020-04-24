@@ -32,7 +32,7 @@ You want to contribute? That's great. There are just a few rules to follow so we
 
 * The following protocol **may not be changed** without permission from the site admins.
 * Admin team members may make changes without PRs, after discussing them with other admin members.
-* Other changes require submitting a PR.
+* Changes by other people, big and small, require a PR.
 
 ### Relaxed Protocol
 
