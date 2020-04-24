@@ -51,4 +51,4 @@ This version will not allocate the intermediate steps.
 There are 2 main types of iterators: iterators and generators.
 If you want to understand the differences between them,
 [this article](http://gallium.inria.fr/blog/generators-iterators-control-and-continuations/)
-does a good job of differentiating them.
+does a good job of differentiating between them.
