@@ -2,12 +2,6 @@
 
 Some interesting news/developments coming up in OCaml's future:
 
-## Recently Introduced
-
-* [Post on plans for OCaml 4.08](https://blog.janestreet.com/plans-for-ocaml-408/):
-Pre-4.08 blog post.
-* [A Look at OCaml 4.08](https://blog.janestreet.com/a-look-at-ocaml-4.08/):
-Looking at what 4.08 included.
 
 ## Interesting Pull Requests
 
@@ -38,11 +32,11 @@ with support for green threads (concurrency) via `lwt` and `Async`.
 The plan is to allow OCaml to run in parallel threads (which are termed `domains`),
 while also allowing for native green thread support via algebraic effects.
 
-See [this post](https://discuss.ocaml.org/t/ocaml-multicore-report-on-a-june-2018-development-meeting-in-paris/2202),
-the [multicore ocaml github repo](https://github.com/ocamllabs/ocaml-multicore),
-and its associated [wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
-You can also look for things to help with on the [roadmap](https://github.com/ocaml-multicore/ocaml-multicore/projects/3).
-
+* [April 2020 Update on Multicore OCaml](https://discuss.ocaml.org/t/multicore-update-april-2020-with-a-preprint-paper/5630)
+* [Paper on retrofitting a parallel GC into OCaml](https://arxiv.org/abs/2004.11663)
+* The [multicore OCaml github repo](https://github.com/ocamllabs/ocaml-multicore) and its [wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
+* The [multicore roadmap](https://github.com/ocaml-multicore/ocaml-multicore/projects/3).
+* [June 2018 Update](https://discuss.ocaml.org/t/ocaml-multicore-report-on-a-june-2018-development-meeting-in-paris/2202)
 * [ICFP Presentation on advanced lock-free programming in multicore OCaml](https://www.youtube.com/watch?v=C0YkrerSNn0)
 * [Discuss post on recent past and future of integrating multicore](https://discuss.ocaml.org/t/multicore-prerequisite-patches-appearing-in-released-ocaml-compilers-now/4408)
 * [Update on status of multicore](https://discuss.ocaml.org/t/where-is-multicore-development-happening/4997/8)
