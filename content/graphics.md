@@ -15,10 +15,19 @@ Vector drawing library using OpenGL as the backend.
 Bindings to Cairo, a 2D Vector Graphics Library. Integrates well with lablgtk.
 * [Vg](https://github.com/dbuenzli/vg):
 Declarative 2D vector graphics for OCaml.
+* [OcamlSDL](http://ocamlsdl.sourceforge.net/home.html):
+Currently the only complete bindings to the full SDL suite,
+including `SDL_image`, `SDL_ttf`, and `SDL_mixer`.
+Unfortunately, the version supported is the old SDL 1.2.
 * [TSDL](http://erratique.ch/software/tsdl):
-An OCaml module providing thin bindings to the cross-platform SDL library.
+An OCaml module providing thin bindings to the cross-platform SDL2 library.
+This library uses `ctypes`,
+and therefore requires less work to track changes to the C SDL libraries.
+Unfortunately, no compatible bindings exist for `SDL_image`, `SDL_ttf` etc.
 * [OcamlSDL2](https://github.com/fccm/OCamlSDL2):
-Bindings to the SDL2 library.
+Bindings to the SDL2 library using C files rather than `ctypes`.
+Bindings (possibly incomplete) exist also for `SDL_image` and `SDL_mixer`,
+but not for `SDL_ttf`.
 * [imagelib](https://github.com/rlepigre/ocaml-imagelib):
 Read and write various image formats. Backed by BigArrays.
 * [owl_base](https://github.com/owlbarn/owl):
