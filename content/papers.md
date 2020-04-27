@@ -19,3 +19,7 @@ A typeclass-like system for OCaml.
 The Format module and its design.
 * [Pattern Matching](http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf):
 How the compiler compiles pattern matching code to be efficient.
+
+## Multicore
+
+* [Parallel GC Design](https://arxiv.org/abs/2004.11663)
