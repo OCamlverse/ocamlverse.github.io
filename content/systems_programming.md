@@ -47,3 +47,7 @@ OCaml virtual machine for devices with limited resources such as microcontroller
 Based on [this paper](http://hal.upmc.fr/hal-01705825/document).
 * [OCaPIC](https://github.com/bvaugon/ocapic):
 OCaml for PIC microcontrollers.
+
+## Articles
+* [ocamlunix](https://ocaml.github.io/ocamlunix/ocamlunix.html):
+Great introduction to systems programming in OCaml
