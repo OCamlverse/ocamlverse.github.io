@@ -39,3 +39,11 @@ Pure OCaml implementation of the "vchan" shared-memory communication protocol.
 
 * [Canopy](https://github.com/Engil/Canopy): A blogging MirageOS unikernel based on git.
 Can be compiled to Unix as well.
+
+## Embedded Programming
+
+* [OMicroB](https://github.com/stevenvar/OMicroB):
+OCaml virtual machine for devices with limited resources such as microcontrollers.
+Based on [this paper](http://hal.upmc.fr/hal-01705825/document).
+* [OCaPIC](https://github.com/bvaugon/ocapic):
+OCaml for PIC microcontrollers.
