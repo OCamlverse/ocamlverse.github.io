@@ -9,7 +9,7 @@ tags: [ecosystem]
 * [Owl](https://github.com/ryanrhymes/owl):
 OCaml numerical library.
 Dense and sparse matrix, linear algebra, regressions, math and stats functions.
-  * [Owl tutorial](http://ocaml.xyz/chapter/index.html).
+  * [Owl tutorial](https://ocaml.xyz/book).
   * [Presentation on Owl at ICFP](https://www.youtube.com/watch?v=Jyv3tJD1N3o&t=311s)
 * [ocaml-torch](https://github.com/LaurentMazare/ocaml-torch):
 OCaml bindings for PyTorch.
