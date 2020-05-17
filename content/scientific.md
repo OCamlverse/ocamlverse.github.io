@@ -22,6 +22,8 @@ OCaml implementation of hdf5 reader/writer. hdf5 is a file format commonly used 
 
 * [Owl](https://github.com/ryanrhymes/owl):
 OCaml numerical library: dense and sparse matrix, linear algebra, regressions, maths and stats functions.
+* [pareto](https://github.com/superbobry/pareto):
+Statistics library using GSL.
 * [SPOC](https://mathiasbourgoin.github.io/SPOC/):
 Allows computing in OCaml with GPUs.
 Supports both CUDA and OpenCL.
