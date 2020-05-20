@@ -36,8 +36,8 @@ All of this makes Bigarrays ideal for network IO, as well as for FFI (foreign fu
 in applications that require manipulation of large amounts of data,
 such as [Owl] for data science and
 and bitmap surfaces for [tSDL](https://github.com/dbuenzli/tsdl).
-Bigarrays are therefore very similar to python's `numpy` library,
-though the more advanced operations for data manipulation are found in a library like [Owl],
+Bigarrays are therefore very similar to python's `numpy` library.
+More advanced operations for Bigarray data manipulation can be found in [Owl],
 which wraps Bigarray in its own [ndarray](https://www.cl.cam.ac.uk/~lw525/owl/chapter/ndarray.html)
 structure.
 
