@@ -67,4 +67,6 @@ one mode, which is equivalent to `clambda` compilation.
 
 ## Runtime
 
-[Description of allocator schemes](http://gallium.inria.fr/~scherer/doc/chameau-sur-le-plateau/2019-10-08-damien-doligez-major-allocator.org)
+* [Description of allocator schemes](http://gallium.inria.fr/~scherer/doc/chameau-sur-le-plateau/2019-10-08-damien-doligez-major-allocator.org)
+* [Low-latency garbage collection](https://blog.janestreet.com/building-a-lower-latency-gc/)
+
