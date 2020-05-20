@@ -45,6 +45,8 @@ See [Best Practices](best_practices.md).
 
 ## Intermediate
 
+* [BigArray](bigarray.md)
+
 ### Deploying Apps
 
 * [Building an OCaml webapp using Opium](https://shonfeder.gitlab.io/ocaml_webapp/)
