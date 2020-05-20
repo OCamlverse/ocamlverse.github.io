@@ -7,7 +7,7 @@ tags: [ecosystem]
 ## Number Types
 
 * [ocplib-endian](https://github.com/OCamlPro/ocplib-endian):
-Read and write int16/32/64 from [Bigarrays](bigarray.md), strings and bytes.
+Read and write all sizes of integers, both big and little endian, from [Bigarrays](bigarray.md), strings and bytes.
 * [Bytes](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Bytes.html):
 The standard library has functions to read little endian and big endian numbers of different sizes,
 both signed and unsigned, from bytes.
