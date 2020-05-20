@@ -1,7 +1,7 @@
 # Bigarray
 
 [Bigarray](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Bigarray.html)
-serve as a way to bypass some of the limitations with OCaml's built-in array data structures.
+serves as a way to bypass some of the limitations with OCaml's built-in array data structures.
 
 For example:
 
