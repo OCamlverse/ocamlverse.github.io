@@ -7,7 +7,7 @@ For example:
 
 * Interop with external C or Fortran applications requires copying array data from the OCaml heap
 to the outside world, which is inefficient.
-* On 32-bit platforms, arrays, strings and bytes are limited in size to rougly 4MB.
+* On 32-bit platforms, arrays, strings and bytes are limited in size to roughly 4MB.
 This limitation does not exist on 64-bit platforms.
 * While strings and bytes aren't scanned internally by the OCaml garbage collector,
 OCaml arrays *are*.
