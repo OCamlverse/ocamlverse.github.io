@@ -16,7 +16,7 @@ This limitation does not exist on 64-bit platforms.
 * While strings and bytes aren't scanned internally by the OCaml garbage collector,
 OCaml arrays *are*.
 This means that large arrays on the OCaml heap will need to be scanned during a major GC event,
-and matrices (arrays of arrays) require the GC to scan every array-of-array.
+and matrices (arrays of arrays) require the GC to scan every internal array.
 (Note that OCaml float arrays are currently treated as a special case, but this is
 temporary.)
 * OCaml arrays (but not bytes or Buffers) have write barriers to keep them GC-safe,
