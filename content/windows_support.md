@@ -52,9 +52,3 @@ See [this post](https://discuss.ocaml.org/t/ann-opam-2-0-5-release/4081/7) for d
 ## Resources
 
 * [Video on getting OCaml to Windows](https://www.youtube.com/watch?v=1DAuSSljLFI).
-
-## Older
-
-* [OCPWin](http://www.typerex.org/ocpwin.html): *obsolete*
-  A self-contained binary distribution for Windows that supports MSVC.
-  *This cannot be considered as an option anymore -- the latest OCaml provided is 4.01.*
