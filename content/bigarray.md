@@ -18,7 +18,7 @@ OCaml arrays *are*.
 This means that large arrays on the OCaml heap will need to be scanned during a major GC event,
 and matrices (arrays of arrays) require the GC to scan every internal array.
 (Note that OCaml float arrays are currently treated as a special case, but this is
-temporary.)
+due to be phased out.)
 * OCaml arrays (but not bytes or Buffers) have write barriers to keep them GC-safe,
 making it so writing into an array cell requires additional time.
 
