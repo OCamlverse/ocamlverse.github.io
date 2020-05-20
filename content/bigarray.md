@@ -45,7 +45,8 @@ Additionally,
 substring operations, which are useful for IO,
 are also slow.
 [cstruct](https://github.com/mirage/ocaml-cstruct) attempts to solve this issue
-by allocating small OCaml records (on the minor heap) as views into an underlying
+by allocating [small OCaml records](https://github.com/mirage/ocaml-cstruct/blob/master/lib/cstruct.mli#L143)
+(on the minor heap) as views into an underlying
 Bigarray.
 
 [Owl]: https://ocaml.xyz/ "Owl"
