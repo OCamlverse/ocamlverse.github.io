@@ -25,6 +25,20 @@ a StackOverflow answer detailing how exceptions work in OCaml.
 * `ocamlc -config`:
 show all configuration parameters for the compiler. Very useful.
 
+## Runtime
+
+The runtime part of OCaml dovetails with the compiled code,
+providing the major services needed for an OCaml program to function,
+such as memory allocation and garbage collection.
+The runtime is not generated anew for each compiled program --
+it's mostly written in C code that is compiled to run together with
+the generated code (in the case of native compilation),
+or to additionally run the OCaml bytecode (in the case of bytecode compilation).
+
+* [Description of allocator schemes](http://gallium.inria.fr/~scherer/doc/chameau-sur-le-plateau/2019-10-08-damien-doligez-major-allocator.org)
+* [Low-latency garbage collection](https://blog.janestreet.com/building-a-lower-latency-gc/)
+
+
 ## Compiler Internals
 
 * [hacking.adoc](https://github.com/ocaml/ocaml/blob/trunk/HACKING.adoc): a basic guide to the compiler's internals.
@@ -65,8 +79,4 @@ one mode, which is equivalent to `clambda` compilation.
 #### Register Coloring
 ### assembly
 
-## Runtime
-
-* [Description of allocator schemes](http://gallium.inria.fr/~scherer/doc/chameau-sur-le-plateau/2019-10-08-damien-doligez-major-allocator.org)
-* [Low-latency garbage collection](https://blog.janestreet.com/building-a-lower-latency-gc/)
 
