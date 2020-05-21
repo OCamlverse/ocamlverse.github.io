@@ -52,9 +52,12 @@ Contains a few standalone tools:
   Available independently on OPAM.
   * [ocp-index-top](https://github.com/reynir/ocp-index-top):
   toplevel directive for looking up documentation using ocp-index.
-* [ocp-indent](http://www.typerex.org/ocp-indent.html):
-indentation tool for OCaml, to be used from editors like Emacs and Vim.
+* [ocp-indent](https://github.com/OCamlPro/ocp-indent) is a coding style formatting tool that relies on heuristics and partial
+parsing rather than a full end-to-end parsing and printing approach, like ocamlformat below. The advantage of ocp-indent's approach
+is that even partially-compiling files can be indented, as can code fragments.
   * [Vim plugin](https://github.com/def-lkb/ocp-indent-vim)
+* [ocamlformat](https://github.com/ocaml-ppx/ocamlformat) is a comprehensive coding style formatting tool that parses the code
+and prints it out again. This follows the example of the `refmt` tool for Reason. While new, `ocamlformat` may eventually overtake `ocp-indent`.
 
 ## Development Tools
 
