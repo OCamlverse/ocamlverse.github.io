@@ -26,7 +26,8 @@ A free online book, and a great introduction to OCaml.
 
 ### Setting Up Your Editor for OCaml
 
-OCaml can be edited conveniently with many different editors. See [Editor Support](editor_support.md).
+OCaml can be edited conveniently with many different editors.
+See [editor setup](editor_setup.md) and [code_tools](code_tools.md).
 
 ### Using the OCaml Build Tools
 
