@@ -8,19 +8,42 @@ tags: [ecosystem]
 
 For an OCaml beginner, the recommended editor of choice is Visual Studio code with the ReasonML plugin.
 
+### Visual Studio Code
+
 * [VSCode-Reason](https://github.com/reasonml-editor/vscode-reasonml):
-the Reason/OCaml plugin for Visual Studio code.
-It allows for all the advantages provided by Merlin with the convenience of the VSCode IDE.
+The Reason/OCaml plugin for Visual Studio Code.
+Allows for all the advantages provided by Merlin with the convenience of the VSCode IDE.
+* [VSCode-OCaml-platform](https://github.com/ocamllabs/vscode-ocaml-platform):
+*in-development*.
+OCaml extension for Visual Studio Code.
+
+### Emacs
+
+* [tuareg](https://github.com/ocaml/tuareg):
+OCaml mode for Emacs that can run the toplevel and the debugger within Emacs.
+
+### Sublime Text
+
+* [Sublime better ocaml](https://github.com/whitequark/sublime-better-ocaml):
+better OCaml mode for Sublime Text.
+  * [Sublime text package](https://github.com/def-lkb/sublime-text-merlin)
+
+### Vim
+
+* Vim only really needs `merlin`, and optionally, `ocp-indent` or `ocamlformat.`
+
+### General
+
+* [user-setup](https://github.com/OCamlPro/opam-user-setup):
+automatically configures several editors to use merlin, ocp-indent, and ocp-index if they are installed.
+Run `opam install user-setup` to install it, and then follow the instructions,
+which tell you to run `opam user-setup install`.
 * [merlin](https://github.com/ocaml/merlin):
 the main tool used to provide information to editors about OCaml codebases.
 Note that to provide information, the code must first be compiled.
 Dune is able to automatically create /.merlin/ files, which are needed to help merlin find the compiled files.
+  * See [quickstart an OCaml project with Dune](quickstart_ocaml_project_dune.md).
   * [Presentation on merlin at ICFP 2018](https://www.youtube.com/watch?v=VjLL9We1Fxc)
-* [tuareg](https://github.com/ocaml/tuareg):
-OCaml mode for Emacs that can run the toplevel and the debugger within Emacs.
-* [Sublime better ocaml](https://github.com/whitequark/sublime-better-ocaml):
-better OCaml mode for Sublime Text.
-  * [Sublime text package](https://github.com/def-lkb/sublime-text-merlin)
 * [ocp-index](http://www.typerex.org/ocp-index.html):
 Easy access to the interface information of installed OCaml libraries.
 Contains a few standalone tools:
@@ -33,12 +56,7 @@ Contains a few standalone tools:
 indentation tool for OCaml, to be used from editors like Emacs and Vim.
   * [Vim plugin](https://github.com/def-lkb/ocp-indent-vim)
 
-* [user-setup](https://github.com/OCamlPro/opam-user-setup):
-automatically configures several editors to use merlin, ocp-indent, and ocp-index if they are installed.
-Run `opam install user-setup` to install it, and then follow the instructions,
-which tell you to run `opam user-setup install`.
-
-## Developer Tools
+## Development Tools
 
 * [utop](https://github.com/diml/utop):
 Very powerful toplevel for OCaml, that is far better than the default one.
