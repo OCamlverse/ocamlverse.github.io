@@ -7,6 +7,7 @@ tags: [ecosystem]
 ## Editor Tools
 
 For an OCaml beginner, the recommended editor of choice is Visual Studio code with the ReasonML plugin.
+See [editor setup](editor_setup.md).
 
 ### Visual Studio Code
 
