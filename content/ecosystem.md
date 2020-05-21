@@ -73,9 +73,6 @@ See [the manual](https://caml.inria.fr/pub/docs/manual-ocaml/debugger.html) for 
 is choosing bytecode as your compilation target, and using teh OCaml debugger.
 * Additionally, one can use `gdb` to debug native code.
 
-## Editor Support
-See [Editor Support](editor_support.md)
-
 ## Formal Software Verification
 See [Formal Software Verification](software_verification.md)
 
