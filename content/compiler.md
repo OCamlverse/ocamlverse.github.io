@@ -64,15 +64,44 @@ either `clambda` (naive) or `flambda` (optimized) compilation, bytecode compilat
 one mode, which is equivalent to `clambda` compilation.
 
 ### Parser
+
+The parser converts OCaml syntax to an abstract sytnax tree (AST) representation
+([parsing/parsetree.mli](https://github.com/ocaml/ocaml/blob/trunk/parsing/parsetree.mli)).
+
 #### ppx
+
+PPX rewriters are separate executables that parse binary AST,
+modify certain parts as needed,
+and spit out binary AST for the compiler to reload.
+
 ### Typechecker
+
+The typechecker transforms the plain AST to typechecked AST
+([typing/typedtree.mli](https://github.com/ocaml/ocaml/blob/trunk/typing/typedtree.mli)).
+
 ### Lambda
+
+After typechecking, if a program isn't rejected,
+types are mostly erased from the AST except information relevant to optimizations.
+The resulting AST 
+([lambda/lambda.mli](https://github.com/ocaml/ocaml/blob/trunk/lambda/lambda.mli))
+is leaner and easier to manipulate than the typed AST.
+
 * [ICFP Presentation on Semantics of Lambda](https://www.youtube.com/watch?v=R3Uk9gt90Tk)
+
 #### Pattern Matching
+
+Pattern matching uses a fairly complex algorithm
+([lambda/matching.mli](https://github.com/ocaml/ocaml/blob/trunk/lambda/matching.ml))
+to convert potentially complex patterns into simpler, efficient AST.
 
 * [Compiling Pattern Matching to Good Decision Trees](http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf)
 
 ### Flambda
+
+Flambda is an optional, additional layer of optimization,
+residing in [/middle_end](https://github.com/ocaml/ocaml/tree/trunk/middle_end).
+
 ### Clambda
 ### cmm
 #### Register Coloring
