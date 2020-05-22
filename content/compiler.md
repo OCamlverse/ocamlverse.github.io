@@ -8,6 +8,7 @@ The OCaml compiler is a complicated piece of software. Below is an attempt to do
 
 ## Articles
 
+* [Runtime memory layout from the Real World OCaml book](https://dev.realworldocaml.org/runtime-memory-layout.html)
 * [Presentation on OCaml Internals (pdf)](/assets/pdf/ocaml_internals.pdf):
 excellent presentation on how OCaml is built on the inside.
 * [Exception handling in OCaml](https://stackoverflow.com/questions/8564025/ocaml-internals-exceptions):
@@ -26,8 +27,10 @@ a StackOverflow answer detailing how exceptions work in OCaml.
 show all configuration parameters for the compiler. Very useful.
 
 ## Runtime
-[See Runtime](runtime.md)
 
+* [Runtime memory layout from the Real World OCaml book](https://dev.realworldocaml.org/runtime-memory-layout.html)
+
+[See also Runtime](runtime.md)
 
 ### Articles
 
