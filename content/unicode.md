@@ -5,6 +5,7 @@ tags: [ecosystem]
 
 # Unicode
 
+* [Tips for Unicode in OCaml](https://erratique.ch/software/uucp/doc/unicode.html#tips).
 * [uutf](https://github.com/dbuenzli/uutf):
 Streaming Unicode codec. This library is well maintained, and up to date with the latest Unicode standard.
 * [Camomile](https://github.com/yoriyuki/Camomile):
