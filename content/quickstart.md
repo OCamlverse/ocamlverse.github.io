@@ -6,6 +6,7 @@ tags: [learning, quickstart]
 
 Want to get up and running with OCaml as fast as possible? Here's how.
 
+* [Try OCaml in your browser](https://try.ocamlpro.com)
 * [Play around with OCaml on the web](https://sketch.sh/ml).
   * [Also here](https://code.labstack.com/ocaml)
 * [Quickstart an OCaml project with Dune](quickstart_ocaml_project_dune.md)
