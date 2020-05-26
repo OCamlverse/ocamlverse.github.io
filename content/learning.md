@@ -73,7 +73,8 @@ Great introduction to systems programming in OCaml
 
 ### Modules and Functors
 
-* [A Very Basic Introduction to Functors](functors.md)
+* [Introduction to Functors](functors_intro.md)
+* [Functors](functors.md)
 
 ### Polymorphism
 
