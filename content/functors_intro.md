@@ -1,12 +1,6 @@
-# A Very Basic Introduction to Functors
+# Introduction to Functors
 
-Originally written by "Kantian" on
-[Discuss](https://discuss.ocaml.org/t/help-me-to-understand-functors/)
-
-Good documentation on the module system and functors is given here:
-
-- [The module system](http://caml.inria.fr/pub/docs/manual-ocaml/moduleexamples.html)
-- [Destructive substitution](http://caml.inria.fr/pub/docs/manual-ocaml/extn.html#sec249)
+(Originally written by "Kantian")
 
 We'll explain how modules and functors work with a simple example.
 
@@ -206,6 +200,3 @@ String_Set.is_element "hello" s;;
 String_Set.is_element "foo" s;;
 - : bool = false
 ```
-
-I hope that you can now see what functors are, how to define them, and
-how to use them.
