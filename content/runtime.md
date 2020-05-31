@@ -8,6 +8,8 @@ it's mostly written in C code that is compiled to run together with
 the generated code (in the case of native compilation),
 or to additionally run the OCaml bytecode (in the case of bytecode compilation).
 
+[Garbage Collection](gc.md)
+
 # Heap Data Scheme
 
 In order to facilitate garbage collection (GC),
