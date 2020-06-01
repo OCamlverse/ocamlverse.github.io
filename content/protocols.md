@@ -32,6 +32,15 @@ Full findings to Protobuf messages and types. Implements the full proto3 specifi
 * [capnp-ocaml](https://github.com/capnproto/capnp-ocaml): Code generator for cap'n-proto.
 * [capnp-rpc](https://github.com/mirage/capnp-rpc): RPC implemented over cap'n-proto.
 
+## Msgpack
+* [vcaml](https://github.com/janestreet/vcaml):
+Bindings for [Neovim](https://neovim.io/).
+Contains the fullest implementation of msgpack for OCaml.
+* [ocaml-msgpack](https://github.com/vbmithr/ocaml-msgpck):
+another implementation of msgpack.
+* [msgpack-ocaml](https://github.com/msgpack/msgpack-ocaml):
+Slower, but the implementation is backed by a proof in `Coq`.
+
 # Security and Cryptography
 
 * [ocaml-tls](https://github.com/mirleft/ocaml-tls): TLS in pure OCaml.
