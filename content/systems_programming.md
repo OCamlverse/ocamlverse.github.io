@@ -23,6 +23,7 @@ Includes the ability to read big endian and little endian numbers.
 Unikernel-based operating system written in OCaml.
 It serves as a programming framework for constructing secure,
 high-performance network applications across a variety of cloud computing and mobile platforms.
+  * [Arxiv paper on mirage](https://arxiv.org/pdf/1905.02529.pdf)
   * [mirage-skeleton](https://github.com/mirage/mirage-skeleton):
   Examples of simple Mirage apps.
   * [ICFP Presentation on Mirage and Irmin](https://www.youtube.com/watch?v=nUJYGFJDVVo)
