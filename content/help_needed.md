@@ -57,9 +57,3 @@ machine learning professionals.
 - [Google Cloud Platform](https://cloud.google.com/apis/): no bindings.
 - [NATS/NATS Streaming](https://nats.io/): no bindings.
 Part of the [Cloud Native Foundation](https://www.cncf.io/) and gaining increased adoption.
-
-## Discord-IRC Bridge bot
-
-- Our IRC to Discord bot doesn't work well, and the bridge is currently broken.
-We'd much prefer to have a Discord library in OCaml, and possibly a bot creation library.
-[This](https://github.com/jerith/chaocaml) may be a good starting point.
