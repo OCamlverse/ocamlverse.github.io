@@ -33,6 +33,13 @@ better OCaml mode for Sublime Text.
 
 * Vim only really needs `merlin`, and optionally, `ocp-indent` or `ocamlformat.`
 
+### Neovim
+
+* [Neovim](https://neovim.io)
+supports plugins written in any language, including OCaml using the
+[vcaml](https://github.com/janestreet/vcaml)
+package.
+
 ### General
 
 * [user-setup](https://github.com/OCamlPro/opam-user-setup):
