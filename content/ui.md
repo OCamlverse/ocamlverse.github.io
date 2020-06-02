@@ -6,6 +6,10 @@ tags: [ecosystem]
 
 ## GUI
 
+* [lablgtk](http://lablgtk.forge.ocamlcore.org/):
+GTK2/3 bindings for OCaml with various higher-level facilities to define GUIs.
+* [lablqml](https://github.com/Kakadu/lablqml):
+QML Qt5 bindings for OCaml.
 * [Revery](https://github.com/revery-ui/revery) **WIP**:
 A brand-new (and exciting) OCaml/ReasonML-based GUI.
 Revery stands as a native, cross-platform alternative to Electron.
@@ -14,10 +18,6 @@ Rather than taking Revery's approach of having a uniform interface,
 Brisk aims to use native platform APIs do draw OS-based GUI elements.
 * [bogue](https://github.com/sanette/bogue):
 A new, SDL-based GUI. Ideal for integration in games.
-* [lablgtk](http://lablgtk.forge.ocamlcore.org/):
-GTK2 bindings for OCaml with various higher-level facilities to define GUIs.
-* [lablqml](https://github.com/Kakadu/lablqml):
-QML Qt5 bindings for OCaml.
 * [labltk](https://forge.ocamlcore.org/projects/labltk/):
 Interface to the Tcl/Tk GUI framework.
 [demo video](https://youtu.be/isFLxnDooL8)
