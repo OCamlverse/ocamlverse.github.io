@@ -105,9 +105,6 @@ An application of GADTs to produce heterogenous lists.
 ### FFI (Foreign Function Interface)
 
 * See [FFI](ffi.md) for different options. `Ctypes` or `ppx_cstruct` is the recommended approach nowadays.
-* [Article on wrapping C functions from OCaml by hand](http://www.linux-nantes.org/~fmonnier/OCaml/ocaml-wrapping-c.html):
-If you want to get down and dirty, doing it yourself.
-May be necessary for some library wrappers.
 
 ### Monads
 
