@@ -47,12 +47,13 @@ A Reason 2d graphics library inspired by Processing.
 
 ## 3D
 
-* [glMLite](http://www.linux-nantes.org/~fmonnier/OCaml/GL/):
-OpenGL bindings for OCaml. Provides an experimental functional API.
-* [lablgl](https://forge.ocamlcore.org/projects/lablgl/):
-Interface to OpenGL. Integrates well with lablgtk.
 * [tgls](http://erratique.ch/software/tgls):
 Thin bindings to OpenGL 3.{2,3},4.{0,1,2,3,4} and OpenGL ES {2,3}.
+*This is the recommended library for OpenGL support in OCaml*.
+* [glMLite](https://github.com/fccm/glMLite):
+OpenGL bindings for OCaml. Provides an experimental functional API.
+* [lablgl](https://github.com/garrigue/lablgl):
+Interface to OpenGL. Integrates well with lablgtk.
 * [glfw-ocaml](https://github.com/SylvainBoilard/GLFW-OCaml):
 Bindings to [GLFW](https://www.glfw.org/), an OpenGL library providing OS-specific
 functionality, such as window, surface and input management.
