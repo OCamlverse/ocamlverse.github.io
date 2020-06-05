@@ -36,7 +36,7 @@ abandoned.
 
 - GraphQL client (needs help):
 Having [ppx_graphql](https://github.com/andreas/ppx_graphql)
-support the full [GraphQL spec](http://facebook.github.io/graphql/June2018/)
+support the full [GraphQL spec](http://spec.graphql.org/)
 opens up the possibility to interact with many APIs that expose a GraphQL
 endpoint including Github.
 
