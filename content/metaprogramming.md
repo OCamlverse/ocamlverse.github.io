@@ -38,7 +38,7 @@ Uses `ppxlib`, which makes it forward-compatible.
 * [ppx_visitors](https://gitlab.inria.fr/fpottier/visitors):
 Automatically use the visitor object-oriented pattern on a data structure,
 extending it with behaviors rather than needing to specify each variant's behavior.
-* [ppx_import](https://github.com/whitequark/ppx_import):
+* [ppx_import](https://github.com/ocaml-ppx/ppx_import):
 Import is a syntax extension that allows to pull in types or signatures from other compiled interface files.
 This can be handy when not wanting to repeat a type in both the `.ml` and `.mli` file, for example.
 * [ppx_override](https://gitlab.inria.fr/tmartine/override):
