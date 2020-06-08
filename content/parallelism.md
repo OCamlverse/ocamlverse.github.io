@@ -19,6 +19,7 @@ Concurrent code uses monads to express the higher-level abstractions of control 
     Stream/queue for lwt.
     * [RWO-lwt](https://github.com/dkim/rwo-lwt):
     Real World OCaml code examples translated from Async to lwt.
+    * [lwt tutorial](https://raphael-proust.github.io/code/lwt-part-1.html)
 * [Async](https://github.com/janestreet/async):
 another monadic concurrency library developed by Jane Street.
 This library is covered in Real World OCaml.
