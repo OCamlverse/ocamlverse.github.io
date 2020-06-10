@@ -18,7 +18,7 @@ High performance http2 server.
 * [cohttp](https://github.com/mirage/ocaml-cohttp):
 An alternative, lightweight HTTP server.
 * [Opium](https://github.com/rgrinberg/opium):
-Sinatra like web toolkit for OCaml. Uses cohttp.
+Sinatra like web toolkit for OCaml. Uses cohttp. **Note: Current git trunk has switched to Httpaf.**
 * [httpkit](https://github.com/ostera/httpkit):
 *Experimental.*
 High level HTTP server/client creation. Uses httpaf.
