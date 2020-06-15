@@ -16,7 +16,7 @@ A high performance web server written in OCaml. Compatible with Async and Lwt.
 * [ocaml-h2](https://github.com/anmonteiro/ocaml-h2):
 High performance http2 server.
 * [cohttp](https://github.com/mirage/ocaml-cohttp):
-An alternative, lightweight HTTP server.
+An alternative, lightweight HTTP server and client that currently only supports HTTP/1.x.
 * [Opium](https://github.com/rgrinberg/opium):
 Sinatra like web toolkit for OCaml. Uses cohttp. **Note: Current git trunk has switched to Httpaf.**
 * [httpkit](https://github.com/ostera/httpkit):
@@ -33,6 +33,16 @@ Typed bidirectional routing with combinators.
 *Experimental*.
 Thin wrapper around httpaf for server/client creation.
 Supports both regular async Tcp connections and encrypted connections via async_ssl.
+
+## HTTP Clients
+* [cohttp](https://github.com/mirage/ocaml-cohttp):
+A mature, lightweight HTTP server and client that currently only supprots HTTP/1.x.
+* [piaf](https://github.com/anmonteiro/piaf):
+*Experimental*.
+An HTTP client that supports both HTTP/1.x and HTTP/2, and with better cross-platform support for SSL.
+* [fetch](https://github.com/lessp/fetch):
+*Experimental*.
+Aims to provide a common interface, following the fetch specification, over different HTTP and Promise implementations. Currently only supports `piaf` and `lwt`, but also plans to support BuckleScript in the near future.
 
 ## Web Frameworks
 
