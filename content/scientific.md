@@ -45,6 +45,10 @@ Bindings to the [glpk](http://www.gnu.org/software/glpk/glpk.html) linear progra
 OCaml bindings to python's scikit-learn.
 * [zarith](https://github.com/ocaml/Zarith):
 Arithmetic over arbitrary precision integers and rational numbers.
+Uses [gmplib](https://gmplib.org/).
+Note that operations can be more expensive than calling `gmplib` directly.
+* [gmp-ocaml](https://github.com/ytomino/gmp-ocaml):
+Low-level bindings to the [gmplib](https://gmplib.org/).
 
 ## Data Visualization
 
