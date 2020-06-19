@@ -29,9 +29,12 @@ See [Audio](audio.md)
 See [Build System and Package Management](build_systems.md)
 
 ## Cloud Computing
+
 * [aws-s3](https://github.com/andersfugmann/aws-s3): Access to Amazon's Simple Storage Solution (S3)
 * [Google Drive OCamlFuse](https://github.com/astrada/google-drive-ocamlfuse):
 A User file system for Google Drive. Also one of the few ways to sync Google Drive from Linux.
+* [aws-lambda](https://github.com/anmonteiro/aws-lambda-ocaml-runtime):
+OCaml runtime for AWS Lambda.
 
 ## Code Tools
 See [Code Tools](code_tools.md)
