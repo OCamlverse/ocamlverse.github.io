@@ -35,14 +35,17 @@ Thin wrapper around httpaf for server/client creation.
 Supports both regular async Tcp connections and encrypted connections via async_ssl.
 
 ## HTTP Clients
+
 * [cohttp](https://github.com/mirage/ocaml-cohttp):
-A mature, lightweight HTTP server and client that currently only supprots HTTP/1.x.
+A mature, lightweight HTTP server and client that currently only supports HTTP/1.x.
 * [piaf](https://github.com/anmonteiro/piaf):
 *Experimental*.
 An HTTP client that supports both HTTP/1.x and HTTP/2, and with better cross-platform support for SSL.
 * [fetch](https://github.com/lessp/fetch):
 *Experimental*.
-Aims to provide a common interface, following the fetch specification, over different HTTP and Promise implementations. Currently only supports `piaf` and `lwt`, but also plans to support BuckleScript in the near future.
+Aims to provide a common interface, following the fetch specification,
+over different HTTP and Promise implementations. Currently only supports `piaf` and `lwt`,
+but also plans to support BuckleScript in the near future.
 
 ## Web Frameworks
 
