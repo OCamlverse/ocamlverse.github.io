@@ -9,30 +9,30 @@ tags: [ecosystem]
 * [ICFP presentation on improving the OCaml web stack](https://www.youtube.com/watch?v=tTqqu4xh4UY&t=1156s)
 * [Building an OCaml webapp using Opium](https://shonfeder.gitlab.io/ocaml_webapp/)
 
+## Low-Level HTTP Protocol
+
+* [h2](https://github.com/anmonteiro/ocaml-h2):
+High performance http2 implementation.
+* [httpaf](https://github.com/inhabitedtype/httpaf):
+A high performance HTTP implementation written in OCaml. Compatible with Async and Lwt.
+* [cohttp](https://github.com/mirage/ocaml-cohttp):
+Older, slower implementation of HTTP supporting only HTTP/1.x.
+
 ## HTTP Servers
 
-* [httpaf](https://github.com/inhabitedtype/httpaf):
-A high performance web server written in OCaml. Compatible with Async and Lwt.
-* [ocaml-h2](https://github.com/anmonteiro/ocaml-h2):
-High performance http2 server.
-* [cohttp](https://github.com/mirage/ocaml-cohttp):
-An alternative, lightweight HTTP server and client that currently only supports HTTP/1.x.
 * [Opium](https://github.com/rgrinberg/opium):
-Sinatra like web toolkit for OCaml. Uses cohttp. **Note: Current git trunk has switched to Httpaf.**
-* [httpkit](https://github.com/ostera/httpkit):
-*Experimental.*
-High level HTTP server/client creation. Uses httpaf.
-Currently requires an OPAM pin to install.
-* [tiny httpd](https://github.com/c-cube/tiny_httpd):
-Simple HTTP server like python's SimpleHTTPServer, for serving files.
+Sinatra like micro-framework web toolkit for OCaml.
+Currently uses `cohttp`, but git master has switched to the faster `httpaf`.
 * [ocamlapi](https://github.com/nosman/Ocamlapi):
 Routing with ppx support. Uses cohttp and Core.
-* [routes](https://github.com/anuragsoni/routes):
-Typed bidirectional routing with combinators.
 * [async-http](https://gitlab.com/anuragsoni/async-http):
-*Experimental*.
 Thin wrapper around httpaf for server/client creation.
-Supports both regular async Tcp connections and encrypted connections via async_ssl.
+Supports both regular async TCP connections and encrypted connections via async_ssl.
+* [tiny httpd](https://github.com/c-cube/tiny_httpd):
+Simple HTTP server like python's SimpleHTTPServer, for serving files.
+* [routes](https://github.com/anuragsoni/routes):
+Typed bidirectional routing utility with combinators.
+Could be useful as part of creating a server.
 
 ## HTTP Clients
 
