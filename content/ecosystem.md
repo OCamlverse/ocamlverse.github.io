@@ -64,11 +64,13 @@ For compilation tools made in OCaml, see [Compilers](compilers.md)
 ## Concurrency, Parallelism, Distributed Computing
 See [Concurrency, Parallelism and Distributed Computing](parallelism.md)
 
+## Cryptography
+See [Security and Cryptography](security.md)
+
 ## Databases
 See [Databases](databases.md)
 
 ## Debugging
-
 * OCaml comes with a built-in debugger for the bytecode compiler.
 You invoke it with the `ocamldebug` command.
 See [the manual](https://caml.inria.fr/pub/docs/manual-ocaml/debugger.html) for more details.
@@ -105,7 +107,6 @@ See [Iterators](iterators.md)
 a Lens library (easy access/functional updates to records).
 
 ## Logging
-
 * [dolog](https://github.com/UnixJunkie/dolog):
 a simple OCaml logger.
 * [Volt](https://github.com/codinuum/volt):
@@ -147,14 +148,16 @@ See [Regular Rxpressions](regular_expressions.md)
 ## RPC
 See [RPC](rpc.md)
 
+## Searching
+For search-related libraries, see [Searching](searching.md)
+
+## Security
+See [Security and Cryptography](security.md)
+
 ## Static Analysis
 For static analysis using OCaml, see [Static Analysis](static_analysis.md)
 
-## Searching
-For libraries related to search, see [Searching](searching.md)
-
 ## String Manipulation
-
 * The standard library's String module is somewhat lacking in terms of functionality.
 * [Containers](https://github.com/c-cube/ocaml-containers) has an expanded String module,
 with iteration functions and so on.
@@ -178,7 +181,6 @@ For low-level systems programming, see [Systems Programming](systems_programming
 For testing frameworks in OCaml, see [Testing](testing.md)
 
 ## Time and Date
-
 * For short-term timing requirements,
 [Sys.time](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Sys.html) can do the job.
 * [mtime](https://github.com/dbuenzli/mtime): wall-clock monotonic time,
