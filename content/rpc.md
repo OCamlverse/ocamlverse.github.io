@@ -11,3 +11,6 @@ Includes networking support.
 RPC using XML or JSON.
 Transportation mechanism not included.
 [docs](http://mirage.github.io/ocaml-rpc/rpclib/index.html).
+* [Apache Thrift](https://thrift.apache.org/lib/ocaml):
+Cross-language, binary, high performance RPC framework.
+Includes OCaml bindings via generation.
