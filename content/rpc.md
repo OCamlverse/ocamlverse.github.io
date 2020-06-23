@@ -8,6 +8,6 @@ tags: [ecosystem]
 Cap'n Proto RPC implementation, used by Docker.
 Includes networking support.
 * [OCaml-RPC](https://github.com/mirage/ocaml-rpc):
-[doc](http://mirage.github.io/ocaml-rpc/rpclib/index.html).
 RPC using XML or JSON.
 Transportation mechanism not included.
+[docs](http://mirage.github.io/ocaml-rpc/rpclib/index.html).
