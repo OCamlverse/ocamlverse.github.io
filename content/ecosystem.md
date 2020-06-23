@@ -144,6 +144,9 @@ See [Profiling](profiling.md).
 ## Regular Expressions
 See [Regular Rxpressions](regular_expressions.md)
 
+## RPC
+See [RPC](rpc.md)
+
 ## Static Analysis
 For static analysis using OCaml, see [Static Analysis](static_analysis.md)
 
