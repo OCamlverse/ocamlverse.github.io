@@ -40,6 +40,8 @@ A bit-vector library.
 Functional priority search queues library.
 * [bloomf](https://github.com/mirage/bloomf):
 Fast [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) library.
+* [skip-list](https://github.com/UnixJunkie/slist):
+Pure skip lists. Seems incomplete.
 
 ### Heterogeneous Maps
 
