@@ -99,14 +99,11 @@ An application of GADTs to produce heterogenous lists.
 
 ### PPX (PreProcessor eXtensions)
 
-* [Into to PPX](https://tarides.com/blog/2019-05-09-an-introduction-to-ocaml-ppx-ecosystem):
-both using and writing PPX rewriters.
-* [A Guide to PreProcessor eXtensions](ppx.md)
-* [A PPX Tutorial](https://www.victor.darvariu.me/jekyll/update/2018/06/19/ppx-tutorial.html)
+See (Metaprogramming)[metaprogramming.md] for both libraries and articles.
 
 ### FFI (Foreign Function Interface)
 
-* See [FFI](ffi.md) for different options. `Ctypes` or `ppx_cstruct` is the recommended approach nowadays.
+* See [FFI](ffi.md).
 
 ### Monads
 
