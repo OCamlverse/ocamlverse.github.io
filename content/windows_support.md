@@ -31,12 +31,18 @@ and cross-compile them so they work on Windows using [opam-cross-windows].
 * [OCaml for Windows][ocaml-win]:
 A [cygwin]-based Ocaml distribution, with `opam` support. 
 Keep in mind that [cygwin] is a translation layer for unix commands, and thus slows down compilation performance.
-However, the binaries produced can be run in Windows proper without cygwin.
+However, the binaries produced can be run in Windows proper without cygwin,
+if they're built with the right compiler (mingw).
+    * [sys2cyg](https://github.com/mnxn/sys2cyg) is a tool that allows you to install up-to-date packages
+    from `MSYS2` (a lightweight fork of cygwin).
+    `MSYS2` by itself is incapable of building OCaml packages,
+    but has better-maintained libraries,
+    which could be useful for building OCaml libraries.
  
 * [esy](https://esy.sh/):
 a build tool similar to npm and OPAM created by the [Reason] community.
-It operates on top of [cygwin] but hides it away, making OCaml feel completely native to windows.
-It also inherits `cygwin`'s slow compilation speed.
+`esy` operates on top of [cygwin] but hides it away, making OCaml feel completely native to windows.
+It therefore also inherits `cygwin`'s slow compilation speed.
 Not all OPAM packages are available yet, but support is rapidly growing.
 
 There is work being put in by [OCaml Labs](http://ocamllabs.io/doc/windows.html) to improve
