@@ -168,6 +168,8 @@ string. See the OCaml manual for details.)
 
 ## Writing PPXs
 
+See [Intro to PPX](https://tarides.com/blog/2019-05-09-an-introduction-to-ocaml-ppx-ecosystem)
+
 _This section is woefully incomplete. Please help me turn
 it into something useful! Send me specific suggestions for things it
 should say._
