@@ -93,6 +93,9 @@ For integrating with C, C++, Python etc., see [Foreign Function Interface](ffi.m
 ## Functional Reactive Programming
 See [Functional Reactive Programming](frp.md).
 
+## Game Development
+See [Games](games.md)
+
 ## Graphics
 For graphic libraries, see [Graphics](graphics.md).
 
