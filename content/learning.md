@@ -118,6 +118,10 @@ See (Metaprogramming)[metaprogramming.md] for both libraries and articles.
 
 * [lwt tutorial](https://raphael-proust.github.io/code/lwt-part-1.html)
 
+### Multicore
+
+* [Parallel programming in Multicore OCaml](https://github.com/prismlab/parallel-programming-in-multicore-ocaml/tree/draft)
+
 ### Category Theory
 
 Category Theory is a branch of abstract mathematics that discusses concepts
