@@ -148,6 +148,8 @@ as well as
   * [Netmime](http://projects.camlcity.org/projects/dl/ocamlnet-4.0.4/doc/html-main/Netmime.html):
   MIME processing.
   * Other [OCamlnet modules](http://projects.camlcity.org/projects/dl/ocamlnet-4.0.4/doc/html-main/index.html)
+* [letter](https://github.com/oxidizing/letters):
+High-level library for writing emails. Uses `mrmime` and `lwt`.
 * [mrmime](https://github.com/mirage/mrmime):
   High performance email parsing/generation library.
   * [Announcement](https://discuss.ocaml.org/t/ann-first-release-of-mrmime-parser-and-generator-of-emails/4436)
