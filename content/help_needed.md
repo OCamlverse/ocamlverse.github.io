@@ -48,9 +48,7 @@ complete as GTK2 state, see `lablgtk3` branch.
 ## Machine Learning
 
 - [OWL](https://github.com/owlbarn/owl) (needs help):
-OCaml's equivalent to Numpy and Pytorch.
-Currently, the project doesn't support GPUs, which hurts its adoption by
-machine learning professionals.
+OCaml's equivalent to numpy, scipy and Pytorch/Tensorflow.
 
 ## Cloud Technology
 
