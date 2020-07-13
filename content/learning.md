@@ -108,7 +108,7 @@ An application of GADTs to produce heterogenous lists.
 
 ### PPX (PreProcessor eXtensions)
 
-See (Metaprogramming)[metaprogramming.md] for both libraries and articles.
+See [Metaprogramming](metaprogramming.md) for both libraries and articles.
 
 ### FFI (Foreign Function Interface)
 
