@@ -68,7 +68,16 @@ Great introduction to systems programming in OCaml
 
 ### Tools
 * [Fuzzing OCaml programs](https://tarides.com/blog/2019-09-04-an-introduction-to-fuzzing-ocaml-with-afl-crowbar-and-bun.html)
- 
+
+### Functional Data Structures
+* [Purely Functional Data Structures](http://www.amazon.co.uk/Purely-Functional-Structures-Chris-Okasaki/dp/0521631246/ref=sr_1_1?ie=UTF8&qid=1406279836&sr=8-1&keywords=functional+data+structures):
+A classic book focusing on various data structures in the functional programming world.
+Can be very useful for understanding functional data structures,
+though OCaml obviously supports imperative data structures as well.
+
+### Writing Efficient Code
+See [Optimizing OCaml Performance](optimizing_performance.md).
+
 ## Advanced
 
 ### Modules and Functors
@@ -122,6 +131,18 @@ See (Metaprogramming)[metaprogramming.md] for both libraries and articles.
 
 * [Parallel programming in Multicore OCaml](https://github.com/prismlab/parallel-programming-in-multicore-ocaml/tree/draft)
 
+### Type Theory
+
+* [Using, Understanding, and Unraveling the OCaml Language](http://caml.inria.fr/pub/docs/u3-ocaml/ocaml.pdf):
+A book by Didier Remy covering both practical and type-theoretical aspects of OCaml.
+* [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl) by Benjamin C. Pierce - A friendly
+but serious book on types, type checking, etc.  Much of what's covered is relevant to OCaml.  Several chapters present
+OCaml implementations of the concepts covered in preceding chapters, and the examples in the book have been typechecked
+using OCaml programs that are available at the author's site. (As of mid-2018, the Kindle version can be difficult to read on small
+devices because the pages are images of the hardcover's pages.  The iBook version is a standard e-book with resizable fonts,
+though.)
+* [Advanced Topics in Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/attapl/index.html) is an anthology edited by Benjamine C. Pierce.  It includes some articles that are relevant to OCaml.
+
 ### Category Theory
 
 Category Theory is a branch of abstract mathematics that discusses concepts
@@ -134,8 +155,6 @@ Not OCaml-specific, but a good book to learn Category Theory from.
 * [Category Theory For Programmers in Ocaml](https://github.com/ArulselvanMadhavan/ocaml-ctfp):
 An ongoing work to translate CTFP's code from Haskell to OCaml.
 
-### Writing Efficient Code
-See [Optimizing OCaml Performance](optimizing_performance.md).
 
 ### Papers
 See [Papers on OCaml](papers.md).
@@ -176,16 +195,7 @@ Great free online book, covering both beginner and advanced topics.
 * [OCaml from the Very Beginning](http://ocaml-book.com/)  by J. Whitington - OCaml from the Very Beginning will appeal both to new programmers, and experienced programmers eager to explore functional languages such as OCaml.
 * [Pearls of Functional Algorithm Design](http://www.amazon.co.uk/Pearls-Functional-Algorithm-Design-Richard/dp/0521513383)  by Richard Bird - It summaries 30 hard algorithm problems in function programming world. Although it is for Haskell, the algorithm problems are very interesting and trying to solve them in OCaml also helps the thinking of functional programming. Partial solutions in OCaml are [https://github.com/MassD/pearls here].
 * [Unix System Programming in OCaml](http://ocamlunix.forge.ocamlcore.org/)  by X. Leroy and D. Rémy – Introduction to Unix system programming, with an emphasis on communications between processes.
-* [Using, Understanding, and Unraveling OCaml](http://caml.inria.fr/pub/docs/u3-ocaml)  – This book describes both the OCaml language and the theoretical grounds behind its powerful type system.
-* [Purely Functional Data Structures](http://www.amazon.co.uk/Purely-Functional-Structures-Chris-Okasaki/dp/0521631246/ref=sr_1_1?ie=UTF8&qid=1406279836&sr=8-1&keywords=functional+data+structures) : A classic book focusing on various data structures in the functional programming world. Can be very useful for understanding functional data structures, though OCaml obviously supports imperative data structures as well.
 * [OCaml for Scientists](http://www.ffconsultancy.com/products/ocaml_for_scientists/)  - by Jon Harrop.
-* [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl) by Benjamin C. Pierce - A friendly
-but serious book on types, type checking, etc.  Much of what's covered is relevant to OCaml.  Several chapters present
-OCaml implementations of the concepts covered in preceding chapters, and the examples in the book have been typechecked
-using OCaml programs that are available at the author's site. (As of mid-2018, the Kindle version can be difficult to read on small
-devices because the pages are images of the hardcover's pages.  The iBook version is a standard e-book with resizable fonts,
-though.)
-* [Advanced Topics in Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/attapl/index.html) is an anthology edited by Benjamine C. Pierce.  It includes some articles that are relevant to OCaml.
 
 ## Online Courses
 
