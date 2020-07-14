@@ -44,6 +44,25 @@ Local opam installs, pinning, and lock files.
 Several guidelines for best practices have been established by the community.
 See [Best Practices](best_practices.md).
 
+### Beginner Books
+
+* [Real World OCaml](https://dev.realworldocaml.org/) by Y. Minsky, A. Madhavapeddy and J. Hickey (free online):
+Functional programming for the masses.
+The latest, most up-to-date, and arguably the most readable book on OCaml.
+Note that the book uses only Jane Street libraries, but the material can be applied to other libraries.
+  * [RWO-lwt](https://github.com/dkim/rwo-lwt):
+  translation of the `Async` code examples in the book to use `lwt`.
+* [Cornell OCaml Textbook](https://www.cs.cornell.edu/courses/cs3110/2020sp/textbook/) (free online):
+Excellent free online book, covering both beginner and advanced topics.
+* [How to Think Like a (Functional) Programmer](http://www.greenteapress.com/thinkocaml/index.html) by Allen Downey and Nicholas Monje:
+An introductory programming textbook using OCaml.
+It is a modified version of Think Python by Allen Downey.
+This book is intended for newcomers to programming and also those who know some programming but
+want to learn programming in the function-oriented paradigm,
+or those who simply want to learn OCaml.
+* [OCaml from the Very Beginning](http://ocaml-book.com/) by J. Whitington:
+A book for both to new programmers and experienced programmers eager to explore functional languages such as OCaml.
+
 ## Intermediate
 
 * [BigArray](bigarray.md)
@@ -78,6 +97,21 @@ though OCaml obviously supports imperative data structures as well.
 ### Writing Efficient Code
 See [Optimizing OCaml Performance](optimizing_performance.md).
 
+### Intermediate Level Books
+
+* [More OCaml: Algorithms, Methods, and Diversions](http://www.amazon.com/More-OCaml-Algorithms-Methods-Diversions/dp/0957671113/)
+by John Whitington:
+A meandering tour of functional programming with OCaml, introducing various language features and describing some classic algorithms.
+The book ends with a large worked example dealing with the production of PDF files.
+There are questions for each chapter together with worked answers and hints.
+* [Pearls of Functional Algorithm Design](http://www.amazon.co.uk/Pearls-Functional-Algorithm-Design-Richard/dp/0521513383) by Richard Bird:
+Tackles 30 hard algorithm problems using function programming.
+Although it is writtern for Haskell, trying to solve the problems in OCaml also helps develop functional programming.
+  * Partial solutions in OCaml are [available here](https://github.com/MassD/pearls).
+* [Unix System Programming in OCaml](http://ocamlunix.forge.ocamlcore.org/) by X. Leroy and D. Rémy (free):
+Introduction to Unix system programming, with an emphasis on communications between processes.
+* [OCaml for Scientists](http://www.ffconsultancy.com/products/ocaml_for_scientists/) by Jon Harrop.
+
 ## Advanced
 
 ### Modules and Functors
@@ -101,10 +135,11 @@ An application of GADTs to produce heterogenous lists.
 
 ### Phantom Types
 
-* [Article from Jane Street](https://blog.janestreet.com/howto-static-access-control-using-phantom-types/)
+* [Static Access Control Using Phantom Types](https://blog.janestreet.com/howto-static-access-control-using-phantom-types/)
 
 ### Iterators
-* [Article](http://gallium.inria.fr/blog/generators-iterators-control-and-continuations/)
+
+* [Generators Iterators Control and Continuations](http://gallium.inria.fr/blog/generators-iterators-control-and-continuations/)
 
 ### PPX (PreProcessor eXtensions)
 
@@ -133,8 +168,8 @@ See [Metaprogramming](metaprogramming.md) for both libraries and articles.
 
 ### Type Theory
 
-* [Using, Understanding, and Unraveling the OCaml Language](http://caml.inria.fr/pub/docs/u3-ocaml/ocaml.pdf):
-A book by Didier Remy covering both practical and type-theoretical aspects of OCaml.
+* [Using, Understanding, and Unraveling the OCaml Language](http://caml.inria.fr/pub/docs/u3-ocaml/ocaml.pdf) by Didier Remy:
+Covers both practical and type-theoretical aspects of OCaml.
 * [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl) by Benjamin C. Pierce:
 A friendly but serious book on type theory.
 Much of what's covered is relevant to OCaml.
@@ -183,19 +218,6 @@ See [Projects](projects.md)
 * [Rosetta Code](http://rosettacode.org/wiki/Category:OCaml)
 * [OCaml at Exercism](http://exercism.io/languages/ocaml)  – Exercism is your place to engage in thoughtful conversations about code. Explore simplicity, idiomatic language features, and expressive readable code.
   [Solutions](https://github.com/exercism/xocaml).
-
-## Books
-
-* [Real World OCaml](https://dev.realworldocaml.org/)  by Y. Minsky, A. Madhavapeddy and J. Hickey - Functional programming for the masses. The latest, and arguably the most readable book on OCaml. Note that the book uses only Jane Street libraries, but the material can be applied to other libraries.
-  * [RWO-lwt](https://github.com/dkim/rwo-lwt) : translating the Async code examples from Real World OCaml to lwt.
-* [Free Cornell OCaml Textbook](https://www.cs.cornell.edu/courses/cs3110/2020sp/textbook/):
-Great free online book, covering both beginner and advanced topics.
-* [More OCaml: Algorithms, Methods, and Diversions](http://www.amazon.com/More-OCaml-Algorithms-Methods-Diversions/dp/0957671113/)  – In More OCaml John Whitington takes a meandering tour of functional programming with OCaml, introducing various language features and describing some classic algorithms. The book ends with a large worked example dealing with the production of PDF files. There are questions for each chapter together with worked answers and hints.
-* [How to Think Like a (Functional) Programmer](http://www.greenteapress.com/thinkocaml/index.html)  by Allen Downey and Nicholas Monje – How to Think Like a Computer Scientist is an introductory programming textbook based on the OCaml language. It is a modified version of Think Python by Allen Downey. It is intended for newcomers to programming and also those who know some programming but want to learn programming in the function-oriented paradigm, or those who simply want to learn OCaml.
-* [OCaml from the Very Beginning](http://ocaml-book.com/)  by J. Whitington - OCaml from the Very Beginning will appeal both to new programmers, and experienced programmers eager to explore functional languages such as OCaml.
-* [Pearls of Functional Algorithm Design](http://www.amazon.co.uk/Pearls-Functional-Algorithm-Design-Richard/dp/0521513383)  by Richard Bird - It summaries 30 hard algorithm problems in function programming world. Although it is for Haskell, the algorithm problems are very interesting and trying to solve them in OCaml also helps the thinking of functional programming. Partial solutions in OCaml are [https://github.com/MassD/pearls here].
-* [Unix System Programming in OCaml](http://ocamlunix.forge.ocamlcore.org/)  by X. Leroy and D. Rémy – Introduction to Unix system programming, with an emphasis on communications between processes.
-* [OCaml for Scientists](http://www.ffconsultancy.com/products/ocaml_for_scientists/)  - by Jon Harrop.
 
 ## Online Courses
 
