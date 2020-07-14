@@ -63,6 +63,13 @@ or those who simply want to learn OCaml.
 * [OCaml from the Very Beginning](http://ocaml-book.com/) by J. Whitington:
 A book for both to new programmers and experienced programmers eager to explore functional languages such as OCaml.
 
+### Beginner Online Courses
+
+* [Introduction to Functional Programming in OCaml](https://www.fun-mooc.fr/courses/parisdiderot/56002S02/session02/about)
+* [Cornell University: Data Structures and Functional Programming](http://www.cs.cornell.edu/Courses/cs3110/2014fa/course_info.php)
+* [Princeton University: Functional programming in OCaml](http://www.cs.princeton.edu/~dpw/courses/cos326-12/)
+* [University of Illinois Course on OCaml and Functional Programming](https://courses.engr.illinois.edu/cs421/fa2014/)
+
 ## Intermediate
 
 * [BigArray](bigarray.md)
@@ -221,9 +228,3 @@ See [Projects](projects.md)
 * [OCaml at Exercism](http://exercism.io/languages/ocaml)  – Exercism is your place to engage in thoughtful conversations about code. Explore simplicity, idiomatic language features, and expressive readable code.
   [Solutions](https://github.com/exercism/xocaml).
 
-## Online Courses
-
-* [Introduction to Functional Programming in OCaml](https://www.fun-mooc.fr/courses/parisdiderot/56002S02/session02/about) .
-* [Cornell University – Data Structures and Functional Programming](http://www.cs.cornell.edu/Courses/cs3110/2014fa/course_info.php) .
-* [Princeton University - Functional programming in OCaml](http://www.cs.princeton.edu/~dpw/courses/cos326-12/) .
-* [University of Illinois](https://courses.engr.illinois.edu/cs421/fa2014/)  - Course that uses OCaml to teach functional programming and programming language design
