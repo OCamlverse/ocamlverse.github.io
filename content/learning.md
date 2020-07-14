@@ -54,7 +54,7 @@ Note that the book uses only Jane Street libraries, but the material can be appl
   translation of the `Async` code examples in the book to use `lwt`.
 * [Cornell OCaml Textbook](https://www.cs.cornell.edu/courses/cs3110/2020sp/textbook/) (free online):
 Excellent free online book, covering both beginner and advanced topics.
-* [How to Think Like a (Functional) Programmer](http://www.greenteapress.com/thinkocaml/index.html) by Allen Downey and Nicholas Monje:
+* [How to Think Like a (Functional) Programmer](http://www.greenteapress.com/thinkocaml/index.html) by Allen Downey and Nicholas Monje (free online):
 An introductory programming textbook using OCaml.
 It is a modified version of Think Python by Allen Downey.
 This book is intended for newcomers to programming and also those who know some programming but
@@ -95,6 +95,7 @@ Can be very useful for understanding functional data structures,
 though OCaml obviously supports imperative data structures as well.
 
 ### Writing Efficient Code
+
 See [Optimizing OCaml Performance](optimizing_performance.md).
 
 ### Intermediate Level Books
