@@ -9,6 +9,7 @@ OCaml numerical library.
 Dense and sparse matrix, linear algebra, regressions, math and stats functions.
   * [Owl tutorial](https://ocaml.xyz/book)
   * [Owl documentation](https://ocaml.xyz/package/index.html)
+  * [OCaml scientific computing book](https://ocaml.xyz/book/) (free, in-progress)
   * [Presentation on Owl at ICFP](https://www.youtube.com/watch?v=Jyv3tJD1N3o&t=311s)
 
 ## Machine Learning/Data Science
