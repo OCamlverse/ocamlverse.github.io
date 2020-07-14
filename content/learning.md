@@ -63,6 +63,14 @@ or those who simply want to learn OCaml.
 * [OCaml from the Very Beginning](http://ocaml-book.com/) by J. Whitington:
 A book for both to new programmers and experienced programmers eager to explore functional languages such as OCaml.
 
+### Online Exercises for Beginners
+
+* [99 problems](http://ocaml.org/learn/tutorials/99problems.html):
+The classic 99 problems, with solutions in OCaml.
+* [Rosetta Code](http://rosettacode.org/wiki/Category:OCaml)
+* [OCaml at Exercism](http://exercism.io/languages/ocaml):
+  * [Solutions](https://github.com/exercism/xocaml)
+
 ### Beginner Online Courses
 
 * [Introduction to Functional Programming in OCaml](https://www.fun-mooc.fr/courses/parisdiderot/56002S02/session02/about)
@@ -214,17 +222,3 @@ See [Papers on OCaml](papers.md).
 * [A safe but strange way of modifying OCaml compiler](https://bitbucket.org/camlspotter/compiler-libs-hack)
 * [Fiddling with the OCaml Type System](http://technotroph.wordpress.com/2013/10/25/fiddling-with-the-ocaml-type-system/)
 * [Quick and Dirty Guide to Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
-
-## Projects
-
-A list of projects that can be used as examples or for inspiration.
-
-See [Projects](projects.md)
-
-## Exercises
-
-* [99 problems](http://ocaml.org/learn/tutorials/99problems.html): classic 99 problems, with solutions.
-* [Rosetta Code](http://rosettacode.org/wiki/Category:OCaml)
-* [OCaml at Exercism](http://exercism.io/languages/ocaml)  – Exercism is your place to engage in thoughtful conversations about code. Explore simplicity, idiomatic language features, and expressive readable code.
-  [Solutions](https://github.com/exercism/xocaml).
-
