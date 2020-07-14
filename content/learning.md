@@ -135,13 +135,13 @@ See [Metaprogramming](metaprogramming.md) for both libraries and articles.
 
 * [Using, Understanding, and Unraveling the OCaml Language](http://caml.inria.fr/pub/docs/u3-ocaml/ocaml.pdf):
 A book by Didier Remy covering both practical and type-theoretical aspects of OCaml.
-* [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl) by Benjamin C. Pierce - A friendly
-but serious book on types, type checking, etc.  Much of what's covered is relevant to OCaml.  Several chapters present
-OCaml implementations of the concepts covered in preceding chapters, and the examples in the book have been typechecked
-using OCaml programs that are available at the author's site. (As of mid-2018, the Kindle version can be difficult to read on small
-devices because the pages are images of the hardcover's pages.  The iBook version is a standard e-book with resizable fonts,
-though.)
-* [Advanced Topics in Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/attapl/index.html) is an anthology edited by Benjamine C. Pierce.  It includes some articles that are relevant to OCaml.
+* [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl) by Benjamin C. Pierce:
+A friendly but serious book on type theory.
+Much of what's covered is relevant to OCaml.
+OCaml implementations of typechecking are presented in the book.
+* [Advanced Topics in Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/attapl/index.html):
+A more advanced anthology on type theory edited by Benjamin C. Pierce.
+Includes some articles that are relevant to OCaml.
 
 ### Category Theory
 
