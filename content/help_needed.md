@@ -47,9 +47,11 @@ complete as GTK2 state, see `lablgtk3` branch.
 
 ## Machine Learning
 
-- [OWL](https://github.com/owlbarn/owl) (needs help):
+* [OWL](https://github.com/owlbarn/owl) (needs help):
 OCaml's equivalent to numpy, scipy and Pytorch/Tensorflow.
-
+  * [OWL proposed project page](https://ocaml.xyz/project/proposal.html):
+  List of proposed projects for people interested in helping develop `OWL`.
+  
 ## Cloud Technology
 
 - [Google Cloud Platform](https://cloud.google.com/apis/): no bindings.
