@@ -4,13 +4,17 @@ tags: [ecosystem]
 
 # Machine Learning, Scientific Computing and Data Science
 
-## Machine Learning/Data Science
-
-* [Owl](https://github.com/ryanrhymes/owl):
+* [Owl](https://ocaml.xyz):
 OCaml numerical library.
 Dense and sparse matrix, linear algebra, regressions, math and stats functions.
-  * [Owl tutorial](https://ocaml.xyz/book).
+  * [Owl tutorial](https://ocaml.xyz/book)
+  * [Owl documentation](https://ocaml.xyz/package/index.html)
   * [Presentation on Owl at ICFP](https://www.youtube.com/watch?v=Jyv3tJD1N3o&t=311s)
+
+## Machine Learning/Data Science
+
+* [Owl](https://ocaml.xyz):
+OCaml numeric library. Offers compilation of computation graphs to Tensorflow. See above.
 * [ocaml-torch](https://github.com/LaurentMazare/ocaml-torch):
 OCaml bindings for PyTorch.
 * [tensorflow-ocaml](https://github.com/LaurentMazare/tensorflow-ocaml):
@@ -20,7 +24,7 @@ OCaml implementation of hdf5 reader/writer. hdf5 is a file format commonly used 
 
 ## Numerical Computing
 
-* [Owl](https://github.com/ryanrhymes/owl):
+* [Owl](https://ocaml.xyz):
 OCaml numerical library: dense and sparse matrix, linear algebra, regressions, maths and stats functions.
 * [pareto](https://github.com/superbobry/pareto):
 Statistics library using GSL.
