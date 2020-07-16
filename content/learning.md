@@ -217,6 +217,7 @@ Not OCaml-specific, but a good book to learn Category Theory from.
 * [Category Theory For Programmers in Ocaml](https://github.com/ArulselvanMadhavan/ocaml-ctfp):
 An ongoing work to translate CTFP's code from Haskell to OCaml.
 
-### Papers
-See [Papers on OCaml](papers.md).
+### Academic Papers
+
+See [academic papers relevant to OCaml](papers.md).
 
