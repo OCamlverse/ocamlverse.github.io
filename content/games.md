@@ -37,3 +37,4 @@ See [Graphics](graphics.md)
 * [OCaml Invader](https://github.com/marmelab/ocaml-invader):
 Hackathon Space Invader clone written in OCaml and OpenGL.
     * [Article](https://marmelab.com/blog/2020/02/21/ocaml-and-opengl-in-practice.html)
+* [A blog about game development in OCaml](http://cranialburnout.blogspot.ca/)
