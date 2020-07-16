@@ -4,7 +4,7 @@ tags: [learning]
 
 # Learning
 
-## Beginner
+## Beginner Topics
 
 Some motivations for using OCaml can be found [here](http://spyder.wordpress.com/2014/03/16/why-ocaml-why-now/),
 [here](http://web.archive.org/web/20140713005224/http://www.mimisbrunnr.net/~munin/blog/why-ocaml.html),
