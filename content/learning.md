@@ -23,6 +23,7 @@ Some motivations for using OCaml can be found [here](http://spyder.wordpress.com
 A free online book, and a great introduction to OCaml.
 * [Links to OCaml Q&A around the web](qna_links.md).
 * [Using the OCaml toplevel/REPL](toplevel.md)
+* [Article on algebraic data types](https://espertech.wordpress.com/2014/07/30/algebraic-data-types/)
 
 ### Setting Up Your Editor for OCaml
 
@@ -217,6 +218,5 @@ See [Papers on OCaml](papers.md).
 * [Xen – OCaml Coding Considerations](http://wiki.xen.org/wiki/OCaml_Coding_Considerations)
 * [(Functional) Alternatives to inheritance](http://ocamltutorials.blogspot.se/2013/06/alternatives-to-subtyping.html)
 * [Higher-Rank Polymorphism in OCaml](http://devmusings.legiasoft.com/blog/2008/05/23/higher-rank_polymorphism_in_ocaml)
-* [Algebraic Data Types](https://espertech.wordpress.com/2014/07/30/algebraic-data-types/)
 * [Fiddling with the OCaml Type System](http://technotroph.wordpress.com/2013/10/25/fiddling-with-the-ocaml-type-system/)
 * [Quick and Dirty Guide to Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
