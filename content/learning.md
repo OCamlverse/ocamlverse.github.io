@@ -24,6 +24,11 @@ A free online book, and a great introduction to OCaml.
 * [Links to OCaml Q&A around the web](qna_links.md).
 * [Using the OCaml toplevel/REPL](toplevel.md)
 * [Article on algebraic data types](https://espertech.wordpress.com/2014/07/30/algebraic-data-types/)
+* [Python to OCaml: a retrospective](http://roscidus.com/blog/blog/2014/06/06/python-to-ocaml-retrospective/):
+Blog entries about rewriting 0Install in OCaml instead of python.
+* [Functional Alternatives to Inheritance](http://ocamltutorials.blogspot.se/2013/06/alternatives-to-subtyping.html):
+Beginner-friendly look at alternatives to OOP inheritance.
+
 
 ### Setting Up Your Editor for OCaml
 
@@ -79,9 +84,14 @@ The classic 99 problems, with solutions in OCaml.
 * [Princeton University: Functional programming in OCaml](http://www.cs.princeton.edu/~dpw/courses/cos326-12/)
 * [University of Illinois Course on OCaml and Functional Programming](https://courses.engr.illinois.edu/cs421/fa2014/)
 
-## Intermediate
+## Intermediate Topics
 
-* [BigArray](bigarray.md)
+* [BigArray](bigarray.md):
+A high-performance array for interacting with non-OCaml programs.
+* [ocamlunix](https://ocaml.github.io/ocamlunix/ocamlunix.html):
+Great introduction to systems programming in OCaml
+* [Higher-Rank Polymorphism in OCaml](http://devmusings.legiasoft.com/blog/2008/05/23/higher-rank_polymorphism_in_ocaml):
+How to activate higher-rank polymorphism in OCaml. Old, but still relevant.
 
 ### Deploying Apps
 
@@ -96,15 +106,12 @@ It's a little tricky to get a hang of.
 * [Blog post on Format](https://blag.cedeela.fr/format-all-the-data-structures/)
 * [Paper](https://hal.archives-ouvertes.fr/hal-01503081/file/format-unraveled.pdf) on Format
 
-### Tutorials
-
-* [ocamlunix](https://ocaml.github.io/ocamlunix/ocamlunix.html):
-Great introduction to systems programming in OCaml
-
 ### Tools
+
 * [Fuzzing OCaml programs](https://tarides.com/blog/2019-09-04-an-introduction-to-fuzzing-ocaml-with-afl-crowbar-and-bun.html)
 
 ### Functional Data Structures
+
 * [Purely Functional Data Structures](http://www.amazon.co.uk/Purely-Functional-Structures-Chris-Okasaki/dp/0521631246/ref=sr_1_1?ie=UTF8&qid=1406279836&sr=8-1&keywords=functional+data+structures):
 A classic book focusing on various data structures in the functional programming world.
 Can be very useful for understanding functional data structures,
@@ -130,7 +137,9 @@ Although it is writtern for Haskell, trying to solve the problems in OCaml also 
 Introduction to Unix system programming, with an emphasis on communications between processes.
 * [OCaml for Scientists](http://www.ffconsultancy.com/products/ocaml_for_scientists/) by Jon Harrop
 
-## Advanced
+## Advanced Topics
+
+* [Quick and Dirty Guide to Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
 
 ### Modules and Functors
 
@@ -208,15 +217,6 @@ Not OCaml-specific, but a good book to learn Category Theory from.
 * [Category Theory For Programmers in Ocaml](https://github.com/ArulselvanMadhavan/ocaml-ctfp):
 An ongoing work to translate CTFP's code from Haskell to OCaml.
 
-
 ### Papers
 See [Papers on OCaml](papers.md).
 
-## Articles
-
-* [Python to OCaml: retrospective](http://roscidus.com/blog/blog/2014/06/06/python-to-ocaml-retrospective/)
-* [Xen – OCaml Coding Considerations](http://wiki.xen.org/wiki/OCaml_Coding_Considerations)
-* [(Functional) Alternatives to inheritance](http://ocamltutorials.blogspot.se/2013/06/alternatives-to-subtyping.html)
-* [Higher-Rank Polymorphism in OCaml](http://devmusings.legiasoft.com/blog/2008/05/23/higher-rank_polymorphism_in_ocaml)
-* [Fiddling with the OCaml Type System](http://technotroph.wordpress.com/2013/10/25/fiddling-with-the-ocaml-type-system/)
-* [Quick and Dirty Guide to Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
