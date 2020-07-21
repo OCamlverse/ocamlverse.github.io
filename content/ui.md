@@ -25,6 +25,6 @@ Interface to the Tcl/Tk GUI framework.
 ## TUI (Terminals)
 * [Lambda-Term](https://github.com/diml/lambda-term):
 Lambda-Term is a cross-platform library for manipulating the terminal.
-\It provides an abstraction for keys, mouse events, colors, as well as a set of widgets to write curses-like applications.
+It provides an abstraction for keys, mouse events, colors, as well as a set of widgets to write curses-like applications.
 * [Notty](https://github.com/pqwy/notty):
 Notty is a declarative terminal library for OCaml, structured around a notion of composable images.
