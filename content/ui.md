@@ -23,7 +23,7 @@ Interface to the Tcl/Tk GUI framework.
 [demo video](https://youtu.be/isFLxnDooL8)
 
 ## TUI (Terminals)
-* [Lambda-Term](https://github.com/diml/lambda-term):
+* [Lambda-Term](https://github.com/ocaml-community/lambda-term):
 Lambda-Term is a cross-platform library for manipulating the terminal.
 It provides an abstraction for keys, mouse events, colors, as well as a set of widgets to write curses-like applications.
 * [Notty](https://github.com/pqwy/notty):
