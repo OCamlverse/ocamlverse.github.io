@@ -359,7 +359,7 @@ with a concrete type and/or hide it from the interface (by adding an
 mli file).
 
 ## Further reading
-- [Side effects and weak polymorphism](https://realworldocaml.org/v1/en/html/imperative-programming-1.html#side-effects-and-weak-polymorphism) in *Real World OCaml*,
+- [Side effects and weak polymorphism](https://dev.realworldocaml.org/imperative-programming.html#scrollNav-8) in *Real World OCaml*,
 - [Section 5.1 Weak polymorphism and mutation](http://caml.inria.fr/pub/docs/manual-ocaml/polymorphism.html#sec51)
 in the OCaml Manual,
 - [Common Error Messages](http://ocaml.org/learn/tutorials/common_error_messages.html#The-type-of-this-expression-contains-type-variables-that-cannot-be-generalized) at ocaml.org,
