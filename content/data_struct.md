@@ -46,7 +46,7 @@ Pure skip lists. Seems incomplete.
 ### Heterogeneous Maps
 
 * [Containers](https://github.com/c-cube/ocaml-containers) (a standard library) contains the
-[CCHet](https://c-cube.github.io/ocaml-containers/last/containers/CCHet/index.html) data structure, which
+[CCHet](https://c-cube.github.io/ocaml-containers/last/containers-data/CCHet/index.html) data structure, which
 uses generative first-class modules on the inside to store values of different types.
 * [hmap](https://github.com/dbuenzli/hmap):
 Hmap is another variation of a heterogeneous map.
