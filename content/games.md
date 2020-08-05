@@ -24,7 +24,8 @@ but not for `SDL_ttf`.
 * [OcamlSDL](http://ocamlsdl.sourceforge.net/home.html):
 Bindings to the older `SDL` v1.2 suite,
 including `SDL_image`, `SDL_ttf`, and `SDL_mixer`.
-
+* [ocaml-orx](https://github.com/orx/ocaml-orx):
+Bindings to the [orx](https://orx-project.org/) game engine.
 * [Reprocessing](https://github.com/Schmavery/reprocessing):
 A Reason 2d graphics library inspired by Processing.
 *Requires `esy`*.
