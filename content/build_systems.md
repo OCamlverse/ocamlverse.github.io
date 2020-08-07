@@ -53,6 +53,7 @@ Reason (.re) files.
   To change this, use [this tip](https://dune.readthedocs.io/en/latest/faq.html#how-to-make-warnings-non-fatal).
   * [dune-deps](https://github.com/mjambon/dune-deps):
   Allows you to view your dependencies in graph form.
+  * Cache: Dune now includes an opt-in feature that shares build artifacts. See [here](https://dune.readthedocs.io/en/stable/caching.html).
 
 * [ocamlscript](https://github.com/mjambon/ocamlscript):
 Allows you to run OCaml files as if they were scripts.
