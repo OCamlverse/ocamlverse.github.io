@@ -31,6 +31,8 @@ high-performance network applications across a variety of cloud computing and mo
 Pure OCaml TCPIP stack.
 * [Irmin](https://github.com/mirage/irmin):
 Git-like distributed database written in OCaml.
+  * [Irmin](https://ani003.github.io/irmin/2020/08/13/irmin-containers-intro.html):
+  Irmin containers.
 * [ocaml-fat](https://github.com/mirage/ocaml-fat):
 Read and write FAT format filesystems from OCaml.
 * [ocaml-git](https://github.com/mirage/ocaml-git):
