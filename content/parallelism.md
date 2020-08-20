@@ -80,15 +80,15 @@ A functional parallel skeleton compiler and programming system for OCaml program
 
 ### Multicore OCaml
 
-The most promising and powerful way to use multicore is with the new 
+The most promising and powerful way to use multicore is with the new
 [multicore](https://github.com/ocamllabs/ocaml-multicore) branch.
 This branch uses a parallel garbage collector,
 which means that OCaml will eventually be able to run on multiple cores in the same process.
 Note that this branch is not yet ready for real work, but it's rapidly advancing.
 For more information, consult the [Multicore Wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
 
-* [Parallel Programming in Multicore OCaml](https://github.com/prismlab/parallel-programming-in-multicore-ocaml/tree/draft):
-great article on using the Multicore OCaml branch. 
+* [Parallel Programming in Multicore OCaml](https://github.com/ocaml-multicore/parallel-programming-in-multicore-ocaml):
+great article on using the Multicore OCaml branch.
 
 ### Distributed Computing
 
