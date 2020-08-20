@@ -152,13 +152,20 @@ Introduction to Unix system programming, with an emphasis on communications betw
 * [OCaml - polymorphic print and type erasure](http://stackoverflow.com/questions/7442449/ocaml-polymorphic-print-and-type-losing)
 * [Weak Type Variables - when impurity breaks polymorphism](weak_type_variables.md)
 
+### Existential Types
+
+* [Existential types In CS242](http://cs242.stanford.edu/f17/assets/slides/04.2-polymorphism-existential.pdf)
+* [Application: universal hashtable for GC roots](https://discuss.ocaml.org/t/ctypes-whats-the-most-idiomatic-way-to-anchor-an-ocaml-value-so-that-its-not-garbage-collected/6258/2)
+
 ### GADTs
 
+* [GADTs in the OCaml manual](https://caml.inria.fr/pub/docs/manual-ocaml/gadts.html)
 * [Diff Lists](https://drup.github.io/2016/08/02/difflists/):
 An application of GADTs to produce heterogenous lists.
 * [Detecting use-cases for GADTs](https://mads-hartmann.com/ocaml/2015/01/05/gadt-ocaml.html)
 * [Tradeoffs with GADTs](https://engineering.issuu.com/2015/09/17/gadt-practicalities)
 * [Why GADTs matter for performance](https://blog.janestreet.com/why-gadts-matter-for-performance/)
+* [Cambridge University lecture: Programming with GADTs](https://www.cl.cam.ac.uk/teaching/1415/L28/gadts.pdf)
 
 ### Phantom Types
 
