@@ -22,6 +22,8 @@ an exception rather than returning an option type. The library also includes the
 name, has many functions that work on Windows. The Unix module is a catch-all for many IO-processing functions.
 Also included is the Format module for pretty printing and the Str module for regular expression matching, among
 other useful modules.
+  * [Stdlib type conversion graph](https://github.com/CraigFe/ocaml-stdlib-type-conversions):
+  A cool graph showing available conversion functions between types in the stdlib.
 * [Base](https://github.com/janestreet/base): Jane Street Capital's internally developed, battle-tested
 standard library implementation. It's also the library covered by the 2nd edition of Real World OCaml. The library
 doesn't try to extend the basic standard library, but instead chooses its own design. To the users, the most obvious
