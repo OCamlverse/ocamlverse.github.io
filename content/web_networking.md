@@ -129,6 +129,8 @@ OCaml bindings to libcurl.
 A pure OCaml implementation of the DNS protocol. Part of `Mirage`.
 * [udns](https://github.com/roburio/udns):
 An opinionated DNS server library written in pure OCaml.
+* [oidc](https://github.com/ulrikstrid/ocaml-oidc):
+Library for [OpenID Connect](https://openid.net/connect/faq/).
 * [fluent-logger](https://github.com/fluent/fluent-logger-ocaml):
 A fluentd logger for OCaml.
 * [charrua-unix](https://github.com/haesbaert/charrua-unix):
