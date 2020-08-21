@@ -37,11 +37,10 @@ Could be useful as part of creating a server.
 
 ## HTTP Clients
 
+* [piaf](https://github.com/anmonteiro/piaf):
+An HTTP client that supports both HTTP/1.x and HTTP/2, and with better cross-platform support for SSL.
 * [cohttp](https://github.com/mirage/ocaml-cohttp):
 A mature, lightweight HTTP server and client that currently only supports HTTP/1.x.
-* [piaf](https://github.com/anmonteiro/piaf):
-*Experimental*.
-An HTTP client that supports both HTTP/1.x and HTTP/2, and with better cross-platform support for SSL.
 * [fetch](https://github.com/lessp/fetch):
 *Experimental*.
 Aims to provide a common interface, following the fetch specification,
