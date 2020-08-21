@@ -57,9 +57,7 @@ each other, the client being compiled to JS and the backend to OCaml.
   * [Oscigen Tutorial](http://ocsigen.org/tuto/6.4/manual/application.html)
   * [Thesis on Eliom](https://www.irif.fr/~gradanne/papers/phdthesis.pdf)
 * [Morph](https://github.com/reason-native-web/morph):
-Lightweight web framework for OCaml and Reason.
-  * [Documentation](https://reason-native-web.github.io/morph/)
-Currently requires `esy` to build.
+Lightweight web framework for OCaml and Reason. [docs](https://reason-native-web.github.io/morph/).
 * [re-web](https://github.com/yawaramin/re-web):
 *experimental*.
 A type-safe web framework.
