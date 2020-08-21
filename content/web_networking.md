@@ -137,6 +137,10 @@ A Unix DHCP daemon based on [charrua-core](https://github.com/haesbaert/charrua-
 * [COW](https://github.com/mirage/ocaml-cow):
 Caml on the Web (COW) is a set of parsers and syntax extensions to manipulate
 HTML, CSS, XML, JSON and Markdown directly from OCaml code.
+* [JOSE](https://github.com/ulrikstrid/reason-jose):
+Library for [JOSE](https://jose.readthedocs.io/en/latest/) (JSON Object Signing and Encryption) support.
+* [Cookie](https://github.com/ulrikstrid/ocaml-cookie):
+Library for working with web cookies.
 * [Ocamlnet](http://projects.camlcity.org/projects/ocamlnet.html):
 An older, but battle-tested suite of advanced networking libraries.
 Includes many components, such as ones allowing for shared-memory multi-processing,
