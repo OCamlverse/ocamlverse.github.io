@@ -53,6 +53,11 @@ Based on [this paper](http://hal.upmc.fr/hal-01705825/document).
 * [OCaPIC](https://github.com/bvaugon/ocapic):
 OCaml for PIC microcontrollers.
 
+## Lower-level OS Libraries
+
+* [kqueue](https://github.com/anuragsoni/kqueue-ml/):
+Bindings to the [kqueue](https://en.wikipedia.org/wiki/Kqueue) event notification interface in BSD-style systems.
+
 ## Articles
 * [ocamlunix](https://ocaml.github.io/ocamlunix/ocamlunix.html):
 Great introduction to systems programming in OCaml
