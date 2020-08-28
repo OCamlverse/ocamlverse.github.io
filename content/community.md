@@ -8,11 +8,11 @@ OCaml has quite a few places where you can go to communicate with the community 
 
 ## Where to find OCamlers
 
+* [OCaml Discourse Web Forum](https://discuss.ocaml.org/) is a friendly, online forum for OCaml discussion.
+If you prefer to have long-form conversation rather than just chatting, this is the place to do it.
 * [OCaml Discord Chat](https://tinyurl.com/discord-ocaml) is a chat server for everything related to OCaml.
 Pop by and ask a question or just say hi.
 The Discord server also provides a bridge to IRC via the #general channel.
-* [OCaml Discourse Web Forum](https://discuss.ocaml.org/) is a friendly, online forum for OCaml discussion.
-If you prefer to have long-form conversation rather than just chatting, this is the place to do it.
 * [OCaml IRC Chat](https://riot.im/app/#/room/#freenode_#ocaml:matrix.org):
 OCaml's more established chat room.
 You can access this via Discord as well (see above).
