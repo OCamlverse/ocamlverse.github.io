@@ -125,12 +125,12 @@ how to cope with them.
   
   For general documentation on operators, see the OCaml manual: [Operators](https://caml.inria.fr/pub/docs/manual-ocaml/expr.html#sec151)
   in the Expressions section, [Index of values](http://caml.inria.fr/pub/docs/manual-ocaml/libref/index_values.html), or the 
-  [Pervasives module documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html).  For the Pervasives document,
+  [Stdlib module documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Stdlib.html). For the Stdlib document,
   you'll want to search the page for "operator" or for the specific operator you're interested in.
   
   For operator precedence and associativity, see the [Expressions](https://caml.inria.fr/pub/docs/manual-ocaml/expr.html)
   section of the manual, and scroll down past the BNF syntax specification or search for "Construction or operator".  The 
-  Pervasives module also specifies precedence and associativity in the documentation for each operator.
+  Stdlib module also specifies precedence and associativity in the documentation for each operator.
   
   (Also possibly useful: [Built-in operators and functions](https://www2.lib.uchicago.edu/keith/ocaml-class/operators.html)
   at *OCaml for the Skeptical*.)
