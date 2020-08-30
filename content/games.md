@@ -4,7 +4,7 @@ tags: [ecosystem]
 
 # Game Development
 
-## General
+## Game-related
 * [TSDL](http://erratique.ch/software/tsdl):
 An OCaml module providing thin bindings to the `SDL` 2.0 library.
 [SDL](https://www.libsdl.org/) provides a cross-platform interface for graphics,
@@ -24,14 +24,19 @@ but not for `SDL_ttf`.
 * [OcamlSDL](http://ocamlsdl.sourceforge.net/home.html):
 Bindings to the older `SDL` v1.2 suite,
 including `SDL_image`, `SDL_ttf`, and `SDL_mixer`.
-* [ocaml-orx](https://github.com/orx/ocaml-orx):
-Bindings to the [orx](https://orx-project.org/) game engine.
-* [Reprocessing](https://github.com/Schmavery/reprocessing):
-A Reason 2d graphics library inspired by Processing.
-*Requires `esy`*.
 
 ## Graphics
 See [Graphics](graphics.md)
+
+## Game Engines
+
+* [ocaml-orx](https://github.com/orx/ocaml-orx):
+Bindings to the [orx](https://orx-project.org/) game engine.
+* [raylib](https://github.com/tjammer/raylib-ocaml):
+Bindings to the [raylib](https://www.raylib.com/) game library.
+* [Reprocessing](https://github.com/Schmavery/reprocessing):
+A Reason 2d graphics library inspired by Processing.
+*Requires `esy`*.
 
 ## Games
 
