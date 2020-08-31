@@ -55,6 +55,11 @@ A typechecker for Javascript written by Facebook.
 * [Pyre](https://github.com/facebook/pyre-check):
 A typechecker for Python written by Facebook.
 
+## Systems
+
+* [mpst](https://github.com/keigoi/ocaml-mpst):
+Multiparty Session Types. A communication library guaranteeing important properties.
+
 ## Articles:
 
 * [Kaleidoscope: Implementing a Language with LLVM in Objective Caml](http://llvm.org/docs/tutorial/OCamlLangImpl1.html) 
