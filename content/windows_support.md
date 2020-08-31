@@ -45,9 +45,7 @@ a build tool similar to npm and OPAM created by the [Reason] community.
 It therefore also inherits `cygwin`'s slow compilation speed.
 Not all OPAM packages are available yet, but support is rapidly growing.
 
-There is work being put in by [OCaml Labs](http://ocamllabs.io/doc/windows.html) to improve
-the Windows situtation further.
-Additionally, OPAM is being extended to support a Windows environment.
+OPAM is being extended to support a Windows environment.
 See [this post](https://discuss.ocaml.org/t/ann-opam-2-0-5-release/4081/7) for details.
 
 [ocaml-win]: https://fdopen.github.io/opam-repository-mingw/
