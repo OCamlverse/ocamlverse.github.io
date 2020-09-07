@@ -76,6 +76,9 @@ A web framework in the style of Ruby on Rails, built on top of Opium. It is desi
 Static site generator using markdown, with a server-side renderer.
 * [Naboris](https://github.com/shawn-mcginty/naboris):
 An light OCaml/Reason-based web framework.
+* [Sihl](https://github.com/oxidizing/sihl): *wip*
+A light, modular web framework.
+
 
 ## Web Apps
 
