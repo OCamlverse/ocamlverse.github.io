@@ -20,8 +20,6 @@ Read and write various image formats. Backed by BigArrays.
 * [owl_base](https://github.com/owlbarn/owl):
 Part of `Owl`. This is essential for manipulating BigArrays efficiently (with vectorized operations),
 for graphics and such.
-* [camlimages](https://bitbucket.org/camlspotter/camlimages):
-Image manipulation library for different image formats (old).
 
 ## 3D
 
