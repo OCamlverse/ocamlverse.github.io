@@ -28,6 +28,8 @@ a streaming codec to decode and encode the XML data format.
 a S-expression parser and printer
 * [ocaml-protoc](https://github.com/mransan/ocaml-protoc) pure OCaml implementation of [Protobuf](https://developers.google.com/protocol-buffers/) with binary, Yojson and BuckleScript JSON support.
 * [bin_prot](https://github.com/janestreet/bin_prot) efficient, type-safe binary protocol specific to OCaml.
+* [camlon](https://bitbucket.org/camlspotter/camlon):
+configuration and serialization format similar to JSON but with an OCaml feel.
 
 ## Data Science
 
