@@ -132,7 +132,9 @@ There are questions for each chapter together with worked answers and hints.
 Tackles 30 hard algorithm problems using function programming.
 Although it is writtern for Haskell, trying to solve the problems in OCaml also helps develop functional programming.
   * Partial solutions in OCaml are [available here](https://github.com/MassD/pearls).
-* [Scientific Computing in OCaml and Owl](https://ocaml.xyz/book/) (free, in-progress)
+* [Scientific Computing in OCaml and Owl](https://ocaml.xyz/book/) (free):
+Covers OCaml and using the [Owl](https://ocaml.xyz) library,
+which is a heavy-duty library for scientific and numerical computation as well as machine learning.
 * [Unix System Programming in OCaml](http://ocamlunix.forge.ocamlcore.org/) by X. Leroy and D. Rémy (free):
 Introduction to Unix system programming, with an emphasis on communications between processes.
 * [OCaml for Scientists](http://www.ffconsultancy.com/products/ocaml_for_scientists/) by Jon Harrop
