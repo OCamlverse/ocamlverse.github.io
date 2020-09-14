@@ -46,9 +46,6 @@ Reason (.re) files.
   tool for creating a new OCaml project using dune.
   * [dune-starter](https://github.com/mjambon/dune-starter):
   a sample project indicating ideal code layout for an OCaml project.
-  * [dune-configurator](https://github.com/ocaml/dune/blob/master/doc/configurator.rst):
-  a tool similar to configure scripts that can query the state of a given system at the library level
-  and produce configuration files to build differently based on said configuration.
   * By default, Dune treats warnings as errors when building in the dev mode (ie. a local build).
   To change this, use [this tip](https://dune.readthedocs.io/en/latest/faq.html#how-to-make-warnings-non-fatal).
   * [dune-deps](https://github.com/mjambon/dune-deps):
