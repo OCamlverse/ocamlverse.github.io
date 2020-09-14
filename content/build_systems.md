@@ -56,7 +56,7 @@ Reason (.re) files.
 Allows you to run OCaml files as if they were scripts.
 Pre-compiles and runs them on the spot.
 
-* [ocamlfind](http://projects.camlcity.org/projects/findlib.html)  is a utility similar to //pkg-config//
+* [ocamlfind](http://projects.camlcity.org/projects/findlib.html)  is a utility similar to `pkg-config`
 that allows local libraries to find each other on your system. You don't need to have much awareness of 
 ocamlfind nowadays because Dune and OPAM (see below) will do all the work, but it's good to know about
 ocamlfind's existence.
