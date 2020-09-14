@@ -32,7 +32,8 @@ with support for green threads (concurrency) via `lwt` and `Async`.
 The plan is to allow OCaml to run in parallel threads (which are termed `domains`),
 while also allowing for native green thread support via algebraic effects.
 
-* Updates: [July 2020](https://discuss.ocaml.org/t/multicore-ocaml-july-2020/6186/3)
+* Updates: [August 2020](https://discuss.ocaml.org/t/multicore-ocaml-august-2020/6418)
+[July](https://discuss.ocaml.org/t/multicore-ocaml-july-2020/6186/3)
 [June](https://discuss.ocaml.org/t/multicore-ocaml-june-2020/6047)
 [May](https://discuss.ocaml.org/t/multicore-ocaml-may-2020-update/5898)
 [April](https://discuss.ocaml.org/t/multicore-update-april-2020-with-a-preprint-paper/5630)
