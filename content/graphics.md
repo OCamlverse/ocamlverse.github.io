@@ -28,6 +28,7 @@ Image manipulation library for different image formats.
 * [tgls](http://erratique.ch/software/tgls):
 Thin bindings to OpenGL 3.{2,3},4.{0,1,2,3,4} and OpenGL ES {2,3}.
 *This is the recommended library for OpenGL support in OCaml*.
+  * [tgls OpenGL hello world](https://github.com/dbuenzli/tgls/blob/master/test/trigl3.ml)
 * [glMLite](https://github.com/fccm/glMLite):
 OpenGL bindings for OCaml. Provides an experimental functional API.
 * [lablgl](https://github.com/garrigue/lablgl):
