@@ -28,6 +28,7 @@ Lambda-Term is a cross-platform library for manipulating the terminal.
 It provides an abstraction for keys, mouse events, colors, as well as a set of widgets to write curses-like applications.
 * [Lwd](https://github.com/let-def/lwd):
 Reactive interfaces in the terminal.
+  * [Article on using Lwd and Nottui](https://tarides.com/blog/2020-09-24-building-portable-user-interfaces-with-nottui-and-lwd)
 * [Notty](https://github.com/pqwy/notty):
 Notty is a declarative terminal library for OCaml, structured around a notion of composable images.
 * [Nottui](https://github.com/let-def/lwd/tree/master/lib/nottui):
