@@ -10,6 +10,8 @@ For cryptographic protocols, see [Security and Cryptography](security.md).
 Pure OCaml implementation of the [D-bus IPC protocol](https://en.wikipedia.org/wiki/D-Bus),
 used by Freedesktop and Linux.
 * [onanomsg](https://github.com/rgrinberg/onanomsg): nanomsg bindings for OCaml.
+* [MQTT](https://github.com/odis-labs/ocaml-mqtt):
+[MQTT](https://mqtt.org/) is a protocol for the Internet of Things.
 * [Kafka](https://github.com/didier-wenzek/ocaml-kafka): OCaml bindings for Apache Kafka.
 * [AMQP](https://github.com/andersfugmann/amqp-client): AMQP client library for Async and Lwt.
 * [MPI](https://github.com/xavierleroy/ocamlmpi): Message Passing Interface bindings for OCaml.
