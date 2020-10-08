@@ -36,3 +36,5 @@ Please contribute! You can:
 **Note:** it is important to read our [Contribution Guidelines](content/contrib.md).
 They explain the rules for contributing to OCamlverse and how to be a
 good contributor.
+
+(We use the terrific [ahrefs](https://ahrefs.com) service to crawl and check our site.)
