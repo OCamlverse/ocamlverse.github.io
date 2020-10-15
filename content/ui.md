@@ -33,3 +33,5 @@ Reactive interfaces in the terminal.
 Notty is a declarative terminal library for OCaml, structured around a notion of composable images.
 * [Nottui](https://github.com/let-def/lwd/tree/master/lib/nottui):
 Higher level DSL on top of `Notty`. Used together with `lwd`.
+* [Progress](https://github.com/CraigFe/progress/):
+user-definable progress bars.
