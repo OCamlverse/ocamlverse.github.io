@@ -12,3 +12,6 @@ The FRP approach is to transform state mutation over time into 'signals', and to
 
 * [Incremental](https://opensource.janestreet.com/incremental/):
 An FRP library used by Jane Street.
+
+* [Cumulus](https://github.com/paurkedal/ocaml-cumulus/):
+Differential FRP based on React.
