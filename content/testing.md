@@ -34,14 +34,18 @@ State machine framework for testing imperative code.
 Built on `QCheck`.
 [Paper](https://icfp20.sigplan.org/details/ocaml-2020-papers/2/A-Simple-State-Machine-Framework-for-Property-Based-Testing-in-OCaml)
 [Video](https://www.youtube.com/watch?v=uuL9RYuaZV4)
+* [Monolith](https://gitlab.inria.fr/fpottier/monolith):
+Specify the behavior of a program and perform random or fuzz testing on it automatically.
+[Paper](http://cambium.inria.fr/~fpottier/publis/pottier-monolith-2021.pdf)
+
 
 ## Fuzzing
+
+[Fuzz Testing definition](https://en.wikipedia.org/wiki/Fuzzing#:~:text=Fuzzing%20or%20fuzz%20testing%20is,assertions%2C%20or%20potential%20memory%20leaks.)
 
 * [Crowbar](https://github.com/stedolan/crowbar/):
 Quickcheck tests + fuzzing courtesy of [afl-fuzz](http://lcamtuf.coredump.cx/afl/).
 * [bun](https://github.com/yomimono/ocaml-bun/):
 Integrate fuzzing into your CI.
 * [Article about fuzzing with Crowbar, bun and afl-fuzz](https://tarides.com/blog/2019-09-04-an-introduction-to-fuzzing-ocaml-with-afl-crowbar-and-bun.html)
-* [Monolith](https://gitlab.inria.fr/fpottier/monolith):
-Specify the behavior of a program and perform random/fuzz testing on it automatically.
-[Paper](http://cambium.inria.fr/~fpottier/publis/pottier-monolith-2021.pdf)
+* `Monolith` (see above) can also be used for fuzzing.
