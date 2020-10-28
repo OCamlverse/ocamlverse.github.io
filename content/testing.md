@@ -27,7 +27,13 @@ general inline testing macros.
 * [TestSimple](https://github.com/hcarty/ocaml-testsimple):
 a lightweight unit testing framework
 compatible with the [Test Anything Protocol](https://testanything.org/).
-* [Cucumber.ml](https://github.com/cucumber/cucumber.ml): Behavior Driven Development using Cucumber.
+* [Cucumber.ml](https://github.com/cucumber/cucumber.ml):
+Behavior Driven Development using Cucumber.
+* [qcstm](https://github.com/jmid/qcstm):
+State machine framework for testing imperative code.
+Built on `QCheck`.
+[Paper](https://icfp20.sigplan.org/details/ocaml-2020-papers/2/A-Simple-State-Machine-Framework-for-Property-Based-Testing-in-OCaml)
+[Video](https://www.youtube.com/watch?v=uuL9RYuaZV4)
 
 ## Fuzzing
 
@@ -38,4 +44,4 @@ Integrate fuzzing into your CI.
 * [Article about fuzzing with Crowbar, bun and afl-fuzz](https://tarides.com/blog/2019-09-04-an-introduction-to-fuzzing-ocaml-with-afl-crowbar-and-bun.html)
 * [Monolith](https://gitlab.inria.fr/fpottier/monolith):
 Specify the behavior of a program and perform random/fuzz testing on it automatically.
-[Paper on Monolith](http://cambium.inria.fr/~fpottier/publis/pottier-monolith-2021.pdf)
+[Paper](http://cambium.inria.fr/~fpottier/publis/pottier-monolith-2021.pdf)
