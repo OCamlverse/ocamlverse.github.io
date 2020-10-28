@@ -48,4 +48,4 @@ Quickcheck tests + fuzzing courtesy of [afl-fuzz](http://lcamtuf.coredump.cx/afl
 * [bun](https://github.com/yomimono/ocaml-bun/):
 Integrate fuzzing into your CI.
 * [Article about fuzzing with Crowbar, bun and afl-fuzz](https://tarides.com/blog/2019-09-04-an-introduction-to-fuzzing-ocaml-with-afl-crowbar-and-bun.html)
-* `Monolith` (see above) can also be used for fuzzing.
+* [Monolith](https://gitlab.inria.fr/fpottier/monolith) can also be used for fuzzing.
