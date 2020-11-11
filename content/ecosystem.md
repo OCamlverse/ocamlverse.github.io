@@ -10,6 +10,8 @@ This page describes the current state of the OCaml ecosystem.
 View current build status of the entire OPAM ecosystem.
 * [The OCaml Platform](ocaml_platform.md): a community endeavor to standardize the
 infrastructure in the OCaml world.
+* [Community poll on OCaml](https://docs.google.com/forms/d/1OZV7WCprDnouU-rIEuw-1lDTeXrH_naVlJ77ziXQJfg/viewanalytics?gxids=7628):
+How the community views the language and ecosystem.
 
 ## Help Needed
 For a list of things currently missing in OCaml's ecosystem,
