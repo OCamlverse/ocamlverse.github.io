@@ -11,3 +11,5 @@ Provides several functions for manipulating files.
 Jane Street library providing expanded handling of input and output from files.
 * [Fpath](https://github.com/dbuenzli/fpath):
 a cross-platform file path manipulation library.
+* [Directories](https://github.com/OCamlPro/directories):
+cross-platform support for config, cache and data paths.
