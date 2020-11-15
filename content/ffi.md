@@ -31,6 +31,11 @@ This method is error prone, and you're advised to stay away from it unless it's 
 Works on both the OCaml-to-Rust and Rust-to-OCaml directions.
   * [ICFP Presentation: Safely mixing OCaml and Rust](https://www.youtube.com/watch?v=UXfcENNM_ts)
 
+## Others
+* [OCaml-R](https://github.com/pveber/ocaml-r):
+FFI to the [R statistical language](https://www.r-project.org/about.html).
+[Docs](http://pveber.github.io/ocaml-r/index.html).
+
 ## Articles
 
 * [Modular foreign function bindings](http://openmirage.org/blog/modular-foreign-function-bindings) with ctypes.
