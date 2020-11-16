@@ -58,7 +58,7 @@ The latest, most up-to-date, and arguably the most readable book on OCaml.
 Note that the book uses only Jane Street libraries, but the material can be applied to other libraries.
   * [RWO-lwt](https://github.com/dkim/rwo-lwt):
   translation of the `Async` code examples in the book to use `lwt`.
-* [Cornell OCaml Textbook](https://www.cs.cornell.edu/courses/cs3110/2020sp/textbook/) (free online):
+* [Cornell OCaml Textbook](https://www.cs.cornell.edu/courses/cs3110/2020fa/textbook/) (free online):
 Excellent free online book, covering both beginner and advanced topics.
 * [How to Think Like a (Functional) Programmer](http://www.greenteapress.com/thinkocaml/index.html) by Allen Downey and Nicholas Monje (free online):
 An introductory programming textbook using OCaml.
