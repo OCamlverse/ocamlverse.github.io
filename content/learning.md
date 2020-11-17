@@ -139,6 +139,14 @@ which is a heavy-duty library for scientific and numerical computation as well a
 Introduction to Unix system programming, with an emphasis on communications between processes.
 * [OCaml for Scientists](http://www.ffconsultancy.com/products/ocaml_for_scientists/) by Jon Harrop
 
+### Large Source Code Examples in the Wild
+
+Below are some examples of larger applications and libraries, which you can use to build up an understanding of how
+people structure larger ocaml projects. The list below tries to avoid code that needs to be particularly complex or hairy, 
+which is sometimes needed in lower level libraries.
+
+* [Dark](https://github.com/darklang/dark): "combined language, editor, and infrastructure to make it easy to build backends". See the libshared, client and backend directories.
+
 ## Advanced Topics
 
 * [Quick and Dirty Guide to Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
