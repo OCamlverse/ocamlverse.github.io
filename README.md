@@ -31,7 +31,7 @@ Please contribute! You can:
 
 * [Suggest improvements!](https://github.com/OCamlverse/ocamlverse.github.io/issues)
 * [Edit the site and submit a Pull Request!](https://github.com/OCamlverse/ocamlverse.github.io/pulls)
-* Join the team and help maintain the site! (Just ask by submitting a GitHub issue.)
+* After building up a history of PRs maintaining the site, you can ask to join the team and help maintain the site (use an Issue).
 
 **Note:** it is important to read our [Contribution Guidelines](content/contrib.md).
 They explain the rules for contributing to OCamlverse and how to be a
