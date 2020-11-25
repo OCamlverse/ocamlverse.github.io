@@ -43,4 +43,8 @@ A Reason 2d graphics library inspired by Processing.
 * [OCaml Invader](https://github.com/marmelab/ocaml-invader):
 Hackathon Space Invader clone written in OCaml and OpenGL.
     * [Article](https://marmelab.com/blog/2020/02/21/ocaml-and-opengl-in-practice.html)
+* [Wanderers](https://github.com/a-nikolaev/wanderers):
+A rogue-like written in OCaml using SDL.
+* [WeiDU](https://github.com/WeiDUorg/weidu):
+A program used to mod Infinity Engine games such as Baldur's Gate.
 * [A blog about game development in OCaml](http://cranialburnout.blogspot.ca/)
