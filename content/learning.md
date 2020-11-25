@@ -92,6 +92,7 @@ A high-performance array for interacting with non-OCaml programs.
 Great introduction to systems programming in OCaml
 * [Higher-Rank Polymorphism in OCaml](http://devmusings.legiasoft.com/blog/2008/05/23/higher-rank_polymorphism_in_ocaml):
 How to activate higher-rank polymorphism in OCaml. Old, but still relevant.
+* [Survey of OCaml programs and their usage of mutable state](https://gopiandcode.uk/logs/log-abolish-state.html)
 
 ### Deploying Apps
 
