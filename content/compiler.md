@@ -13,6 +13,7 @@ The OCaml compiler is a complicated piece of software. Below is an attempt to do
 excellent presentation on how OCaml is built on the inside.
 * [Exception handling in OCaml](https://stackoverflow.com/questions/8564025/ocaml-internals-exceptions):
 a StackOverflow answer detailing how exceptions work in OCaml.
+* [The OCaml compiler pipeline](https://sookocheff.com/post/ocaml/the-ocaml-compiler-pipeline/)
 
 ## Interesting Branches of the Compiler
 
