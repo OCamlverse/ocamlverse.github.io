@@ -15,8 +15,11 @@ in OCaml, OPAM is your friend, taking care of package dependency and invoking th
 * [opam-check-all](http://check.ocamllabs.io/): shows you all OPAM packages and their build status
 on multiple versions of the compiler.
 Provides filtering for specific package versions, build errors, and package authors.
-* [OPAM for Windows](https://fdopen.github.io/opam-repository-mingw)  - opam repository and experimental
-native build for Windows.
+* [OPAM for Windows](https://fdopen.github.io/opam-repository-mingw):
+OPAM repository modified for native Windows usage.
+* [drom](https://github.com/ocamlpro/drom):
+A tool similar to Rust's `cargo`, that allows easy creation and management of projects.
+Calls `opam`, `dune` and `odoc` as needed.
 * [esy](https://esy.sh/)
 is a tool that is fully compatible with OPAM on the client side, while also allowing for the installation of
 ReasonML packages.
