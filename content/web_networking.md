@@ -22,7 +22,6 @@ Older, slower implementation of HTTP supporting only HTTP/1.x.
 
 * [Opium](https://github.com/rgrinberg/opium):
 Sinatra like micro-framework web toolkit for OCaml.
-Currently uses `cohttp`, but git master has switched to the faster `httpaf`.
     * [Tutorial: Building an OCaml WebApp](https://shonfeder.gitlab.io/ocaml_webapp/)
 * [ocamlapi](https://github.com/nosman/Ocamlapi):
 Routing with ppx support. Uses cohttp and Core.
