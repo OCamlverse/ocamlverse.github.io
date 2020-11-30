@@ -16,6 +16,8 @@ Some motivations for using OCaml can be found [here](http://spyder.wordpress.com
 * Play around with OCaml online using [sketch.sh](https://sketch.sh/ml).
 * [The Beginner's Guide to OCaml Beginner's guides](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/) where X=OCaml.
+* [Operator lookup](https://www.craigfe.io/operator-lookup/):
+fun and useful site to look up the function of different OCaml operators. 
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
 * [OCaml file types and filename extensions](https://ocaml.org/learn/tutorials/filenames.html)
 * [The faq](faq.md): a good place to find answers to questions about OCaml.
