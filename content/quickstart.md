@@ -18,3 +18,5 @@ Want to get up and running with OCaml as fast as possible? Here's how.
 * [OPAM for npm/yarn users](opam_npm.md)
 * [Project showing how to use Dune for different package types](https://github.com/jserot/dune-howto)
 * [Project showing how to use OPAM with/without dune](https://github.com/jserot/opam-howto)
+* [Operator lookup](https://www.craigfe.io/operator-lookup/):
+Fun and easy way to look up OCaml's operators and find out what they do.
