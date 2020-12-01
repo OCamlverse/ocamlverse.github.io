@@ -52,6 +52,8 @@ or argument aliases (long and short) for the same command, though these things c
 * [Cmdliner](https://github.com/dbuenzli/cmdliner) is a declarative approach to
 laying out command-line arguments.
 The library uses combinators to build up the desired arguments.
+* [ez_cmdliner](https://ocamlpro.github.io/ez_cmdliner/):
+Simpler interface on top of `Cmdliner`.
 * [BOS - Basic OS Interaction](https://github.com/dbuenzli/bos) is a general OS abstraction
 library which also contains a command line argument module
 ([BOS.OS.Arg](http://erratique.ch/software/bos/doc/Bos.OS.Arg.html)).
