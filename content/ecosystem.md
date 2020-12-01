@@ -96,25 +96,16 @@ See [Iterators](iterators.md)
 a Lens library (easy access/functional updates to records).
 
 ## Logging
-* [dolog](https://github.com/UnixJunkie/dolog):
-a simple OCaml logger.
-* [Volt](https://github.com/codinuum/volt):
-a variant of Bolt OCaml logging tool.
-* [Logs](http://erratique.ch/software/logs):
-provides a logging infrastructure for OCaml.
-* [easy-logging](https://github.com/sapristi/easy_logging):
-An object-based simple logging module.
+See [Logging](logging.md).
 
 ## Machine Learning, Data Science, Scientific Computing
-For machine learning, data science and scientific computing,
-see [Scientific Computing](scientific.md)
+See [Scientific Computing](scientific.md)
 
 ## Metaprogramming and PPX
-For metaprogramming facilities such as PPX, camlp4 and MetaOCaml,
-see [Metaprogramming](metaprogramming.md).
+See [Metaprogramming](metaprogramming.md) for metaprogramming facilities such as PPX, camlp4 and MetaOCaml.
 
 ## Mobile
-For compilation of OCaml to mobile platforms, see [Mobile](mobile.md).
+See [Mobile](mobile.md) for compilation of OCaml to mobile platforms.
 
 ## Monads
 See [Monads](monads.md).
