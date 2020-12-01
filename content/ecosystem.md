@@ -180,6 +180,8 @@ Built on top of BigArray, and supports memory-mapping.
 * [Bigstring/af](https://github.com/inhabitedtype/bigstringaf):
 another implementation of a string overlay on top of BigArray, with similar benefits.
 Emphasizes speed.
+* [ez_subst](https://ocamlpro.github.io/ez_subst/):
+Library to perform substitution on strings.
 
 ## Systems Programming
 For low-level systems programming, see [Systems Programming](systems_programming.md)
