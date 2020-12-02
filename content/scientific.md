@@ -61,6 +61,9 @@ Low-level bindings to the [gmplib](https://gmplib.org/).
 Mathematical plotting library in OCaml.
 * [ocaml-matplotlib](https://github.com/LaurentMazare/ocaml-matplotlib):
 Bindings to python's excellent matplotlib visualization library.
+* [Owl-plot](https://github.com/owlbarn/owl/wiki/Tutorial:-How-to-Plot-in-Owl%3F):
+Part of `Owl`. Uses [Plplot](http://plplot.sourceforge.net/index.php)
+to provide easy access to data visualization.
 
 ## Bioinformatics
 
