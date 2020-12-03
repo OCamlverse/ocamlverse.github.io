@@ -63,6 +63,13 @@ See [the manual](https://caml.inria.fr/pub/docs/manual-ocaml/debugger.html) for 
 * The easiest way to debug OCaml code, other than inserting print statements,
 is choosing bytecode as your compilation target, and using teh OCaml debugger.
 * Additionally, one can use `gdb` to debug native code.
+* [ocamlearlybird](https://github.com/hackwaly/ocamlearlybird):
+[Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol/)
+implementation for OCaml.
+Allows integrating the OCaml debugger with an IDE.
+* [ocaml-dap](https://github.com/hackwaly/ocaml-dap):
+Generic [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol/)
+implementation in OCaml.
 
 ## Formal Software Verification
 See [Formal Software Verification](software_verification.md)
