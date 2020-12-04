@@ -69,7 +69,7 @@ to provide easy access to data visualization.
 
 * [biocaml](https://github.com/biocaml/biocaml):
 OCaml Bioinformatics Library, see also [biocaml.org](http://biocaml.org).
-* [guizmin](https://github.com/pveber/guizmin):
+* [bistro](https://github.com/pveber/bistro):
 OCaml library for building bioinformatics pipelines.
 
 ## Numerical File Formats
