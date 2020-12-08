@@ -23,7 +23,7 @@ OCaml bindings for TensorFlow.
 * [hdf5-OCaml](https://github.com/vbrankov/hdf5-ocaml):
 OCaml implementation of hdf5 reader/writer. hdf5 is a file format commonly used in data science.
 
-## Numerical Computing
+## Numerical Computing/Data Science
 
 * [Owl](https://ocaml.xyz):
 OCaml numerical library: dense and sparse matrix, linear algebra, regressions, maths and stats functions.
@@ -34,6 +34,9 @@ Allows computing in OCaml with GPUs.
 Supports both CUDA and OpenCL.
 * [lacaml](https://mmottl.github.io/lacaml/):
 OCaml bindings for BLAS/LAPACK (high-performance linear algebra Fortran libraries).
+* [sklearn](https://github.com/lehy/ocaml-sklearn):
+OCaml bindings to python's scikit-learn, numpy and scipy.
+These are heavy duty libraries used by professional data scientists.
 * [onumerical](https://github.com/cheshire/onumerical):
 Numerical library for OCaml.
 * [oml](https://github.com/hammerlab/oml):
@@ -46,8 +49,6 @@ OCaml library for multi-armed bandits.
 Bindings to frequently used `C` special functions library.
 * [glpk](https://github.com/smimram/ocaml-glpk):
 Bindings to the [glpk](http://www.gnu.org/software/glpk/glpk.html) linear programming kit.
-* [scikit-learn](https://github.com/lehy/ocaml-sklearn):
-OCaml bindings to python's scikit-learn.
 * [zarith](https://github.com/ocaml/Zarith):
 Arithmetic over arbitrary precision integers and rational numbers.
 Uses [gmplib](https://gmplib.org/).
