@@ -43,6 +43,8 @@ A Reason 2d graphics library inspired by Processing.
 * [OCaml Invader](https://github.com/marmelab/ocaml-invader):
 Hackathon Space Invader clone written in OCaml and OpenGL.
     * [Article](https://marmelab.com/blog/2020/02/21/ocaml-and-opengl-in-practice.html)
+* [Shatter](https://github.com/hcarty/shatter):
+Simple game written using the `Orx` engine.
 * [Wanderers](https://github.com/a-nikolaev/wanderers):
 A rogue-like written in OCaml using SDL.
 * [WeiDU](https://github.com/WeiDUorg/weidu):
