@@ -4,6 +4,18 @@ tags: [ecosystem]
 
 # Graphics
 
+## Image Manipulation
+
+* [stb_image](https://github.com/let-def/stb_image):
+OCaml bindings to the C `stb_image` library.
+Loads images into BigArrays.
+* [camlimages](https://gitlab.com/camlspotter/camlimages):
+Image manipulation library for different image formats.
+* [imagelib](https://github.com/rlepigre/ocaml-imagelib):
+Read and write various image formats.
+Backed by BigArrays.
+Only PNGs and BMPs are supported -- other formats are converted to PNG first.
+
 ## 2D
 
 * [Wall](https://github.com/let-def/wall):
@@ -15,13 +27,9 @@ Vector drawing library using OpenGL as the backend.
 Bindings to Cairo, a 2D Vector Graphics Library. Integrates well with lablgtk.
 * [Vg](https://github.com/dbuenzli/vg):
 Declarative 2D vector graphics for OCaml.
-* [imagelib](https://github.com/rlepigre/ocaml-imagelib):
-Read and write various image formats. Backed by BigArrays.
 * [owl_base](https://github.com/owlbarn/owl):
 Part of `Owl`. This is essential for manipulating BigArrays efficiently (with vectorized operations),
 for graphics and such.
-* [camlimages](https://gitlab.com/camlspotter/camlimages):
-Image manipulation library for different image formats.
 
 ## 3D
 
