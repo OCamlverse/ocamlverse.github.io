@@ -77,7 +77,9 @@ Static site generator using markdown, with a server-side renderer.
 An light OCaml/Reason-based web framework.
 * [Sihl](https://github.com/oxidizing/sihl): *wip*
 A light, modular web framework.
-
+* [Brr](https://github.com/dbuenzli/brr):
+A toolkit for interfacing `js_of_ocaml` with common browser APIs.
+Also includes experimental [FRP](content/frp.md) support via `Note`.
 
 ## Web Apps
 
