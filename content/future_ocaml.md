@@ -34,6 +34,7 @@ while also allowing for native green thread support via algebraic effects.
 
 * [Multicore: what's coming in 2021 presentation](https://speakerdeck.com/kayceesrk/multicore-ocaml-whats-coming-in-2021)
 * Updates:
+[Dec-Jan 2021](https://discuss.ocaml.org/t/multicore-ocaml-dec-2020-jan-2021/7225)
 [October 2020](https://discuss.ocaml.org/t/multicore-ocaml-october-2020/6729)
 [September](https://discuss.ocaml.org/t/multicore-ocaml-september-2020/6565)
 [August](https://discuss.ocaml.org/t/multicore-ocaml-august-2020/6418)
