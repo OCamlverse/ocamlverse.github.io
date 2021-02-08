@@ -33,17 +33,7 @@ The plan is to allow OCaml to run in parallel threads (which are termed `domains
 while also allowing for native green thread support via algebraic effects.
 
 * [Multicore: what's coming in 2021 presentation](https://speakerdeck.com/kayceesrk/multicore-ocaml-whats-coming-in-2021)
-* Updates:
-[Dec-Jan 2021](https://discuss.ocaml.org/t/multicore-ocaml-dec-2020-jan-2021/7225)
-[October 2020](https://discuss.ocaml.org/t/multicore-ocaml-october-2020/6729)
-[September](https://discuss.ocaml.org/t/multicore-ocaml-september-2020/6565)
-[August](https://discuss.ocaml.org/t/multicore-ocaml-august-2020/6418)
-[July](https://discuss.ocaml.org/t/multicore-ocaml-july-2020/6186/3)
-[June](https://discuss.ocaml.org/t/multicore-ocaml-june-2020/6047)
-[May](https://discuss.ocaml.org/t/multicore-ocaml-may-2020-update/5898)
-[April](https://discuss.ocaml.org/t/multicore-update-april-2020-with-a-preprint-paper/5630)
-[March](https://discuss.ocaml.org/t/multicore-ocaml-march-2020-update/5406)
-[June 2018](https://discuss.ocaml.org/t/ocaml-multicore-report-on-a-june-2018-development-meeting-in-paris/2202)
+* [Monthly updates](https://discuss.ocaml.org/tag/multicore-monthly)
 * [Paper on retrofitting a parallel GC into OCaml](https://arxiv.org/abs/2004.11663)
 * The [multicore OCaml github repo](https://github.com/ocamllabs/ocaml-multicore) and its [wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
 * The [multicore roadmap](https://github.com/ocaml-multicore/ocaml-multicore/projects/3).
