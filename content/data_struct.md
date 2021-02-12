@@ -44,6 +44,8 @@ Fast [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) library.
 Pure skip lists. Seems incomplete.
 * [art](https://github.com/dinosaure/art):
 Adaptive Radix Trees: speed of hashtables but based on an order.
+* [bitmasks](https://github.com/metastack/bitmasks):
+Use bitmasks as sets.
 
 ### Heterogeneous Maps
 
