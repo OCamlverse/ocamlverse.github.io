@@ -73,10 +73,12 @@ Generate type-safe code for graphql queries from GraphQL schema and queries.
 A web framework in the style of Ruby on Rails, built on top of Opium. It is designed for building REST APIs.
 * [Finch](https://github.com/roddyyaga/finch):
 Static site generator using markdown, with a server-side renderer.
+* [logarion](https://logarion.orbitalfox.eu/start-your-own-logarion-archive.html) an extensible text archive generator.
 * [Naboris](https://github.com/shawn-mcginty/naboris):
 An light OCaml/Reason-based web framework.
 * [Sihl](https://github.com/oxidizing/sihl): *wip*
 A light, modular web framework.
+* [sopault](https://soupault.app/) a static website generator that exploits the fact that well-formed HTML is machine readable and transformable.
 * [Brr](https://github.com/dbuenzli/brr):
 A toolkit for interfacing `js_of_ocaml` with common browser APIs.
 Also includes experimental [FRP](frp.md) support via `Note`.
