@@ -9,15 +9,15 @@ tags: [ecosystem, learning]
 ## Visual Studio Code
 
 This is the easiest editor to set up for OCaml.
-Just install the [OCaml and Reason IDE extension](https://github.com/ocaml-lsp/vscode-reasonml):
-
-```
-code --install-extension freebroccolo.reasonml
-```
+Just install the [OCaml Platform extension](https://github.com/ocamllabs/vscode-ocaml-platform)
+(see README for instructions).
 
 ## Vim or Neovim
 
-Vim and Neovim are relatively complex tools, and their configuration requires editing their `.vimrc` file (in the case of Neovim, it's `.config/nvim/init.vim` on Linux). 
+Vim and [neovim](https://neovim.io/) are relatively complex tools, and their configuration requires editing their `.vimrc` file (in the case of Neovim, it's `.config/nvim/init.vim` on Linux).
+If you use neovim, you can either use Merlin, which is OCaml's main code-information tool,
+or [ocaml-lsp](https://github.com/ocaml/ocaml-lsp),
+which is a language server protocol wrapper on top of Merlin.
 
 ### Merlin Plugin
 
@@ -36,6 +36,13 @@ This approach has the advantage of loading the same plugin version as is availab
 
 Use `:help merlin` to find out the keybindings.
 A completion engine, like `Ale`, is recommended as well.
+
+### OCaml LSP
+
+Neovim supports LSP servers natively. To add LSP support to Vim, you'll need an extra addon.
+To run Neovim with LSP support, the easiest way is to install [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#ocamllsp)
+and configure the necessary lines for ocaml-lsp support.
+Make sure to install `ocaml-lsp` via opam and you're done.
 
 ## emacs
 
