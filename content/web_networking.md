@@ -65,6 +65,7 @@ Currently requires `esy` to build.
 A REST toolkit for OCaml.
 Implements a state-machine-based HTTP request processor that is well-suited for writing RESTful APIs.
 Uses co-http.
+* [dream](https://github.com/aantron/dream): tidy, feature complete web framework. Supports http and http2. 
 * [OCaml-graphql-server](https://github.com/andreas/ocaml-graphql-server):
 A GraphQL server library. GraphQL is a regimented approach to data management in web apps.
 * [ppx_graphql](https://github.com/andreas/ppx_graphql):
@@ -73,10 +74,12 @@ Generate type-safe code for graphql queries from GraphQL schema and queries.
 A web framework in the style of Ruby on Rails, built on top of Opium. It is designed for building REST APIs.
 * [Finch](https://github.com/roddyyaga/finch):
 Static site generator using markdown, with a server-side renderer.
+* [logarion](https://logarion.orbitalfox.eu/start-your-own-logarion-archive.html): an extensible text archive generator.
 * [Naboris](https://github.com/shawn-mcginty/naboris):
 An light OCaml/Reason-based web framework.
 * [Sihl](https://github.com/oxidizing/sihl): *wip*
 A light, modular web framework.
+* [sopault](https://soupault.app/): a static website generator that exploits the fact that well-formed HTML is machine readable and transformable.
 * [Brr](https://github.com/dbuenzli/brr):
 A toolkit for interfacing `js_of_ocaml` with common browser APIs.
 Also includes experimental [FRP](frp.md) support via `Note`.
