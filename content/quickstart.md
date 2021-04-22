@@ -12,6 +12,8 @@ Want to get up and running with OCaml as fast as possible? Here's how.
 * [Setting up your editor](editor_setup.md)
 * [Quickstart an OCaml project with Dune](quickstart_ocaml_project_dune.md)
 * [OCaml cheat sheet](https://github.com/alhassy/OCamlCheatSheet/blob/master/CheatSheet.pdf)
+* [docs.ocaml.pro](https://docs.ocaml.pro/html/about.html):
+  Comprehensive listing of documentation for OCaml packages, with cross-listing.
 * [A sample Dune project](https://github.com/mjambon/dune-starter) on github.
   Great for starting out your own project -- has all the files you need.
 * [Using the OCaml toplevel/REPL](toplevel.md).
