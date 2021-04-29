@@ -52,5 +52,6 @@ read Microsoft Office Open XML files.
 * [hevea](https://github.com/maranget/hevea):
 library to convert LaTex to html.
 Currently used for the [OCaml manual](http://caml.inria.fr/pub/docs/manual-ocaml/)
-
+* [ocaml-pandoc](https://github.com/smimram/ocaml-pandoc):
+Interface to [pandoc](https://pandoc.org/MANUAL.html), a universal markup converter.
 
