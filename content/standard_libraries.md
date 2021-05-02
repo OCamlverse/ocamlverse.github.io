@@ -49,7 +49,7 @@ is a higher-level OS interaction layer containing many elements,
 including file manipulation, command line argument parsing, etc.
 It supplements and replaces functionality present in the standard library.
 * For a very detailed technical comparison of the standard libraries,
-* see [here](https://github.com/Fourchaux/ocaml-stdlib-containers-batteries-base-comparisons).
+see [here](https://github.com/Fourchaux/ocaml-stdlib-containers-batteries-base-comparisons).
 
 ## Recommendations
 
