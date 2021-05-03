@@ -222,7 +222,7 @@ looks like a constant is a constant) to a semantic definition
 (something that acts like a constant is a constant).
 
 For example, this rule allows the following expressions to have
-polymorphic type: `lazy None`, ` let _ = ref None in 1`, and even
+polymorphic type: `lazy None`, `let _ = ref None in 1`, and even
 `assert false`.
 
 However, the expression `(fun _ _ -> 0) ()` will be given a
