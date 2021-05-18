@@ -164,7 +164,8 @@ and the best choice for longer-running timing requirements.
 * [ISO8601](https://github.com/sagotch/ISO8601.ml/) 
 * [calendar](http://calendar.forge.ocamlcore.org/) 
 * [odate](https://github.com/hhugo/odate) 
-* [Timere](https://github.com/daypack-dev/timere): date time handling and reasoning.
+* [Timedesc](https://github.com/daypack-dev/timere): date time handling.
+* [Timere](https://github.com/daypack-dev/timere): date time reasoning.
 * [Timere-parse](https://github.com/daypack-dev/timere): natural language parsing of date, time and duration.
 
 ## Unicode Support
