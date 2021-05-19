@@ -8,4 +8,5 @@ taking into account both
 memory allocation and CPU time.
 * Standard tools such as [gprof](https://sourceware.org/binutils/docs/gprof/)
 can also be used to debug OCaml programs.
-
+* [ocaml-tracy](https://github.com/AestheticIntegration/ocaml-tracy):
+Bindings to the amazing [tracy](https://github.com/wolfpld/tracy) profiler.
