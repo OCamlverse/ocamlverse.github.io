@@ -17,6 +17,3 @@ Allows integrating the OCaml debugger with an IDE.
 Generic [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol/)
 implementation in OCaml.
 
-## Profiling
-* [ocaml-tracy](https://github.com/AestheticIntegration/ocaml-tracy):
-Bindings to the amazing [tracy](https://github.com/wolfpld/tracy) profiler.
