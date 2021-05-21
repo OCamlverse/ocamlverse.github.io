@@ -84,3 +84,7 @@ system used by Dune is composed of code from Jenga.
 * [ocaml-makefile](https://github.com/mmottl/ocaml-makefile) : Easy to use Makefile for small to medium-sized
 OCaml-projects.
 * [obuild](https://github.com/ocaml-obuild/obuild) : Simple package build system for ocaml.
+
+## Continuous Integration
+* [setup-ocaml](https://github.com/ocaml/setup-ocaml):
+Easy-to-use [Github Actions](https://github.com/features/actions) for running your code on Linux, Mac and Linux machines.
