@@ -48,6 +48,7 @@ but also plans to support BuckleScript in the near future.
 
 ## Web Frameworks
 
+* [dream](https://github.com/aantron/dream): tidy, feature complete web framework. Supports http and http2. 
 * [Ocsigen Eliom](http://ocsigen.org/eliom/): a full-featured multi-tier framework,
 for developing multi-platform Web and mobile apps as 100% OCaml distributed applications.
 It can also be used for more traditional Web or mobile apps.
@@ -65,7 +66,6 @@ Currently requires `esy` to build.
 A REST toolkit for OCaml.
 Implements a state-machine-based HTTP request processor that is well-suited for writing RESTful APIs.
 Uses co-http.
-* [dream](https://github.com/aantron/dream): tidy, feature complete web framework. Supports http and http2. 
 * [OCaml-graphql-server](https://github.com/andreas/ocaml-graphql-server):
 A GraphQL server library. GraphQL is a regimented approach to data management in web apps.
 * [ppx_graphql](https://github.com/andreas/ppx_graphql):
