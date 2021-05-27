@@ -13,7 +13,7 @@ If you prefer to have long-form conversation rather than just chatting, this is 
 * [OCaml Discord Chat](https://tinyurl.com/discord-ocaml) is a chat server for everything related to OCaml.
 Pop by and ask a question or just say hi.
 The Discord server also provides a bridge to IRC via the #general channel.
-* [OCaml IRC Chat](https://riot.im/app/#/room/#freenode_#ocaml:matrix.org):
+* [OCaml IRC Chat](https://riot.im/app/#/room/#ocaml:libera.chat):
 OCaml's more established chat room.
 You can access this via Discord as well (see above).
   * [weechat IRC script link](https://github.com/Gbury/format_bridge_bot_output#using-this-for-the-ocaml-discord-bot):
