@@ -13,9 +13,9 @@ If you prefer to have long-form conversation rather than just chatting, this is 
 * [OCaml Discord Chat](https://tinyurl.com/discord-ocaml) is a chat server for everything related to OCaml.
 Pop by and ask a question or just say hi.
 The Discord server also provides a bridge to IRC via the #general channel.
-* [OCaml IRC Chat](https://riot.im/app/#/room/#ocaml:libera.chat):
-OCaml's more established chat room.
-You can access this via Discord as well (see above).
+* OCaml IRC Chat: #ocaml on ircs://irc.libera.chat:6697:
+OCaml's older chat room on IRC. Recently relocated from the older IRC room on freenode.
+You can access this via chat Discord as well (see above).
   * [weechat IRC script link](https://github.com/Gbury/format_bridge_bot_output#using-this-for-the-ocaml-discord-bot):
   Script to allow IRC users to see discord user messages as if they, rather than the bot, wrote the message.
 * [The Official OCaml Mailing List](http://caml.inria.fr/resources/forums.en.html):
