@@ -40,6 +40,7 @@ while also allowing for native green thread support via algebraic effects.
 * [ICFP Presentation on advanced lock-free programming in multicore OCaml](https://www.youtube.com/watch?v=C0YkrerSNn0)
 * [Discuss post on recent past and future of integrating multicore](https://discuss.ocaml.org/t/multicore-prerequisite-patches-appearing-in-released-ocaml-compilers-now/4408)
 * [Update on status of multicore](https://discuss.ocaml.org/t/where-is-multicore-development-happening/4997/8)
+* [Adjusting the stdlib for multicore](https://github.com/ocaml-multicore/ocaml-multicore/wiki/Safety-of-Stdlib-under-Multicore-OCaml)
 
 ### Typed Algebraic Effects
 
