@@ -96,6 +96,10 @@ Great introduction to systems programming in OCaml
 How to activate higher-rank polymorphism in OCaml. Old, but still relevant.
 * [Survey of OCaml programs and their usage of mutable state](https://gopiandcode.uk/logs/log-abolish-state.html)
 
+### Multicore
+[Parallel multicore OCaml programming](https://github.com/ocaml-multicore/parallel-programming-in-multicore-ocaml):
+How to program OCaml in the new multicore-OCaml runtime.
+
 ### Deploying Apps
 
 * [Building an OCaml webapp using Opium](https://shonfeder.gitlab.io/ocaml_webapp/)
