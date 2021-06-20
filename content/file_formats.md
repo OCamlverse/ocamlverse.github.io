@@ -16,6 +16,8 @@ an optimized parsing and printing library for the JSON format.
 non-blocking streaming JSON codec for OCaml.
 * [ezjsonm](https://github.com/mirage/ezjsonm):
 library to simplify usage of `jsonm`.
+* [jsonxy](https://github.com/stevebleazard/ocaml-jsonxt):
+RFC-compliant JSON library. [docs](https://stevebleazard.github.io/ocaml-jsonxt/jsonxt/index.html).
 * [data-encoding](https://gitlab.com/nomadic-labs/data-encoding):
 A library for JSON and binary encoding of values.
 * [ocaml-yaml](https://github.com/avsm/ocaml-yaml):
