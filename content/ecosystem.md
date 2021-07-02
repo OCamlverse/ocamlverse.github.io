@@ -26,6 +26,9 @@ see [Standard Libraries](standard_libraries.md).
 ## Data Structures and Algorithms
 See [Data Structures and Algorithms](data_struct.md)
 
+## Applications
+See [Applications](apps.md). Full applications written in OCaml.
+
 ## Audio
 See [Audio](audio.md)
 
