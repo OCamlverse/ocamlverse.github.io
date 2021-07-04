@@ -34,4 +34,4 @@ Notty is a declarative terminal library for OCaml, structured around a notion of
 * [Nottui](https://github.com/let-def/lwd/tree/master/lib/nottui):
 Higher level DSL on top of `Notty`. Used together with `lwd`.
 * [Progress](https://github.com/CraigFe/progress/):
-user-definable progress bars.
+Beautiful user-definable progress bars. Highly recommended.
