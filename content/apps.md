@@ -5,6 +5,8 @@ tags: [ecosystem]
 
 # Applications written in OCaml
 
+## Full Applications
+
 * [LibReref](https://gitlab.com/gopiandcode/libre-ref):
 Digital referencing tool written in OCaml.
 [Discuss thread](https://discuss.ocaml.org/t/ann-libreref-lablgtk-based-digital-reference-tool-application/).
@@ -18,3 +20,9 @@ A decentralised cross-platform software installation system.
 * [MirageOS](https://mirage.io/):
 A unikernel operating system written in OCaml.
 [github](https://github.com/mirage/mirage)
+
+## Toy Applications
+
+* [MariOCaml](https://github.com/mahsu/MariOCaml):
+Simple Mario clone written in OCaml, running on HTML5.
+[Demo](https://mahsu.github.io/mariocaml/).
