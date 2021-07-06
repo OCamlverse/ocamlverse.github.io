@@ -15,3 +15,7 @@ Bindings to libssh.
 * [cryptokit](https://github.com/xavierleroy/cryptokit): The Cryptokit library for OCaml provides a variety of cryptographic primitives that can be used to implement cryptographic protocols in security-sensitive applications.
 * [nocrypto](https://github.com/mirleft/ocaml-nocrypto): A small cryptographic library behind the ocaml-tls project. It is built to be straightforward to use, adhere to functional programming principles and able to run in a Xen-based unikernel.
   * The differences between `nocrypto` and `cryptokit` cryptographic libraries are described in [this blog post](https://mirage.io/blog/introducing-nocrypto)
+* [u2f](https://github.com/roburio/u2f):
+The server protocol for [U2F](https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/),
+two-factor authentication using specialized devices.
+[docs](https://roburio.github.io/u2f/doc)
