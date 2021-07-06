@@ -15,3 +15,6 @@ Modern modal editor based on Vim, written in Reason (OCaml-like).
 Modding program used for Bioware's [Infinity engine](https://baldursgate.fandom.com/wiki/Infinity_Engine) games.
 * [ZeroInstall](https://0install.net/):
 A decentralised cross-platform software installation system.
+* [MirageOS](https://mirage.io/):
+A unikernel operating system written in OCaml.
+[github](https://github.com/mirage/mirage)
