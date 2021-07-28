@@ -159,8 +159,8 @@ as well as
   * [Netmime](http://projects.camlcity.org/projects/dl/ocamlnet-4.0.4/doc/html-main/Netmime.html):
   MIME processing.
   * Other [OCamlnet modules](http://projects.camlcity.org/projects/dl/ocamlnet-4.0.4/doc/html-main/index.html)
-* [letter](https://github.com/oxidizing/letters):
-High-level library for writing emails. Uses `mrmime` and `lwt`.
+* [letters](https://github.com/oxidizing/letters):
+High-level library for creating and writing emails. Uses `mrmime` and `lwt`.
 * [mrmime](https://github.com/mirage/mrmime):
   High performance email parsing/generation library.
   * [Announcement](https://discuss.ocaml.org/t/ann-first-release-of-mrmime-parser-and-generator-of-emails/4436)
@@ -187,7 +187,8 @@ Error-recovering streaming HTML5 and XML parsers, serializers.
 Helps simplify the creation of OCaml bindings for Javascript libraries in `js_of_ocaml`.
 * [AMQP-client](https://github.com/andersfugmann/amqp-client):
 [AMQP](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol) client library written in OCaml.
-Supports [RabbitMQ](https://www.rabbitmq.com/).
+Supports [RabbitMQ](https://www.rabbitmq.com/),
+and both `lwt` and `Async`.
 
 ### Chat Protocols
 
