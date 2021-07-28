@@ -2,7 +2,7 @@
 tags: [ecosystem]
 ---
 
-# Web and Networking
+# Web, Networking and Cloud Computing
 
 ## Miscellaneous
 
@@ -185,6 +185,9 @@ Functional HTML scraping and manipulation with CSS selectors, similar to Python'
 Error-recovering streaming HTML5 and XML parsers, serializers.
 * [gen_js_api](https://github.com/LexiFi/gen_js_api):
 Helps simplify the creation of OCaml bindings for Javascript libraries in `js_of_ocaml`.
+* [AMQP-client](https://github.com/andersfugmann/amqp-client):
+[AMQP](https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol) client library written in OCaml.
+Supports [RabbitMQ](https://www.rabbitmq.com/).
 
 ### Chat Protocols
 
