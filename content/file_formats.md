@@ -24,6 +24,8 @@ A library for JSON and binary encoding of values.
 Parse and generate yaml 1.1 files.
 * [biniou](https://github.com/mjambon/biniou): 
 extensible binary data format, like JSON but faster.
+* [Markup](https://github.com/aantron/markup.ml):
+streaming, lazy parser for XML and HTML5.
 * [xmlm](http://erratique.ch/software/xmlm):
 a streaming codec to decode and encode the XML data format.
 * [sexplib](https://github.com/janestreet/sexplib):
