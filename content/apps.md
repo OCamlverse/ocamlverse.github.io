@@ -20,6 +20,8 @@ A decentralised cross-platform software installation system.
 * [MirageOS](https://mirage.io/):
 A unikernel operating system written in OCaml.
 [github](https://github.com/mirage/mirage)
+* [Unison](https://github.com/bcpierce00/unison#unison-file-synchronizer):
+Cross-platform file synchronization tool written in OCaml.
 
 ## Toy Applications
 
