@@ -6,7 +6,7 @@ tags: [ecosystem]
 
 This page describes the current state of the OCaml ecosystem.
 
-* [docs.ocaml.pro](https://docs.ocaml.pro/html/about.html):
+* [docs.ocaml.pro](https://docs.ocaml.pro):
 Comprehensive listing of documentation for OCaml packages, with cross-listing.
 * [check.ocamllabs.io](http://check.ocamllabs.io):
 View current build status of the entire OPAM ecosystem.
