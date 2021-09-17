@@ -46,6 +46,7 @@ See the tutorial above for an introduction to (untyped) algebraic effects.
 Work on typed effects is ongoing [here](https://github.com/lpw25/ocaml-typed-effects).
 
 * A great explanation of algebraic effects can be found [here](https://github.com/ocamllabs/ocaml-effects-tutorial).
+* [Presentation on effects in OCaml 21](https://watch.ocaml.org/videos/watch/74ece0a8-380f-4e2a-bef5-c6bb9092be89)
 * [Presentation on algebraic effects at ICFP](https://www.youtube.com/watch?v=DNp3ifNpgPM)
 * [Presentation on typed effects in OCaml](https://www.youtube.com/watch?v=0dAafhi-IuE)
 * [Complete bibilography of literature on effects](https://github.com/yallop/effects-bibliography)
