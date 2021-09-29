@@ -54,7 +54,9 @@ Provides easy-to-use parallel map and fold functions.
 The library makes use of forking to create short-lived child processes,
 and memory mapping to feed the data back to the parent process.
 * [Parany](https://github.com/UnixJunkie/parany):
-Similar to Parmap, compute a given function over multiple processes in parallel.
+Generalized map reduce for multicore computers (unfold, map in parallel, fold).
+Parany can process in parallel an "infinite" stream of elements (too big to fit in memory).
+Any Parmap functionality can be reimplemented using parany.
 * [hack-parallel](https://github.com/rvantonder/hack-parallel/):
 Parallel processing library using shared memory. Used by Facebook's Hack.
 * [lwt-parallel](https://github.com/ivg/parallel):
