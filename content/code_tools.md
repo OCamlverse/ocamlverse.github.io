@@ -84,8 +84,6 @@ Compile and execute OCaml code online.
 Tool for executing code or shell snippets inside markdown files.
 * [iocaml](https://github.com/andrewray/iocaml):
 An OCaml kernel for the IPython notebook.
-* [ocamlbrowser](http://caml.inria.fr/pub/docs/manual-ocaml/browser.html):
-A source and compiled interface browser, written using LablTk and included with it.
 * [ghim](https://github.com/samoht/ghim):
 A command-line tool to manage Github Issues.
 * [OCaml Yeoman Generator](https://github.com/mabrasil/generator-ocaml):
