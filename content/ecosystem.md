@@ -8,6 +8,8 @@ This page describes the current state of the OCaml ecosystem.
 
 * [docs.ocaml.pro](https://docs.ocaml.pro):
 Comprehensive listing of documentation for OCaml packages, with cross-listing.
+* [Sherlocode](https://sherlocode.com/):
+Instant search through all the OCaml code in OPAM. Very fast.
 * [check.ocamllabs.io](http://check.ocamllabs.io):
 View current build status of the entire OPAM ecosystem.
 * [The OCaml Platform](ocaml_platform.md): a community endeavor to standardize the
