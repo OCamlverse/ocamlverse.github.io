@@ -20,6 +20,8 @@ used by Freedesktop and Linux.
 Use the ASN.1 standard. See [introducing ASN.1](https://mirage.io/blog/introducing-asn1)
 * [IMAP](https://github.com/nojb/ocaml-imap):
 lwt-compatible implementation of IMAP4rev1.
+* [wayland](https://github.com/talex5/ocaml-wayland):
+Pure OCaml implementation of the Wayland graphical protocol, used in Linux.
 
 ## ZeroMQ
 * [ocaml-zmq](https://github.com/issuu/ocaml-zmq): ZeroMQ bindings for OCaml.
