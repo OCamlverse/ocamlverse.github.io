@@ -58,6 +58,8 @@ Eliom lets you write client and server code in OCaml, where both are typechecked
 each other, the client being compiled to JS and the backend to OCaml.
   * [Oscigen Tutorial](http://ocsigen.org/tuto/6.4/manual/application.html)
   * [Thesis on Eliom](https://www.irif.fr/~gradanne/papers/phdthesis.pdf)
+* [Sihl](https://github.com/oxidizing/sihl):
+A modular web framework.
 * [Morph](https://github.com/reason-native-web/morph):
 Lightweight web framework for OCaml and Reason. [docs](https://reason-native-web.github.io/morph/).
 * [re-web](https://github.com/yawaramin/re-web):
@@ -79,8 +81,6 @@ Static site generator using markdown, with a server-side renderer.
 * [logarion](https://logarion.orbitalfox.eu/start-your-own-logarion-archive.html): an extensible text archive generator.
 * [Naboris](https://github.com/shawn-mcginty/naboris):
 An light OCaml/Reason-based web framework.
-* [Sihl](https://github.com/oxidizing/sihl): *wip*
-A light, modular web framework.
 * [sopault](https://soupault.app/): a static website generator that exploits the fact that well-formed HTML is machine readable and transformable.
 * [Brr](https://github.com/dbuenzli/brr):
 A toolkit for interfacing `js_of_ocaml` with common browser APIs.
