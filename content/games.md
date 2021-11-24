@@ -4,7 +4,8 @@ tags: [ecosystem]
 
 # Game Development
 
-## Game-related
+## Game-related Libraries
+
 * [TSDL](http://erratique.ch/software/tsdl):
 An OCaml module providing thin bindings to the `SDL` 2.0 library.
 [SDL](https://www.libsdl.org/) provides a cross-platform interface for graphics,
@@ -49,4 +50,6 @@ Simple game written using the `Orx` engine.
 A rogue-like written in OCaml using SDL.
 * [WeiDU](https://github.com/WeiDUorg/weidu):
 A program used to mod Infinity Engine games such as Baldur's Gate.
+* [OcamlBoy](https://github.com/linoscope/CAMLBOY/):
+GameBoy emulator written purely in OCaml.
 * [A blog about game development in OCaml](http://cranialburnout.blogspot.ca/)
