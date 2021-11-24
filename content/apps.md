@@ -22,6 +22,9 @@ A unikernel operating system written in OCaml.
 [github](https://github.com/mirage/mirage)
 * [Unison](https://github.com/bcpierce00/unison#unison-file-synchronizer):
 Cross-platform file synchronization tool written in OCaml.
+* [CamlBoy](https://github.com/linoscope/CAMLBOY/):
+A full GameBoy emulator written in OCaml. 
+Runs in the browser using `js_of_ocaml`.
 
 ## Toy Applications
 
