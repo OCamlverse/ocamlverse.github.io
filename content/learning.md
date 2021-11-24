@@ -194,6 +194,7 @@ See [Metaprogramming](metaprogramming.md) for both libraries and articles.
 
 ### Monads
 
+* [Excellent short introduction to monads](https://discuss.ocaml.org/t/why-are-monads-important/8868/6)
 * [Xavier Leroy's Monadic Programming Lecture Slides (pdf)](https://xavierleroy.org/mpri/2-4/monads.pdf) and [code](https://xavierleroy.org/mpri/2-4/monads.ml)
 * [Cornell's CS 3110 Lecture about monads](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/lec.pdf), with [code](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/code.ml) and [recitation](https://www.cs.cornell.edu/courses/cs3110/2018sp/l/25-monads/lab.html)
 * [A small monads tutorial from the Monads library](http://binaryanalysisplatform.github.io/bap/api/master/monads/Monads/Std/index.html)
