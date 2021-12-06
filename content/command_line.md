@@ -24,3 +24,4 @@ library which also contains a command line argument module
 which takes a similar approach to Cmdliner.
 * [Minicli](https://github.com/UnixJunkie/minicli)  is a self-described minimalist library
 for command line parsing.
+* [Quick-and-dirty pure command-line arguments in OCaml](https://dev.to/yawaramin/quick-and-dirty-pure-command-line-arguments-in-ocaml-3hcg) (using the standard Library's Arg module)
