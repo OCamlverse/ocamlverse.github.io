@@ -18,9 +18,10 @@ Rather than taking Revery's approach of having a uniform interface,
 Brisk aims to use native platform APIs do draw OS-based GUI elements.
 * [bogue](https://github.com/sanette/bogue):
 A new, SDL-based GUI. Ideal for integration in games.
+[demo video](https://youtu.be/isFLxnDooL8)
 * [labltk](https://forge.ocamlcore.org/projects/labltk/):
 Interface to the Tcl/Tk GUI framework.
-[demo video](https://youtu.be/isFLxnDooL8)
+
 
 ## TUI (Terminals)
 * [Lambda-Term](https://github.com/ocaml-community/lambda-term):
