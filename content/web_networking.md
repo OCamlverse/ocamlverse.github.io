@@ -106,6 +106,9 @@ This makes it possible to run OCaml programs in a browser, while sticking to the
 * [ReScript](https://rescript-lang.org/):
 A fork of an older version of the OCaml compiler with its own opinionated syntax that compiles to JavaScript directly,
 prioritizing readability of JavaScript and compatibiltiy with the NPM/JavaScript ecosystem over compatibility with the OCaml ecosystem.
+* [Melange](https://github.com/melange-re/melange):
+A fork of the ReScript compiler with the aim to integrate better with the OCaml ecosystem, in particular dune and opam,
+and keep up-to-date with new releases of the OCaml compiler.
 
 ## Virtual DOM
 
