@@ -18,6 +18,7 @@ Create type-safe queries. Currently with bindings to MySQL/MariaDB and SQLite.
 * [PostgreSQL-OCaml](https://mmottl.github.io/postgresql-ocaml/): a low-level interface to PostgreSQL through the C API (`libpq`).
 * [ezpostgresql](https://github.com/bobbypriambodo/ezpostgresql): simple, non-type-safe interface to PostgreSQL.
 Prioritizes simplicity. Wraps around PostgreSQL-OCaml.
+* [PGX](https://github.com/arenadotio/pgx): a pure-OCaml PostgreSQL client library, supporting Async, LWT, or synchronous operations.
 * [SQLite3-OCaml](https://github.com/mmottl/sqlite3-ocaml/): OCaml bindings to the SQLite3 database.
 * [Sqlite3EZ](https://mlin.github.io/ocaml-sqlite3EZ/): thin wrapper for SQLite3 with a simplified interface.
 * [ocaml-redis](https://github.com/0xffea/ocaml-redis): Redis bindings for OCaml.
@@ -30,11 +31,7 @@ Syntax extension for mysql bindings. [Blog post](https://engineering.issuu.com/2
 * [orocksdb](https://github.com/domsj/orocksdb): OCaml RocksDB bindings using ctypes.
 * [ppx_rapper](https://github.com/roddyyaga/ppx_rapper): a syntax extension for PostgreSQL using Caqti
 
-## OCaml Clients
-
-* [PGX](https://github.com/arenadotio/pgx): a pure-OCaml PostgreSQL client library, supporting Async, LWT, or synchronous operations.
-
-## Ocaml Databases
+## OCaml Databases
 
 * [Irmin](https://github.com/mirage/irmin): a distributed database that follows the same design principles as Git.
   * A fairly through tutorial for Irmin can be found [here](https://irmin.io/tutorial/introduction).
