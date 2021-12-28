@@ -103,11 +103,9 @@ Can be compiled to Unix as well.
 Compiles OCaml bytecode to Javascript.
 This makes it possible to run OCaml programs in a browser, while sticking to the OCaml paradigms and ecosystem.
   * [commonjs_of_ocaml](https://github.com/AngryLawyer/commonjs_of_ocaml) : Easily import and export CommonJS modules from a js_of_ocaml project.
-* [BuckleScript](https://github.com/bloomberg/bucklescript):
-A fork of the OCaml compiler that compiles OCaml to Javascript directly,
-prioritizing readability of Javascript over compatibility with the OCaml ecosystem.
-The code lives in the Javascript ecosystem and generally requires a Javascript toolchain.
-[ReasonML](https://reasonml.github.io/) is enabled by this compiler.
+* [ReScript](https://rescript-lang.org/):
+A fork of an older version of the OCaml compiler with its own opinionated syntax that compiles to JavaScript directly,
+prioritizing readability of JavaScript and compatibiltiy with the NPM/JavaScript ecosystem over compatibility with the OCaml ecosystem.
 
 ## Virtual DOM
 
