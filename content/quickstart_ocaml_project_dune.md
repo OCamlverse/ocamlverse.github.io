@@ -55,10 +55,10 @@ and therefore reduce the chance of dependencies conflict. You can think of it as
 virtualenv.
 
 We are going to name the switch todolist, the same as our project name, for consistency.
-We will be using OCaml version 4.13.1 as the base compiler. To create the switch, use this command:
+To create the switch, use this command:
 
 ```
-opam switch create . ocaml-base-compiler.4.13.1
+opam switch create . ocaml-base-compiler
 ```
 
 Local switches are self-contained only in the current directory instead of an ~/.opam/<switch-name> directory.
@@ -89,7 +89,7 @@ by your editor plugins and not you directly.
 plugins also make use of this to indent your code automatically. If you want a more opinionated solution,
 there is also ocamlformat, but it’s still in active development and might not be stable yet.
 You might still want to try it, though.
-- `dune`, the installable library of Dune. At the point of this writing, Dune’s latest version is 2.9.1.
+- `dune`, the installable library of Dune.
 - `utop`, an improved REPL (toplevel) for OCaml. It is based on lambda-term and supports auto-completion.
 In general, I favor utop as our REPL instead of the builtin ocaml, since the former have better UX.
 
