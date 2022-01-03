@@ -20,7 +20,7 @@ You can verify your opam installation with the following command:
 
 ```
 $ opam --version
-2.0.1
+2.1.2
 ```
 
 This tutorial assumes MacOS or Linux environment. For Windows, see [Windows Support](windows_support.md).
@@ -55,10 +55,10 @@ and therefore reduce the chance of dependencies conflict. You can think of it as
 virtualenv.
 
 We are going to name the switch todolist, the same as our project name, for consistency.
-We will be using OCaml version 4.07.1 as the base compiler. To create the switch, use this command:
+We will be using OCaml version 4.13.1 as the base compiler. To create the switch, use this command:
 
 ```
-opam switch create . ocaml-base-compiler.4.07.1.
+opam switch create . ocaml-base-compiler.4.13.1
 ```
 
 Local switches are self-contained only in the current directory instead of an ~/.opam/<switch-name> directory.
@@ -89,7 +89,7 @@ by your editor plugins and not you directly.
 plugins also make use of this to indent your code automatically. If you want a more opinionated solution,
 there is also ocamlformat, but it’s still in active development and might not be stable yet.
 You might still want to try it, though.
-- `dune`, the installable library of Dune. At the point of this writing, Dune’s latest version is 1.0.1.
+- `dune`, the installable library of Dune. At the point of this writing, Dune’s latest version is 2.9.1.
 - `utop`, an improved REPL (toplevel) for OCaml. It is based on lambda-term and supports auto-completion.
 In general, I favor utop as our REPL instead of the builtin ocaml, since the former have better UX.
 
@@ -338,7 +338,7 @@ so if any of it produces a side-effect on evaluation time
 it will be run on starting the REPL, which may not be what you want.
 
 Let’s have a look on how to use the REPL.
-With Dune and utop installed, let’s invoke dune utop lib.
+With Dune and utop installed, let’s invoke `dune utop lib`.
 
 The command `dune utop <dir>` is a convenient way to invoke utop while having the
 source inside `<dir>` (in this case, lib) automatically built and loaded.
