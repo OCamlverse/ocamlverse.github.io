@@ -13,8 +13,8 @@ matched groups.
 * [Humane-re](https://github.com/rgrinberg/humane-re): attempts to provide an easy
 interface for 90% of your regex needs.
 This is a binding on top of Re.
-* The standard library contains the
+* OCaml comes with the
 [Str](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Str.html) module.
-This module is __not__ recommended,
-but its availability in the standard library makes it useful when you don't
-have access to anything better.
+This module is __not__ recommended because it is not part of the standard library,
+it uses global states and is not particularly fast, but its availability makes it
+useful when you don't have access to anything better.
