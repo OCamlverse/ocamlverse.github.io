@@ -17,5 +17,4 @@ This is a binding on top of Re.
 [Str](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Str.html) module.
 This module is __not__ recommended because it is not part of the standard library,
 it uses global states and is not particularly fast, but its availability makes it
-useful when you don't have access to anything better.  It is partially implemented
-in C and thus not available in `js_of_ocaml`.
+useful when you don't have access to anything better.
