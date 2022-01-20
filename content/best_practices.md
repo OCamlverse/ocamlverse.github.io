@@ -4,8 +4,7 @@ tags: [learning, best practices]
 
 # Best Practices
 
-Here is a collection of best practices for successful programming in OCaml.
-You should be using **ocp-indent** (see below) for your code formatting.
+Here is a collection of community-chosen best practices for successful programming in OCaml.
 
 ## Coding Style Tooling
 Rather than spending precious time worrying about the correct format for syntax, it's much more convenient to have
