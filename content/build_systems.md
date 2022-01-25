@@ -15,7 +15,7 @@ Calls `opam`, `dune` and `odoc` behind the scenes.
 `drom` knows how to talk to github, is configured with `toml` files, and can produce `Sphinx` and `odoc` documentation.
 * [pesy](https://github.com/esy/pesy):
 On the other side of the package management divide,
-we have `pesy`, which uses `esy` as its build tools.
+we have `pesy`, which uses `esy` as its package management backend.
 
 ## Package Management
 
