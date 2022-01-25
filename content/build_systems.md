@@ -4,7 +4,28 @@ tags: [package_management, ecosystem]
 
 # Package Management
 
-* [OPAM](http://opam.ocaml.org/)  is the modern package manager for OCaml. If you want to publish a library
+We'll suggest the easiest tools to use first, and then explain the details.
+
+## End-to-End Project Management Tools
+
+* [drom](https://github.com/ocamlpro/drom):
+A full project management tool similar to Rust's `cargo`,
+aiming for the easiest possible user experience.
+Calls `opam`, `dune` and `odoc` behind the scenes.
+`drom` knows how to talk to github, is configured with `toml` files, and can produce `Sphinx` and `odoc` documentation.
+* [pesy](https://github.com/esy/pesy):
+On the other side of the package management divide,
+we have `pesy`, which uses `esy` as its build tools.
+
+## Package Management
+
+Due to legacy reasons, OCaml's package management and build story is complicated.
+Trust us though -- it's a lot better than it used to be!
+There are 2 main components: the build tool (everyone now uses `dune`),
+and the package management system (nowadays you have the choice of `OPAM` or `esy`).
+
+* [OPAM](http://opam.ocaml.org/) is the main modern package manager for OCaml.
+If you want to publish a library
 in OCaml, OPAM is your friend, taking care of package dependency and invoking the build system as needed.
     * [OPAM command tutorial with comparison to npm](opam_npm.md)
     * [opam-ci](https://github.com/ocaml/infrastructure/wiki/Using-the-opam-ci-tool), a plugin for OPAM,
@@ -12,32 +33,18 @@ in OCaml, OPAM is your friend, taking care of package dependency and invoking th
     You can see which packages compile and which are broken from the command line.
     * [OPAM 2.0 tips](https://opam.ocaml.org/blog/opam-20-tips/):
     Local opam installs, pinning, and lock files.
-* [opam-check-all](http://check.ocamllabs.io/): shows you all OPAM packages and their build status
-on multiple versions of the compiler.
-Provides filtering for specific package versions, build errors, and package authors.
-* [OPAM for Windows](https://fdopen.github.io/opam-repository-mingw):
-OPAM repository modified for native Windows usage.
-* [drom](https://github.com/ocamlpro/drom):
-A tool similar to Rust's `cargo`, that allows easy creation and management of projects.
-Calls `opam`, `dune` and `odoc` as needed.
-* [esy](https://esy.sh/)
-is a tool that is fully compatible with OPAM on the client side, while also allowing for the installation of
-ReasonML packages.
-Currently it is installed either via `npm` (the node.js package manager) or your operating system's package manager.
-What `esy` brings to the table that OPAM lacks is the ability to cache all installed packages,
-allowing for reuse of binaries, and for the effortless creation of sandboxed environments for each of your projects.
+    * [opam-check-all](http://check.ocamllabs.io/): shows you all OPAM packages and their build status
+    on multiple versions of the compiler.
+    Provides filtering for specific package versions, build errors, and package authors.
+    * [OPAM for Windows](https://fdopen.github.io/opam-repository-mingw):
+    OPAM repository modified for native Windows usage (deprecated).
 
-## Package Release System
-
-* [dune-release](https://github.com/samoht/dune-release): a tool for managing and releasing a package easily
-on OPAM.
-Built only for projects that use Dune as a build system.
-This is the tool you should use for easily updating your OPAM projects.
-* [topkg](https://github.com/dbuenzli/topkg):
-an alternative, older tool that allows you to easily release and maintain
-many OCaml packages at once.
-A little bit of extra metadata in your repo gives you the ability to use the
-topkg command line tools and manage your authored packages.
+* [esy](https://esy.sh/):
+An alternative tool for package management that draws on lessons learned from the JavaScript ecosystem.
+`esy` will be very comfortable for JavaScript developers coming to OCaml who are used to `npm`,
+but its approach of using only immutable packages and easy-to-create sandboxed environments could be useful
+to all developers.
+Currently `esy` is installed using `npm` (the node.js package manager).
 
 ## OCaml Build System
 
@@ -55,6 +62,22 @@ Reason (.re) files.
   Allows you to view your dependencies in graph form.
   * Cache: Dune now includes an opt-in feature that shares build artifacts. See [here](https://dune.readthedocs.io/en/stable/caching.html).
 
+## Package Release System
+
+Managing packages can take some effort, and there are some tools available for automating this process.
+
+* [dune-release](https://github.com/samoht/dune-release): a tool for managing and releasing a package easily
+on OPAM.
+Built only for projects that use Dune as a build system.
+This is the tool you should use for easily updating your OPAM projects.
+* [topkg](https://github.com/dbuenzli/topkg):
+an alternative, older tool that allows you to easily release and maintain
+many OCaml packages at once.
+A little bit of extra metadata in your repo gives you the ability to use the
+topkg command line tools and manage your authored packages.
+
+## Other Tooling
+
 * [ocamlscript](https://github.com/mjambon/ocamlscript):
 Allows you to run OCaml files as if they were scripts.
 Pre-compiles and runs them on the spot.
@@ -64,15 +87,15 @@ that allows local libraries to find each other on your system. You don't need to
 ocamlfind nowadays because Dune and OPAM (see below) will do all the work, but it's good to know about
 ocamlfind's existence.
 
-## ReasonML Build System/Package Management
+## Continuous Integration
 
-* Reason lives in the Javascript ecosystem, and as such, its build tool of choice is Bucklescript, and its
-package management solution is `npm`
+* [setup-ocaml](https://github.com/ocaml/setup-ocaml):
+Easy-to-use [Github Actions](https://github.com/features/actions) for running your code on Linux, Mac and Linux machines.
 
-### Legacy OCaml build systems
+## Legacy OCaml build systems
 
-You may find some other build systems used by various OCaml projects. The general recommendation though is to
-stick with Dune whenever possible.
+You may find some other build systems used by various OCaml projects.
+The general recommendation is to avoid these legacy tools.
 
 * [ocamlbuild](http://ocaml.org/learn/tutorials/ocamlbuild/) : the option most used as a build tool before Dune
 came about.
@@ -85,6 +108,3 @@ system used by Dune is composed of code from Jenga.
 OCaml-projects.
 * [obuild](https://github.com/ocaml-obuild/obuild) : Simple package build system for ocaml.
 
-## Continuous Integration
-* [setup-ocaml](https://github.com/ocaml/setup-ocaml):
-Easy-to-use [Github Actions](https://github.com/features/actions) for running your code on Linux, Mac and Linux machines.
