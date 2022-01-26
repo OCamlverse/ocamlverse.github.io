@@ -45,6 +45,7 @@ Its main advantages over OPAM are
     * Immutable packages managed in a git-like system.
     * All packages have been made relocatable.
     * lockfiles specifying precise package versions by default.
+    
 What this means is that sandboxed, isolated environments with a global binary cache are easier to create than in OPAM,
 as is a lockfile-based development approach.
 However, `esy`'s method suffers from the fact that even the slightest upgrade creates new binary artifacts,
