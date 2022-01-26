@@ -27,6 +27,9 @@ and the package management system (nowadays you have the choice of `OPAM` or `es
 * [OPAM](http://opam.ocaml.org/) is the main modern package manager for OCaml.
 If you want to publish a library
 in OCaml, OPAM is your friend, taking care of package dependency and invoking the build system as needed.
+OPAM supports lockfiles and sandboxing (local switch creation),
+but the features aren't as well-integrated as they are in `esy`.
+
     * [OPAM command tutorial with comparison to npm](opam_npm.md)
     * [opam-ci](https://github.com/ocaml/infrastructure/wiki/Using-the-opam-ci-tool), a plugin for OPAM,
     provides access to full continuous integration information about every package in OPAM.
