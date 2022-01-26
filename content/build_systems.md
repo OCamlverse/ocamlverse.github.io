@@ -40,19 +40,20 @@ in OCaml, OPAM is your friend, taking care of package dependency and invoking th
     OPAM repository modified for native Windows usage (deprecated).
 
 * [esy](https://esy.sh/):
-An alternative tool for package management that draws on lessons learned from the JavaScript ecosystem.
-Its main advantages over OPAM are
+    An alternative tool for package management that draws on lessons learned from the JavaScript ecosystem.
+    Its main advantages over OPAM are
+    
     * Immutable packages managed in a git-like system.
     * All packages have been made relocatable.
     * lockfiles specifying precise package versions by default.
     
-What this means is that sandboxed, isolated environments with a global binary cache are easier to create than in OPAM,
-as is a lockfile-based development approach.
-However, `esy`'s method suffers from the fact that even the slightest upgrade creates new binary artifacts,
-causing garbage to pile up.
-A periodic garbage collection is therefore recommended.
-Currently `esy` is installed using `npm` (the node.js package manager),
-but this is done purely for ease of distribution.
+    What this means is that sandboxed, isolated environments with a global binary cache are easier to create than in OPAM,
+    as is a lockfile-based development approach.
+    However, `esy`'s method suffers from the fact that even the slightest upgrade creates new binary artifacts,
+   causing garbage to pile up.
+   A periodic garbage collection is therefore recommended.
+   Currently `esy` is installed using `npm` (the node.js package manager),
+   but this is done purely for ease of distribution.
 
 ## OCaml Build System
 
