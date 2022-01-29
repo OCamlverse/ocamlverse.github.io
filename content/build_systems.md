@@ -13,9 +13,14 @@ A full project management tool similar to Rust's `cargo`,
 aiming for the easiest possible user experience.
 Calls `opam`, `dune` and `odoc` behind the scenes.
 `drom` knows how to talk to github, is configured with `toml` files, and can produce `Sphinx` and `odoc` documentation.
+* [spin](https://github.com/tmattio/spin):
+For easy project initialization, you may want to try `spin`.
+It has all sorts of templates for different kinds of project (more than `drom` does),
+but unlike `drom` it doesn't manage the various OCaml tools.
 * [pesy](https://github.com/esy/pesy):
 On the other side of the package management divide,
 we have `pesy`, which uses `esy` as its package management backend.
+
 
 ## Package Management
 
