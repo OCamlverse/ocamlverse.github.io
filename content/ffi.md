@@ -21,9 +21,14 @@ This method is error prone, and you're advised to stay away from it unless it's 
 
 ## Python FFI
 
-* [Py](https://github.com/zshipko/ocaml-py): Library for interacting with Python 3.5 using Ctypes.
-* [Pyml](https://github.com/thierry-martinez/pyml): Library for interacting with python. Uses C stubs.
-* [lymp](https://github.com/dbousque/lymp): Another library for interacting with Python, this one using a Python process.
+* [pyml](https://github.com/thierry-martinez/pyml):
+Library for interacting with python. Uses C stubs.
+* [pyml_bindgen](https://github.com/mooreryan/ocaml_python_bindgen):
+Automatically create bindings to python libraries with minimal boilerplate utilizing `pyml`. 
+* [Py](https://github.com/zshipko/ocaml-py):
+Library for interacting with Python 3.5 using Ctypes.
+* [lymp](https://github.com/dbousque/lymp):
+Another library for interacting with Python, this one using a Python process.
 
 ## Rust FFI
 
