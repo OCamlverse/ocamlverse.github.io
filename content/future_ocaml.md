@@ -33,7 +33,7 @@ while also allowing for native green thread support via algebraic effects.
 Part of the plan for multicore OCaml is to include non-monadic green threading into the runtime.
 In order to allow for this, algebraic effects are being added to the language.
 These are similar to exceptions but with a bookmark to the current position of the execution
-(aka continutation) added to each "exception" (aka effect) thrown,
+(aka continuation) added to each "exception" (aka effect) thrown,
 so one has the option to continue execution after handling the effect.
 
 Initially, this was going to exist outside of the type system.
