@@ -32,18 +32,15 @@ similar to the ListLabels, ArrayLabels, etc modules in the standard library. Add
 polymorphic comparison anywhere in its API.
   * [Documentation for Base](https://ocaml.janestreet.com/ocaml-core/latest/doc/base/index.html)
 * [Containers](https://github.com/c-cube/ocaml-containers)  is a lightweight and modern-style standard library which
-extends the standard library with additional functionality while applying more modern design concepts. As of version
-2.0, Containers does not use polymorphic comparison anywhere.
+extends the standard library with additional functionality while applying more modern design concepts. Code written using the stdlib should continue working after adding `open Containers`, and benefit from richer `List`, `Option`, `Seq`, etc. modules. A few new modules are introduced for critical functionalities, such as `Vector`, `Heap`, `IO`, and `Sexp`. 
   * [Documentation for Containers](http://c-cube.github.io/ocaml-containers/last/containers/index.html)
-  * If you're going to be using `Containers`, [Iter](https://github.com/c-cube/iter),
-  the accompanying iterator library, comes highly recommended.
+  * The accompanying library [containers-data](http://c-cube.github.io/ocaml-containers/last/containers-data/index.html) contains additional data structures such as bitvectors, graphs, Patricia trees, etc.
 * [Core](https://github.com/janestreet/core)  is Jane Street's expanded standard library, sitting on top of Base.
 Core is more comprehensive than Base.
 * [Batteries Included](https://github.com/ocaml-batteries-team/batteries-included)  is a mature, full-featured
 standard library,
 taking the approach of extending the standard library with additional functionality (like Containers) rather than
-replacing it wholesale (unlike Base). It includes many data structures and algorithms. Note that Containers came about as a
-split-off from Batteries.
+replacing it wholesale (unlike Base). It includes many data structures and algorithms. Note that Containers was created to follow a different design than Batteries.
 * [BOS - Basic OS Interaction](https://github.com/dbuenzli/bos)
 is a higher-level OS interaction layer containing many elements,
 including file manipulation, command line argument parsing, etc.
