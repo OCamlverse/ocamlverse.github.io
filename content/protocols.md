@@ -42,7 +42,7 @@ Full findings to Protobuf messages and types. Implements the full proto3 specifi
 * [vcaml](https://github.com/janestreet/vcaml):
 Bindings for [Neovim](https://neovim.io/).
 Contains the fullest implementation of msgpack for OCaml.
-* [ocaml-msgpack](https://github.com/vbmithr/ocaml-msgpck):
+* [ocaml-msgpck](https://github.com/vbmithr/ocaml-msgpck):
 another implementation of msgpack.
 * [msgpack-ocaml](https://github.com/msgpack/msgpack-ocaml):
 Slower, but the implementation is backed by a proof in `Coq`.
