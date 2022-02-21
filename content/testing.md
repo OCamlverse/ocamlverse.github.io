@@ -19,8 +19,8 @@ a unit testing framework for Haskell.
 It allows one to easily create unit-tests for OCaml code.
 * [QCheck](https://github.com/c-cube/qcheck):
 a property testing library inspired by Haskell's QuickCheck.
-* [iTeML](https://github.com/vincent-hugot/iTeML): formerly known as
-[qtest](http://batteries.vhugot.com/qtest/), it supports inline pragmas to generate tests.
+* [qtest](https://github.com/vincent-hugot/qtest):
+Write simple inline pragmas to generate, random or otherwise.
 * [Kaputt](http://kaputt.x9c.fr): a comprehensive testing framework.
 * [Pa_test](https://ocaml.janestreet.com/ocaml-core/111.28.00/doc/pa_test):
 general inline testing macros.
