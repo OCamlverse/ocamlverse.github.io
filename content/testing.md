@@ -4,22 +4,27 @@ tags: [ecosystem]
 
 # Testing
 
-* [ppx_expect](https://github.com/janestreet/ppx_expect):
-a Cram-like framework for OCaml, enabled by PPX metaprogramming.
-Write some code that creates output, and then create expectation tests that match
-the output against a canonical version you write.
-* [mdx](https://github.com/realworldocaml/mdx):
-ensure correctness of example code blocks in Markdown files
-(Cram-like testing for the output of shell scripts and OCaml toplevel code).
+OCaml has many testing frameworks to choose from:
+
+* [expect-test](https://github.com/janestreet/ppx_expect):
+a Cram framework for OCaml, enabled by PPX metaprogramming.
+Write some code that creates textual output, then create expectation tests that test against
+said output.
+Usage of PPX means you need to write a minimal amount of code,
+and the simplicity means you don't need to look up much.
 * [Alcotest](https://github.com/mirage/alcotest):
-a lightweight and colourful test framework.
-* [OUnit](http://ounit.forge.ocamlcore.org/):
-a unit test framework for OCaml.
+a lightweight test framework. Nice terminal UI with color for results.
+`Alcotest` can compare many different kinds of outputs, but requires a bit more boilerplate
+than `expect-test`, as well as looking up different kinds of tests.
+* [OUnit](https://github.com/gildor478/ounit):
+an older but still competitive unit test framework for OCaml.
+Tests are done via `assert_equal` statements.
+A little bit of boilerplate is needed.
 * [QCheck](https://github.com/c-cube/qcheck):
 a library that allows you to create unit tests based on random input.
 * [qtest](https://github.com/vincent-hugot/qtest):
-write simple inline pragmas to generate unit tests for your code in-place.
-It can integrate `QCheck` tests to have random testing, too.
+write simple inline pragmas within your code to generate unit tests.
+`qtest` can integrate `QCheck` tests to have random testing, too.
 * [Kaputt](http://kaputt.x9c.fr): a comprehensive testing framework.
 * [Pa_test](https://ocaml.janestreet.com/ocaml-core/111.28.00/doc/pa_test):
 general inline testing macros.
@@ -36,6 +41,9 @@ Built on `QCheck`.
 * [Monolith](https://gitlab.inria.fr/fpottier/monolith):
 Specify the behavior of a program and perform random or fuzz testing on it automatically.
 [Paper](http://cambium.inria.fr/~fpottier/publis/pottier-monolith-2021.pdf)
+* [mdx](https://github.com/realworldocaml/mdx):
+Execute OCaml code blocks inside Markdown files.
+Also supports Cram tests.
 
 
 ## Fuzzing
