@@ -14,13 +14,12 @@ ensure correctness of example code blocks in Markdown files
 * [Alcotest](https://github.com/mirage/alcotest):
 a lightweight and colourful test framework.
 * [OUnit](http://ounit.forge.ocamlcore.org/):
-a unit test framework for OCaml based on HUnit,
-a unit testing framework for Haskell.
-It allows one to easily create unit-tests for OCaml code.
+a unit test framework for OCaml.
 * [QCheck](https://github.com/c-cube/qcheck):
 a library that allows you to create unit tests based on random input.
 * [qtest](https://github.com/vincent-hugot/qtest):
-write simple inline pragmas to generate unit tests for your code, random or otherwise.
+write simple inline pragmas to generate unit tests for your code in-place.
+It can integrate `QCheck` tests to have random testing, too.
 * [Kaputt](http://kaputt.x9c.fr): a comprehensive testing framework.
 * [Pa_test](https://ocaml.janestreet.com/ocaml-core/111.28.00/doc/pa_test):
 general inline testing macros.
