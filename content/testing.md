@@ -18,9 +18,9 @@ a unit test framework for OCaml based on HUnit,
 a unit testing framework for Haskell.
 It allows one to easily create unit-tests for OCaml code.
 * [QCheck](https://github.com/c-cube/qcheck):
-a property testing library inspired by Haskell's QuickCheck.
+a library that allows you to create unit tests based on random input.
 * [qtest](https://github.com/vincent-hugot/qtest):
-Write simple inline pragmas to generate unit tests for your code, random or otherwise.
+write simple inline pragmas to generate unit tests for your code, random or otherwise.
 * [Kaputt](http://kaputt.x9c.fr): a comprehensive testing framework.
 * [Pa_test](https://ocaml.janestreet.com/ocaml-core/111.28.00/doc/pa_test):
 general inline testing macros.
