@@ -149,6 +149,7 @@ Introduction to Unix system programming, with an emphasis on communications betw
 ## Advanced Topics
 
 * [Quick and Dirty Guide to Monadic Parsers and Angstrom](monadic-parsers-angstrom.md)
+* [The Tagless Final pattern](https://discuss.ocaml.org/t/explain-like-im-5-years-old-tagless-final-pattern/9394)
 
 ### Modules and Functors
 
