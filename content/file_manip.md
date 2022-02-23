@@ -13,3 +13,7 @@ Jane Street library providing expanded handling of input and output from files.
 a cross-platform file path manipulation library.
 * [Directories](https://github.com/OCamlPro/directories):
 cross-platform support for config, cache and data paths.
+
+## Low Level
+* [Bitstring](https://github.com/xguerin/bitstring):
+Low level manipulation of bits in a file or bytes object.
