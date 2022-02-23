@@ -37,7 +37,7 @@ show all configuration parameters for the compiler. Very useful.
 
 * [Description of allocator schemes](http://gallium.inria.fr/~scherer/doc/chameau-sur-le-plateau/2019-10-08-damien-doligez-major-allocator.org)
 * [Low-latency garbage collection](https://blog.janestreet.com/building-a-lower-latency-gc/)
-
+* [How OCaml OOP is implemented](http://ambassadortothecomputers.blogspot.com/2010/03/inside-ocaml-objects.html)
 
 ## Compiler Internals
 
