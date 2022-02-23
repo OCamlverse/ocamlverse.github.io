@@ -6,6 +6,8 @@ tags: [compiler]
 
 The OCaml compiler is a complicated piece of software. Below is an attempt to document information that could not fit easily into the codebase, including relevant papers. Feel free to break this up into pages as the need arises.
 
+* [Object-Oriented Programming](objects.md)
+
 ## Articles
 
 * [Runtime memory layout from the Real World OCaml book](https://dev.realworldocaml.org/runtime-memory-layout.html)
