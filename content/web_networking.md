@@ -25,8 +25,8 @@ Sinatra like micro-framework web toolkit for OCaml.
     * [Tutorial: Building an OCaml WebApp](https://shonfeder.gitlab.io/ocaml_webapp/)
 * [ocamlapi](https://github.com/nosman/Ocamlapi):
 Routing with ppx support. Uses cohttp and Core.
-* [async-http](https://gitlab.com/anuragsoni/async-http):
-Thin wrapper around httpaf for server/client creation.
+* [async_http](https://github.com/anuragsoni/async_http):
+HTTP/1.1 server implementation for Async.
 Supports both regular async TCP connections and encrypted connections via async_ssl.
 * [tiny httpd](https://github.com/c-cube/tiny_httpd):
 Simple HTTP server like python's SimpleHTTPServer, for serving files.
