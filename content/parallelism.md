@@ -96,8 +96,8 @@ great article on using the Multicore OCaml branch.
 ### Distributed Computing
 
 Distributed computing is similar to process-based parallelism, except that the child
-processes may or may not be on remote (though generally not too remote) machines.
-Therefore, distributed computing libraries generally can perform parallelism on the same machine.
+processes may or may not be on remote machines.
+Therefore, distributed computing libraries generally also perform parallelism on the same machine as well.
 
 * [Rpc.Parallel](https://github.com/janestreet/rpc_parallel):
 a library for spawning processes on a cluster of machines, and passing typed messages between them.
