@@ -80,12 +80,13 @@ and running a *custom-made garbage collector* on said region.
 * [Sklml](http://sklml.inria.fr):
 A functional parallel skeleton compiler and programming system for OCaml programs.
 
-### Multicore OCaml
+### Multicore OCaml 5.0
 
 The most promising and powerful way to use multicore is with the new
-[multicore](https://github.com/ocamllabs/ocaml-multicore) branch.
-This branch uses a parallel garbage collector,
-which means that OCaml will eventually be able to run on multiple cores in the same process.
+[multicore](https://github.com/ocamllabs/ocaml-multicore) branch,
+has recently been incorporated into OCaml 5.0.
+OCaml 5.0 will use a parallel garbage collector,
+which means that it will eventually be able to run on multiple cores in the same process.
 Note that this branch is not yet ready for real work, but it's rapidly advancing.
 For more information, consult the [Multicore Wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
 
