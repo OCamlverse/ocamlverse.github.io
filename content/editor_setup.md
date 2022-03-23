@@ -25,7 +25,7 @@ In order to just have basic Merlin support, all you need is to add this snippet 
 
 ```
 if executable('opam')
-  let g:opamshare=substitute(system('opam config var share'),'\n$','','''')
+  let g:opamshare=substitute(system('opam var share'),'\n$','','''')
   if isdirectory(g:opamshare."/merlin/vim")
     execute "set rtp+=" . g:opamshare."/merlin/vim"
   endif
