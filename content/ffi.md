@@ -25,6 +25,8 @@ This method is error prone, and you're advised to stay away from it unless it's 
 Library for interacting with python. Uses C stubs.
 * [pyml_bindgen](https://github.com/mooreryan/ocaml_python_bindgen):
 Automatically create bindings to python libraries with minimal boilerplate utilizing `pyml`. 
+* [OCaml-in-Python](https://github.com/thierry-martinez/ocaml-in-python):
+Easily call OCaml code from Python.
 * [Py](https://github.com/zshipko/ocaml-py):
 Library for interacting with Python 3.5 using Ctypes.
 * [lymp](https://github.com/dbousque/lymp):
