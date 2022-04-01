@@ -93,9 +93,8 @@ For usage of OCaml in hardware design, see [Hardware Design](hardware_design.md)
 ## Iterators
 See [Iterators](iterators.md)
 
-## Lens
-[Accessors](https://github.com/janestreet/accessor):
-a Lens library (easy access/functional updates to records).
+## Lenses
+See [Lenses](lenses.md)
 
 ## Logging
 See [Logging](logging.md).
