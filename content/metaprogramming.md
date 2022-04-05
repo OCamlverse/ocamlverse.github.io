@@ -32,10 +32,6 @@ A nice, simple ppx using `ppxlib` that serves as a good example for potential pp
 * [ppx_deriving](https://github.com/ocaml-ppx/ppx_deriving):
 Type-based framework for ppx extensions.
 Contains built-in plugins for `show`, `eq`, `ord`, `enum`, `iter`, `map`, `fold`, and `make`.
-  * NOTE: `ppx_deriving` currently doesn't make use of `ppxlib`, making it hard to update for future
-      OCaml releases.
-      As powerful as `ppx_deriving` is, we recommend trying to find a `ppxlib`-based extension instead,
-      which will then be a lot more robust going forward.
 * [ppx_show](https://gitlab.inria.fr/tmartine/ppx_show/):
 A `show` deriver, creating functions for printing out values.
 Uses `ppxlib`, which makes it forward-compatible.
