@@ -20,6 +20,8 @@ Nice and thorough introduction to writing PPXs using `ppxlib`.
 * [A Guide to Extension Points in OCaml](http://whitequark.org/blog/2014/04/16/a-guide-to-extension-points-in-ocaml/)
 * [Extension Points, or how OCaml is becoming more like Lisp](https://blogs.janestreet.com/extension-points-or-how-ocaml-is-becoming-more-like-lisp)
 * [A guide to writing PPX Deriving plugins](http://rgrinberg.com/posts/deriving-slowly/)
+* [Am I missing some comprehensive ppxlib resource somewhere?](https://discuss.ocaml.org/t/am-i-missing-some-comprehensive-ppxlib-resource-somewhere/9277):
+A discuss post which turned into an important resource about aspects of PPX writing such as `Ast_pattern`.
 * [ppxlib as the new standard](https://discuss.ocaml.org/t/ppx-omp-2-0-0-and-next-steps/6231)
 * Older: [The Future of PPX: post on discuss](https://discuss.ocaml.org/t/the-future-of-ppx/3766)
 
