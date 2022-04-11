@@ -12,7 +12,7 @@ functional programming language.
 * [Windows Support](content/windows_support.md)
 * [Ecosystem](content/ecosystem.md)
 * [Future of OCaml](content/future_ocaml.md)
-* [Help Needed](content/help_needed.md):
+* [Help Wanted](content/help_needed.md):
 list of projects that could use assistance.
 * [Compiler](content/compiler.md)
 * [Interesting Videos](content/video.md)
