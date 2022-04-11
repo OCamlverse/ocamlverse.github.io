@@ -11,7 +11,7 @@ Work is ongoing to create the next version at OCamlPro.
 See [this post](https://www.ocamlpro.com/2019/08/30/ocamlpros-compiler-team-work-update/)
 and [this development branch](https://github.com/mshinwell/ocaml/tree/flambda2.0).
 
-### Multicore OCaml
+### OCaml 5.0
 
 Currently, OCaml has a global runtime lock,
 with support for green threads (concurrency) via `lwt` and `Async`.
