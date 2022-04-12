@@ -44,6 +44,7 @@ See [Build System and Package Management](build_systems.md)
 A User file system for Google Drive. Also one of the few ways to sync Google Drive from Linux.
 * [aws-lambda](https://github.com/anmonteiro/aws-lambda-ocaml-runtime):
 OCaml runtime for AWS Lambda.
+* [ocaml-aws](https://github.com/inhabitedtype/ocaml-aws): OCaml bindings for AWS generated from botocore definitons.
 
 ## Code Tools
 See [Code Tools](code_tools.md)
