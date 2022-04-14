@@ -17,9 +17,9 @@ infrastructure in the OCaml world.
 * [Community poll on OCaml](https://docs.google.com/forms/d/1OZV7WCprDnouU-rIEuw-1lDTeXrH_naVlJ77ziXQJfg/viewanalytics?gxids=7628):
 How the community views the language and ecosystem.
 
-## Help Needed
+## Help Wanted
 For a list of things currently missing in OCaml's ecosystem,
-see [Help Needed](help_needed.md)
+see [Help Wanted](help_wanted.md)
 
 ## Standard Libraries
 For an overview of the different standard library options and recommendations,
