@@ -11,6 +11,13 @@ thinks work is needed.
 It's worth keeping in mind that making the ecosystem just a little more usable,
 especially at critical points, can have massive implications downstream.
 
+## Windows Support
+
+- [Diskuv Box](https://github.com/diskuv/diskuvbox):
+Adding native Windows support requires getting rid of the usage of small bash utilities.
+`Diskuv Box` is a file utility working on replacing bash utilities with a cross-platform program
+so that OCaml can easily work on Windows.
+
 ## Web and Networking
 
 - [gRPC](https://grpc.io/): no support.
