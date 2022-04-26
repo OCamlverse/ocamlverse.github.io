@@ -6,6 +6,14 @@ tags: [ecosystem]
 
 Interop with C/C++ is the most natural option for OCaml, since the runtime is partially written in C.
 
+## Miscellaneous
+
+* [optint](https://github.com/mirage/optint):
+OCaml's built-in `int` is 63-bits on 64-bit platforms and 31-bits on 32-bit platforms.
+`optint` allows 64-bit platforms to use the native `int` type for 32-bit values,
+while boxing on those platforms that need it (32-bit).
+This is extremely useful for high-performance interop with other languages, network protocols etc.
+
 ## C FFI
 
 * [ctypes](https://github.com/ocamllabs/ocaml-ctypes): Modern library for binding to C libraries using pure OCaml.
