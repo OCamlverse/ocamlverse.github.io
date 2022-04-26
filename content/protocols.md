@@ -47,4 +47,10 @@ another implementation of msgpack.
 * [msgpack-ocaml](https://github.com/msgpack/msgpack-ocaml):
 Slower, but the implementation is backed by a proof in `Coq`.
 
+## Miscellaneous
+* [optint](https://github.com/mirage/optint):
+OCaml's built-in `int` is 63-bits on 64-bit platforms and 31-bits on 32-bit platforms.
+`optint` allows 64-bit platforms to use the native `int` type for 32-bit values,
+while boxing on those platforms that need it (32-bit).
+This is extremely useful for high-performance interop with other languages, network protocols etc.
 
