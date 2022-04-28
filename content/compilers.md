@@ -60,6 +60,10 @@ A typechecker for Python written by Facebook.
 * [mpst](https://github.com/keigoi/ocaml-mpst):
 Multiparty Session Types. A communication library guaranteeing important properties.
 
+# Miscellaneous
+* [pp-loc](https://github.com/Armael/pp_loc):
+[PPX](ppx.md) processor that generates nice error messages, just like the OCaml compiler.
+
 ## Articles:
 
 * [Kaleidoscope: Implementing a Language with LLVM in Objective Caml](http://llvm.org/docs/tutorial/OCamlLangImpl1.html) 
