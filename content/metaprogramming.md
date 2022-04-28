@@ -68,6 +68,8 @@ A syntax extension for embedded SQL queries using PG'OCaml. See [Databases](data
 Write C functions directly in your OCaml code. See [FFI](ffi.md).
 * [ppx-tyxml](https://ocsigen.org/tyxml/4.3.0/manual/ppx):
 Convert html/xml syntax to `tyxml` function calls.
+* [ppx-loc](https://github.com/Armael/pp_loc):
+Display nice error messages with source location. For compilers etc.
 
 #### Protocol-related
 
