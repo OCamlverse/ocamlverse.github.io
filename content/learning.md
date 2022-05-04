@@ -53,7 +53,10 @@ Local opam installs, pinning, and lock files.
 Several guidelines for best practices have been established by the community.
 See [Best Practices](best_practices.md).
 
-### Beginner Books
+### Videos
+* [Youtube series](https://www.youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU) that accompanies the Cornell course (see in Books).
+
+### Books
 
 * [Real World OCaml](https://dev.realworldocaml.org/) by Y. Minsky, A. Madhavapeddy and J. Hickey (free online):
 Functional programming for the masses.
