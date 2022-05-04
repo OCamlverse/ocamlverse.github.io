@@ -69,7 +69,7 @@ It is a modified version of Think Python by Allen Downey.
 This book is intended for newcomers to programming and also those who know some programming but
 want to learn programming in the function-oriented paradigm,
 or those who simply want to learn OCaml.
-* [OCaml from the Very Beginning](http://ocaml-book.com/) by J. Whitington:
+* [OCaml from the Very Beginning](https://johnwhitington.net/ocamlfromtheverybeginning/) by J. Whitington (free online):
 A book for both new programmers and experienced programmers eager to explore functional languages such as OCaml.
 
 ### Online Exercises for Beginners
