@@ -58,22 +58,22 @@ See [Best Practices](best_practices.md).
 
 ### Books
 
-* [Real World OCaml](https://dev.realworldocaml.org/) by Y. Minsky, A. Madhavapeddy and J. Hickey (free online):
-Functional programming for the masses.
-The latest, most up-to-date, and arguably the most readable book on OCaml.
-Note that the book uses only Jane Street libraries, but the material can be applied to other libraries.
-  * [RWO-lwt](https://github.com/dkim/rwo-lwt):
-  translation of the `Async` code examples in the book to use `lwt`.
 * [Cornell OCaml Textbook](https://www.cs.cornell.edu/courses/cs3110/2020fa/textbook/) (free online):
 Excellent free online book, covering both beginner and advanced topics.
+* [OCaml from the Very Beginning](https://johnwhitington.net/ocamlfromtheverybeginning/) by J. Whitington (free online):
+A book for both new programmers and experienced programmers eager to explore functional languages such as OCaml.
+* [Real World OCaml](https://dev.realworldocaml.org/) by Y. Minsky, A. Madhavapeddy and J. Hickey (free online):
+Functional programming for the masses.
+A book that discusses both beginner and advanced topics.
+Note that the book utilizies Jane Street libraries, but the material can be applied to non-Jane Street libraries as well.
+  * [RWO-lwt](https://github.com/dkim/rwo-lwt):
+  translation of the Jane Street concurrency `Async` library code examples in the book to use the `lwt` library.
 * [How to Think Like a (Functional) Programmer](http://www.greenteapress.com/thinkocaml/index.html) by Allen Downey and Nicholas Monje (free online):
 An introductory programming textbook using OCaml.
 It is a modified version of Think Python by Allen Downey.
 This book is intended for newcomers to programming and also those who know some programming but
 want to learn programming in the function-oriented paradigm,
 or those who simply want to learn OCaml.
-* [OCaml from the Very Beginning](https://johnwhitington.net/ocamlfromtheverybeginning/) by J. Whitington (free online):
-A book for both new programmers and experienced programmers eager to explore functional languages such as OCaml.
 
 ### Online Exercises for Beginners
 
