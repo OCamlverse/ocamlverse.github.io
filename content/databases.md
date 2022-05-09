@@ -36,7 +36,8 @@ Syntax extension for mysql bindings. [Blog post](https://engineering.issuu.com/2
 (Needs update to latest OCaml)
 Create type-safe queries. Currently with bindings to MySQL/MariaDB and SQLite.
 * [mysql](http://ocaml-mysql.forge.ocamlcore.org/):
-(Out of date)
+(Older version of mysql)
+mysql library.
 
 ## OCaml Databases
 
