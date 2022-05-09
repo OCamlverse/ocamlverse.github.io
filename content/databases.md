@@ -8,9 +8,6 @@ tags: [ecosystem]
 
 * [Caqti](https://github.com/paurkedal/ocaml-caqti): monadic, asynchronous common interface to relational databases.
 Currently supports MariahDB, PostgreSQL and SQLite3.
-* [Sequoia](https://github.com/andrenth/sequoia):
-(Needs update to latest OCaml)
-Create type-safe queries. Currently with bindings to MySQL/MariaDB and SQLite.
 * [Mongo](https://massd.github.io/mongo/): OCaml driver for Mongodb
 * [OCaml-mariahdb](https://github.com/andrenth/ocaml-mariadb): OCaml bindings to MariahDB interface.
 * [PG'OCaml](https://github.com/darioteixeira/pgocaml):
@@ -23,9 +20,9 @@ Prioritizes simplicity. Wraps around PostgreSQL-OCaml.
 * [SQLite3-OCaml](https://github.com/mmottl/sqlite3-ocaml/): OCaml bindings to the SQLite3 database.
 * [Sqlite3EZ](https://mlin.github.io/ocaml-sqlite3EZ/): thin wrapper for SQLite3 with a simplified interface.
 * [ocaml-redis](https://github.com/0xffea/ocaml-redis): Redis bindings for OCaml.
-* [mysql](http://ocaml-mysql.forge.ocamlcore.org/):
-(Out of date)
-Bindings to libmysqlclient for interacting with MySQL databases.
+* [mysql8](https://github.com/chrisnevers/mysql8):
+Bindings to the latest version of the mysql database.
+[docs](https://chrisnevers.github.io/mysql8/mysql8/index.html)
 * [ppx_mysql](https://github.com/issuu/ppx_mysql):
 Syntax extension for mysql bindings. [Blog post](https://engineering.issuu.com/2019/05/06/announcing-ppx-mysql).
 * [mysql_protocol](https://github.com/slegrand45/mysql_protocol): implementation of MySQL Protocol with the Bitstring library.
@@ -33,6 +30,13 @@ Syntax extension for mysql bindings. [Blog post](https://engineering.issuu.com/2
 * [camltc](https://github.com/toolslive/camltc): OCaml bindings to [Tokyo Cabinet](https://github.com/Incubaid/tokyocabinet).
 * [orocksdb](https://github.com/domsj/orocksdb): OCaml RocksDB bindings using ctypes.
 * [ppx_rapper](https://github.com/roddyyaga/ppx_rapper): a syntax extension for PostgreSQL using Caqti
+
+### Out of Date
+* [Sequoia](https://github.com/andrenth/sequoia):
+(Needs update to latest OCaml)
+Create type-safe queries. Currently with bindings to MySQL/MariaDB and SQLite.
+* [mysql](http://ocaml-mysql.forge.ocamlcore.org/):
+(Out of date)
 
 ## OCaml Databases
 
