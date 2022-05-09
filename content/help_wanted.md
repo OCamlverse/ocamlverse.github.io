@@ -11,6 +11,10 @@ thinks work is needed.
 It's worth keeping in mind that making the ecosystem just a little more usable,
 especially at critical points, can have massive implications downstream.
 
+## Databases
+
+Both [Sequoia](https://github.com/andrenth/sequoia) and [ocaml-mysql](https://github.com/ygrek/ocaml-mysql) are out of date and need to be updated to the latest versions of OCaml, to use dune etc.
+
 ## Windows Support
 
 - [Diskuv Box](https://github.com/diskuv/diskuvbox):
