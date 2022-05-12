@@ -57,3 +57,4 @@ a scientific computing library that accelerates mathematical code.
 If you're considering writing code that's heavy in floating point math,
 you should be using Owl.
 * [Article on optimization of the `decompress` library](https://tarides.com/blog/2019-09-13-decompress-experiences-with-ocaml-optimization.html)
+* [Thread discussing optimization of an OCaml program and comparing it to awk](https://discuss.ocaml.org/t/can-performance-be-improved-for-this-code/9831)
