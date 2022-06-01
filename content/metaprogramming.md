@@ -70,6 +70,8 @@ Write C functions directly in your OCaml code. See [FFI](ffi.md).
 Convert html/xml syntax to `tyxml` function calls.
 * [ppx-loc](https://github.com/Armael/pp_loc):
 Display nice error messages with source location. For compilers etc.
+* [ppx_blob](https://github.com/johnwhitington/ppx_blob):
+Include arbitrary file data as a string in OCaml without having to worry about lexical conventions.
 
 #### Protocol-related
 
