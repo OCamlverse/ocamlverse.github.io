@@ -1,3 +1,7 @@
+---
+tags: [learning]
+---
+
 # Tips and Tricks
 
 ## Private Module Members
