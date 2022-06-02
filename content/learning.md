@@ -92,6 +92,7 @@ The classic 99 problems, with solutions in OCaml.
 
 ## Intermediate Topics
 
+* [Tips and Tricks](tips_tricks.md)
 * [BigArray](bigarray.md):
 A high-performance array for interacting with non-OCaml programs.
 * [ocamlunix](https://ocaml.github.io/ocamlunix/ocamlunix.html):
