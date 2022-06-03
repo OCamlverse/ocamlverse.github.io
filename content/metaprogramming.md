@@ -19,14 +19,15 @@ You should familiarize yourself with at least some of these, as they will save y
 The basic functionality added to OCaml via `ppx` is things like enumerating variants,
 displaying type details etc.
 
-* [ppx_enum](https://github.com/cryptosense/ppx_enum):
-A nice, simple ppx using `ppxlib` that serves as a good example for potential ppx writers.
 * [ppx_deriving](https://github.com/ocaml-ppx/ppx_deriving):
 Type-based framework for ppx extensions.
-Contains built-in plugins for `show`, `eq`, `ord`, `enum`, `iter`, `map`, `fold`, and `make`.
-* [ppx_show](https://gitlab.inria.fr/tmartine/ppx_show/):
-A `show` deriver, creating functions for printing out values.
-Uses `ppxlib`, which makes it forward-compatible.
+Contains built-in plugins for
+    * `show`: convert variants to strings for easy display.
+    * `eq`: generate equality functions easily.
+    * `ord`: generate comparison functions.
+    * `enum`: variants without arguments can be converted to numbers.
+    * `iter`, `map`, `fold`: easily create iteration functions for any type.
+    * `make`: automatic creation functions for records.
 * [ppx_visitors](https://gitlab.inria.fr/fpottier/visitors):
 Automatically use the visitor object-oriented pattern on a data structure,
 extending it with behaviors rather than needing to specify each variant's behavior.
