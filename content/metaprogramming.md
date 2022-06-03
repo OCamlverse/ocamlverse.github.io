@@ -65,6 +65,8 @@ Convert html/xml syntax to `tyxml` function calls.
 Display nice error messages with source location. For compilers etc.
 * [ppx_blob](https://github.com/johnwhitington/ppx_blob):
 Include arbitrary file data as a string in OCaml without having to worry about lexical conventions.
+* [ppx_deriving_cmdliner](https://github.com/hammerlab/ppx_deriving_cmdliner):
+The easiest way to write command-line argument code.
 
 #### Protocol-specific PPX
 
