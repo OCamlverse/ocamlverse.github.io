@@ -5,8 +5,8 @@ tags: [ecosystem]
 # Metaprogramming and PPX
 
 `ppx` is the main syntax extension format supported by OCaml.
-It allows for many features that aren't included in the core language to be 'tacked on',
-particularly ones that involve cutting out boilerplate code.
+It allows for many features that aren't included in the core language to be added on,
+particularly ones that involve reducing boilerplate code.
 For example, there's usually no need to write code manually for the serialization or comparison of types.
 
 ## PPX Extensions
