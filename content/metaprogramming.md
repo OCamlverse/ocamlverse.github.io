@@ -4,28 +4,20 @@ tags: [ecosystem]
 
 # Metaprogramming and PPX
 
-## PPX Syntax Extensions
+`ppx` is the main syntax extension format supported by OCaml.
+It allows for many features that aren't included in the core language to be 'tacked on',
+particularly ones that involve cutting out boilerplate code.
+For example, there's usually no need to write code manually for the serialization or comparison of types.
 
-ppx is the syntax extension format supported currently by OCaml. It replaces older techniques such as Camlp4 by limiting the scope of language extensions and dedicating to them a specific syntax.
+## PPX Extensions
 
-* [ppxlib](https://github.com/ocaml-ppx/ppxlib): The modern solution for writing PPX extensions. Without this library, writing PPX
-extensions is fragile and breaks with OCaml version changes. `ppxlib` merges several older projects together to provide a complete
-platform for writing efficient, resilient PPX extensions.
+This is a list of PPX extensions currently available.
+You should familiarize yourself with at least some of these, as they will save you a lot of programming time.
 
-### Articles
+### Basic Functionality
 
-* [A Guide to PreProcessor EXtensions](ppx.md)
-* [Introduction to the PPX Ecosystem](https://tarides.com/blog/2019-05-09-an-introduction-to-ocaml-ppx-ecosystem.html):
-Nice and thorough introduction to writing PPXs using `ppxlib`.
-* [A Guide to Extension Points in OCaml](http://whitequark.org/blog/2014/04/16/a-guide-to-extension-points-in-ocaml/)
-* [Extension Points, or how OCaml is becoming more like Lisp](https://blogs.janestreet.com/extension-points-or-how-ocaml-is-becoming-more-like-lisp)
-* [A guide to writing PPX Deriving plugins](http://rgrinberg.com/posts/deriving-slowly/)
-* [Am I missing some comprehensive ppxlib resource somewhere?](https://discuss.ocaml.org/t/am-i-missing-some-comprehensive-ppxlib-resource-somewhere/9277):
-A discuss post which turned into an important resource about aspects of PPX writing such as `Ast_pattern`.
-* [ppxlib as the new standard](https://discuss.ocaml.org/t/ppx-omp-2-0-0-and-next-steps/6231)
-* Older: [The Future of PPX: post on discuss](https://discuss.ocaml.org/t/the-future-of-ppx/3766)
-
-### PPX Extensions
+The basic functionality added to OCaml via `ppx` is things like enumerating variants,
+displaying type details etc.
 
 * [ppx_enum](https://github.com/cryptosense/ppx_enum):
 A nice, simple ppx using `ppxlib` that serves as a good example for potential ppx writers.
@@ -73,7 +65,7 @@ Display nice error messages with source location. For compilers etc.
 * [ppx_blob](https://github.com/johnwhitington/ppx_blob):
 Include arbitrary file data as a string in OCaml without having to worry about lexical conventions.
 
-#### Protocol-related
+#### Protocol-specific PPX
 
 * [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
 A Yojson codec generator for OCaml. See [Serialization](file_formats.md#Serialization).
@@ -88,10 +80,35 @@ Derive converters to s-expressions.
 * [ppx_protocol_conv](https://github.com/andersfugmann/ppx_protocol_conv):
 Framework for multiple serializers for different protocols.
 
-## Other
+## Writing PPX Extensions
+
+Writing PPX libraries is generally not trivial,
+but there are ongoing efforts to make it easier.
+
+* [ppxlib](https://github.com/ocaml-ppx/ppxlib): The modern solution for writing PPX extensions. Without this library, writing PPX
+extensions is fragile and breaks with OCaml version changes. `ppxlib` merges several older projects together to provide a complete
+platform for writing efficient, resilient PPX extensions.
+
+### Articles
+
+* [A Guide to PreProcessor EXtensions](ppx.md)
+* [Introduction to the PPX Ecosystem](https://tarides.com/blog/2019-05-09-an-introduction-to-ocaml-ppx-ecosystem.html):
+Nice and thorough introduction to writing PPXs using `ppxlib`.
+* [A Guide to Extension Points in OCaml](http://whitequark.org/blog/2014/04/16/a-guide-to-extension-points-in-ocaml/)
+* [Extension Points, or how OCaml is becoming more like Lisp](https://blogs.janestreet.com/extension-points-or-how-ocaml-is-becoming-more-like-lisp)
+* [A guide to writing PPX Deriving plugins](http://rgrinberg.com/posts/deriving-slowly/)
+* [Am I missing some comprehensive ppxlib resource somewhere?](https://discuss.ocaml.org/t/am-i-missing-some-comprehensive-ppxlib-resource-somewhere/9277):
+A discuss post which turned into an important resource about aspects of PPX writing such as `Ast_pattern`.
+* [ppxlib as the new standard](https://discuss.ocaml.org/t/ppx-omp-2-0-0-and-next-steps/6231)
+* Older: [The Future of PPX: post on discuss](https://discuss.ocaml.org/t/the-future-of-ppx/3766)
+
+## Other MetaProgramming Approaches
+
+Some other approaches and domains exist for metaprogramming in OCaml.
 
 * [cppo](https://github.com/ocaml-community/cppo):
 A simple C++-like preprocessor for OCaml files.
+Allows for `#include` and `#ifdef`.
 * [MetaOCaml](http://okmij.org/ftp/ML/MetaOCaml.html):
 An OCaml dialect for multi-stage programming.
 * [metapp](https://github.com/thierry-martinez/metapp):
@@ -102,8 +119,3 @@ Blog post describing an experimental system of typed macros in OCaml.
 Fan is a compile-time metaprogramming system for OCaml, originally inspired from Camlp4.
 It's a combination of OCaml and Lispy Macros.
 It shares the same concrete syntax with OCaml.
-* [camlp4](http://caml.inria.fr/pub/docs/manual-camlp4/manual002.html):
-Camlp4 is an older way of modifying OCaml syntax and applying metaprogramming.
-It is generally discouraged nowadays -- use ppx instead.
-* [camlp5](http://camlp5.gforge.inria.fr/):
-Another variant of metaprogramming that is discouraged nowadays.
