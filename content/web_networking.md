@@ -52,7 +52,10 @@ but also plans to support BuckleScript in the near future.
 
 ## Web Frameworks
 
-* [dream](https://github.com/aantron/dream): tidy, feature complete web framework. Supports http and http2. 
+* [dream](https://github.com/aantron/dream):
+Tidy, feature complete web framework. Supports http and http2.
+* [hc](https://erratique.ch/software/hc):
+Lightweight framework for web applications using server processing and the `fetch` interface. 
 * [Ocsigen Eliom](http://ocsigen.org/eliom/): a full-featured multi-tier framework,
 for developing multi-platform Web and mobile apps as 100% OCaml distributed applications.
 It can also be used for more traditional Web or mobile apps.
