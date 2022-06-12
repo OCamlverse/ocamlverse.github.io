@@ -10,10 +10,11 @@ tags: [ecosystem]
 
 * [yojson](https://github.com/mjambon/yojson):
 an optimized parsing and printing library for the JSON format.
-    * [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
-    A [Yojson](file_formats.md) codec generator for OCaml.
+    * [ppx_yojson_conv](https://github.com/janestreet/ppx_yojson_conv):
+    A solid `ppx_deriving` solution for automatically deriving JSON serializers from types.
+    Other solutions are not recommended.
     * [yojson_ppx](https://github.com/NathanReb/ppx_yojson):
-    Another Yojson ppx generator.
+    Write `yojson`-oriented code more easily and concisely.
 * [jsonm](http://erratique.ch/software/jsonm):
 non-blocking streaming JSON codec for OCaml.
 * [ezjsonm](https://github.com/mirage/ezjsonm):
