@@ -21,6 +21,11 @@ Both [Sequoia](https://github.com/andrenth/sequoia) and [ocaml-mysql](https://gi
 Adding native Windows support requires getting rid of the usage of small bash utilities.
 `Diskuv Box` is a file utility working on replacing bash utilities with a cross-platform program
 so that OCaml can easily work on Windows.
+- [DKML Installer - OCaml](https://github.com/diskuv/dkml-installer-ocaml#readme): a setup.exe for OCaml on Windows
+and other platforms later. Needs help to:
+  - (small) provide a speedy sha256sum (ex. delegate to PowerShell / bundle binary) to verify downloaded contents. Currently bytecode version is very slow.
+  - (small) increase the Vagrant virtual machine tests to support more scenarios. Recent scenario is an installation path with a space in it (common on Windows); need more scenarios like that automatically tested.
+  - (medium) create a graphical installer Windows users are more familiar with. Currently setup.exe is a self-extracting console installer, and it fails when there is a process (ex. OCaml language server) in use that it is trying to replace.
 
 ## Web and Networking
 
