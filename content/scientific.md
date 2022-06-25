@@ -7,9 +7,9 @@ tags: [ecosystem]
 * [Owl](https://ocaml.xyz):
 OCaml numerical library.
 Dense and sparse matrix, linear algebra, regressions, math and stats functions.
-  * [Owl tutorial](https://ocaml.xyz/book)
-  * [Owl documentation](https://ocaml.xyz/package/index.html)
-  * [OCaml scientific computing book](https://ocaml.xyz/book/) (free, in-progress)
+  * [Owl tutorial](https://ocaml.xyz/tutorial/)
+  * [Owl documentation](https://ocaml.xyz/docs/)
+  * [OCaml scientific computing book](https://ocaml.xyz/)
   * [Presentation on Owl at ICFP](https://www.youtube.com/watch?v=Jyv3tJD1N3o&t=311s)
 
 ## Machine Learning/Data Science
@@ -43,7 +43,7 @@ Numerical library for OCaml.
 OCaml library for general numerical work.
 * [slap](https://github.com/akabe/slap):
 A linear algebra library in OCaml with type-based static size checking for matrix operations.
-* [obandit](http://freux.fr/oss/obandit.html):
+* [obandit](https://github.com/freuk/obandit):
 OCaml library for multi-armed bandits.
 * [ocephes](https://github.com/rleonid/ocephes):
 Bindings to frequently used `C` special functions library.

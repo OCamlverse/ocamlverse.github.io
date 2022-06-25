@@ -20,7 +20,7 @@ Some motivations for using OCaml can be found [here](http://spyder.wordpress.com
 * [Operator lookup](https://www.craigfe.io/operator-lookup/):
 fun and useful site to look up the function of different OCaml operators. 
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
-* [OCaml file types and filename extensions](https://ocaml.org/learn/tutorials/filenames.html)
+* [OCaml file types and filename extensions](https://www2.ocaml.org/learn/tutorials/filenames.html)
 * [The faq](faq.md): a good place to find answers to questions about OCaml.
 * [Real World OCaml](https://dev.realworldocaml.org/):
 A free online book, and a great introduction to OCaml.
@@ -144,12 +144,12 @@ There are questions for each chapter together with worked answers and hints.
 Tackles 30 hard algorithm problems using function programming.
 Although it is writtern for Haskell, trying to solve the problems in OCaml also helps develop functional programming.
   * Partial solutions in OCaml are [available here](https://github.com/MassD/pearls).
-* [Scientific Computing in OCaml and Owl](https://ocaml.xyz/book/) (free):
+* [Scientific Computing in OCaml and Owl](https://ocaml.xyz/):
 Covers OCaml and using the [Owl](https://ocaml.xyz) library,
 which is a heavy-duty library for scientific and numerical computation as well as machine learning.
 * [Unix System Programming in OCaml](http://ocamlunix.forge.ocamlcore.org/) by X. Leroy and D. Rémy (free):
 Introduction to Unix system programming, with an emphasis on communications between processes.
-* [OCaml for Scientists](http://www.ffconsultancy.com/products/ocaml_for_scientists/) by Jon Harrop
+* [OCaml for Scientists](https://www.goodreads.com/book/show/22797282-ocaml-for-scientists) by Jon Harrop
 
 ## Advanced Topics
 

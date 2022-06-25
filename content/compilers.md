@@ -66,5 +66,5 @@ Multiparty Session Types. A communication library guaranteeing important propert
 
 ## Articles:
 
-* [Kaleidoscope: Implementing a Language with LLVM in Objective Caml](http://llvm.org/docs/tutorial/OCamlLangImpl1.html) 
+* [Kaleidoscope: Implementing a Language with LLVM in Objective Caml](https://releases.llvm.org/12.0.0/docs/tutorial/OCamlLangImpl1.html) (Since 13.0.0, LLVM started using C as the tutorial language)
 
