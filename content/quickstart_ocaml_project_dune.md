@@ -4,17 +4,15 @@ tags: [learning, quickstart]
 
 # Quickstart an OCaml app project using Dune
 
-(adapted from @bobbypriambodo's post [here](https://medium.com/@bobbypriambodo/starting-an-ocaml-app-project-using-dune-d4f74e291de8))
+*Updated June 2022*
 
-Let's explore how to start building an OCaml project. The project we will be building is a To-Do List app,
-which connects to a PostgreSQL database as its datastore.
-However, this post will only cover initializing and bootstrapping the project.
-Specifically, we will be setting up Dune to build our app.
+Once you're done playing with OCaml snippets online, you'll want to build an actual OCaml project.
+Let's go through the process of doing so.
 
 ## Requirements
 
-To be able to follow this tutorial, you would need to have opam, the OCaml package manager, installed.
-Consult the official docs on how to install it on your machine. I recommend using your OS package manager.
+To be able to follow this tutorial, you need to have `opam`, the OCaml package manager, installed.
+Follow the basic instructions [here](https://ocaml.org/docs/up-and-running) to install `opam`.
 
 You can verify your opam installation with the following command:
 
@@ -23,160 +21,137 @@ $ opam --version
 2.1.2
 ```
 
-This tutorial assumes MacOS or Linux environment. For Windows, see [Windows Support](windows_support.md).
+Your version of `opam` may be greater, and that should be fine.
+This tutorial generally assumes a MacOS or Linux environment.
+For Windows, you can use `WSL` or see [Windows Support](windows_support.md) for more information.
 
 ## Editor setup
 
-You will also need to setup your editor to handle OCaml files. I highly recommend Microsoft’s VSCode
-with the vscode-reasonml extension as it works great out of the box (seriously, it rocks!).
+See [Editor Setup](editor_setup.md) for tips on setting up your environment to work with OCaml.
 
-Another path that is also easy to setup is Spacemacs with OCaml layer. If those two are not to your liking,
-Merlin’s wiki also has pointers to setup an IDE experience for other editors. If you’re using Emacs or Vim,
-opam-user-setup can help putting the right things to your dotfiles.
-Or, if you’re already using a Language Server Protocol plugin, there’s an LSP implementation for OCaml which
-you can integrate to your editor.
+## Initial dune project
 
-Note that after you get these plugins or extensions installed there are some extra tools to be installed to
-give you that smooth IDE experience, which will be addressed in the next section.
-
-## Initial setup
-
-Let’s create a new directory for our awesome project! As naming is one of the hardest problems in Computer Science,
-we will choose to be uninspired and pick the most perfect name for our project: todolist.
+`dune` is a sophisticated tool. We can it to create our project for us:
 
 ```
-$ mkdir todolist
-$ cd todolist
+dune init proj project_name
 ```
+
+where `project_name` is whatever you want to call your project.
+Dune will create a directory named `project_name`, containing the following subdirectories and files:
+
+```
+bin/ (the place for executable code)
+bin/dune (a basic dune file specifying how to build the main executable)
+bin/main.ml (our main executable code)
+lib/ (the place for library code)
+lib/dune (a basic dune file specifying how to build the library)
+test/ (the place for test code)
+test/project_name.ml (a dummy test file)
+test/dune (a dune file specifying how to build our tests)
+dune-project (a configuration file for the entire project)
+project_name.opam (an opam file that's created automatically by dune)
+```
+
+Let's try to get `dune` to build the dummy code it wrote for us:
+
+```
+$ dune build
+```
+
+`dune` will now build the dummy code.
+We can even use `dune to run our code!
+
+```
+$ dune exec ./bin/main.exe
+Hello, World!
+```
+
+The dummy code in `./bin/main.ml` writes 'Hello World!' to the screen.
+
+## Using dune
+
+Every directory where we compile something needs a `dune` file.
+The `dune` file format uses `sexp`, much like the languages `lisp` and `clojure`.
+It's a little counter-intuitive, but not too complicated once you get used to it.
+
+Let's take a look at the file `./bin/dune`, which compiles our main application:
+
+```
+(executable
+ (public_name project_name)
+ (name main)
+ (libraries project_name))
+```
+
+The parentheses may make things look confusing, but consider that every parenthesis pair indicates a sentence or command.
+First we have the `executable` command.
+This indicates that within the parenteses, we'll have information about building the executable.
+`public_name` is the command indicating the external name of the project.
+`name` indicates the name of the main file of the executable.
+`libraries` introduces a list of the libraries we'll be using in this project,
+which in this case is just the dummy library `dune` created for us under `./lib/`.
+
+How do we add more stuff for `dune` to compile?
+Most of the time, we'll just need to list the libraries we need to use under `libraries`.
+This can include other OCaml libraries from `OPAM`.
+
+## dune_project file
+
+Now let's take a look at the `dune_project` file `dune` created for us:
+
+```
+(lang dune 3.2)
+
+(name project_name)
+
+(generate_opam_files true)
+
+(source
+ (github username/reponame))
+
+(authors "Author Name")
+
+(maintainers "Maintainer Name")
+
+(license LICENSE)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name test_proj)
+ (synopsis "A short synopsis")
+ (description "A longer description")
+ (depends ocaml dune)
+ (tags
+  (topics "to describe" your project)))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
+```
+
+Here we see a lot of fields to fill in once we know more about our project.
+For a play project, we can leave these fields as they are,
+but if we want to get serious about our project, we want to fill them in.
+Most importantly, we want to make sure we fill in the `package`/`depends` field to have all the `opam` libraries we're using.
+Running `dune build` after updating our `dune_project` file will transfer this information to the `project_name.opam` file so
+`opam` knows how to handle our project.
+Do not update `project_name.opam` manually! Let `dune` do it for you.
+
+## Expanding the dummy application
+
+`dune` created a nice little skeleton application for us.
+All we have to do is expand it!
+
+
+* If we're writing a regular application, use `./bin/main.ml` as the starting point.
+Add subdirectories and additional `.ml` files as needed.
+
+## Opam Switch
 
 Next up, we are going to create an opam switch. Opam install packages globally, and switches makes it easy
 to have a isolated environment in which you can install packages that will not be shared between switches,
 and therefore reduce the chance of dependencies conflict. You can think of it as an analog to Python’s
 virtualenv.
-
-We are going to name the switch todolist, the same as our project name, for consistency.
-To create the switch, use this command:
-
-```
-opam switch create . ocaml-base-compiler
-```
-
-Local switches are self-contained only in the current directory instead of an ~/.opam/<switch-name> directory.
-
-Creating a switch will involve downloading and building the compiler.
-Depending on your machine and internet connection, this could take a while!
-
-After that, run this command to make sure our environment is properly synced:
-
-```
-$ eval $(opam env)
-```
-
-Neat! This will, among others, make sure that opam-installed libraries are available on our PATH.
-Next up, we’re going to install some tools via opam:
-
-```
-$ opam install merlin ocp-indent dune utop
-```
-
-Using this command, we install:
-
-- `merlin`, available via the `ocamlmerlin` command, is the tool providing OCaml IDE experience that can
-be integrated to your editor. Its features include context-sensitive auto-completion, error-reporting,
-querying type information and documentation, and jumping to definition. Merlin will most likely be used
-by your editor plugins and not you directly.
-- `ocp-indent`, a simple, customizable tool to indent your OCaml source code. As with Merlin, most editor
-plugins also make use of this to indent your code automatically. If you want a more opinionated solution,
-there is also ocamlformat, but it’s still in active development and might not be stable yet.
-You might still want to try it, though.
-- `dune`, the installable library of Dune.
-- `utop`, an improved REPL (toplevel) for OCaml. It is based on lambda-term and supports auto-completion.
-In general, I favor utop as our REPL instead of the builtin ocaml, since the former have better UX.
-
-Wait for the install to finish, and our initial setup is done!
-
-## Dune basics
-
-In this section, we’re going to create a new Dune project.
-
-### Executables
-
-The first concept that we’re going to explore is an executable. An executable is, as the name implies,
-a program that can be executed. This is contrast to a library, which we will explore in the later section.
-
-Let’s get started! First, we need to create a `dune` configuration file.
-Make sure you’re in the todolist directory, and create the file with the following contents on your editor:
-
-```
-(executable
-  (name main))
-```
-    
-The file should pretty much be self-explanatory. dune files are written using S-expressions
-(those lisp-y parentheses).
-Each of the top-level elements are called stanzas, and currently we have one stanza.
-
-In the executable stanza, the value of name field denotes the module (file) name that contains the
-entry point of the program.
-In this case, we set it to main, meaning that Dune will look for a main.ml file on the
-directory. This is a barest minimum of a dune configuration file. We can also have a libraries
-field which will be the place to list the libraries our executable depends on (more on that in a
-moment).
-
-We’re now still missing the required main.ml file, so let’s create one:
-
-```ocaml
-let () =
-  print_endline "Hello, world!"
-```
-
-This is a simple OCaml program that is going to print a hello world to the console.
-Let’s try to build it via Dune:
-
-```
-$ dune build main.exe
-```
-
-The build should be instant! This command will create a new directory `_build` containing
-the build artifacts.
-If you noticed, we used main.exe in the name there — this is a convention used by Dune to
-refer to executables.
-It is not to be confused with Windows-specific executables, you must also use the .exe
-extension on MacOS and Linux.
-
-After it is built, we can ask Dune to run it:
-
-```
-$ dune exec ./main.exe
-Hello, world!
-```
-
-Great! The program is working correctly.
-
-**IMPORTANT**: Note that **Dune exec command also implies build**, so going 
-forward we will mostly only use exec to build and run our program.
-
-You might notice that currently, our created files reside at the root of the project directory.
-In most cases, this is not desirable since the project root is reserved for project metadata
-such as a readme, change log, license, and other project configurations.
-To keep things tidy, let’s move the program to a subdirectory. We will name the directory bin,
-a convention I use as a place to put entry point modules for executables:
-
-```
-$ mkdir bin
-$ mv dune main.ml bin/
-```
-
-Let’s make sure that it’s all working correctly by cleaning and rebuilding the program:
-
-```
-$ dune clean
-$ dune exec bin/main.exe
-Hello, world!
-```
-
-Still working as expected.
-Next up, we’re going to look at putting reusable code as library modules to be used from the executable.
 
 ### Libraries
 
