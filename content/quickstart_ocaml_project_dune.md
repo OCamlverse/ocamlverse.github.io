@@ -60,14 +60,19 @@ $ dune build
 ```
 
 `dune` will now build the dummy code.
-We can even use `dune to run our code!
+
+Note that `dune` now added the `_build` directory.
+This directory contains all of the artifacts which were used to build our project.
+
+We can now use `dune` to run our code:
 
 ```
 $ dune exec ./bin/main.exe
 Hello, World!
 ```
 
-The dummy code in `./bin/main.ml` writes 'Hello World!' to the screen.
+The dummy code in `./bin/main.ml` writes 'Hello World!' to the screen,
+and when we execute it, we see the result.
 
 ## Using dune
 
