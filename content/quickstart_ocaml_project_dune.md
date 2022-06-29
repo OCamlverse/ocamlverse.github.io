@@ -99,7 +99,7 @@ which in this case is just the dummy library `dune` created for us under `./lib/
 
 How do we add more stuff for `dune` to compile?
 Most of the time, we'll just need to list the libraries we need to use under `libraries`.
-This can include other OCaml libraries from `OPAM`.
+This can include other OCaml libraries from `opam`.
 
 ## dune_project file
 
@@ -142,7 +142,82 @@ Running `dune build` after updating our `dune_project` file will transfer this i
 `opam` knows how to handle our project.
 Do not update `project_name.opam` manually! Let `dune` do it for you.
 
-## Expanding the dummy application
+## OPAM switch
+
+We're now going to invoke `opam`.
+If `dune` manages building your individual project,
+`opam` (the OCaml Package Manager) handles downloading all the other necessary OCaml packages.
+`dune` speaks in terms of OCaml executables and libraries -- the products of OCaml `.ml` files.
+`opam` speaks in terms of OCaml packages -- other packaged bits of OCaml code that depend on each other.
+Fortunately, we don't need to write any complex configuration file for `opam` - `dune` handles it for us!
+
+An `opam` switch contains a whole bunch of installed packages that are specified as compatible with each other.
+However, it can only have one installed version of each package!
+We're going to create an entirely new `opam` switch at our main directory.
+This switch will include an OCaml compiler, our project dependencies, as well as the project itself.
+We do all of this by making sure we're in our main directory and typing
+
+`opam switch create .`
+
+`opam` will respond with
+
+```
+Package project_main does not exist, create as a NEW package? [Y/n]
+```
+
+Answer with yes (y) to create a new local package for our project.
+
+`opam` will now pin our project and install a whole bunch of stuff needed for our dependencies.
+Finally, `opam` tells us to
+
+```
+Run eval $(opam env) to update the current shell environment
+```
+
+Do as it asks by running `eval $(opam env)`:
+We need to update our shell to know about the current `opam` switch.
+
+## Locking dependencies
+
+Nowadays it's become quite popular to 'lock' projects to specific dependency versions.
+This allows us to recreate the exact same environment on other installations.
+There are two ways to restrict versions:
+
+1. We can specify the exact versions of our dependencies in the `dune_project` file under `depends`.
+   For example, we could specify
+   
+   ```
+   (depends ocaml=4.14)
+   ```
+   or
+   ```
+   (depends ocaml>=4.14)
+   ```
+   if we want to specify a minimal version.
+ 
+ 2. Alternatively, we can have `opam` automatically specify the exact versions of our dependencies using the command
+   ```
+   opam lock .
+   ```
+   `opam` will create a new file for us, `project_name.opam.locked`,
+   which will have these exact dependencies listed.
+
+## Using git
+
+At this point we have a bunch of files and directories.
+What do we include in git?
+Obviously, we want to place the `bin`, `lib` and `test` directories and their contents in git versioning.
+We also need to include the `dune_project` and opam files.
+In fact, the only things we *don't* want to include are the `_build` and `_opam` directories.
+It's a good idea to add a `.gitignore` file containing
+
+```
+_build/
+_opam/
+```
+and then to add that to our git repository as well.
+
+## Expanding our dummy application
 
 `dune` created a nice little skeleton application for us.
 All we have to do is expand it!
