@@ -103,14 +103,14 @@ Now let's take a look at the `dune_project` file `dune` created for us:
 ```
 (lang dune 3.2)
 
-(name project_name)
+(name project_name) ; The name of our project
 
-(generate_opam_files true)
+(generate_opam_files true) ; Always keep this true
 
 (source
- (github username/reponame))
+ (github username/reponame)) ; Once you have a github repo, place it here
 
-(authors "Author Name")
+(authors "Author Name") ; Your name
 
 (maintainers "Maintainer Name")
 
@@ -119,10 +119,10 @@ Now let's take a look at the `dune_project` file `dune` created for us:
 (documentation https://url/to/documentation)
 
 (package
- (name test_proj)
+ (name project_name)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune)
+ (depends ocaml dune) ; Add your opam dependencies here
  (tags
   (topics "to describe" your project)))
 
