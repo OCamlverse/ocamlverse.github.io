@@ -26,6 +26,7 @@ and other platforms later. Needs help to:
   - (small) provide a speedy sha256sum (ex. delegate to PowerShell / bundle binary) to verify downloaded contents. Currently bytecode version is very slow.
   - (small) increase the Vagrant virtual machine tests to support more scenarios. Recent scenario is an installation path with a space in it (common on Windows); need more scenarios like that automatically tested.
   - (medium) create a graphical installer Windows users are more familiar with. Currently setup.exe is a self-extracting console installer, and it fails when there is a process (ex. OCaml language server) in use that it is trying to replace.
+  - (large) allow MSYS2 CLANG64's [clang](https://packages.msys2.org/base/mingw-w64-clang) to be used rather than just the Microsoft Visual Studio compiler (MSVC). CLANG64 is compatible with MSVC, doesn't require Administrator rights nor reboots (much easier install), and DKML already supports MSYS2. It is a "large" task because a few external packages may need some patching to work with clang.
 
 ## Web and Networking
 
