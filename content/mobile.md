@@ -15,4 +15,4 @@ tags: [ecosystem]
 ## Articles
 
 * [OCaml on iOS 7 Released](http://psellos.com/2014/08/2014.08.ocamlxarm-402.html) 
-* [OCaml + Cordova = more secured, typed and hybrid mobile applications](https://blog.danny-willems.be/en/ocaml-cordova-secured-typed-hybrid-mobile-applications/) 
+* [OCaml + Cordova = more secured, typed and hybrid mobile applications](https://medium.com/@dwillems42/ocaml-cordova-more-secured-typed-and-hybrid-mobile-applications-fe389293d3f) 

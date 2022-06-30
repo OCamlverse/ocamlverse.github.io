@@ -53,4 +53,4 @@ FFI to the [R statistical language](https://www.r-project.org/about.html).
 
 ## Articles
 
-* [Modular foreign function bindings](http://openmirage.org/blog/modular-foreign-function-bindings) with ctypes.
+* [Modular foreign function bindings](https://mirage.io/blog/modular-foreign-function-bindings) with ctypes.

@@ -118,7 +118,7 @@ An OCaml dialect for multi-stage programming.
 A ppx extension that provides metaquoting facilities similar to `MetaOCaml`.
 * [about_macros](https://oliviernicole.github.io/about_macros.html):
 Blog post describing an experimental system of typed macros in OCaml.
-* [Fan](http://thinkinginmeta.com/Fan):
+* [Fan](https://github.com/bobzhang/fan):
 Fan is a compile-time metaprogramming system for OCaml, originally inspired from Camlp4.
 It's a combination of OCaml and Lispy Macros.
 It shares the same concrete syntax with OCaml.

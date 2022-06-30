@@ -61,7 +61,7 @@ for developing multi-platform Web and mobile apps as 100% OCaml distributed appl
 It can also be used for more traditional Web or mobile apps.
 Eliom lets you write client and server code in OCaml, where both are typechecked against
 each other, the client being compiled to JS and the backend to OCaml.
-  * [Oscigen Tutorial](http://ocsigen.org/tuto/6.4/manual/application.html)
+  * [Oscigen Tutorial](https://ocsigen.org/eliom/latest/manual/clientserver-applications)
   * [Thesis on Eliom](https://www.irif.fr/~gradanne/papers/phdthesis.pdf)
 * [Sihl](https://github.com/oxidizing/sihl):
 A modular web framework.
@@ -83,7 +83,6 @@ Generate type-safe code for graphql queries from GraphQL schema and queries.
 A web framework in the style of Ruby on Rails, built on top of Opium. It is designed for building REST APIs.
 * [Finch](https://github.com/roddyyaga/finch):
 Static site generator using markdown, with a server-side renderer.
-* [logarion](https://logarion.orbitalfox.eu/start-your-own-logarion-archive.html): an extensible text archive generator.
 * [Naboris](https://github.com/shawn-mcginty/naboris):
 An light OCaml/Reason-based web framework.
 * [sopault](https://soupault.app/): a static website generator that exploits the fact that well-formed HTML is machine readable and transformable.
@@ -97,7 +96,6 @@ Also includes experimental [FRP](frp.md) support via `Note`.
 Hackernews-like website with the OCaml framework Ocsigen (demo is currently down).
 * [Prose](https://gitlab.com/adrien-n/prose/):
 A Google-docs-like collaborative editing application written using Eliom/Ocsigen.
-See the [demo](https://prose.yaxm.org/pads/foo-ocaml).
 * [Canopy](https://github.com/Engil/Canopy):
 A blogging MirageOS unikernel based on git.
 Can be compiled to Unix as well.

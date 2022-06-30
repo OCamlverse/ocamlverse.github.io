@@ -523,7 +523,7 @@ Consult the [basics][topkgbasics] section of the Topkg API documentation for
 more info.
 
 [topkg]: https://github.com/dbuenzli/topkg
-[topkgbasics]: http://erratique.ch/software/topkg/doc/Topkg.html#basics
+[topkgbasics]: https://erratique.ch/software/topkg/doc/Topkg/index.html#basics
 
 # 3. Putting documentation online
 

@@ -27,10 +27,6 @@ Compiling without Flambda is recommended when running code that isn't performanc
 To switch to a compiler with flambda, use opam's `opam switch X.YY+flambda` command,
 where `X.YY` refers to a compiler version.
 Flambda will try to inline and then optimize code where possible.
-* [Spacetime](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Spacetime.html)
-is an allocation profiler included with OCaml.
-Since memory dominates performance nowadays, Spacetime can tell you where your program allocates
-memory so that you can try and reduce memory usage, and thus increase speed.
 * [perf](https://en.wikipedia.org/wiki/Perf_(Linux))
 is a Linux performance tool that works with OCaml.
 * Flame graph tools like [speedscope](https://github.com/jlfwong/speedscope) give a great view of

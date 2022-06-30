@@ -19,7 +19,7 @@ The library uses combinators to build up the desired arguments.
 Simpler interface on top of `Cmdliner`.
 * [BOS - Basic OS Interaction](https://github.com/dbuenzli/bos) is a general OS abstraction
 library which also contains a command line argument module
-([BOS.OS.Arg](http://erratique.ch/software/bos/doc/Bos.OS.Arg.html)).
+([BOS.OS.Arg](https://erratique.ch/software/bos/doc/Bos/index.html)).
 * Jane Street's Core standard library contains the Command module,
 which takes a similar approach to Cmdliner.
 * [Minicli](https://github.com/UnixJunkie/minicli)  is a self-described minimalist library

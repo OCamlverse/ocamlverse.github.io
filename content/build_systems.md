@@ -114,7 +114,7 @@ Easy-to-use [Github Actions](https://github.com/features/actions) for running yo
 You may find some other build systems used by various OCaml projects.
 The general recommendation is to avoid these legacy tools.
 
-* [ocamlbuild](http://ocaml.org/learn/tutorials/ocamlbuild/) : the option most used as a build tool before Dune
+* [ocamlbuild](https://github.com/ocaml/ocamlbuild/blob/master/manual/manual.adoc) : the option most used as a build tool before Dune
 came about.
 * [Oasis](http://oasis.forge.ocamlcore.org/) : An older tool to integrate a configure, build and install system
 in your OCaml project.  Before OPAM and Dune, this was a relatively easy way to create your project.

@@ -39,7 +39,7 @@ allowing for full process control in a system-independent manner.
 * [A user gives up on Async](http://rgrinberg.com/posts/abandoning-async/)
 * [Cooperative Concurrency in OCaml][cooperative concurrency]: Using Async
 
-[cooperative concurrency]: http://philtomson.github.io/blog/2014/07/09/core-dot-async-example/
+[cooperative concurrency]: https://philtomson.github.io/blog/2014-07-09-cooperative-concurrency-in-ocaml-a-core.std.async-example/
 
 ## Parallelism
 
@@ -77,8 +77,6 @@ It contains the **netmulticore** library to compute tasks on as many cores of th
 This is the most powerful implementation of parellelism currently available for OCaml,
 as it is capable of creating a shared memory region,
 and running a *custom-made garbage collector* on said region.
-* [Sklml](http://sklml.inria.fr):
-A functional parallel skeleton compiler and programming system for OCaml programs.
 
 ### Multicore OCaml 5.0
 
