@@ -9,6 +9,8 @@ It allows for many features that aren't included in the core language to be adde
 particularly ones that involve reducing boilerplate code.
 For example, there's usually no need to write code manually for the serialization or comparison of types.
 
+The history and current situation of the PPX ecosystem is presented elegantly in [this post](https://discuss.ocaml.org/t/the-future-of-ppx/3766).
+
 ## PPX Extensions
 
 This is a list of PPX extensions currently available.
