@@ -46,6 +46,7 @@ extensible binary data format, like JSON but faster.
 * [bin_prot](https://github.com/janestreet/bin_prot) efficient, type-safe binary protocol specific to OCaml.
 * [camlon](https://gitlab.com/camlspotter/camlon):
 configuration and serialization format similar to JSON but with an OCaml feel.
+* [ocaml-decoders](https://github.com/mattjbray/ocaml-decoders): Elm-inspired decoders for OCaml
 
 ## Data Science Files
 
