@@ -18,13 +18,23 @@ and therefore requires less work to track changes to the C SDL libraries.
   Support for the sound mixer component of TSDL.
   * [tsdl-image](https://github.com/tokenrove/tsdl-image):
   Support for the image-loading component of SDL.
-* [OcamlSDL2](https://github.com/fccm/OCamlSDL2):
-Bindings to the `SDL` 2.0 library using C files rather than `ctypes`.
-Bindings (possibly incomplete) exist also for `SDL_image` and `SDL_mixer`,
-but not for `SDL_ttf`.
-* [OcamlSDL](http://ocamlsdl.sourceforge.net/home.html):
+* [OCamlSDL2](https://github.com/fccm/OCamlSDL2):
+Bindings to the `SDL` 2.0 library using the traditional C ffi rather than `ctypes`,
+and therefore will produce warnings and errors if there are API changes.
+Bindings (possibly incomplete) exist also for:
+  * [OCamlSDL2_TTF](https://github.com/fccm/OCamlSDL2_TTF):
+  Support for SDL2's truetype font library.
+  * [OCamlSDL2_Mixer](https://github.com/fccm/OCamlSDL2_Mixer):
+  Support for the sound mixer component of OCamlSDL2.
+  * [OCamlSDL2_Image](https://github.com/fccm/OCamlSDL2_Image):
+  Support for the image-loading component of SDL2.
+  * [OCamlSDL2_Gfx](https://github.com/fccm/OCamlSDL2_Gfx):
+  Support for graphics primitives for SDL2.
+  * [OCamlSDL2_Net](https://github.com/fccm/OCamlSDL2_Net):
+  Support for the network library for SDL2. (Currently only provides UPD.)
+* [OCamlSDL](http://ocamlsdl.sourceforge.net/home.html):
 Bindings to the older `SDL` v1.2 suite,
-including `SDL_image`, `SDL_ttf`, and `SDL_mixer`.
+including `SDL_image`, `SDL_ttf`, `SDL_mixer` and `SDL_net`.
 
 ## Graphics
 See [Graphics](graphics.md)
