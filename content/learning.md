@@ -181,6 +181,8 @@ An application of GADTs to produce heterogenous lists.
 * [Tradeoffs with GADTs](https://engineering.issuu.com/2015/09/17/gadt-practicalities)
 * [Why GADTs matter for performance](https://blog.janestreet.com/why-gadts-matter-for-performance/)
 * [Cambridge University lecture: Programming with GADTs](https://www.cl.cam.ac.uk/teaching/1415/L28/gadts.pdf)
+* [GADTs And State Machines](https://blog.osau.re/articles/gadt_and_state_machine.html):
+  Excellent article about an interesting application of GADTs.
 
 ### Phantom Types
 
