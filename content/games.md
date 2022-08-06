@@ -66,3 +66,7 @@ GameBoy emulator written purely in OCaml.
 * [Flappy](https://github.com/rand00/flappy):
 A demonstration of a Flappy-bird like game using FRP.
 * [A blog about game development in OCaml](http://cranialburnout.blogspot.ca/)
+
+## Awesome Repositories
+
+* [Awesome OCaml Gamedev](https://github.com/fccm/awesome-gamedev-ocaml)
