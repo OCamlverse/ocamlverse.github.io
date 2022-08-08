@@ -8,13 +8,23 @@ Many projects, including the OCaml compiler itself, rely on the Unix shell and i
 Windows doesn't include these utilities or any of their substitutes (or even a built-in compiler),
 making it much harder to support a complex library on Windows.
 
-Nevertheless, OCaml is gradually making a transition towards increased Windows support.
+Nevertheless, OCaml is gradually making a transition towards full Windows support.
+
+For newcomers the simplest option is to download and run [the latest `setup-diskuv-ocaml-windows_x86_64-<version>.exe`](https://github.com/diskuv/dkml-installer-ocaml/releases/latest) Diskuv OCaml installer.
 
 ## Options
 
+* [Diskuv-OCaml][diskuv]:
+A distribution of OCaml that uses [MSYS2] for Unix utilities and [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/vs/)
+for 100% Windows library compatibility, and has a traditional [`setup.exe`](https://github.com/diskuv/dkml-installer-ocaml/releases/latest)
+to install. The distribution transparently uses Unix utilities so that Windows users do not need to learn Unix.
+
+  The disadvantages of Diskuv OCaml are:
+    * Visual Studio 2019, even though it is automatically installed, is a multi-gigabyte program that requires Administrator permissions to install
+    * Only OCaml 4.12.1 is officially supported. Official support is tied to the latest OCaml version that supports debugging from Visual Studio Code [ocamlearlybird].
+
 * OCaml on [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - 
-  Windows 10 supports Ubuntu or any other Linux distribution *natively*. This is by far the easiest and fastest option
-  for using OCaml on Windows, and the one that support OCaml most fully.
+  Windows 10 supports Ubuntu or any other Linux distribution *natively*.
 
   The disadvantages of this approach are:
     * By default, you'll be creating Linux binaries, which can only be run on Linux or on another
@@ -27,9 +37,6 @@ Nevertheless, OCaml is gradually making a transition towards increased Windows s
 
 * Similar to WSL above, you can create OCaml programs on Linux proper,
 and cross-compile them so they work on Windows using [opam-cross-windows].
-
-* [Diskuv-OCaml][diskuv]:
-A Windows-native distribution of OCaml.
 
 * [OCaml for Windows][ocaml-win]:
 A [cygwin]-based Ocaml distribution, with `opam` support. 
@@ -56,6 +63,8 @@ See [this post](https://discuss.ocaml.org/t/ann-opam-2-0-5-release/4081/7) for d
 [opam-cross-windows]: https://github.com/ocaml-cross/opam-cross-windows
 [Reason]: https://reasonml.github.io/
 [cygwin]: https://www.cygwin.com
+[MSYS2]: https://www.msys2.org/
+[ocamlearlybird]: https://github.com/hackwaly/ocamlearlybird#readme
 
 ## Resources
 
