@@ -24,7 +24,13 @@ RFC-compliant JSON library. [docs](https://stevebleazard.github.io/ocaml-jsonxt/
 * [data-encoding](https://gitlab.com/nomadic-labs/data-encoding):
 A library for JSON and binary encoding of values.
 
+### TOML
+
+* [otoml](https://github.com/dmbaturin/otoml):  TOML parsing, manipulation, and pretty-printing library for OCaml (fully 1.0.0-compliant)
+* [To.ml](https://github.com/ocaml-toml/To.ml): an OCaml library for reading and writing TOML files
+
 ### XML
+
 * [Markup](https://github.com/aantron/markup.ml):
 streaming, lazy parser for XML and HTML5.
 * [xmlm](http://erratique.ch/software/xmlm):
@@ -33,13 +39,15 @@ a streaming codec to decode and encode the XML data format.
 easy to use wrapper over `xmlm`.
 
 ### YAML
+
 * [ocaml-yaml](https://github.com/avsm/ocaml-yaml):
 Parse and generate yaml 1.1 files.
 
 ### Others
+
 * [sexplib](https://github.com/janestreet/sexplib):
 a S-expression parser and printer
-* [biniou](https://github.com/mjambon/biniou): 
+* [biniou](https://github.com/mjambon/biniou):
 extensible binary data format, like JSON but faster.
 * [ocaml-protoc](https://github.com/mransan/ocaml-protoc) pure OCaml implementation of
   [Protobuf](https://developers.google.com/protocol-buffers/) with binary, Yojson and BuckleScript JSON support.
@@ -71,4 +79,3 @@ library to convert LaTex to html.
 Used for the [OCaml manual](http://caml.inria.fr/pub/docs/manual-ocaml/)
 * [ocaml-pandoc](https://github.com/smimram/ocaml-pandoc):
 Interface to [pandoc](https://pandoc.org/MANUAL.html), a universal markup converter.
-
