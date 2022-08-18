@@ -1,5 +1,5 @@
 ---
-tags: [package_management, ecosystem]
+tags: [package management, ecosystem]
 ---
 
 # Package Management
@@ -50,11 +50,11 @@ but the features aren't as well-integrated as they are in `esy`.
 * [esy](https://esy.sh/):
     An alternative tool for package management that draws on lessons learned from the JavaScript ecosystem.
     Its main advantages over OPAM are
-    
+
     * Immutable packages managed in a git-like system.
     * All packages have been made relocatable.
     * lockfiles specifying precise package versions by default.
-    
+
     What this means is that sandboxed, isolated environments with a global binary cache are easier to create than in OPAM,
     as is a lockfile-based development approach.
     However, `esy`'s method suffers from the fact that even the slightest upgrade creates new binary artifacts,
@@ -100,7 +100,7 @@ Allows you to run OCaml files as if they were scripts.
 Pre-compiles and runs them on the spot.
 
 * [ocamlfind](http://projects.camlcity.org/projects/findlib.html)  is a utility similar to `pkg-config`
-that allows local libraries to find each other on your system. You don't need to have much awareness of 
+that allows local libraries to find each other on your system. You don't need to have much awareness of
 ocamlfind nowadays because Dune and OPAM (see below) will do all the work, but it's good to know about
 ocamlfind's existence.
 
@@ -124,4 +124,3 @@ system used by Dune is composed of code from Jenga.
 * [ocaml-makefile](https://github.com/mmottl/ocaml-makefile) : Easy to use Makefile for small to medium-sized
 OCaml-projects.
 * [obuild](https://github.com/ocaml-obuild/obuild) : Simple package build system for ocaml.
-

@@ -7,7 +7,7 @@ tags: [ecosystem]
 ## Editor Tools
 
 For an OCaml beginner, the recommended editor of choice is Visual Studio code with the ReasonML plugin.
-See [editor setup](editor_setup.md).
+See [editor setup](editor_setup.md) for more instructions on how to setup individual editors.
 
 ### Visual Studio Code
 
@@ -15,13 +15,14 @@ See [editor setup](editor_setup.md).
 The Reason/OCaml plugin for Visual Studio Code.
 Allows for all the advantages provided by Merlin with the convenience of the VSCode IDE.
 * [VSCode-OCaml-platform](https://github.com/ocamllabs/vscode-ocaml-platform):
-*in-development*.
 OCaml extension for Visual Studio Code.
 
 ### Emacs
 
 * [tuareg](https://github.com/ocaml/tuareg):
 OCaml major mode for Emacs that can also run the toplevel and the debugger within Emacs.
+* [caml-mode](https://github.com/ocaml/caml-mode):
+Another (older) OCaml major mode for Emacs. While it has less features than Tuareg it covers the basics well and also features toplevel and debugger integration.
 * [dune](https://github.com/ocaml/dune/blob/main/editor-integration/emacs/dune.el): Dune major mode and utility commands for Emacs.
 * [merlin-mode](https://ocaml.github.io/merlin/editor/emacs/): Code completion, linting, code navigation and type analysis mode for Emacs.
 * [merlin-eldoc](https://github.com/Khady/merlin-eldoc): Eldoc support for OCaml, using Merlin internally.
@@ -32,9 +33,11 @@ Note that Emacs also has LSP support. See [lsp-mode](https://emacs-lsp.github.io
 
 ### Sublime Text
 
-* [Sublime better ocaml](https://github.com/whitequark/sublime-better-ocaml):
+* [Better OCaml](https://github.com/whitequark/sublime-better-ocaml):
 better OCaml mode for Sublime Text.
-  * [Sublime text package](https://github.com/def-lkb/sublime-text-merlin)
+* [Merlin for Sublime Text 3](https://github.com/def-lkb/sublime-text-merlin)
+
+**Note:** As of 2022 both packages seem abandoned.
 
 ### Vim
 

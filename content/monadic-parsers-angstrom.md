@@ -12,7 +12,7 @@ Review: Ivan Gotovchits [@ivg](https://github.com/ivg)
 This tutorial aims to give you abilities to write parsers quickly for your daily tasks. It's not a formal or academic explanation of parsers, grammars, monads etc. On the contrary, it aims to be as informal as possible and to have as little requirements for previous knowledge as possible.
 
 ## Requirements
-You need to be a moderately accomplished programmer to read this. Also, basic knowledge of OCaml and functional programming is required. Probably reading (and understanding) the [first chapter of Real World Ocaml](https://dev.realworldocaml.org/guided-tour.html) is enough.
+You need to be a moderately accomplished programmer to read this. Also, basic knowledge of OCaml and functional programming is required. Probably reading (and understanding) the [first chapter of Real World OCaml](https://dev.realworldocaml.org/guided-tour.html) is enough.
 We will not replicate the documentation of every individual [Angstrom](https://github.com/inhabitedtype/angstrom) parser and combinator. They are documented [here](https://github.com/inhabitedtype/angstrom/blob/master/lib/angstrom.mli). So although we will explain the usage, go consult the formal definition if you need it.
 Also, there are formal documents describing monads and parser combinators (and Angstrom mostly adheres to the conventions defined there) but they are **not** preconditions for reading this tutorial.
 

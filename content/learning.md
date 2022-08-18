@@ -18,7 +18,7 @@ Some motivations for using OCaml can be found [here](http://spyder.wordpress.com
 * [The Beginner's Guide to OCaml Beginner's guides](http://blog.nullspace.io/beginners-guide-to-ocaml-beginners-guides.html)
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/ocaml/) where X=OCaml.
 * [Operator lookup](https://www.craigfe.io/operator-lookup/):
-fun and useful site to look up the function of different OCaml operators. 
+fun and useful site to look up the function of different OCaml operators.
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
 * [OCaml file types and filename extensions](https://www2.ocaml.org/learn/tutorials/filenames.html)
 * [The faq](faq.md): a good place to find answers to questions about OCaml.
@@ -54,7 +54,8 @@ Several guidelines for best practices have been established by the community.
 See [Best Practices](best_practices.md).
 
 ### Videos
-* [Youtube series](https://www.youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU) that accompanies the Cornell course (see in Books).
+
+* [YouTube series](https://www.youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU) that accompanies the Cornell course (see in Books).
 
 ### Books
 
@@ -239,10 +240,9 @@ that tend to pop up as patterns in functional programming.
 Focuses on Monoids and Applicatives.
 * [Category Theory For Programmers](https://github.com/hmemcpy/milewski-ctfp-pdf):
 Not OCaml-specific, but a good book to learn Category Theory from.
-* [Category Theory For Programmers in Ocaml](https://github.com/ArulselvanMadhavan/ocaml-ctfp):
+* [Category Theory For Programmers in OCaml](https://github.com/ArulselvanMadhavan/ocaml-ctfp):
 An ongoing work to translate CTFP's code from Haskell to OCaml.
 
 ### Academic Papers
 
 See [academic papers relevant to OCaml](papers.md).
-
