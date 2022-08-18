@@ -56,6 +56,9 @@ See [Best Practices](best_practices.md).
 ### Videos
 
 * [YouTube series](https://www.youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU) that accompanies the Cornell course (see in Books).
+* [OCaml Tutorial series (2016)](https://www.youtube.com/playlist?list=PLea0WJq13cnCef-3KSU3qWFge9OGUlKx1)
+* [Beginner OCaml Tutorial series (2019)](https://www.youtube.com/playlist?list=PLPGcR5TG6arH6hk04YnAsMbYmQvBqwFdw)
+* [Programming with OCaml series (2022)](https://www.youtube.com/watch?v=uJ3_bNQPixQ)
 
 ### Books
 
