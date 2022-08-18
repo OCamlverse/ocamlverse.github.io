@@ -54,7 +54,8 @@ Several guidelines for best practices have been established by the community.
 See [Best Practices](best_practices.md).
 
 ### Videos
-* [Youtube series](https://www.youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU) that accompanies the Cornell course (see in Books).
+
+* [YouTube series](https://www.youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU) that accompanies the Cornell course (see in Books).
 
 ### Books
 
