@@ -26,6 +26,8 @@ a Wiki.
 
 * [Learn More About OCamlverse](content/about.md)
 
+## Contributing
+
 We depend on the OCaml community's help to make OCamlverse better.
 Please contribute! You can:
 
@@ -33,8 +35,25 @@ Please contribute! You can:
 * [Edit the site and submit a Pull Request!](https://github.com/OCamlverse/ocamlverse.github.io/pulls)
 * After building up a history of PRs maintaining the site, you can ask to join the team and help maintain the site (use an Issue).
 
-**Note:** it is important to read our [Contribution Guidelines](content/contrib.md).
+**Note:** It is important to read our [Contribution Guidelines](content/contrib.md).
 They explain the rules for contributing to OCamlverse and how to be a
 good contributor.
 
 (We use the terrific [ahrefs](https://ahrefs.com) service to crawl and check our site.)
+
+## Running OCamlverse Locally
+
+OCamlverse is built with [Jekyll](https://jekyllrb.com/), a popular static site generator that originally powered GitHub Pages.
+
+If you want to run OCamlverse (e.g. to preview some changes you've made) all you need to do is:
+
+- Install Ruby (Jekyll is written in Ruby)
+- Run the following shell commands in OCamlverse's source folder:
+
+``` shellsession
+$ bundle
+$ bundle exec jekyll serve
+```
+
+At this point you can point your browser to <http://127.0.0.1:4000> and view the
+locally running site.
