@@ -21,7 +21,14 @@ OCaml extension for Visual Studio Code.
 ### Emacs
 
 * [tuareg](https://github.com/ocaml/tuareg):
-OCaml mode for Emacs that can run the toplevel and the debugger within Emacs.
+OCaml major mode for Emacs that can also run the toplevel and the debugger within Emacs.
+* [dune](https://github.com/ocaml/dune/blob/main/editor-integration/emacs/dune.el): Dune major mode and utility commands for Emacs.
+* [merlin-mode](https://ocaml.github.io/merlin/editor/emacs/): Code completion, linting, code navigation and type analysis mode for Emacs.
+* [merlin-eldoc](https://github.com/Khady/merlin-eldoc): Eldoc support for OCaml, using Merlin internally.
+* [utop.el](https://github.com/ocaml-community/utop#integration-with-emacs): utop integration for Emacs. Features code completion.
+* [flycheck-ocaml](https://github.com/flycheck/flycheck-ocaml): OCaml linter for Emacs, using Merlin internally.
+
+Note that Emacs also has LSP support. See [lsp-mode](https://emacs-lsp.github.io/lsp-mode/) and [eglot](https://github.com/joaotavora/eglot) for more details.
 
 ### Sublime Text
 
