@@ -4,7 +4,9 @@ tags: [ecosystem, learning]
 
 # Editor Setup
 
-[Merlin](https://github.com/ocaml/merlin) is the tool used for code completion, type querying, locating definitions etc for OCaml. Regardless of which editor you use, you'll want to install Merlin for your ocaml compiler with `opam install merlin`.
+[Merlin](https://github.com/ocaml/merlin) is the tool used for code completion, type querying, locating definitions etc for OCaml. In the past editors used it directly, but these days more often than not you'll see it used indirectly - as part of [OCaml-LSP](https://github.com/ocaml/ocaml-lsp).
+
+Whether to use Merlin directly or OCaml-LSP is up to you and often depends mostly on whether your editor has better support for the former or the latter.
 
 ## Visual Studio Code
 
@@ -144,7 +146,7 @@ The popular Emacs distribution [Emacs Prelude](https://prelude.emacsredux.com/) 
 
 ### Emacs LSP Support
 
-Emacs has great support for LSP and can be used directly with OCamlLSP. Emacs has two LSP modes:
+Emacs has great support for LSP and can be used directly with OCaml-LSP. Emacs has two LSP modes:
 
 - [lsp-mode](https://emacs-lsp.github.io/lsp-mode/): Very feature-rich with many bells and whistles.
 - [eglot](https://github.com/joaotavora/eglot): A more spartan mode for the people who value minimalism.
