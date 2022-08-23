@@ -8,7 +8,7 @@
   <link rel="shortcut icon" type="image/png" href="{{ "/assets/img/favicon-32x32.png" | prepend: site.baseurl }}">
   <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <!-- Search bar -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" /> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
 {% include collecttags.html %} <!-- generate tags -->
 {% seo %}
 <!-- Google Analytics -->
@@ -52,7 +52,8 @@
   <div class="sidebar">
     <input id="searchbar" type="text" placeholder="Search...">
 
-    {% for tag in tags %}
+    {% assign menu_tags = "quickstart, learning, compiler, package management, types, best practices, ecosystem, advanced, community, meta" | split: ", " %}
+    {% for tag in menu_tags %}
     <button class="collapsible">{{ tag | capitalize }}</button>
     <div class="content">
     <ul>
@@ -107,13 +108,13 @@ for (coll of collapsibles) {
 }
 </script>
 <!-- scripts for Algolia search bar -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script> 
-<script type="text/javascript"> docsearch({ 
-apiKey: 'c7952442a027ece120b50019cbebf398', 
-indexName: 'ocamlverse', 
-inputSelector: '#searchbar', 
-debug: false // Set debug to true if you want to inspect the dropdown 
-}); 
-</script> 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script type="text/javascript"> docsearch({
+apiKey: 'c7952442a027ece120b50019cbebf398',
+indexName: 'ocamlverse',
+inputSelector: '#searchbar',
+debug: false // Set debug to true if you want to inspect the dropdown
+});
+</script>
 </body>
 </html>
