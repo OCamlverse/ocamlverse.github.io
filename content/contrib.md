@@ -20,6 +20,23 @@ You want to contribute? That's great. There are just a few rules to follow so we
   * In an issue in this repo: ideas for content, missing pieces
   * In a PR: discussions of a particular change
 
+## Tagging pages
+
+Pages should be filed under one of the following tags to be automatically added to the sidebar menu:
+
+- quickstart
+- learning
+- compiler
+- package management
+- types
+- best practices
+- ecosystem
+- advanced
+- community
+- meta
+
+The addition of tags should be reflected in the [page.html](https://github.com/OCamlverse/ocamlverse.github.io/blob/master/_layouts/page.html) template.
+
 ## Tone and attitude
 
 * Contribute to the extent that you know, but feel free to get the ball rolling on content you're not confident on.
