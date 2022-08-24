@@ -32,7 +32,7 @@ This method is error prone, and you're advised to stay away from it unless it's 
 * [pyml](https://github.com/thierry-martinez/pyml):
 Library for interacting with python. Uses C stubs.
 * [pyml_bindgen](https://github.com/mooreryan/ocaml_python_bindgen):
-Automatically create bindings to python libraries with minimal boilerplate utilizing `pyml`. 
+Automatically create bindings to python libraries with minimal boilerplate utilizing `pyml`.
 * [OCaml-in-Python](https://github.com/thierry-martinez/ocaml-in-python):
 Easily call OCaml code from Python.
 * [Py](https://github.com/zshipko/ocaml-py):
@@ -47,10 +47,13 @@ Works on both the OCaml-to-Rust and Rust-to-OCaml directions.
   * [ICFP Presentation: Safely mixing OCaml and Rust](https://www.youtube.com/watch?v=UXfcENNM_ts)
 
 ## Others
+
 * [OCaml-R](https://github.com/pveber/ocaml-r):
 FFI to the [R statistical language](https://www.r-project.org/about.html).
 [Docs](http://pveber.github.io/ocaml-r/index.html).
 
 ## Articles
 
-* [Modular foreign function bindings](https://mirage.io/blog/modular-foreign-function-bindings) with ctypes.
+* The OCaml manual's chapter on [interfacing C with OCaml](https://v2.ocaml.org/manual/intfc.html)
+* Real World OCaml's [foreign function interface](https://dev.realworldocaml.org/foreign-function-interface.html) chapter
+* [Modular foreign function bindings](https://mirage.io/blog/modular-foreign-function-bindings) with [ctypes](https://github.com/ocamllabs/ocaml-ctypes).
