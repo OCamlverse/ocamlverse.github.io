@@ -31,7 +31,7 @@ See [Editor Setup](editor_setup.md) for tips on setting up your environment to w
 
 ## Initial dune project
 
-`dune` is a sophisticated tool. We can it to create our project for us:
+`dune` is a sophisticated tool. We can use it to create our project for us:
 
 ```
 dune init proj project_name
@@ -61,7 +61,7 @@ $ dune build
 
 `dune` will now build the dummy code.
 
-Note that `dune` now added the `_build` directory.
+Note that `dune` has now added the `_build` directory.
 This directory contains all of the artifacts which were used to build our project.
 
 We can now use `dune` to run our code:
@@ -72,12 +72,12 @@ Hello, World!
 ```
 
 The dummy code in `./bin/main.ml` writes 'Hello World!' to the screen,
-and when we execute it, we see the result.
+and when we execute it we see the result.
 
 ## Using dune
 
 Every directory where we compile something needs a `dune` file.
-The `dune` file format uses `sexp`, much like the languages `lisp` and `clojure`.
+The `dune` file format uses `sexp`; much like the languages `lisp` and `clojure`.
 It's a little counter-intuitive, but not too complicated once you get used to it.
 
 Let's take a look at the file `./bin/dune`, which compiles our main application:
