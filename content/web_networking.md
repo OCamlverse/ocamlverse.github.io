@@ -49,13 +49,14 @@ A mature, lightweight HTTP server and client that currently only supports HTTP/1
 Aims to provide a common interface, following the fetch specification,
 over different HTTP and Promise implementations. Currently only supports `piaf` and `lwt`,
 but also plans to support BuckleScript in the near future.
+* [Curly](https://github.com/rgrinberg/curly): Wrapper around the `curl` command for applications that want to create simple HTTP requests
 
 ## Web Frameworks
 
 * [dream](https://github.com/aantron/dream):
 Tidy, feature complete web framework. Supports http and http2.
 * [hc](https://erratique.ch/software/hc):
-Lightweight framework for web applications using server processing and the `fetch` interface. 
+Lightweight framework for web applications using server processing and the `fetch` interface.
 * [Ocsigen Eliom](http://ocsigen.org/eliom/): a full-featured multi-tier framework,
 for developing multi-platform Web and mobile apps as 100% OCaml distributed applications.
 It can also be used for more traditional Web or mobile apps.
