@@ -57,3 +57,5 @@ $ bundle exec jekyll serve
 
 At this point you can point your browser to <http://127.0.0.1:4000> and view the
 locally running site.
+
+**Note:** If you are using Ruby version 3 or above, you will need to add the `webrick` gem to the Gemfile prior to running `bundle install`.
