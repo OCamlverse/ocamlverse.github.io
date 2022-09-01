@@ -563,6 +563,29 @@ libraries, which will make browsing docs significantly easier.
 [ghpages]: https://pages.github.com/
 [ghpagesdocs]: https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
 
+# Useful links
+
+A collection of useful links, many of which are mentioned above.
+
+- odoc [manual](https://ocaml.github.io/odoc/index.html)
+- odoc's [advice for library authors](https://ocaml.github.io/odoc/odoc_for_authors.html)
+- Dune [manual page](https://dune.readthedocs.io/en/stable/documentation.html) on generating documentation
+- [odig](https://github.com/dbuenzli/odig) for generating local docs
+- OCaml manual's chapter on [documentation comments](https://v2.ocaml.org/manual/doccomments.html)
+- OCaml manual's chapter describing [ocamldoc](https://v2.ocaml.org/manual/ocamldoc.html)
+- Section on comments from Jane Street's [style guide](https://opensource.janestreet.com/standards/#comments)
+- Elixir's [writing documentation][https://hexdocs.pm/elixir/master/writing-documentation.html] guide
+
+
+## Examples of good docs
+
+These libraries illustrate many of the recommendations discussed above.
+
+- [brr](https://erratique.ch/software/brr/doc/): in addition to each module having a clearly organized API, also provides a few [manuals](https://erratique.ch/software/brr/doc/#manuals) to help new users understand and get started with the library
+- [Dream](https://aantron.github.io/dream/): includes introductory material and rationale, many examples, and logical organization of the API.  Also includes an extensive [tutorial](https://github.com/aantron/dream/tree/master/example#readme).
+- [iter](https://c-cube.github.io/iter/1.4/iter/Iter/index.html): includes a nice introduction to the main module and `mli` files organized into logical sections
+- [Vg](https://erratique.ch/software/vg/doc/Vg/index.html): combines high-level introductory material, examples, and detailed API docs
+
 # Final words
 
 Hopefully this guide can help improve the documentation of the whole OCaml
