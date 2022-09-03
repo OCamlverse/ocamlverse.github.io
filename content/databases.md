@@ -7,7 +7,7 @@ tags: [ecosystem]
 ## Bindings
 
 * [Caqti](https://github.com/paurkedal/ocaml-caqti): monadic, asynchronous common interface to relational databases.
-Currently supports MariahDB, PostgreSQL and SQLite3.
+Currently supports MariaDB, PostgreSQL and SQLite3.
 * [Mongo](https://massd.github.io/mongo/): OCaml driver for Mongodb
 * [OCaml-mariahdb](https://github.com/andrenth/ocaml-mariadb): OCaml bindings to MariahDB interface.
 * [PG'OCaml](https://github.com/darioteixeira/pgocaml):
