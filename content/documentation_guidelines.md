@@ -574,7 +574,7 @@ A collection of useful links, many of which are mentioned above.
 - OCaml manual's chapter on [documentation comments](https://v2.ocaml.org/manual/doccomments.html)
 - OCaml manual's chapter describing [ocamldoc](https://v2.ocaml.org/manual/ocamldoc.html)
 - Section on comments from Jane Street's [style guide](https://opensource.janestreet.com/standards/#comments)
-- Elixir's [writing documentation][https://hexdocs.pm/elixir/master/writing-documentation.html] guide
+- Elixir's [writing documentation](https://hexdocs.pm/elixir/master/writing-documentation.html) guide
 
 
 ## Examples of good docs
