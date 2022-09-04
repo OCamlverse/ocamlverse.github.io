@@ -10,6 +10,8 @@ This page describes the current state of the OCaml ecosystem.
 Comprehensive listing of documentation for OCaml packages, with cross-listing.
 * [Sherlocode](https://sherlocode.com/):
 Instant search through all the OCaml code in OPAM. Very fast!
+* [SourceGraph](https://sourcegraph.com/search?q=context:global+lang:ocaml&patternType=standard):
+Search through all of github/gitlab for any open-source OCaml code.
 * [Sherlodocs](https://doc.sherlocode.com/):
 Instant search through all OCaml documentation in OPAM. Just as zippy as `Sherlocode`.
 * [check.ocamllabs.io](http://check.ocamllabs.io):
