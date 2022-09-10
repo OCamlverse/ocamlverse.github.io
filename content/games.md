@@ -12,11 +12,11 @@ An OCaml module providing thin bindings to the `SDL` 2.0 library.
 sound, fonts, and game controller input.
 This library uses `ctypes`,
 and therefore requires less work to track changes to the C SDL libraries.
-  * [tsdl-ttf](https://github.com/tokenrove/tsdl-ttf):
+  * [tsdl-ttf](https://github.com/sanette/tsdl-ttf):
   Support for SDL's truetype font library.
-  * [tsdl-mixer](https://github.com/tokenrove/tsdl-mixer):
+  * [tsdl-mixer](https://github.com/sanette/tsdl-mixer):
   Support for the sound mixer component of TSDL.
-  * [tsdl-image](https://github.com/tokenrove/tsdl-image):
+  * [tsdl-image](https://github.com/sanette/tsdl-image):
   Support for the image-loading component of SDL.
 * [OCamlSDL2](https://github.com/fccm/OCamlSDL2):
 Bindings to the `SDL` 2.0 library using the traditional C ffi rather than `ctypes`,
