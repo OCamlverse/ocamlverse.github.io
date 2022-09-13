@@ -19,7 +19,7 @@ tags: [learning]
   then Prints the result.)  Many people who use an OCaml toplevel use the
   `utop` toplevel.  It's more full-featured than the `ocaml` toplevel that
   comes with an OCaml compiler. You can also evaluate OCaml expressions in an
-  editor or IDE, for example.  See the 
+  editor or IDE, for example.  See the
   [Code tools](code_tools.md)
   page.
 
@@ -29,7 +29,7 @@ tags: [learning]
   It might be a bad idea to change the syntax of types in a language that puts so much emphasis on
   types.  (Standard ML uses the same convention.  Since it and OCaml both developed from an earlier
   ML, it's likely that the convention predates OCaml.)
-  
+
   However, the type syntax kind of makes sense if you think about English syntax:  A "passenger
   ship" is a ship that carries passengers.  An `int list` is a list that contains `int`s.
   (You could also write "list of integers" in English, but then you need to add the "of".)
@@ -80,11 +80,11 @@ It's good to know what the 'gotchas' are before you head in, so you can look out
     Even if you know what you're doing with your code today, someone will come and modify
     it someday and use your polymorphic comparison on a data structure that doesn't support it.
 
-* **Semicolons and `if` statements with `let`**: 
+* **Semicolons and `if` statements with `let`**:
 When a `let` expression begins in the final branch of an `if` expression,
-a semicolon will not terminate the `let`; instead the `let` expression will include 
+a semicolon will not terminate the `let`; instead the `let` expression will include
 the code that comes after the semicolon.  One might expect that the semicolon ends the
-`if` expression, and that the code following it will execute *after* the entire `if` 
+`if` expression, and that the code following it will execute *after* the entire `if`
 expression, but instead that code is part of the  `if` expression.  This can introduce
 subtle bugs, although it is a consequence of the normal (and useful) scoping rule
 for `let`.  To make the semicolon follow the entire `if` with the embedded `let`, wrap
@@ -102,48 +102,48 @@ the `let` expression in parentheses or `begin`/`end`.  For more, see
   is not included in
     val foo : 'a -> 'a
   ```
-  This means that your function (or any other value that gets this type) is not really polymorphic, 
+  This means that your function (or any other value that gets this type) is not really polymorphic,
 and the compiler doesn't have enough information to infer its concrete type, thus it represents the unknown
 parts of the type with so called "weak type variables", the placeholders the need to be filled in by you.
-(The compiler will do it itself, if possible, but when you see the weak type in the error produced by 
-the compiler, it means that it wasn't possible, and your help is needed). 
+(The compiler will do it itself, if possible, but when you see the weak type in the error produced by
+the compiler, it means that it wasn't possible, and your help is needed).
 
   The [Weak Type Variables](weak_type_variables.md) article describes in detail why they exist in OCaml and
-how to cope with them.   
+how to cope with them.
 
 ## Syntax
 
 * **Printf directives**: Where can I find a list of `printf`, `sprintf`,
-  etc. directives such as `%s`, `%b`, `%d`, `%f`, etc.?  
-  
+  etc. directives such as `%s`, `%b`, `%d`, `%f`, etc.?
+
   See the [Printf
-  module documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Printf.html)
+  module documentation](http://v2.ocaml.org/api/Printf.html)
   in the OCaml Manual.
 
 * **Infix operators**: Where can I find documentation on standard infix
   operators such as `@@`?
-  
+
   For general documentation on operators, see the OCaml manual: [Operators](https://caml.inria.fr/pub/docs/manual-ocaml/expr.html#sec151)
-  in the Expressions section, [Index of values](http://caml.inria.fr/pub/docs/manual-ocaml/libref/index_values.html), or the 
-  [Stdlib module documentation](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Stdlib.html). For the Stdlib document,
+  in the Expressions section, [Index of values](http://v2.ocaml.org/api/index_values.html), or the
+  [Stdlib module documentation](http://v2.ocaml.org/api/Stdlib.html). For the Stdlib document,
   you'll want to search the page for "operator" or for the specific operator you're interested in.
-  
+
   For operator precedence and associativity, see the [Expressions](https://caml.inria.fr/pub/docs/manual-ocaml/expr.html)
-  section of the manual, and scroll down past the BNF syntax specification or search for "Construction or operator".  The 
+  section of the manual, and scroll down past the BNF syntax specification or search for "Construction or operator".  The
   Stdlib module also specifies precedence and associativity in the documentation for each operator.
-  
+
   (Also possibly useful: [Built-in operators and functions](https://www2.lib.uchicago.edu/keith/ocaml-class/operators.html)
   at *OCaml for the Skeptical*.)
 
 * **ppx**: What are these `[%% ...]`, `[@@ ...]` expressions that I
-  see in people's code?  What does it mean when there's a percent sign in the 
+  see in people's code?  What does it mean when there's a percent sign in the
   middle of a name, as in `let%lwt`? What are extension points?
-  
+
   See [A Guide to PreProcessor eXtensions](ppx.md) or [A Tutorial to OCaml -ppx Language Extensions](https://www.victor.darvariu.me/jekyll/update/2018/06/19/ppx-tutorial.html).
 
 * **+'a, -'a**: Why are some type variables prefaced by "+" or "-",
   as in `type +'a t`?
-  
+
   These are called "variance annotations".  They're used to constrain
   subtyping relations.  See [+'a and
   -'a](https://blog.janestreet.com/a-and-a) at the Jane Street Tech
@@ -151,14 +151,14 @@ how to cope with them.
 
 * **open!**: What's the difference between `open My_module` and
   `open! My_module`?
-  
+
   Both make the values and types in `My_module` available without having
   to write "My_module." in front of them.  `open My_module` will trigger
   a warning if `My_module` overrides existing definitions.  `open!` suppresses
   this warning.  See [Overriding in open statements](http://caml.inria.fr/pub/docs/manual-ocaml/extn.html#sec250)
   from [Chapter 8 Language extensions](http://caml.inria.fr/pub/docs/manual-ocaml/extn.html) in
-  the OCaml manual.  
-  
+  the OCaml manual.
+
   At present `open!` also suppresses another warning as well.  This is a warning
   that no definition in the opened module is in fact used within
   `open!`'s scope.  There is some disagreement about whether this behavior
@@ -167,4 +167,3 @@ how to cope with them.
   a module as a way of providing an alternative standard programming environment.
   See the discussion at this OCaml PR: [Fix PR6638: "unused open" warning was incorrectly suppressed
   by "open!"](https://github.com/ocaml/ocaml/pull/1110).
-

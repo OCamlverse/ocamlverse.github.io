@@ -3,7 +3,7 @@
 ## Available Options
 
 * As of 4.07, OCaml has a built-in
-[Seq](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Seq.html)
+[Seq](https://v2.ocaml.org/api/Seq.html)
 type, which every Stdlib data structure can convert to and from.
 Technically, this is a generator.
 Making use of this type will increase performance when running
@@ -90,7 +90,7 @@ to actually import the `Iter` library for a data structure to use it.
 `Streaming.Stream` avoids inner mutable types, but they're essentially hidden from the user at the `Iter` level.
 `Streaming.Stream` also has resource cleanup as part of its design,
 for example when streaming from a file or socket.
-For `Iter`, resource cleanup is not built in, and 
+For `Iter`, resource cleanup is not built in, and
 usage of a `with_resource` function is required for resource cleanup.
 
 ## Recommendations

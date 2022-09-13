@@ -8,7 +8,7 @@ tags: [ecosystem]
 
 * [ocplib-endian](https://github.com/OCamlPro/ocplib-endian):
 Read and write all sizes of integers, both big and little endian, from [Bigarrays](bigarray.md), strings and bytes.
-* [Bytes](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Bytes.html):
+* [Bytes](https://v2.ocaml.org/api/Bytes.html):
 The standard library has functions to read little endian and big endian numbers of different sizes,
 both signed and unsigned, from bytes.
 * [Integers](https://github.com/ocamllabs/ocaml-integers):

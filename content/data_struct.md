@@ -9,7 +9,7 @@ tags: [ecosystem]
 A major part of a standard library's role is providing basic
 data structures and algorithms.
 All the [standard libraries](standard_libraries.md) provide these:
-* The [standard library](https://caml.inria.fr/pub/docs/manual-ocaml/libref/) contains basic data structures:
+* The [standard library](https://v2.ocaml.org/api/) contains basic data structures:
   List, Array, Immutable Map, Hashtable, Mutable Queue, Mutable Stack.
 * [Base](https://github.com/janestreet/base) contains many additional data structures.
 * [Containers](https://github.com/c-cube/ocaml-containers) is a data structure-oriented extension of the standard library.

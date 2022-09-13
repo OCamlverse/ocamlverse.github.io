@@ -154,13 +154,13 @@ For testing frameworks in OCaml, see [Testing](testing.md)
 
 ## Time and Date
 * For short-term timing requirements,
-[Sys.time](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Sys.html) can do the job.
+[Sys.time](https://v2.ocaml.org/api/Sys.html) can do the job.
 * [mtime](https://github.com/dbuenzli/mtime): wall-clock monotonic time,
 and the best choice for longer-running timing requirements.
 * [ptime](http://erratique.ch/software/ptime): POSIX time.
-* [ISO8601](https://github.com/sagotch/ISO8601.ml/) 
-* [calendar](http://calendar.forge.ocamlcore.org/) 
-* [odate](https://github.com/hhugo/odate) 
+* [ISO8601](https://github.com/sagotch/ISO8601.ml/)
+* [calendar](http://calendar.forge.ocamlcore.org/)
+* [odate](https://github.com/hhugo/odate)
 * [Timedesc](https://github.com/daypack-dev/timere): date time handling.
 * [Timere](https://github.com/daypack-dev/timere): date time reasoning.
 * [Timere-parse](https://github.com/daypack-dev/timere): natural language parsing of date, time and duration.
@@ -174,6 +174,3 @@ For GUIs and TUIs (Terminal User Interfaces), see [User Interface](ui.md)
 ## Web and Networking
 For libraries related to web development and networking,
 see [Web and Networking](web_networking.md)
-
-
-

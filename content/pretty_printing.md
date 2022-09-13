@@ -5,7 +5,7 @@ tags: [ecosystem]
 
 # Pretty Printing
 
-* [Format](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Format.html):
+* [Format](https://v2.ocaml.org/api/Format.html):
 stdlib module using the notion of boxes to lay out pretty-printing commands.
 It's recommended to use one of the abstractions below instead.
 * [CCFormat](https://github.com/c-cube/ocaml-containers/blob/master/src/core/CCFormat.mli):

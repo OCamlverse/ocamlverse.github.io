@@ -5,8 +5,8 @@ tags: [ecosystem]
 
 # Command Line Arguments
 
-* The standard library contains the 
-[Arg](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Arg.html) module,
+* The standard library contains the
+[Arg](https://v2.ocaml.org/api/Arg.html) module,
 which has a simple syntax for defining command line arguments.
 However, it uses mutable state for arguments,
 and doesn't have a built-in way to handle things such as sub-arguments,

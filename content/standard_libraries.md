@@ -4,7 +4,7 @@ tags: [ecosystem]
 
 # Standard Libraries
 
-OCaml comes with its own [Standard Library](https://caml.inria.fr/pub/docs/manual-ocaml/libref/).
+OCaml comes with its own [Standard Library](https://v2.ocaml.org/api/).
 Most OCamlers, however, agree that the built-in standard library is problematic: it's not comprehensive
 enough, and it uses outmoded patterns, such as using exceptions rather than error types. The community has
 had trouble expanding the library due to namespacing issues.
@@ -16,7 +16,7 @@ no-exception counterparts.
 In the absence of a comprehensive standard library, several competitors developed. Due to OCaml's support for
 modularity, each can be swapped out for the other wholesale.
 
-* The [standard library](https://caml.inria.fr/pub/docs/manual-ocaml/libref/) offers a selection of functional
+* The [standard library](https://v2.ocaml.org/api/) offers a selection of functional
 data structures (List, Map) and imperative data structures (Array, Queue, Stack). Many of the functions throw
 an exception rather than returning an option type. The library also includes the Unix module, which, despite its
 name, has many functions that work on Windows. The Unix module is a catch-all for many IO-processing functions.
@@ -32,7 +32,7 @@ similar to the ListLabels, ArrayLabels, etc modules in the standard library. Add
 polymorphic comparison anywhere in its API.
   * [Documentation for Base](https://ocaml.janestreet.com/ocaml-core/latest/doc/base/index.html)
 * [Containers](https://github.com/c-cube/ocaml-containers)  is a lightweight and modern-style standard library which
-extends the standard library with additional functionality while applying more modern design concepts. Code written using the stdlib should continue working after adding `open Containers`, and benefit from richer `List`, `Option`, `Seq`, etc. modules. A few new modules are introduced for critical functionalities, such as `Vector`, `Heap`, `IO`, and `Sexp`. 
+extends the standard library with additional functionality while applying more modern design concepts. Code written using the stdlib should continue working after adding `open Containers`, and benefit from richer `List`, `Option`, `Seq`, etc. modules. A few new modules are introduced for critical functionalities, such as `Vector`, `Heap`, `IO`, and `Sexp`.
   * [Documentation for Containers](http://c-cube.github.io/ocaml-containers/last/containers/index.html)
   * The accompanying library [containers-data](http://c-cube.github.io/ocaml-containers/last/containers-data/index.html) contains additional data structures such as bitvectors, graphs, Patricia trees, etc.
 * [Core](https://github.com/janestreet/core)  is Jane Street's expanded standard library, sitting on top of Base.

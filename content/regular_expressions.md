@@ -14,7 +14,7 @@ matched groups.
 interface for 90% of your regex needs.
 This is a binding on top of Re.
 * OCaml comes with the
-[Str](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Str.html) module.
+[Str](https://v2.ocaml.org/api/Str.html) module.
 This module is __not__ recommended because it is not part of the standard library,
 it uses global states and is not particularly fast, but its availability makes it
 useful when you don't have access to anything better.

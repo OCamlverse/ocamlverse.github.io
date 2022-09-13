@@ -5,7 +5,7 @@ tags: [ecosystem]
 
 # String Manipulation
 
-* The standard library's [String](https://caml.inria.fr/pub/docs/manual-ocaml/libref/String.html)
+* The standard library's [String](https://v2.ocaml.org/api/String.html)
 module is somewhat lacking in terms of functionality.
 * [Containers](https://github.com/c-cube/ocaml-containers) has an expanded String module,
 with iteration functions and so on.

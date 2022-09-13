@@ -4,7 +4,7 @@ tags: [learning]
 
 # Bigarray
 
-[Bigarray](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Bigarray.html)
+[Bigarray](https://v2.ocaml.org/api/Bigarray.html)
 serves as a way to bypass some of the limitations with OCaml's built-in array data structures.
 
 For example:
