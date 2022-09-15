@@ -66,8 +66,8 @@ but the features aren't as well-integrated as they are in `esy`.
 ## OCaml Build System
 
 * [dune](https://github.com/ocaml/dune)  (formerly jbuilder) is a fast, easy to use build system for OCaml
-projects, and is seen as the main choice for new projects in OCaml. Dune can handle both OCaml (.ml) and
-Reason (.re) files.
+projects, and is seen as the main choice for new projects in OCaml. Dune can handle both OCaml (`.ml`) and
+Reason (`.re`) files.
 
   * [mkocaml](https://github.com/chrisnevers/mkocaml):
   tool for creating a new OCaml project using dune.
