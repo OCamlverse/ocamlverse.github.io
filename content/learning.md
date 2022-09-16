@@ -108,6 +108,7 @@ How to activate higher-rank polymorphism in OCaml. Old, but still relevant.
 ### Multicore
 [Parallel multicore OCaml programming](https://github.com/ocaml-multicore/parallel-programming-in-multicore-ocaml):
 How to program OCaml in the new multicore-OCaml runtime.
+[The OCaml multicore memory model](https://github.com/ocaml-multicore/eio/blob/main/doc/multicore.md)
 
 ### Deploying Apps
 
