@@ -4,7 +4,7 @@ tags: [package management, quickstart]
 
 # OPAM for npm/yarn users
 
-author: @khady
+Author: [Louis Khady (@khady)](https://github.com/Khady)
 
 ## Getting Started
 
@@ -41,8 +41,8 @@ For opam, however, there is a necessary first step:
 ```
 opam init -a
 ```
-Let's try to explain more in details what it does.
 
+Let's try to explain more in details what it does.
 I am quoting the documentation of `opam init` itself here:
 
 > The init command initialises a local "opam root" (by default,
@@ -105,6 +105,7 @@ depends: [
 `dev:` is to mark dev dependencies.
 
 ## npm/yarn-equivalent commands
+
 ### npm install / yarn
 
 `npm install` or `yarn` commands cover multiple opam commands,
