@@ -81,8 +81,8 @@ or those who simply want to learn OCaml.
 
 ### Online Exercises for Beginners
 
-* [99 problems](http://ocaml.org/learn/tutorials/99problems.html):
-The classic 99 problems, with solutions in OCaml.
+* [99 problems](http://ocaml.org/problems):
+The classic 99 (Prolog) problems[^1], with solutions in OCaml.
 * [Rosetta Code](http://rosettacode.org/wiki/Category:OCaml)
 * [OCaml at Exercism](http://exercism.io/languages/ocaml):
   * [Solutions](https://github.com/exercism/xocaml)
@@ -250,3 +250,5 @@ An ongoing work to translate CTFP's code from Haskell to OCaml.
 ### Academic Papers
 
 See [academic papers relevant to OCaml](papers.md).
+
+[^1]: https://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/
