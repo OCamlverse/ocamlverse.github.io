@@ -86,6 +86,7 @@ The classic 99 (Prolog) problems[^1], with solutions in OCaml.
 * [Rosetta Code](http://rosettacode.org/wiki/Category:OCaml)
 * [OCaml at Exercism](http://exercism.io/languages/ocaml):
   * [Solutions](https://github.com/exercism/xocaml)
+* [OCaml at Codewars](https://www.codewars.com/collections/ocaml)
 
 ### Beginner Online Courses
 
