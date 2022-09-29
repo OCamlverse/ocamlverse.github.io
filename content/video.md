@@ -10,7 +10,7 @@
 
 ## Conferences
 
-* [OCaml 2020 Videos](https://www.youtube.com/playlist?list=PLKO_ZowsIOu5fHjRj0ua7_QWE_L789K_f)
+* [OCaml Workshop 2020 Videos](https://www.youtube.com/playlist?list=PLKO_ZowsIOu5fHjRj0ua7_QWE_L789K_f)
 * [OCaml Workshop 2021 Videos](https://www.youtube.com/playlist?list=PLKO_ZowsIOu7o3iQmS3InxLKd0L5-zyqo)
   * [Keynote - Xavier Leroy: 25 years of OCaml](https://www.youtube.com/watch?v=PGJdHUqgX7o&list=PLKO_ZowsIOu7o3iQmS3InxLKd0L5-zyqo)
 
