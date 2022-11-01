@@ -21,7 +21,7 @@ Some motivations for using OCaml can be found [here](http://spyder.wordpress.com
 fun and useful site to look up the function of different OCaml operators.
 * [Functional Programming with OCaml](https://haifengl.wordpress.com/2014/06/17/ocaml-introduction/)
 * [OCaml file types and filename extensions](https://www2.ocaml.org/learn/tutorials/filenames.html)
-* [The faq](faq.md): a good place to find answers to questions about OCaml.
+* [The FAQ](faq.md): a good place to find answers to questions about OCaml.
 * [Real World OCaml](https://dev.realworldocaml.org/):
 A free online book, and a great introduction to OCaml.
 * [Links to OCaml Q&A around the web](qna_links.md).
