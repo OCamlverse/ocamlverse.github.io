@@ -4,10 +4,6 @@ tags: [learning]
 
 # Frequently asked questions
 
-* See the [ocaml.org FAQ](http://ocaml.org/learn/faq.html)
-* Also Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html).
-* And [Question and Answers around the web](qna_links.md)
-
 ## General
 
 * What is a "toplevel"?
@@ -167,3 +163,11 @@ how to cope with them.
   a module as a way of providing an alternative standard programming environment.
   See the discussion at this OCaml PR: [Fix PR6638: "unused open" warning was incorrectly suppressed
   by "open!"](https://github.com/ocaml/ocaml/pull/1110).
+
+## Additional Resources
+
+There are few other interesting OCaml FAQs, that you might want to check out:
+
+* [ocaml.org's FAQ](http://ocaml.org/learn/faq.html)
+* Pierre Weis's [Frequently asked Questions about Caml](http://caml.inria.fr/pub/old_caml_site/FAQ/FAQ_EXPERT-eng.html).
+* [Question and Answers around the web](qna_links.md)
