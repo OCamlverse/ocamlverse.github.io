@@ -9,7 +9,7 @@ Monads in OCaml are generally used in a slightly different way than in other lan
 Rather than using `>>=` for monadic binds, values are generally bound using a ppx
 with a syntax such as `let%bind x = ...`.
 
-Additionally, as of OCaml 4.08, the langauge itself contains syntax for calling
+Additionally, as of OCaml 4.08, the language itself contains syntax for calling
 monadic functions.
 See [this blog post](https://jobjo.github.io/2019/04/24/ocaml-has-some-new-shiny-syntax.html)
 and the [OCaml manual on this](https://v2.ocaml.org/releases/4.14/htmlman/bindingops.html).
