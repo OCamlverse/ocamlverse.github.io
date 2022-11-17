@@ -106,8 +106,16 @@ ocamlfind's existence.
 
 ## Continuous Integration
 
-* [setup-ocaml](https://github.com/ocaml/setup-ocaml):
-Easy-to-use [Github Actions](https://github.com/features/actions) for running your code on Linux, Mac and Linux machines.
+* [setup-ocaml]:
+Easy-to-use [GitHub Actions] for running your code on Linux, Mac and Windows machines.
+* [setup-dkml](https://github.com/diskuv/dkml-workflows#dkml-workflows): Slightly higher initial setup than setup-ocaml,
+but you get [GitHub Actions], [GitLab CI/CD](https://docs.gitlab.com/ee/ci/) and troubleshooting directly on your Linux/macOS/Windows desktop.
+The narrow design goal of setup-dkml is to distribute native code, so it has many other advantages and disadvantages compared
+to [setup-ocaml]. There is a comprehensive comparison chart available at [setup-dkml].
+
+[setup-ocaml]: https://github.com/ocaml/setup-ocaml
+[setup-dkml]: https://github.com/diskuv/dkml-workflows#dkml-workflows
+[GitHub Actions]: https://github.com/features/actions
 
 ## Legacy OCaml build systems
 
