@@ -48,6 +48,9 @@ Works on both the OCaml-to-Rust and Rust-to-OCaml directions.
 
 ## Others
 
+* [OCaml-lua](https://github.com/pdonadeo/ocaml-lua):
+Bindings to lua 5.1.
+Lua is a very efficient and light dynamic language that's often embedded in performant applications.
 * [OCaml-R](https://github.com/pveber/ocaml-r):
 FFI to the [R statistical language](https://www.r-project.org/about.html).
 [Docs](http://pveber.github.io/ocaml-r/index.html).
