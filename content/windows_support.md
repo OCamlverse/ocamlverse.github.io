@@ -58,7 +58,7 @@ Not all OPAM packages are available yet, but support is rapidly growing.
 OPAM is being extended to support a Windows environment.
 See [this post](https://discuss.ocaml.org/t/ann-opam-2-0-5-release/4081/7) for details.
 
-[diskuv]: https://diskuv.gitlab.io/diskuv-ocaml/
+[diskuv]: https://diskuv-ocaml.gitlab.io/distributions/dkml/
 [ocaml-win]: https://fdopen.github.io/opam-repository-mingw/
 [opam-cross-windows]: https://github.com/ocaml-cross/opam-cross-windows
 [Reason]: https://reasonml.github.io/
