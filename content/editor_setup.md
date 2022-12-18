@@ -42,7 +42,7 @@ A completion engine, like `Ale`, is recommended as well.
 ### OCaml LSP
 
 Neovim supports LSP servers natively. To add LSP support to Vim, you'll need an extra addon.
-To run Neovim with LSP support, the easiest way is to install [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#ocamllsp)
+To run Neovim with LSP support, the easiest way is to install [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig/)
 and configure the necessary lines for ocaml-lsp support.
 Make sure to install `ocaml-lsp` via opam and you're done.
 
