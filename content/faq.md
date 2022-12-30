@@ -39,6 +39,14 @@ tags: [learning]
 * What does `+'a` and `-'a` mean?
 
   They indicate variance. See [this blog post](https://blog.janestreet.com/a-and-a/).
+ 
+* Why are OCaml's objects considered slow?
+
+Objects in OCaml are structural, as opposed to most other static languages (C++, Java, C#), where they're nominal.
+What does this mean?
+Well, nominal objects can only be created via classes. This means they can be compiled extremely efficiently using virtual tables. You can know ahead of time (during compilation) where each method is, which means you can have excellent performance using only a few pointer indirections.
+OCaml didn't choose this path. OCaml objects don't follow any class hierarchy and can be created willy-nilly. As a result, any method can be found on any object, and the only way to find a method is to look it up in a dictionary during runtime. This is similar to what dynamic languages (Python, Javascript, Ruby etc) do, and has similar performance implications.
+All of this doesn't matter too much if you're not working in high performance domains. GUIs, for example, are as slow as humans are. For code that needs to run as fast as possible, however, OCaml objects are a performance bottleneck.
 
 ## OCaml Gotchas
 
