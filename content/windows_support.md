@@ -21,7 +21,7 @@ to install. The distribution transparently uses Unix utilities so that Windows u
 
   The disadvantages of Diskuv OCaml are:
     * Visual Studio 2019, even though it is automatically installed, is a multi-gigabyte program that requires Administrator permissions to install
-    * Only OCaml 4.12.1 is officially supported. Official support is tied to the latest OCaml version that supports debugging from Visual Studio Code [ocamlearlybird].
+    * Only OCaml 4.14.0 is officially supported. OCaml 5.x does not yet support Visual Studio.
 
 * OCaml on [WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - 
   Windows 10 supports Ubuntu or any other Linux distribution *natively*.
