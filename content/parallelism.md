@@ -13,6 +13,11 @@ but parallelism support is not built in to the runtime.
 
 ## Concurrency
 
+* [eio](https://github.com/ocaml-multicore/eio):
+A concurrency library using the OCaml effect system.
+Unlike the other concurrency libraries, `eio` doesn't require the usage of monads.
+This makes it easier to code using 'plain` OCaml code.
+    * [video presentation](https://watch.ocaml.org/w/02a7accc-2a2c-44d5-889e-d75e1489946e) on `eio`. 
 * [lwt](https://github.com/ocsigen/lwt): a monadic concurrency library.
 Concurrent code uses monads to express the higher-level abstractions of control flow.
     * [lwt-pipe](https://github.com/c-cube/lwt-pipe):
