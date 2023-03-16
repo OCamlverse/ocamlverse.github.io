@@ -15,3 +15,4 @@ Includes OCaml bindings via generation.
 RPC using XML or JSON.
 Transportation mechanism not included.
 [docs](http://mirage.github.io/ocaml-rpc/rpclib/index.html).
+* [OCaml-GRPC](https://github.com/dialohq/ocaml-grpc) gRPC library for OCaml using [protobufs](https://github.com/mransan/ocaml-protoc).
