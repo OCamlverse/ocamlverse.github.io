@@ -21,6 +21,7 @@ A new, SDL-based GUI. Ideal for integration in games.
 [demo video](https://youtu.be/isFLxnDooL8)
 * [labltk](https://forge.ocamlcore.org/projects/labltk/):
 Interface to the Tcl/Tk GUI framework.
+* [Stk](https://zoggy.frama.io/ocaml-stk/): A GTK inspired SDL-based GUI toolkit
 
 
 ## TUI (Terminals)
