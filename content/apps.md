@@ -25,8 +25,10 @@ Cross-platform file synchronization tool written in OCaml.
 * [CamlBoy](https://github.com/linoscope/CAMLBOY/):
 A full GameBoy emulator written in OCaml. 
 Runs in the browser using `js_of_ocaml`.
-* [Doculib](https://github.com/nguermond/doculib):
+* [DocuLib](https://github.com/nguermond/doculib):
 A GUI for tagging and managing document metadata for books, textbooks, or articles.
+* [Chamo](https://zoggy.frama.io/chamo/): An emacs like code/text editor which can be configured in OCaml 
+
 
 ## Toy Applications
 
