@@ -104,6 +104,8 @@ Therefore, distributed computing libraries generally also perform parallelism on
 
 * [Rpc.Parallel](https://github.com/janestreet/rpc_parallel):
 a library for spawning processes on a cluster of machines, and passing typed messages between them.
+* [zmq](https://github.com/issuu/ocaml-zmq): ZeroMQ
+an open-source universal messaging library.
 * [Functory](http://functory.lri.fr/About.html):
 a distributed computing library which facilitates distributed execution of
 parallelizable computations in a seamless fashion.
