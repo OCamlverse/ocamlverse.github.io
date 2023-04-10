@@ -151,6 +151,11 @@ If `dune` manages building your individual project,
 `opam` speaks in terms of OCaml packages -- other packaged bits of OCaml code that depend on each other.
 Fortunately, we don't need to write any complex configuration file for `opam` - `dune` handles it for us!
 
+Next up, we are going to create an `opam` switch. Opam install packages globally, and switches makes it easy
+to have a isolated environment in which you can install packages that will not be shared between switches,
+and therefore reduce the chance of dependencies conflict. You can think of it as an analog to Python’s
+virtualenv.
+
 An `opam` switch contains a whole bunch of installed packages that are specified as compatible with each other.
 However, it can only have one installed version of each package!
 We're going to create an entirely new `opam` switch at our main directory.
@@ -226,14 +231,8 @@ All we have to do is expand it!
 * If we're writing a regular application, use `./bin/main.ml` as the starting point.
 Add subdirectories and additional `.ml` files as needed.
 
-## Opam Switch
 
-Next up, we are going to create an opam switch. Opam install packages globally, and switches makes it easy
-to have a isolated environment in which you can install packages that will not be shared between switches,
-and therefore reduce the chance of dependencies conflict. You can think of it as an analog to Python’s
-virtualenv.
-
-### Libraries
+## Libraries
 
 Structuring your code in a modular way is one of software engineering best practices.
 In OCaml and Dune, such structure can be achieved through the use of libraries.
@@ -246,14 +245,7 @@ preferred, so we are going with that in this tutorial.
 Note that while this might be okay in most cases, you might want to create multiple libraries
 if your codebase is “big enough”.
 
-So let’s get to it! Let’s create a library directory called lib that will be the place to put
-our library code:
-
-```
-$ mkdir lib
-```
-
-After that, we’ll create another dune file inside the lib directory as follows:
+So let’s get to it! Let’s create another dune file inside the lib directory as follows:
 
 ```
 (library
