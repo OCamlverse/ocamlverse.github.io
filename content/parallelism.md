@@ -4,12 +4,9 @@ tags: [ecosystem]
 
 # Concurrency, Parallelism, and Distributed Systems
 
-Concurrency refers to running multiple computations more-or-less simultaneously,
-whereas parallelism refers to using multiple cores or OS-level threads to coordinate computation.
-We now know that the former is relatively safe and easy to reason about,
-whereas the latter is extremely difficult and causes many subtle bugs.
-OCaml currently supports concurrency elegantly,
-but parallelism support is not built in to the runtime.
+Concurrency refers to running multiple computations and switching from one to the other rapidly (green threads),
+whereas parallelism refers to using multiple OS-level threads to coordinate computation.
+Since OCaml 5.0, OCaml supports concurrency with the Effect system and parallelism with Domains.
 
 ## Concurrency
 
@@ -48,11 +45,18 @@ allowing for full process control in a system-independent manner.
 
 ## Parallelism
 
-As mentioned above, OCaml currently doesn't natively support multiple OS-level OCaml
-threads running simultaneously.
-A global lock prevents multiple OCaml threads from running simultaneously.
+### Domain (thread)-based Parallelism
 
-Since we currently don't have thread-level parallelism, process-level is used instead.
+* [Parallel Programming in Multicore OCaml](https://github.com/ocaml-multicore/parallel-programming-in-multicore-ocaml):
+great article on using the OCaml's multicore capabilities.
+* [kCAS]: Software-Transactional Memory (STM) in OCaml.
+STM allows for programming across threads (domains) via lockless data structures and interfaces that make the difficult work
+of parallelism easier for average programmers.
+
+### Process-Level Parallelism
+
+Pre-5.0, OCaml supported parallelism only by running multiple processes.
+This option still exists and is supported by many libraries.
 
 * [Parmap](http://rdicosmo.github.io/parmap/):
 Provides easy-to-use parallel map and fold functions.
@@ -83,20 +87,7 @@ This is the most powerful implementation of parellelism currently available for 
 as it is capable of creating a shared memory region,
 and running a *custom-made garbage collector* on said region.
 
-### Multicore OCaml 5.0
-
-The most promising and powerful way to use multicore is with the new
-[multicore](https://github.com/ocamllabs/ocaml-multicore) branch,
-has recently been incorporated into OCaml 5.0.
-OCaml 5.0 will use a parallel garbage collector,
-which means that it will eventually be able to run on multiple cores in the same process.
-Note that this branch is not yet ready for real work, but it's rapidly advancing.
-For more information, consult the [Multicore Wiki](https://github.com/ocamllabs/ocaml-multicore/wiki).
-
-* [Parallel Programming in Multicore OCaml](https://github.com/ocaml-multicore/parallel-programming-in-multicore-ocaml):
-great article on using the Multicore OCaml branch.
-
-### Distributed Computing
+## Distributed Computing
 
 Distributed computing is similar to process-based parallelism, except that the child
 processes may or may not be on remote machines.
