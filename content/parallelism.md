@@ -49,7 +49,7 @@ allowing for full process control in a system-independent manner.
 
 * [Parallel Programming in Multicore OCaml](https://github.com/ocaml-multicore/parallel-programming-in-multicore-ocaml):
 great article on using the OCaml's multicore capabilities.
-* [kCAS]: Software-Transactional Memory (STM) in OCaml.
+* [kCAS](https://github.com/ocaml-multicore/kcas): Software-Transactional Memory (STM) in OCaml.
 STM allows for programming across threads (domains) via lockless data structures and interfaces that make the difficult work
 of parallelism easier for average programmers.
 
