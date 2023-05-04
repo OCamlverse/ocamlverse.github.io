@@ -18,6 +18,7 @@ Currently supports MariaDB, PostgreSQL and SQLite3.
 Prioritizes simplicity. Wraps around PostgreSQL-OCaml.
 * [PGX](https://github.com/arenadotio/pgx): a pure-OCaml PostgreSQL client library, supporting Async, LWT, or synchronous operations.
 * [SQLite3-OCaml](https://github.com/mmottl/sqlite3-ocaml/): OCaml bindings to the SQLite3 database.
+* [ocaml-sql-query](https://github.com/yawaramin/ocaml_sql_query): Experimental functional wrapper over SQL queries.
 * [Sqlite3EZ](https://mlin.github.io/ocaml-sqlite3EZ/): thin wrapper for SQLite3 with a simplified interface.
 * [ocaml-redis](https://github.com/0xffea/ocaml-redis): Redis bindings for OCaml.
 * [mysql8](https://github.com/chrisnevers/mysql8):
