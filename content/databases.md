@@ -7,21 +7,26 @@ tags: [ecosystem]
 ## Bindings
 
 * [camltc](https://github.com/toolslive/camltc): OCaml bindings to [Tokyo Cabinet](https://github.com/Incubaid/tokyocabinet).
-* [Caqti](https://github.com/paurkedal/ocaml-caqti): monadic, asynchronous common interface to relational databases. Currently supports MariaDB, PostgreSQL and SQLite3.
+* [Caqti](https://github.com/paurkedal/ocaml-caqti): monadic, asynchronous common interface to relational databases.
+  * Currently supports MariaDB, PostgreSQL and SQLite3.
 * [Dbm](https://forge.ocamlcore.org/projects/camldbm/): a binding to the NDBM/GDBM Unix "databases".
-* [ezpostgresql](https://github.com/bobbypriambodo/ezpostgresql): simple, non-type-safe interface to PostgreSQL. Prioritizes simplicity. Wraps around PostgreSQL-OCaml.
+* [ezpostgresql](https://github.com/bobbypriambodo/ezpostgresql): simple, non-type-safe interface to PostgreSQL. Prioritizes simplicity.
+  * Wraps around PostgreSQL-OCaml.
 * [Mongo](https://massd.github.io/mongo/): OCaml driver for Mongodb
-* [mysql8](https://github.com/chrisnevers/mysql8): Bindings to the latest version of the mysql database. [docs](https://chrisnevers.github.io/mysql8/mysql8/index.html)
+* [mysql8](https://github.com/chrisnevers/mysql8): Bindings to the latest version of the mysql database.
+  * [docs](https://chrisnevers.github.io/mysql8/mysql8/index.html)
 * [mysql_protocol](https://github.com/slegrand45/mysql_protocol): implementation of MySQL Protocol with the Bitstring library.
 * [OCaml-mariahdb](https://github.com/andrenth/ocaml-mariadb): OCaml bindings to MariahDB interface.
 * [ocaml-redis](https://github.com/0xffea/ocaml-redis): Redis bindings for OCaml.
 * [ocaml-sql-query](https://github.com/yawaramin/ocaml_sql_query): Experimental functional wrapper over SQL queries.
 * [orocksdb](https://github.com/domsj/orocksdb): OCaml RocksDB bindings using ctypes.
 * [Petrol](https://github.com/gopiandcode/petrol): Provides a high-level, type-safe API that allows defining SQL tables and queries directly in OCaml rather than writing SQL code.
-* [PG'OCaml](https://github.com/darioteixeira/pgocaml): PostgreSQL client in pure OCaml. Includes a `PPX` that provides compile-time checking of SQL syntax and types.
+* [PG'OCaml](https://github.com/darioteixeira/pgocaml): PostgreSQL client in pure OCaml.
+  * Includes a `PPX` that provides compile-time checking of SQL syntax and types.
 * [PGX](https://github.com/arenadotio/pgx): a pure-OCaml PostgreSQL client library, supporting Async, LWT, or synchronous operations.
 * [PostgreSQL-OCaml](https://mmottl.github.io/postgresql-ocaml/): a low-level interface to PostgreSQL through the C API (`libpq`).
-* [ppx_mysql](https://github.com/issuu/ppx_mysql): Syntax extension for mysql bindings. [Blog post](https://engineering.issuu.com/2019/05/06/announcing-ppx-mysql).
+* [ppx_mysql](https://github.com/issuu/ppx_mysql): Syntax extension for mysql bindings.
+  * [Blog post](https://engineering.issuu.com/2019/05/06/announcing-ppx-mysql).
 * [ppx_pgsql](https://github.com/tizoc/ppx_pgsql): a syntax extension for embedded SQL queries using PG'OCaml.
 * [ppx_rapper](https://github.com/roddyyaga/ppx_rapper): a syntax extension for PostgreSQL using Caqti
 * [SQLite3-OCaml](https://github.com/mmottl/sqlite3-ocaml/): OCaml bindings to the SQLite3 database.
@@ -30,7 +35,8 @@ tags: [ecosystem]
 ### Out of Date
 
 * [mysql](http://ocaml-mysql.forge.ocamlcore.org/): (Older version of mysql) mysql library.
-* [Sequoia](https://github.com/andrenth/sequoia): (Needs update to latest OCaml) Create type-safe queries. Currently with bindings to MySQL/MariaDB and SQLite.
+* [Sequoia](https://github.com/andrenth/sequoia): (Needs update to latest OCaml) Create type-safe queries.
+  * Currently with bindings to MySQL/MariaDB and SQLite.
 
 ## OCaml Databases
 
