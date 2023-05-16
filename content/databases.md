@@ -31,6 +31,7 @@ Syntax extension for mysql bindings. [Blog post](https://engineering.issuu.com/2
 * [camltc](https://github.com/toolslive/camltc): OCaml bindings to [Tokyo Cabinet](https://github.com/Incubaid/tokyocabinet).
 * [orocksdb](https://github.com/domsj/orocksdb): OCaml RocksDB bindings using ctypes.
 * [ppx_rapper](https://github.com/roddyyaga/ppx_rapper): a syntax extension for PostgreSQL using Caqti
+* [Petrol](https://github.com/gopiandcode/petrol): Provides a high-level, type-safe API that allows defining SQL tables and queries directly in OCaml rather than writing SQL code.
 
 ### Out of Date
 * [Sequoia](https://github.com/andrenth/sequoia):
@@ -57,3 +58,4 @@ mysql library.
 
 * [Implementing the Binary Memcached Protocol with Ocaml and Bitstring](http://andreas.github.io/2014/08/22/implementing-the-binary-memcached-protocol-with-ocaml-and-bitstring/)
 * [Interfacing OCaml and PostgreSQL with Caqti](https://medium.com/@bobbypriambodo/interfacing-ocaml-and-postgresql-with-caqti-a92515bdaa11)
+* [Petrol: embedding a type-safe SQL API in OCaml using GADTs](https://gopiandcode.uk/logs/log-ways-of-sql-in-ocaml.html)
