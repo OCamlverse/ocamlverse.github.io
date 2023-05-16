@@ -6,9 +6,12 @@ tags: [ecosystem]
 
 ## Bindings
 
+_Note: Libraries with over 100 stars on GitHub as of 2023-05-15 are marked "Popular"._
+
 * [camltc](https://github.com/toolslive/camltc): OCaml bindings to [Tokyo Cabinet](https://github.com/Incubaid/tokyocabinet).
 * [Caqti](https://github.com/paurkedal/ocaml-caqti): monadic, asynchronous common interface to relational databases.
   * Currently supports MariaDB, PostgreSQL and SQLite3.
+  * Popular
 * [Dbm](https://forge.ocamlcore.org/projects/camldbm/): a binding to the NDBM/GDBM Unix "databases".
 * [ezpostgresql](https://github.com/bobbypriambodo/ezpostgresql): simple, non-type-safe interface to PostgreSQL. Prioritizes simplicity.
   * Wraps around PostgreSQL-OCaml.
@@ -23,13 +26,18 @@ tags: [ecosystem]
 * [Petrol](https://github.com/gopiandcode/petrol): Provides a high-level, type-safe API that allows defining SQL tables and queries directly in OCaml rather than writing SQL code.
 * [PG'OCaml](https://github.com/darioteixeira/pgocaml): PostgreSQL client in pure OCaml.
   * Includes a `PPX` that provides compile-time checking of SQL syntax and types.
+  * Popular
 * [PGX](https://github.com/arenadotio/pgx): a pure-OCaml PostgreSQL client library, supporting Async, LWT, or synchronous operations.
+  * Popular
 * [PostgreSQL-OCaml](https://mmottl.github.io/postgresql-ocaml/): a low-level interface to PostgreSQL through the C API (`libpq`).
+  * Popular
 * [ppx_mysql](https://github.com/issuu/ppx_mysql): Syntax extension for mysql bindings.
   * [Blog post](https://engineering.issuu.com/2019/05/06/announcing-ppx-mysql).
 * [ppx_pgsql](https://github.com/tizoc/ppx_pgsql): a syntax extension for embedded SQL queries using PG'OCaml.
 * [ppx_rapper](https://github.com/roddyyaga/ppx_rapper): a syntax extension for PostgreSQL using Caqti
+  * Popular
 * [SQLite3-OCaml](https://github.com/mmottl/sqlite3-ocaml/): OCaml bindings to the SQLite3 database.
+  * Popular
 * [Sqlite3EZ](https://mlin.github.io/ocaml-sqlite3EZ/): thin wrapper for SQLite3 with a simplified interface.
 
 ### Out of Date
