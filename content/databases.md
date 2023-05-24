@@ -55,6 +55,9 @@ _Note: Libraries with over 100 stars on GitHub are marked "Popular"._
 
 ## Articles
 
+* Caqti (and ppx_rapper)
+  * [A Lightweight OCaml Webapp Tutorial](https://shonfeder.gitlab.io/ocaml_webapp/)
+  * [Backend WebDev w/ Dream and Caqti](https://ceramichacker.com/blog/28-2x-backend-webdev-w-dream-and-caqti)
+  * [Interfacing OCaml and PostgreSQL with Caqti](https://medium.com/@bobbypriambodo/interfacing-ocaml-and-postgresql-with-caqti-a92515bdaa11)
 * [Implementing the Binary Memcached Protocol with Ocaml and Bitstring](http://andreas.github.io/2014/08/22/implementing-the-binary-memcached-protocol-with-ocaml-and-bitstring/)
-* [Interfacing OCaml and PostgreSQL with Caqti](https://medium.com/@bobbypriambodo/interfacing-ocaml-and-postgresql-with-caqti-a92515bdaa11)
 * [Petrol: embedding a type-safe SQL API in OCaml using GADTs](https://gopiandcode.uk/logs/log-ways-of-sql-in-ocaml.html)
