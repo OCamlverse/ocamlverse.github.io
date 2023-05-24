@@ -53,11 +53,15 @@ _Note: Libraries with over 100 stars on GitHub are marked "Popular"._
 * [Macaque](https://github.com/ocsigen/macaque): Macaque is a library for safe and flexible database queries using comprehensions on top of PG'OCaml.
 * [ORM](https://github.com/mirage/orm/): ORM for SQLite.
 
-## Articles
+## Articles & Examples
 
 * Caqti (and ppx_rapper)
-  * [A Lightweight OCaml Webapp Tutorial](https://shonfeder.gitlab.io/ocaml_webapp/)
-  * [Backend WebDev w/ Dream and Caqti](https://ceramichacker.com/blog/28-2x-backend-webdev-w-dream-and-caqti)
-  * [Interfacing OCaml and PostgreSQL with Caqti](https://medium.com/@bobbypriambodo/interfacing-ocaml-and-postgresql-with-caqti-a92515bdaa11)
+    * Articles
+        * [A Lightweight OCaml Webapp Tutorial](https://shonfeder.gitlab.io/ocaml_webapp/)
+        * [Backend WebDev w/ Dream and Caqti](https://ceramichacker.com/blog/28-2x-backend-webdev-w-dream-and-caqti)
+        * [Interfacing OCaml and PostgreSQL with Caqti](https://medium.com/@bobbypriambodo/interfacing-ocaml-and-postgresql-with-caqti-a92515bdaa11)
+    * Examples
+        * [Bike Registration](https://github.com/paurkedal/ocaml-caqti/tree/master/examples): Uses `Caqti_lwt` and includes examples of table creation, basic CRUD operations, and unit tests
+        * [TodoDB](https://github.com/bobbypriambodo/ocaml-todo-api-example/tree/master): Uses `Caqti_lwt` and includes examples of table creation, migration, and basic CRUD operations.
 * [Implementing the Binary Memcached Protocol with Ocaml and Bitstring](http://andreas.github.io/2014/08/22/implementing-the-binary-memcached-protocol-with-ocaml-and-bitstring/)
 * [Petrol: embedding a type-safe SQL API in OCaml using GADTs](https://gopiandcode.uk/logs/log-ways-of-sql-in-ocaml.html)
