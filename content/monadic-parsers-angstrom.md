@@ -100,11 +100,11 @@ We already use a predefined (in Angstrom) parser which is called `take_while`. Y
 
 We can then try it:
 ```ocaml
-utop # Angstrom.parse_string whitespace "    ";;
+utop # Angstrom.parse_string ~consume:Prefix whitespace "    ";;
 - : (string, string) result = Result.Ok "    "
 
 
-utop # Angstrom.parse_string whitespace " 1 ";;
+utop # Angstrom.parse_string ~consume:Prefix whitespace " 1 ";;
 - : (string, string) result = Result.Ok " "
 ```
 
