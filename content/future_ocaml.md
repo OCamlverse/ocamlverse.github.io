@@ -2,6 +2,41 @@
 
 Some interesting news/developments coming up in OCaml's future:
 
+## Ongoing
+
+### Concurrency and Parallelism with OCaml
+
+OCaml 5.0 has integrated Multicore OCaml, which provides building blocks
+for concurrent and parallel programming.
+It includes algebraic effect handlers that can express computational
+effects, including resumable exceptions, delimited continuations, and
+asynchronous computations.
+Additionally, domains, abstractions of native threads, can run
+simultaneously on shared-memory multiprocessor systems.
+
+The OCaml community has taken advantage of these new features by
+developing several libraries, and the ecosystem has evolved to gain full
+potential from today's hardware.
+For more information, visit the
+[Concurrency, Parallelism, and Distributed Systems] page.
+
+* [The Journey to OCaml Multicore: Bringing Big Ideas to Life] (2023)
+  summarizes the history and challenges of the Multicore OCaml project
+  that started in 2013.
+* [Retrofitting Concurrency – Lessons from the Engine Room] (video)
+  (ICFP 2022) retrospects how OCaml 5.0 has enabled multi-threaded OCaml
+  programs without sacrificing the efficiency of existing
+  single-threaded programs. The slides are available at
+  <https://speakerdeck.com/kayceesrk/retrofitting-concurrency-lessons-from-the-engine-room>.
+* [Retrofitting Parallelism onto OCaml] (video) (ICFP 2020) presents
+  the garbage collection algorithm in OCaml 5.0. The proceeding paper
+  is available at <https://dl.acm.org/doi/10.1145/3408995>.
+
+[Concurrency, Parallelism, and Distributed Systems]: /content/parallelism.html
+[The Journey to OCaml Multicore: Bringing Big Ideas to Life]: https://tarides.com/blog/2023-03-02-the-journey-to-ocaml-multicore-bringing-big-ideas-to-life/
+[Retrofitting Concurrency – Lessons from the Engine Room]: https://www.youtube.com/watch?v=zJ4G0TKwzVc
+[Retrofitting Parallelism onto OCaml]: https://www.youtube.com/watch?v=9ClMPz7QaIs
+
 ## Medium-Term Plans
 
 ### Flambda 2.0
