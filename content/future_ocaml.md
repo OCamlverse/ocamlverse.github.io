@@ -165,6 +165,42 @@ more similar to Haskell's but without the need for monads for effects.
 
 ## Notable Ideas
 
+### Certifiable OCaml Type Inference
+
+OCaml's type checker is complex and fragile, as noted in
+`ocaml/typing/TODO.md` in the compiler codebase.
+While refactoring the type checker for lower maintenance costs is a
+priority, it is tough for less experienced developers to participate.
+The type system has many features, so the underlying algorithm is hard
+to comprehend.
+Additionally, the implementation could be better structured.
+
+The Certifiable OCaml Type Inference (COCTI) project aims to develop the
+foundation for a "robust, modular, and verifiable" type system
+implementation for OCaml.
+In addition to the cleanup and refactoring of the existing code base,
+COCTI develops a compiler backend targeting Gallina, Coq's programming
+language, and proofs of soundness of the type system, among others.
+
+Most code on COCTI is available at <https://github.com/COCTI/ocaml>.
+
+* [Validating OCaml soundness by translation into Coq] (TYPES 2022)
+  introduces [Coqgen], "a backend for OCaml that generates well-typed
+  and executable Coq code".
+  The slides are available at
+  <https://types22.inria.fr/files/2022/06/TYPES_2022_slides_15.pdf>.
+* [Interpreting OCaml GADTs into Coq] (video) (ML 2022) shows how to
+  map GADTs in OCaml to Coq and open problems toward translating them
+  automatically.
+  The proceeding paper is available at
+  <https://www.math.nagoya-u.ac.jp/~garrigue/papers/ml2022.pdf>.
+  The slides are available at
+  <https://www.math.nagoya-u.ac.jp/~garrigue/papers/coqgen-slides-ml2022.pdf>.
+
+[Validating OCaml soundness by translation into Coq]: https://types22.inria.fr/files/2022/06/TYPES_2022_paper_15.pdf
+[Coqgen]: https://www.math.nagoya-u.ac.jp/~garrigue/cocti/coqgen/
+[Interpreting OCaml GADTs into Coq]: https://www.youtube.com/watch?v=8VPygk6NHB8
+
 ### Modes
 
 OCaml's generational garbage collector efficiently handles short-lived
@@ -216,40 +252,3 @@ Work on unboxed types is ongoing at
 
 [Unboxed types for OCaml]: https://www.youtube.com/watch?v=Vevld4cXSYk
 [Unboxed Types for OCaml at Jane Street Tech Talks]: https://www.youtube.com/watch?v=RV-4Xddk0Yc
-
-### Certifiable OCaml Type Inference
-
-OCaml's type checker is complex and fragile, as noted in
-`ocaml/typing/TODO.md` in the compiler codebase.
-While refactoring the type checker for lower maintenance costs is a
-priority, it is tough for less experienced developers to participate.
-The type system has many features, so the underlying algorithm is hard
-to comprehend.
-Additionally, the implementation could be better structured.
-
-The Certifiable OCaml Type Inference (COCTI) project aims to develop the
-foundation for a "robust, modular, and verifiable" type system
-implementation for OCaml.
-In addition to the cleanup and refactoring of the existing code base,
-COCTI develops a compiler backend targeting Gallina, Coq's programming
-language, and proofs of soundness of the type system, among others.
-
-Most code on COCTI is available at <https://github.com/COCTI/ocaml>.
-
-* [Validating OCaml soundness by translation into Coq] (TYPES 2022)
-  introduces [Coqgen], "a backend for OCaml that generates well-typed
-  and executable Coq code".
-  The slides are available at
-  <https://types22.inria.fr/files/2022/06/TYPES_2022_slides_15.pdf>.
-* [Interpreting OCaml GADTs into Coq] (video) (ML 2022) shows how to
-  map GADTs in OCaml to Coq and open problems toward translating them
-  automatically.
-  The proceeding paper is available at
-  <https://www.math.nagoya-u.ac.jp/~garrigue/papers/ml2022.pdf>.
-  The slides are available at
-  <https://www.math.nagoya-u.ac.jp/~garrigue/papers/coqgen-slides-ml2022.pdf>.
-
-[Validating OCaml soundness by translation into Coq]: https://types22.inria.fr/files/2022/06/TYPES_2022_paper_15.pdf
-[Coqgen]: https://www.math.nagoya-u.ac.jp/~garrigue/cocti/coqgen/
-[Interpreting OCaml GADTs into Coq]: https://www.youtube.com/watch?v=8VPygk6NHB8
-
