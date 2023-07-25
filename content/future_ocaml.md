@@ -178,6 +178,27 @@ A prototype of modes-enabled OCaml is being developed at
 [Part 2: Rust-style Ownership]: https://blog.janestreet.com/oxidizing-ocaml-ownership/
 [Stack allocation for OCaml]: https://watch.ocaml.org/w/6c86b050-334b-4a11-bb04-c347a6e57215
 
+### Unboxed Types
+
+OCaml uses a uniform memory layout of values to implement parametric
+polymorphism without duplicating mostly identical code snippets for each
+type, as C++'s templates do under the hood.
+The disadvantage of a uniform memory layout is the overhead of memory
+space and execution time.
+
+Unboxed types do not follow the uniform memory layout to improve
+performance.
+With unboxed types, programmers can opt-in to unboxed types when desired
+at the cost of duplicating code for each unboxed type.
+Work on unboxed types is ongoing at
+<https://github.com/ocaml-flambda/ocaml-jst>.
+
+* [Unboxed types for OCaml] (video) (ML 2022)
+* [Unboxed Types for OCaml at Jane Street Tech Talks] (video) (2019)
+
+[Unboxed types for OCaml]: https://www.youtube.com/watch?v=Vevld4cXSYk
+[Unboxed Types for OCaml at Jane Street Tech Talks]: https://www.youtube.com/watch?v=RV-4Xddk0Yc
+
 ### Certifiable OCaml Type Inference
 
 OCaml's type checker is complex and fragile, as noted in
