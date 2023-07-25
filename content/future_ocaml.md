@@ -118,7 +118,7 @@ unfortunately, appears to be years away.
   * <https://github.com/lpw25/implicits-module-system>
   * <https://github.com/ocamllabs/ocaml-modular-implicits>
 
-[the original paper of modular implicits]: https://arxiv.org/abs/1512.01895
+[the original paper on modular implicits]: https://arxiv.org/abs/1512.01895
 [Modular implicits]: https://www.youtube.com/watch?v=3wVUXTd4WNc
 [Leo White's response on implementing modular implicits]: https://discuss.ocaml.org/t/modular-implicits/144/18
 
