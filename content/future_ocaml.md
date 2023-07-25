@@ -11,6 +11,34 @@ Work is ongoing to create the next version at OCamlPro.
 See [this post](https://www.ocamlpro.com/2019/08/30/ocamlpros-compiler-team-work-update/)
 and [the Flambda backend development tree](https://github.com/ocaml-flambda/flambda-backend).
 
+### WebAssembly
+
+WebAssembly, or Wasm, is a portable binary instruction format that can
+be used with any programming language. It runs in a secure environment
+embedded within web browsers.
+
+Porting OCaml to Wasm has excellent potential.
+While we already have OCaml to JavaScript compilers, the compiled code
+is more or less inefficient as JavaScript is not designed as a
+low-level target language.
+Wasm will fill the gap and lead to high-performance client-side web
+applications written in OCaml.
+
+* [OCaml to Wasm - an overview] is a collection of materials on
+  compiling OCaml to Wasm.
+* [A world to win: WebAssembly for the rest of us] (video) (BOB 2023)
+  explains the difficulties of compiling programming languages with
+  garbage collection to Wasm and upcoming features to address them.
+  While the presentation talks about Scheme, most points also apply to
+  OCaml. The transcript is available at
+  <https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us>.
+* [WebAssembly/Wasm and OCaml] (2022) introduces OCamlPro's activities
+  on Wasm.
+
+[OCaml to Wasm - an overview]: https://github.com/sabine/ocaml-to-wasm-overview
+[A world to win: WebAssembly for the rest of us]: https://media.ccc.de/v/bob2023-web-assembly-for-the-rest-of-us-wingo
+[WebAssembly/Wasm and OCaml]: https://ocamlpro.com/blog/2022_12_14_wasm_and_ocaml/
+
 ## Long-Term Plans
 
 ### Modular Implicits
