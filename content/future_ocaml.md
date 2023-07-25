@@ -163,27 +163,6 @@ more similar to Haskell's but without the need for monads for effects.
 [Effects bibliography]: https://github.com/yallop/effects-bibliography
 [An attempt to implement OCaml with typed algebraic effects]: https://github.com/lpw25/ocaml-typed-effects
 
-OCaml 5.0 introduces algebraic effects.
-They are similar to exceptions but with a bookmark to the current position of the execution
-(aka continuation) added to each "exception" (aka effect) thrown,
-so one has the option to continue execution after handling the effect.
-
-Algebraic effects introduced in OCaml 5.0 are untyped,
-i.e. they exist outside of the type system.
-However, it introduces many issues, and we'd much rather have it be typed and handled by the
-type system.
-Extending OCaml's type system with algebraic effects would make it similar to Haskell's,
-but without requiring monads for effects.
-
-See the tutorial above for an introduction to (untyped) algebraic effects.
-Work on typed effects is ongoing [here](https://github.com/lpw25/ocaml-typed-effects).
-
-* A great explanation of algebraic effects can be found [here](https://github.com/ocamllabs/ocaml-effects-tutorial).
-* [Presentation on effects in OCaml 21](https://watch.ocaml.org/videos/watch/74ece0a8-380f-4e2a-bef5-c6bb9092be89)
-* [Presentation on algebraic effects at ICFP](https://www.youtube.com/watch?v=DNp3ifNpgPM)
-* [Presentation on typed effects in OCaml](https://www.youtube.com/watch?v=0dAafhi-IuE)
-* [Complete bibilography of literature on effects](https://github.com/yallop/effects-bibliography)
-
 ## Notable Ideas
 
 ### Modes
