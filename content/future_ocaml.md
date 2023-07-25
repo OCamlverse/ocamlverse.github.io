@@ -4,12 +4,31 @@ Some interesting news/developments coming up in OCaml's future:
 
 ## Medium-Term Plans
 
-### Flambda 2.0
+### Flambda2
 
-Flambda is the framework that currently optionally optimizes OCaml code.
-Work is ongoing to create the next version at OCamlPro.
-See [this post](https://www.ocamlpro.com/2019/08/30/ocamlpros-compiler-team-work-update/)
-and [the Flambda backend development tree](https://github.com/ocaml-flambda/flambda-backend).
+Flambda is an optimization framework introduced in OCaml 4.03.
+It allows for conveniently inlining small code snippets, resulting in a
+faster binary.
+However, the trade-off is a longer compilation time.
+It should be noted that Flambda is currently an opt-in feature of the
+compiler.
+
+Flambda2 is the successor to Flambda and is currently being developed at
+<https://github.com/ocaml-flambda/flambda-backend>.
+
+* Read the [Optimization with Flambda] chapter in the OCaml manual for
+  the details of Flambda.
+* The progress of Flambda2 development is reported in
+  [OCamlPro's compiler team work update] (2019).
+* [A better inliner for OCaml, and why it matters] (2016) offers an
+  insightful introduction to Flambda.
+* [Optimizations you shouldn't do] (2013) shows how the OCaml compiler's
+  classic inliner works.
+
+[Optimization with Flambda]: https://v2.ocaml.org/manual/flambda.html
+[OCamlPro's compiler team work update]: https://ocamlpro.com/blog/2019_08_30_ocamlpros_compiler_team_work_update/
+[A better inliner for OCaml, and why it matters]: https://blog.janestreet.com/flambda/
+[Optimizations you shouldn't do]: https://ocamlpro.com/blog/2013_05_24_optimisations_you_shouldnt_do/
 
 ### WebAssembly
 
