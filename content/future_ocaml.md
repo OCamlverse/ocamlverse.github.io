@@ -147,6 +147,37 @@ Work on typed effects is ongoing [here](https://github.com/lpw25/ocaml-typed-eff
 
 ## Notable Ideas
 
+### Modes
+
+OCaml's generational garbage collector efficiently handles short-lived
+small values OCaml programs often produce.
+While it works well, one can improve the performance even more if such
+ephemeral values are allocated to a stack, like local variables in C.
+
+However, we must ensure that stack-allocated values are not referenced
+from heap-allocated long-lived values to prevent use-after-free bugs.
+A similar problem is also in values shared between multiple threads.
+Rust's type system has the concept of lifetime and ownership to manage
+such values safely at the cost of complexity.
+
+Modes provide a proper subset of Rust's lifetime and ownership separate
+from the type system.
+A prototype of modes-enabled OCaml is being developed at
+<https://github.com/ocaml-flambda/ocaml-jst>.
+
+* The "Oxidizing OCaml" series (2023) on Jane Street Tech Blog:
+  * [Part 1: Locality] introduces a limited form of lifetime named
+    locality mode.
+  * [Part 2: Rust-style Ownership] shows how ownership in Rust can be
+    expressed with modes.
+* [Stack allocation for OCaml] (video) (OCaml 2022) is a clear and
+  concise introduction to modes. The slides are available at
+  <https://stedolan.net/talks/ocaml22/>.
+
+[Part 1: Locality]: https://blog.janestreet.com/oxidizing-ocaml-locality/
+[Part 2: Rust-style Ownership]: https://blog.janestreet.com/oxidizing-ocaml-ownership/
+[Stack allocation for OCaml]: https://watch.ocaml.org/w/6c86b050-334b-4a11-bb04-c347a6e57215
+
 ### Unboxed Types
 
 OCaml uses a uniform memory layout of values to implement parametric
