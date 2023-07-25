@@ -97,18 +97,30 @@ applications written in OCaml.
 
 ### Modular Implicits
 
-A type-based dispatch similar to Haskell's typeclasses.
+Haskell's type classes, Scala's implicits, and Rust's traits are
+solutions to the expression problem, a well-known problem of programming
+language design formulated by Philip Wadler in 1998.
+Modular implicits were introduced as OCaml's solution to the expression
+problem in 2014.
 
-See a video demonstration [here](https://www.youtube.com/watch?v=3wVUXTd4WNc).
-As [this paper](https://arxiv.org/pdf/1512.01895.pdf) clarifies,
-creating typeclasses in OCaml is difficult due to its adherence to
-type abstraction.
-Put simply, you can have functors or type classes, but not both, and OCaml already has functors.
-While the community eagerly awaits this solution, its implementation unfortunately appears to be years away.
+As clarified in [the original paper on modular implicits], adding type
+classes to OCaml is difficult due to its adherence to type abstraction.
+In short, you can have functors or type classes, but not both, and
+OCaml already has functors.
+While the community eagerly awaits this solution, its implementation,
+unfortunately, appears to be years away.
 
-To see how complicated the solution is, see [this response](https://discuss.ocaml.org/t/modular-implicits/144/18).
-You can follow some of the work that is taking place [here](https://github.com/lpw25/implicits-module-system)
-and [here](https://github.com/ocamllabs/ocaml-modular-implicits).
+* [Modular implicits] (video) (ML/OCaml 2014) demonstrates how modular
+  implicits would interact with the rest of OCaml's type system. The
+  proceeding paper is available at <https://arxiv.org/abs/1512.01895>.
+* [Leo White's response on implementing modular implicits]
+* Attempts to implement modular implicits:
+  * <https://github.com/lpw25/implicits-module-system>
+  * <https://github.com/ocamllabs/ocaml-modular-implicits>
+
+[the original paper of modular implicits]: https://arxiv.org/abs/1512.01895
+[Modular implicits]: https://www.youtube.com/watch?v=3wVUXTd4WNc
+[Leo White's response on implementing modular implicits]: https://discuss.ocaml.org/t/modular-implicits/144/18
 
 ### Typed Algebraic Effects
 
