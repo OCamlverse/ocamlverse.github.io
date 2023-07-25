@@ -124,6 +124,45 @@ unfortunately, appears to be years away.
 
 ### Typed Algebraic Effects
 
+Algebraic effects and handlers are a way to model various computational
+effects in a composable manner.
+They can express assignments, I/O operations, exceptions, iterators,
+asynchronous computations, non-deterministic computations, etc.
+
+The experimental support for algebraic effects was introduced in OCaml
+5.0.
+However, the type system does not provide dedicated functionalities to
+track effects.
+In other words, algebraic effects in OCaml 5.0 are untyped.
+It introduces various problems, and it would be better to have algebraic
+effects typed and handled by the type system instead.
+By extending OCaml's type system with algebraic effects, it would become
+more similar to Haskell's but without the need for monads for effects.
+
+* [Concurrent Programming with Effect Handlers] is an excellent tutorial
+  on algebraic effects in OCaml.
+* [Experiences with Effects in OCaml] (video) (OCaml 2021) presents case
+  studies of applying algebraic effects to Angstrom and Httpaf. The
+  proceeding paper is available at
+  <https://kcsrk.info/papers/ocaml2021b.pdf>.
+* [Effectively Tackling the Awkward Squad] (video) (ML 2017)
+  demonstrates practical examples of algebraic effects. The proceeding
+  paper is available at
+  <https://dhil.net/research/papers/awkward_effects-ml17.pdf>.
+* [Eff directly in OCaml] (video) (ML 2016) introduces an implementation
+  of typed algebraic effects on OCaml. The proceeding paper is available
+  at <https://arxiv.org/abs/1812.11664>.
+* [Effects bibliography] is a collaborative bibliography of work
+  related to the theory and practice of computational effects.
+* [An attempt to implement OCaml with typed algebraic effects]
+
+[Concurrent Programming with Effect Handlers]: https://github.com/ocaml-multicore/ocaml-effects-tutorial
+[Experiences with Effects in OCaml]: https://watch.ocaml.org/videos/watch/74ece0a8-380f-4e2a-bef5-c6bb9092be89
+[Effectively Tackling the Awkward Squad]: https://www.youtube.com/watch?v=DNp3ifNpgPM
+[Eff directly in OCaml]: https://www.youtube.com/watch?v=0dAafhi-IuE
+[Effects bibliography]: https://github.com/yallop/effects-bibliography
+[An attempt to implement OCaml with typed algebraic effects]: https://github.com/lpw25/ocaml-typed-effects
+
 OCaml 5.0 introduces algebraic effects.
 They are similar to exceptions but with a bookmark to the current position of the execution
 (aka continuation) added to each "exception" (aka effect) thrown,
