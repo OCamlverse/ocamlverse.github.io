@@ -1,8 +1,8 @@
 ---
 tags: [ecosystem]
 ---
-
-# Definitions
+# Unit Testing
+## Definitions
 * Unit Tests: tests involving specific functions.
 The function is given a specific input, and the output is compared to the expected output.
 This allows us to have guarantees about the behavior of code even after we refactor it,
@@ -22,7 +22,7 @@ such as the OCaml toplevel.
 All input and output is included in the test itself,
 and the test plays back the input and compares the output to what is expected.
 
-# Unit Testing Frameworks
+## Unit Testing Frameworks
 
 OCaml has many unit testing frameworks to choose from:
 
