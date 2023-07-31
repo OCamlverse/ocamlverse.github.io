@@ -2,32 +2,61 @@
 tags: [ecosystem]
 ---
 
-# Testing
+# Definitions
+* Unit Tests: tests involving specific functions.
+The function is given a specific input, and the output is compared to the expected output.
+This allows us to have guarantees about the behavior of code even after we refactor it,
+or even before we write the code itself.
+* Property Tests: tests which involve specifying the general behavior of a function -
+given random input, what property should its output have -
+rather than choosing specific input and output combinations, as we do in unit testing.
+* Expect tests: a form of unit testing.
+Rather than coming up with specific inputs and their respective outputs,
+the programmer tries different inputs and gets the dumped state of the function output,
+which is incorporated into the test itself.
+This requires printers for every type involved,
+but allows for exploration and regression testing.
+See [this article](https://blog.janestreet.com/the-joy-of-expect-tests/).
+* Cram Tests: a form of unit testing that involves using some shell,
+such as the OCaml toplevel.
+All input and output is included in the test itself,
+and the test plays back the input and compares the output to what is expected.
 
-OCaml has many testing frameworks to choose from:
+# Unit Testing Frameworks
 
+OCaml has many unit testing frameworks to choose from:
+
+* [dune](build_systems.md#dune)
+has a [useful page](https://dune.readthedocs.io/en/stable/tests.html)
+explaining how to integrate all unit test options.
+`dune` also supports its own simplified version of expect tests using `.expect` files,
+which may be enough for many users.
+`dune runtest` and `dune promote` are usually all that's needed to run and update expect tests (including `ppx_expect`).
+`dune` also includes support for running Cram tests.
 * [expect-test](https://github.com/janestreet/ppx_expect):
-a Cram framework for OCaml, enabled by PPX metaprogramming.
-Write some code that creates textual output, then create expectation tests that test against
-said output.
-Usage of PPX means you need to write a minimal amount of code,
-and the simplicity means you don't need to look up much.
+expect tests utilising the [ppx](ppx.md) system.
+As discussed [here](https://blog.janestreet.com/the-joy-of-expect-tests/).
+Tightly coupled with `dune`.
+Tests can be in the same files as the code itself or placed separately.
+* [ppx_inline_test](https://github.com/janestreet/ppx_inline_test):
+Inline unit tests using the ppx system. Works well in concert with ppx_expect.
 * [Alcotest](https://github.com/mirage/alcotest):
-a lightweight test framework. Nice terminal UI with color for results.
-`Alcotest` can compare many different kinds of outputs, but requires a bit more boilerplate
-than `expect-test`, as well as looking up different kinds of tests.
+a lightweight, easy to use, and popular test framework.
+Nice colored output for results.
 * [OUnit](https://github.com/gildor478/ounit):
 an older but still competitive unit test framework for OCaml.
-Tests are done via `assert_equal` statements.
-A little bit of boilerplate is needed.
 * [QCheck](https://github.com/c-cube/qcheck):
-a library that allows you to create unit tests based on random input.
+a library that allows you to perform property tests.
+Sub-libraries are provided to integrate with both `Alcotest` and `OUnit`
 * [qtest](https://github.com/vincent-hugot/qtest):
 write simple inline pragmas within your code to generate unit tests.
-`qtest` can integrate `QCheck` tests to have random testing, too.
+`qtest` can also integrate `QCheck` tests to have random testing, too.
+* [mdx](https://github.com/realworldocaml/mdx):
+Execute OCaml code blocks inside Markdown documentation files.
+Also supports Cram tests.
+
+## Less Popular Options
 * [Kaputt](http://kaputt.x9c.fr): a comprehensive testing framework.
-* [Pa_test](https://ocaml.janestreet.com/ocaml-core/111.28.00/doc/pa_test):
-general inline testing macros.
 * [TestSimple](https://github.com/hcarty/ocaml-testsimple):
 a lightweight unit testing framework
 compatible with the [Test Anything Protocol](https://testanything.org/).
@@ -41,12 +70,10 @@ Built on `QCheck`.
 * [Monolith](https://gitlab.inria.fr/fpottier/monolith):
 Specify the behavior of a program and perform random or fuzz testing on it automatically.
 [Paper](http://cambium.inria.fr/~fpottier/publis/pottier-monolith-2021.pdf)
-* [mdx](https://github.com/realworldocaml/mdx):
-Execute OCaml code blocks inside Markdown files.
-Also supports Cram tests.
-
 
 ## Fuzzing
+
+Fuzzing involves hitting your program with random or adversarially optimized input until you find ill-defined behavior.
 
 [Fuzz Testing definition](https://en.wikipedia.org/wiki/Fuzzing#:~:text=Fuzzing%20or%20fuzz%20testing%20is,assertions%2C%20or%20potential%20memory%20leaks.)
 
@@ -54,5 +81,6 @@ Also supports Cram tests.
 Quickcheck tests + fuzzing courtesy of [afl-fuzz](http://lcamtuf.coredump.cx/afl/).
 * [bun](https://github.com/yomimono/ocaml-bun/):
 Integrate fuzzing into your CI.
+
 * [Article about fuzzing with Crowbar, bun and afl-fuzz](https://tarides.com/blog/2019-09-04-an-introduction-to-fuzzing-ocaml-with-afl-crowbar-and-bun.html)
 * [Monolith](https://gitlab.inria.fr/fpottier/monolith) can also be used for fuzzing.
