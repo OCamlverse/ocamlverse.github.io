@@ -9,12 +9,8 @@ It allows for many features that aren't included in the core language to be adde
 particularly ones that involve reducing boilerplate code.
 For example, there's usually no need to write code manually for the serialization or comparison of types.
 
-A great introduction to PPX metaprogramming can be found [here](https://ocaml.org/docs/metaprogramming).
+A great introduction to `ppx` metaprogramming can be found [here](https://ocaml.org/docs/metaprogramming).
 The history and current situation of the PPX ecosystem is presented elegantly in [this post](https://discuss.ocaml.org/t/the-future-of-ppx/3766).
-
-## Authoring
-
-Authoring a PPX extension is covered by the excellent [ppxlib user manual](https://ocaml.org/p/ppxlib/latest/doc/index.html).
 
 ## PPX Extensions
 
@@ -57,13 +53,15 @@ A monadic syntax extension from Jane Street.
 * [ocaml-monadic](https://github.com/zepalmer/ocaml-monadic):
 Another monadic syntax extension.
 * [ppx_regex](https://github.com/paurkedal/ppx_regexp):
-Contains 2 ppx parsers to OCaml [regex](regular_expressions.md) libraries:
+Contains 2 ppx parsers [regex](regular_expressions.md) libraries:
   * ppx_regexp: maps to use Re (untyped regex)
   * ppx_tyre: maps to use Tyre for typed regex.
+* [ppx_inline_test](https://github.com/janestreet/ppx_inline_test):
+Inlined unit testing. See [Testing](testing.md).
 * [ppx_expect](https://github.com/janestreet/ppx_expect):
-Cram-like tests for OCaml. See [Testing](testing.md).
-* [Bisect_ppx](https://github.com/aantron/bisect_ppx):
-Code coverage for OCaml. See [Code Tools](code_tools.md).
+Inlined expect-based unit testing. See [Testing](testing.md).
+* [bisect_ppx](https://github.com/aantron/bisect_ppx):
+Code coverage tool. See [Code Tools](code_tools.md).
 * [ppx_pgsql](https://github.com/tizoc/ppx_pgsql):
 A syntax extension for embedded SQL queries using PG'OCaml. See [Databases](databases.md).
 * [ppx_cstubs](https://github.com/fdopen/ppx_cstubs):
@@ -75,30 +73,36 @@ Display nice error messages with source location. For compilers etc.
 * [ppx_blob](https://github.com/johnwhitington/ppx_blob):
 Include arbitrary file data as a string in OCaml without having to worry about lexical conventions.
 * [ppx_deriving_cmdliner](https://github.com/hammerlab/ppx_deriving_cmdliner):
-The easiest way to write command-line argument code.
+An easy way to write command-line argument code using the `cmdliner` library.
 
 #### Protocol-specific PPX
 
 * [ppx_deriving_yojson](https://github.com/whitequark/ppx_deriving_yojson):
 A Yojson codec generator for OCaml. See [Serialization](file_formats.md#Serialization).
 * [ppx_yojson_conv](https://github.com/janestreet/ppx_yojson_conv):
-Alternative to `ppx_deriving_yojson` from Jane Street.
+Newer alternative to `ppx_deriving_yojson` from Jane Street.
 * [ppx_yojson](https://github.com/NathanReb/ppx_yojson):
-Convert JSON expressions to `yojson` AST, allowing your code to be cleaner.
+Convert JSON expressions in OCaml code to `yojson` AST, allowing your code to be cleaner.
 * [ppx_deriving_protobuf](https://github.com/ocaml-ppx/ppx_deriving_protobuf):
 Derive Protobuf files from OCaml types. See [Protocols](protocols.md).
 * [ppx_sexp_conv](https://github.com/janestreet/ppx_sexp_conv):
-Derive converters to s-expressions.
+Derive converters to s-expressions,
+the same serialization format used by `dune`.
 * [ppx_protocol_conv](https://github.com/andersfugmann/ppx_protocol_conv):
 Framework for multiple serializers for different protocols.
 
-## Writing PPX Extensions
+## Writing ppx Extensions
 
-Writing PPX libraries is generally not trivial,
+Writing `ppx` libraries is generally not trivial,
 but there are ongoing efforts to make it easier.
+The excellent [ppxlib user manual](https://ocaml.org/p/ppxlib/latest/doc/index.html)
+explains in depth how to use the most modern methods.
 
-* [ppxlib](https://github.com/ocaml-ppx/ppxlib): The modern solution for writing PPX extensions. Without this library, writing PPX
-extensions is fragile and breaks with OCaml version changes. `ppxlib` merges several older projects together to provide a complete
+* [ppxlib](https://github.com/ocaml-ppx/ppxlib):
+The modern solution for writing PPX extensions.
+Without this library, writing `ppx`
+extensions is fragile and breaks with OCaml version changes.
+`ppxlib` merges several older projects together to provide a complete
 platform for writing efficient, resilient PPX extensions.
 
 ### Articles
@@ -116,7 +120,7 @@ A discuss post which turned into an important resource about aspects of PPX writ
 
 ## Other MetaProgramming Approaches
 
-Some other approaches and domains exist for metaprogramming in OCaml.
+Some other approaches exist for metaprogramming in OCaml.
 
 * [cppo](https://github.com/ocaml-community/cppo):
 A simple C++-like preprocessor for OCaml files.
