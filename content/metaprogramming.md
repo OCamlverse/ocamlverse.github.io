@@ -44,8 +44,8 @@ This can be handy when not wanting to repeat a type in both the `.ml` and `.mli`
 It's also very useful when wanting to avoid other boilerplate,
 such as when a module need to export variants of a type defined in another module.
 * [ppx_override](https://gitlab.inria.fr/tmartine/override):
-Override allows you to import a module or its types, and then easily change and modify aspects, such as
-using `ppx_deriving` on that module's types.
+Override allows you to import a module or its types, and then modify aspects of that module,
+such as using `ppx_deriving` on that module's types or even modifying specific types to be different.
 * [ppx_optcomp](https://github.com/janestreet/ppx_optcomp):
 Conditional compilation like `#ifdef` for OCaml.
 * [ppx_string_interpolate](https://github.com/sheijk/ppx_string_interpolate):
