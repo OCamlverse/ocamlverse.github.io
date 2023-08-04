@@ -14,7 +14,7 @@ The history and current situation of the PPX ecosystem is presented elegantly in
 
 ## Authoring
 
-Authoring a PPX extension is covered by the excellent [ppxlib user manual](https://ocaml.org/p/ppxlib/0.29.1/doc/index.html).
+Authoring a PPX extension is covered by the excellent [ppxlib user manual](https://ocaml.org/p/ppxlib/latest/doc/index.html).
 
 ## PPX Extensions
 
