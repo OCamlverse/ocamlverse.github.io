@@ -11,17 +11,10 @@ tags: [ecosystem]
 * [ICFP presentation on improving the OCaml web stack](https://www.youtube.com/watch?v=tTqqu4xh4UY&t=1156s)
 * [Building an OCaml webapp using Opium](https://shonfeder.gitlab.io/ocaml_webapp/)
 
-## Low-Level HTTP Protocol
-
-* [h2](https://github.com/anmonteiro/ocaml-h2):
-High performance http2 implementation.
-* [httpaf](https://github.com/inhabitedtype/httpaf):
-A high performance HTTP implementation written in OCaml. Compatible with Async and Lwt.
-* [cohttp](https://github.com/mirage/ocaml-cohttp):
-Older, slower implementation of HTTP supporting only HTTP/1.x.
-
 ## HTTP Servers
 
+* [dream](https://github.com/aantron/dream):
+Tidy, feature complete web framework. Supports http and http2.
 * [Opium](https://github.com/rgrinberg/opium):
 Sinatra like micro-framework web toolkit for OCaml.
     * [Tutorial: Building an OCaml WebApp](https://shonfeder.gitlab.io/ocaml_webapp/)
@@ -36,25 +29,12 @@ Simple HTTP server like python's SimpleHTTPServer, for serving files.
 Typed bidirectional routing utility with combinators.
 Could be useful as part of creating a server.
 
-## HTTP Clients
-
-* [piaf](https://github.com/anmonteiro/piaf):
-An HTTP client that supports both HTTP/1.x and HTTP/2, and with better cross-platform support for SSL.
-* [http-lwt-client](https://github.com/roburio/http-lwt-client):
-A simple HTTP client with emphasis on minimal dependencies.
-* [cohttp](https://github.com/mirage/ocaml-cohttp):
-A mature, lightweight HTTP server and client that currently only supports HTTP/1.x.
-* [fetch](https://github.com/lessp/fetch):
-*Experimental*.
-Aims to provide a common interface, following the fetch specification,
-over different HTTP and Promise implementations. Currently only supports `piaf` and `lwt`,
-but also plans to support BuckleScript in the near future.
-* [Curly](https://github.com/rgrinberg/curly): Wrapper around the `curl` command for applications that want to create simple HTTP requests
-
 ## Web Frameworks
 
 * [dream](https://github.com/aantron/dream):
 Tidy, feature complete web framework. Supports http and http2.
+* [nightmare](https://github.com/funkywork/nightmare):
+Set of useful components to use with `Dream`.
 * [hc](https://erratique.ch/software/hc):
 Lightweight framework for web applications using server processing and the `fetch` interface.
 * [Ocsigen Eliom](http://ocsigen.org/eliom/): a full-featured multi-tier framework,
@@ -93,6 +73,8 @@ Also includes experimental [FRP](frp.md) support via `Note`.
 
 ## Web Apps
 
+* [Muhokama](https://github.com/xvw/muhokama):
+Forum software written on top of `Dream`.
 * [Cumulus](https://github.com/Cumulus/Cumulus):
 Hackernews-like website with the OCaml framework Ocsigen (demo is currently down).
 * [Prose](https://gitlab.com/adrien-n/prose/):
@@ -101,7 +83,31 @@ A Google-docs-like collaborative editing application written using Eliom/Ocsigen
 A blogging MirageOS unikernel based on git.
 Can be compiled to Unix as well.
 
-## Javascript Compiler
+## Low-Level HTTP Protocol
+
+* [h2](https://github.com/anmonteiro/ocaml-h2):
+High performance http2 implementation.
+* [httpaf](https://github.com/inhabitedtype/httpaf):
+A high performance HTTP implementation written in OCaml. Compatible with Async and Lwt.
+* [cohttp](https://github.com/mirage/ocaml-cohttp):
+Older, slower implementation of HTTP supporting only HTTP/1.x.
+
+## HTTP Clients
+
+* [piaf](https://github.com/anmonteiro/piaf):
+An HTTP client that supports both HTTP/1.x and HTTP/2, and with better cross-platform support for SSL.
+* [http-lwt-client](https://github.com/roburio/http-lwt-client):
+A simple HTTP client with emphasis on minimal dependencies.
+* [cohttp](https://github.com/mirage/ocaml-cohttp):
+A mature, lightweight HTTP server and client that currently only supports HTTP/1.x.
+* [fetch](https://github.com/lessp/fetch):
+*Experimental*.
+Aims to provide a common interface, following the fetch specification,
+over different HTTP and Promise implementations. Currently only supports `piaf` and `lwt`,
+but also plans to support BuckleScript in the near future.
+* [Curly](https://github.com/rgrinberg/curly): Wrapper around the `curl` command for applications that want to create simple HTTP requests
+
+## Ocaml to Javascript
 
 * [js_of_ocaml](http://ocsigen.org/js_of_ocaml):
 Compiles OCaml bytecode to Javascript.
