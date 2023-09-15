@@ -10,16 +10,15 @@ making it much harder to support a complex library on Windows.
 
 Nevertheless, OCaml is gradually making a transition towards full Windows support.
 
-For newcomers the simplest option is to download and run [the latest `setup-diskuv-ocaml-windows_x86_64-<version>.exe`](https://github.com/diskuv/dkml-installer-ocaml/releases/latest) Diskuv OCaml installer.
+For newcomers the simplest option is to download and run the latest DkML [`Windows 64-bit Native Installer`](https://gitlab.com/dkml/distributions/dkml/-/releases/permalink/latest/downloads/setup64nu.exe).
 
 ## Options
 
-* [Diskuv-OCaml][diskuv]:
+* [DkML]:
 A distribution of OCaml that uses [MSYS2] for Unix utilities and [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/vs/)
-for 100% Windows library compatibility, and has a traditional [`setup.exe`](https://github.com/diskuv/dkml-installer-ocaml/releases/latest)
-to install. The distribution transparently uses Unix utilities so that Windows users do not need to learn Unix.
+for 100% Windows library compatibility, and has a traditional `setup.exe` to install. The distribution transparently uses Unix utilities so that Windows users do not need to learn Unix.
 
-  The disadvantages of Diskuv OCaml are:
+  The disadvantages of DkML are:
     * Visual Studio 2019, even though it is automatically installed, is a multi-gigabyte program that requires Administrator permissions to install
     * Only OCaml 4.14.0 is officially supported. OCaml 5.x does not yet support Visual Studio.
 
@@ -58,7 +57,7 @@ Not all OPAM packages are available yet, but support is rapidly growing.
 OPAM is being extended to support a Windows environment.
 See [this post](https://discuss.ocaml.org/t/ann-opam-2-0-5-release/4081/7) for details.
 
-[diskuv]: https://diskuv-ocaml.gitlab.io/distributions/dkml/
+[DkML]: https://diskuv.com/dkmlbook/
 [ocaml-win]: https://fdopen.github.io/opam-repository-mingw/
 [opam-cross-windows]: https://github.com/ocaml-cross/opam-cross-windows
 [Reason]: https://reasonml.github.io/
