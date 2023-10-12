@@ -46,6 +46,8 @@ Bindings to [GLFW](https://www.glfw.org/), an OpenGL library providing OS-specif
 functionality, such as window, surface and input management.
 * [ocaml-glfw](https://github.com/rizo/ocaml-glfw):
 Another library with bindings to [GLFW](https://www.glfw.org/).
+* [ZENITH](https://github.com/CharlesAverill/zenith):
+A wireframe render with support for .obj models and simple materials
 
 ## Linear Algebra
 
