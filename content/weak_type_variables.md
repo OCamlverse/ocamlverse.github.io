@@ -87,7 +87,7 @@ can't infer its type yet, because I haven't yet collected enough
 information." Later uses of `x` may provide more insights to the
 compiler, and the weak type variable will then be transformed to a
 ground type. For example, `x := Some 42` will say to the compiler that
-`'_a` is actualy `int`.
+`'_a` is actually `int`.
 
 This gives us yet another insight into what a weak type variable is —
 it is a delayed concrete type. However, the compiler may not delay the
