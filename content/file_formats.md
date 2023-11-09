@@ -55,6 +55,7 @@ extensible binary data format, like JSON but faster.
 * [camlon](https://gitlab.com/camlspotter/camlon):
 configuration and serialization format similar to JSON but with an OCaml feel.
 * [ocaml-decoders](https://github.com/mattjbray/ocaml-decoders): Elm-inspired decoders for OCaml
+* [zipc](https://erratique.ch/software/zipc): In-memory pure OCaml zip library.
 
 ## Data Science Files
 
