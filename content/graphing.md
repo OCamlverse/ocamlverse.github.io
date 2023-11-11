@@ -1,3 +1,8 @@
+---
+layout: page
+tags: [ecosystem]
+---
+
 # Graphing, Plotting and Data Visualization
 
 * [oplot](https://github.com/sanette/oplot):
