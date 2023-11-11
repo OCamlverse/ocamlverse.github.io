@@ -19,7 +19,7 @@ A lighter alternative to `seq`, using iterators rather than generators.
 Since `iter` doesn't allocate anything except a closure,
 with `flambda` on, `iter`'s performance can match that of a `for` loop.
 `iter` works best with the [Containers](https://github.com/c-cube/ocaml-containers) standard library,
-make by the same author.
+made by the same author.
 * The other alternative [Standard Libraries](standard_libraries.md) have their own iterator types.
 * [Streaming](https://github.com/odis-labs/streaming):
 An iterator library that has fast abstractions (especially `Streaming.Stream`),
