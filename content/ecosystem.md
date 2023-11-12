@@ -92,6 +92,9 @@ See [Games](games.md)
 ## Graphics
 For graphic libraries, see [Graphics](graphics.md).
 
+## Graphing, Plotting, Data Visualization
+See [Graphing](graphing.md)
+
 ## Hardware Design
 For usage of OCaml in hardware design, see [Hardware Design](hardware_design.md)
 
