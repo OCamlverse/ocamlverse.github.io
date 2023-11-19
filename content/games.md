@@ -48,6 +48,7 @@ Bindings to the [raylib](https://www.raylib.com/) game library.
 * [Reprocessing](https://github.com/Schmavery/reprocessing):
 A Reason 2d graphics library inspired by Processing.
 *Requires `esy`*.
+* [gocaml](https://github.com/CharlesAverill/gocaml/): A lightweight Go engine
 
 ## Games
 
