@@ -13,3 +13,4 @@ A simple OCaml logger.
 A variant of Bolt OCaml logging tool.	
 * [easy-logging](https://github.com/sapristi/easy_logging):	
 An object-based simple logging module.
+* [logging.ml](https://gist.github.com/CharlesAverill/bc4ebcd6161d14c211145654fb4aed80): A single-file logging framework modeled after Python's [logging library](https://docs.python.org/3/library/logging.html)
