@@ -44,6 +44,7 @@ See [editor setup](editor_setup.md) and [code tools](code_tools.md).
 * [Quick Start an OCaml project with Dune](quickstart_ocaml_project_dune.md)
 * [Project showing how to use OPAM with/without dune](https://github.com/jserot/opam-howto)
 * [Project showing how to use Dune in different configurations](https://github.com/jserot/dune-howto)
+* [Project template using Dune, ocaml-odoc, Alcotest, and ocamlformat with a quick setup script](https://github.com/CharlesAverill/OCaml_Project)
 * [OPAM for npm/yarn users](opam_npm.md)
 * [A sample Dune project](https://github.com/mjambon/dune-starter)
 * [OPAM 2.0 tips](https://opam.ocaml.org/blog/opam-20-tips/):
