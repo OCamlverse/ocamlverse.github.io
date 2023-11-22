@@ -58,8 +58,5 @@ See [the Owl Manual](https://ocaml.xyz) for details.
 Bindings to [glm](https://github.com/g-truc/glm),
 the OpenGL linear algebra C++ library for graphics.
 
-## Windows
-* [owme](https://github.com/CharlesAverill/owme): A window manager **emulator** for faking graphical desktop applications
-
 ## Functional Reactive Programming
 See [FRP](frp.md)
