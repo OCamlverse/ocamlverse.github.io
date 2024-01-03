@@ -106,8 +106,16 @@ Flambda is an optional, additional layer of optimization,
 residing in [/middle_end](https://github.com/ocaml/ocaml/tree/trunk/middle_end).
 
 ### Clambda
-### cmm
-#### Register Coloring
-### assembly
+Clambda is an expansion of the Lambda AST.
+It also includes some more low-level concerns, such as explicit closures.
 
+### cmm
+cmm is an extremely low-level language,
+concerning itself with machine language (Assembly) and its optimization.
+At this level, the original high level OCaml code is hard to recognize.
+
+#### Register Coloring
+
+### assembly
+The actual machine code ultimately produced by the native compiler.
 
