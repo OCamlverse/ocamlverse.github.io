@@ -49,6 +49,7 @@ Bindings to the [raylib](https://www.raylib.com/) game library.
 A Reason 2d graphics library inspired by Processing.
 *Requires `esy`*.
 * [gocaml](https://github.com/CharlesAverill/gocaml/): A lightweight Go engine
+* [camlcards](https://github.com/CharlesAverill/camlcards/): A card game engine
 
 ## Games
 
