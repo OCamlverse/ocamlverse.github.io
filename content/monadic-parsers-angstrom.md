@@ -122,7 +122,7 @@ let only_whitespace =
 
 And when we run it, we get:
 ```ocaml
-utop # Angstrom.parse_string only_whitespace " 1 ";;
+utop # Angstrom.parse_string ~consume:Prefix only_whitespace " 1 ";;
 - : (string, string) result = Result.Error ": Unexpected char 1"
 ```
 
@@ -135,7 +135,7 @@ Also, note the usage of `return` and `fail`. If you come from imperative languag
 Lets look at another important concept when writing grammars:
 
 ```ocaml
-utop # Angstrom.parse_string whitespace "";;
+utop # Angstrom.parse_string ~consume:Prefix whitespace "";;
 - : (string, string) result = Result.Ok ""
 ```
 
@@ -154,20 +154,20 @@ let integer =
 And let's test it:
 
 ```ocaml
-utop # Angstrom.parse_string integer "1";;
+utop # Angstrom.parse_string ~consume:Prefix integer "1";;
 - : (string, string) result = Result.Ok "1"
 
-utop # Angstrom.parse_string integer " ";;
+utop # Angstrom.parse_string ~consume:Prefix integer " ";;
 - : (string, string) result = Result.Error ": count_while1"
 
-utop # Angstrom.parse_string integer " 1";;
+utop # Angstrom.parse_string ~consume:Prefix integer " 1";;
 - : (string, string) result = Result.Error ": count_while1"
 ```
 
 Do you see where is this going?
 
 ```ocaml
-utop # Angstrom.parse_string (whitespace *> integer <* whitespace ) " 1 ";;
+utop # Angstrom.parse_string ~consume:Prefix (whitespace *> integer <* whitespace ) " 1 ";;
 - : (string, string) result = Result.Ok "1"
 ```
 
@@ -179,9 +179,9 @@ So here is your monadic parsers "hello world" example :-)
 Taking on from where we left, let's see what are the problems we have with our current state of affairs:
 
 ```ocaml
-utop # Angstrom.parse_string (whitespace *> integer <* whitespace ) " -1234";;
+utop # Angstrom.parse_string ~consume:Prefix (whitespace *> integer <* whitespace ) " -1234";;
 - : (string, string) result = Result.Error ": count_while1"
-utop # Angstrom.parse_string (whitespace *> integer <* whitespace ) " 1234.35";;
+utop # Angstrom.parse_string ~consume:Prefix (whitespace *> integer <* whitespace ) " 1234.35";;
 - : (string, string) result = Result.Ok "1234"
 ```
 
@@ -221,13 +221,13 @@ One interesting concept here is employing `advance 1` where we peeked one char (
 Another new combinator is `>>|` which is quite like `>>=` but doesn't require us to use `return`, but instead packs the result of the function for us.
 
 ```ocaml
-utop # Angstrom.parse_string number "-10.45";;
+utop # Angstrom.parse_string ~consume:Prefix number "-10.45";;
 - : (float, string) result = Result.Ok (-10.45)
 
-utop # Angstrom.parse_string number "10.45";;
+utop # Angstrom.parse_string ~consume:Prefix number "10.45";;
 - : (float, string) result = Result.Ok 10.45
 
-utop # Angstrom.parse_string number "something_else 10.45";;
+utop # Angstrom.parse_string ~consume:Prefix number "something_else 10.45";;
 - : (float, string) result = Result.Error ": Sign or digit expected"
 ```
 
@@ -254,7 +254,7 @@ let key_value =
 ```
 
 ```ocaml
-utop # Angstrom.parse_string key_value "apples -23.48";;
+utop # Angstrom.parse_string ~consume:Prefix key_value "apples -23.48";;
 - : (string * float, string) result = Result.Ok ("apples", -23.48)
 ```
 
