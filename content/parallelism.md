@@ -37,12 +37,15 @@ Bindings to [libuv](https://github.com/libuv/libuv),
 an event loop-based system that runs `node.io`.
 This is also a replacement for the `Unix` module,
 allowing for full process control in a system-independent manner.
+* [miou](https://github.com/robur-coop/miou)
+Miou is a simple scheduler (in beta) for OCaml 5 to run concurrent and/or parallel tasks.
 
 ### Articles
 
 * [The blog post that introduced Async](https://blog.janestreet.com/announcing-async/)
 * [A user gives up on Async](http://rgrinberg.com/posts/abandoning-async/)
 * [Cooperative Concurrency in OCaml][cooperative concurrency]: Using Async
+* [The core of Miou](https://blog.osau.re/articles/miou.html) & [Rules of Miou](https://blog.osau.re/articles/miou_rules.html)
 
 [cooperative concurrency]: https://philtomson.github.io/blog/2014-07-09-cooperative-concurrency-in-ocaml-a-core.std.async-example/
 
