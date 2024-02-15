@@ -8,18 +8,22 @@ This page describes the current state of the OCaml ecosystem.
 
 * [docs.ocaml.pro](https://docs.ocaml.pro):
 Comprehensive listing of documentation for OCaml packages, with cross-listing.
-* [Sherlocode](https://sherlocode.com/):
-Instant search through all the OCaml code in OPAM. Very fast!
-* [SourceGraph](https://sourcegraph.com/search?q=context:global+lang:ocaml&patternType=standard):
-Search through all of github/gitlab for any open-source OCaml code.
-* [Sherlodocs](https://doc.sherlocode.com/):
-Instant search through all OCaml documentation in OPAM. Just as zippy as `Sherlocode`.
 * [check.ocamllabs.io](http://check.ocamllabs.io):
 View current build status of the entire OPAM ecosystem.
 * [The OCaml Platform](ocaml_platform.md): a community endeavor to standardize the
 infrastructure in the OCaml world.
 * [Community poll on OCaml](https://docs.google.com/forms/d/1OZV7WCprDnouU-rIEuw-1lDTeXrH_naVlJ77ziXQJfg/viewanalytics?gxids=7628):
 How the community views the language and ecosystem.
+
+## Code Search
+* [Sherlocode](https://sherlocode.com/):
+Instant search through all the OCaml code in OPAM. Very fast!
+* [SourceGraph](https://sourcegraph.com/search?q=context:global+lang:ocaml&patternType=standard):
+Search through all of github/gitlab for any open-source OCaml code.
+* [Sherlodocs](https://doc.sherlocode.com/):
+Instant search through all OCaml documentation in OPAM. Just as zippy as `Sherlocode`.
+* [OCaml.Codes](https://ocaml.codes/search/):
+Instant search through various OCaml repos.
 
 ## Help Wanted
 For a list of things currently missing in OCaml's ecosystem,
