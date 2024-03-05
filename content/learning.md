@@ -182,6 +182,10 @@ Introduction to Unix system programming, with an emphasis on communications betw
 
 ### GADTs
 
+* An excellent [three](https://raphael-proust.gitlab.io/code/my-first-gadt.html)
+  [part](https://raphael-proust.gitlab.io/code/gadt-tips-and-tricks.html)
+  [tutorial](https://raphael-proust.gitlab.io/code/gadt-gallery.html)
+  about GADTs, providing both explanations and examples from the OCaml ecosystem.
 * [GADTs in the OCaml manual](https://caml.inria.fr/pub/docs/manual-ocaml/gadts.html)
 * [Diff Lists](https://drup.github.io/2016/08/02/difflists/):
 An application of GADTs to produce heterogenous lists.
