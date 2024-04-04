@@ -2,7 +2,7 @@
 tags: [ecosystem]
 ---
 
-# Machine Learning, Scientific Computing and Data Science
+# Machine Learning, Deep Learning, Scientific Computing and Data Science
 
 * [Owl](https://ocaml.xyz):
 OCaml numerical library.
@@ -12,12 +12,15 @@ Dense and sparse matrix, linear algebra, regressions, math and stats functions.
   * [OCaml scientific computing book](https://ocaml.xyz/)
   * [Presentation on Owl at ICFP](https://www.youtube.com/watch?v=Jyv3tJD1N3o&t=311s)
 
-## Machine Learning/Data Science
+## Machine (Deep) Learning/Data Science
 
 * [Owl](https://ocaml.xyz):
 OCaml numeric library. Offers compilation of computation graphs to Tensorflow. See above.
 * [ocaml-torch](https://github.com/LaurentMazare/ocaml-torch):
 OCaml bindings for PyTorch.
+* [OCANNL](https://github.com/ahrefs/ocannl):
+OCaml Compiles Algorithms for Neural Networks Learning.
+A framework for deep learning.
 * [tensorflow-ocaml](https://github.com/LaurentMazare/tensorflow-ocaml):
 OCaml bindings for TensorFlow.
 * [hdf5-OCaml](https://github.com/vbrankov/hdf5-ocaml):
