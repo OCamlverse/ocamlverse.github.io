@@ -28,6 +28,8 @@ Another monadic syntax extension.
 * [BAP Monads](http://binaryanalysisplatform.github.io/bap/api/master/monads/Monads/Std/index.html):
 BAP (Binary Analysis Platform) has an independent and comprehensive monad library.
 Rather than using a `ppx`, BAP makes use of Functors to create expressive monad hierarchies.
+* [Monadic](https://github.com/Denommus/monadic):
+A monad transformer library that also uses OCaml's built-in syntax (e.g. let*).
 * [Preface](https://github.com/xvw/preface): Preface is an opinionated library designed to 
 facilitate the handling of recurring functional programming idioms in OCaml. Like BAP 
 it use intensively Functors to create expressive monad hierarchies.
