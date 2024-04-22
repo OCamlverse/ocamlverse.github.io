@@ -22,6 +22,8 @@ All the [standard libraries](standard_libraries.md) provide these:
 
 * [Ropes](https://github.com/Chris00/ocaml-rope):
 Persistent, functional views on top of strings.
+* [Patricia Trees](https://github.com/codex-semantics-library/patricia-tree):
+implementation of high performance functional map.
 * [Persistent Vectors](https://github.com/dbuenzli/pvec):
 Data structures that behave similar to vectors but using immutable trees (of arrays).
 * [OCamlGraph](https://github.com/backtracking/ocamlgraph) is a library for
