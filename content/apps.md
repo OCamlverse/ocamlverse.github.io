@@ -9,9 +9,9 @@ tags: [ecosystem]
 
 * [LibReref](https://gitlab.com/gopiandcode/libre-ref):
 Digital referencing tool written in OCaml.
+[Discuss thread](https://discuss.ocaml.org/t/ann-libreref-lablgtk-based-digital-reference-tool-application/).
 * [Slipshow](https://github.com/panglesd/slipshow):
 A text-based tool for making presentations with scrolling as an alternative to traditional slides.
-[Discuss thread](https://discuss.ocaml.org/t/ann-libreref-lablgtk-based-digital-reference-tool-application/).
 * [OniVim](https://onivim.io/):
 Modern modal editor based on Vim, written in Reason (OCaml-like).
 [github](https://github.com/onivim/oni2)
