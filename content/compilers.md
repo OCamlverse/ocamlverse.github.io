@@ -30,6 +30,8 @@ OCaml to Java bytecode compiler.
 A Lisp on LLVM written in OCaml.
 * [tis-interpreter](https://github.com/TrustInSoft/tis-interpreter):
 An interpreter for finding subtle bugs in programs written in standard C
+* [Slipshow](https://github.com/panglesd/slipshow):
+A text-based tool for making presentations with scrolling as an alternative to traditional slides.
 
 ## Parsers and Lexers
 
