@@ -213,6 +213,8 @@ API for Discord servers. Uses Async and Core.
 Client and API for IRC.
 * [ocaml-orc](https://github.com/pymander/ocaml-irc):
 IRC library.
+* [proofchat](https://github.com/CharlesAverill/proofchat):
+A multithreaded TCP client/server chat application written in Coq and extracted to OCaml
 
 ### Low Level Protocols
 
