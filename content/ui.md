@@ -13,14 +13,13 @@ QML Qt5 bindings for OCaml.
 * [labltk](https://github.com/garrigue/labltk):
 Interface to the Tcl/Tk GUI framework.
 * [bogue](https://github.com/sanette/bogue):
-A new, SDL-based GUI. Ideal for integration in games.
+A new, SDL-based GUI. Ideal for integration in games. [demo video](https://youtu.be/isFLxnDooL8)
 * [Revery](https://github.com/revery-ui/revery) **WIP**:
 A brand-new (and exciting) OCaml/ReasonML-based GUI.
 Revery stands as a native, cross-platform alternative to Electron.
 * [Brisk](https://github.com/briskml/brisk) **WIP**:
 Rather than taking Revery's approach of having a uniform interface,
 Brisk aims to use native platform APIs do draw OS-based GUI elements.
-[demo video](https://youtu.be/isFLxnDooL8)
 * [Stk](https://zoggy.frama.io/ocaml-stk/): A GTK inspired SDL-based GUI toolkit
 * [owme](https://github.com/CharlesAverill/owme): A window manager **emulator** for faking graphical desktop applications
 
