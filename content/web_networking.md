@@ -227,4 +227,4 @@ These provide high-performance packet management on Linux, bypassing the kernel.
     * [AF_XDP docs](https://github.com/torvalds/linux/blob/master/Documentation/networking/af_xdp.rst)
     * [Tutorial](https://github.com/xdp-project/xdp-tutorial/tree/master/advanced03-AF_XDP)
 * [RDT_OCaml](https://github.com/CharlesAverill/RDT_OCaml)
-A toy implementation of a Reliable Data Transfer (RDT) protocol over UDP
+A toy implementation of a Reliable Data Transfer protocol (rdt3.0 - stop-and-wait) over UDP
