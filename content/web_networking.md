@@ -28,6 +28,10 @@ Simple HTTP server like python's SimpleHTTPServer, for serving files.
 * [routes](https://github.com/anuragsoni/routes):
 Typed bidirectional routing utility with combinators.
 Could be useful as part of creating a server.
+* [httpcats](https://github.com/robur-coop/httpcats):
+A really simple HTTP client/server (http/1.1 & h2) with [`ocaml-tls`](https://github.com/mirleft/ocaml-tls),
+[`ocaml-dns`](https://github.com/mirage/ocaml-dns), [`happy-eyeballs`](https://github.com/robur-coop/happy-eyeballs)
+and [`miou`](https://github.com/robur-coop/miou).
 
 ## Web Frameworks
 
