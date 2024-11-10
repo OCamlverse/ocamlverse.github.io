@@ -22,6 +22,10 @@ Bindings to the [ALSA library](https://alsa-project.org/wiki/Main_Page).
 * [ocaml-gstreamer](https://github.com/savonet/ocaml-gstreamer):
 Bindings to the [GStreamer multimedia playback library](https://gstreamer.freedesktop.org/).
 
+## Processing
+* [SoundML](https://github.com/gabyfle/SoundML/):
+A high-level audio-processing library.
+
 ## Encoding/Decoding
 
 * [ocaml-taglib](https://github.com/savonet/ocaml-taglib):
