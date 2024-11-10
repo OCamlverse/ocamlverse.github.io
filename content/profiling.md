@@ -11,4 +11,4 @@ can also be used to debug OCaml programs.
 * [ocaml-tracy](https://github.com/AestheticIntegration/ocaml-tracy):
 Bindings to the amazing [tracy](https://github.com/wolfpld/tracy) profiler.
 * [gdbprofiler](https://github.com/copy/gdbprofiler):
-Profile OCaml programs by connecting to `gdb`. Very impressive output.
+Profile OCaml programs by connecting to `gdb`. Very impressive output. (Repository archived since May 17th 2024)
