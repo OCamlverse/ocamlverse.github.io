@@ -7,6 +7,8 @@ tags: [ecosystem]
 
 ## Full Applications
 
+* [Terrateam](https://github.com/terrateamio/terrateam):
+CI/CD platform for github. Open source, with a proprietary enterprise version available.
 * [LibReref](https://gitlab.com/gopiandcode/libre-ref):
 Digital referencing tool written in OCaml.
 [Discuss thread](https://discuss.ocaml.org/t/ann-libreref-lablgtk-based-digital-reference-tool-application/).
