@@ -26,6 +26,8 @@ Persistent, functional views on top of strings.
 implementation of high performance functional map.
 * [Persistent Vectors](https://github.com/dbuenzli/pvec):
 Data structures that behave similar to vectors but using immutable trees (of arrays).
+* [baby](https://cambium.inria.fr/~fpottier/baby/doc/baby/):
+Immutable sets and maps that perform better than the standard library's.
 * [OCamlGraph](https://github.com/backtracking/ocamlgraph) is a library for
 graphs and graph algorithms.
 * [bimap](https://github.com/pat227/bimap):
