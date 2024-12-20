@@ -20,7 +20,7 @@ Revery stands as a native, cross-platform alternative to Electron.
 * [Brisk](https://github.com/briskml/brisk) **WIP**:
 Rather than taking Revery's approach of having a uniform interface,
 Brisk aims to use native platform APIs do draw OS-based GUI elements.
-* [Stk](https://zoggy.frama.io/ocaml-stk/): A GTK inspired SDL-based GUI toolkit
+* [Stk](https://zoggy.frama.io/ocaml-stk/): An SDL-based GUI toolkit
 * [owme](https://github.com/CharlesAverill/owme): A window manager **emulator** for faking graphical desktop applications
 
 ### Recommendations
