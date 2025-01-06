@@ -30,7 +30,7 @@ on OCaml 5.0.
 
 ### Monadic
 These still work in OCaml 5+, but are also compatible with OCaml 4.
-They generally involve more complex syntax, but give you better type guarantees on concurrency semantics.
+They generally involve more complex syntax and handling monads, but give you better type guarantees on concurrency semantics.
 
 * [lwt](https://github.com/ocsigen/lwt): a monadic concurrency library.
 Concurrent code uses monads to express the higher-level abstractions of control flow.
