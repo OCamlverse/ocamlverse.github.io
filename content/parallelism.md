@@ -10,11 +10,28 @@ Since OCaml 5.0, OCaml supports concurrency with the Effect system and paralleli
 
 ## Concurrency
 
+### Non-monadic
+As of OCaml 5, OCaml's effect system can be leveraged to handle concurrency instead of using monads.
+This allows for cleaner, easier to read code.
+
 * [eio](https://github.com/ocaml-multicore/eio):
-A concurrency library using the OCaml effect system.
-Unlike the other concurrency libraries, `eio` doesn't require the usage of monads.
-This makes it easier to code using 'plain` OCaml code.
-    * [video presentation](https://watch.ocaml.org/w/02a7accc-2a2c-44d5-889e-d75e1489946e) on `eio`. 
+A concurrency library using the OCaml effect system. (OCaml 5+)
+Also includes a capability-based security feature.
+    * [video presentation](https://watch.ocaml.org/w/02a7accc-2a2c-44d5-889e-d75e1489946e) on `eio`.
+* [miou](https://github.com/robur-coop/miou)
+Miou is a simple alternative scheduler for OCaml 5+ to run concurrent and/or parallel tasks.
+* [MoonPool](https://github.com/c-cube/moonpool):
+Rather than use effects for concurrency, `moonpool` leverages OCaml threads on top of domains for simplicity.
+* [picos](https://github.com/ocaml-multicore/picos):
+An effort to unify schedulers, so that they multiple OCaml schedulers can work with each other.
+* [Riot](https://github.com/leostera/riot):
+Riot is an in-development library to support actor-based processing (similar to Erlang)
+on OCaml 5.0.
+
+### Monadic
+These still work in OCaml 5+, but are also compatible with OCaml 4.
+They generally involve more complex syntax, but give you better type guarantees on concurrency semantics.
+
 * [lwt](https://github.com/ocsigen/lwt): a monadic concurrency library.
 Concurrent code uses monads to express the higher-level abstractions of control flow.
     * [lwt-pipe](https://github.com/c-cube/lwt-pipe):
@@ -29,16 +46,14 @@ another monadic concurrency library developed by Jane Street.
 This library is covered in Real World OCaml.
 While the concept is very similar to lwt,
 small discrepancies make compatibility between the libraries difficult.
-* [Riot](https://github.com/leostera/riot):
-Riot is an in-development library to support actor-based processing (similar to Erlang)
-on OCaml 5.0.
+
+### Event Loops
 * [LUV](https://github.com/aantron/luv):
 Bindings to [libuv](https://github.com/libuv/libuv),
 an event loop-based system that runs `node.io`.
 This is also a replacement for the `Unix` module,
 allowing for full process control in a system-independent manner.
-* [miou](https://github.com/robur-coop/miou)
-Miou is a simple scheduler (in beta) for OCaml 5 to run concurrent and/or parallel tasks.
+
 
 ### Articles
 
