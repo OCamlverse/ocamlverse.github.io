@@ -71,6 +71,7 @@ GameBoy emulator written purely in OCaml.
 A demonstration of a Flappy-bird like game using FRP.
 * [A blog about game development in OCaml](http://cranialburnout.blogspot.ca/)
 * [Snóke](https://github.com/sanette/snoke), a snake game with new ideas
+* [AFTN](https://github.com/CharlesAverill/aftn.ml), a terminal-based clone of the ["ALIEN: Fate of The Nostromo" turn-based RPG board game](https://boardgamegeek.com/boardgame/332321/alien-fate-nostromo)
 
 ## Awesome Repositories
 
