@@ -32,6 +32,8 @@ A Lisp on LLVM written in OCaml.
 An interpreter for finding subtle bugs in programs written in standard C
 * [Slipshow](https://github.com/panglesd/slipshow):
 A text-based tool for making presentations with scrolling as an alternative to traditional slides.
+* [Stan](https://mc-stan.org):
+A programming language for probablistic modeling, which is transpiled to C++ by an OCaml program.
 
 ## Parsers and Lexers
 
