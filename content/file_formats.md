@@ -47,6 +47,8 @@ Parse and generate yaml 1.1 files.
 
 * [sexplib](https://github.com/janestreet/sexplib):
 a S-expression parser and printer
+* [SZXX](https://github.com/asemio/SZXX):
+a streaming library for `zip`, `xml` and `xlsx` files.
 * [biniou](https://github.com/mjambon/biniou):
 extensible binary data format, like JSON but faster.
 * [ocaml-protoc](https://github.com/mransan/ocaml-protoc) pure OCaml implementation of
