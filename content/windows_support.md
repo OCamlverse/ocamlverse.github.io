@@ -4,7 +4,7 @@ tags: [learning]
 
 # Windows Support
 
-Historically, OCaml lived in the Unix and Linux ecosystem.
+Historically, OCaml has lived in the Unix and Linux ecosystems.
 However, OCaml has recently obtained relatively good Windows support, with several good options available.
 Windows has truly become a viable platform for OCaml development.
 
