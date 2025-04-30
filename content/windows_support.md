@@ -20,7 +20,7 @@ For newcomers, there are 2 easy options:
 by invoking `winget install OCaml.opam` at the Windows Command Prompt.
 Behind the scenes, OPAM's challenge is supporting the actual OCaml compiler, which relies on some Unix-based plumbing.
 [opam] can install `cygwin` behind the scenes as a compatibility layer so you don't have to worry about that.
-    * Note that for certain OCaml packages that require system-level libraries (e.g. `SDL`), it may be easier to install the library via [vcpkg]
+    * Note that for certain OCaml packages that require system-level libraries (e.g. `SDL`), it may be easier to install the system library via [vcpkg]
       than to use the mechanism currently provided via cygwin.
 
 * [DkML]:
