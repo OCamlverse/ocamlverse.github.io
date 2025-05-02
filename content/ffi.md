@@ -60,3 +60,4 @@ FFI to the [R statistical language](https://www.r-project.org/about.html).
 * The OCaml manual's chapter on [interfacing C with OCaml](https://v2.ocaml.org/manual/intfc.html)
 * Real World OCaml's [foreign function interface](https://dev.realworldocaml.org/foreign-function-interface.html) chapter
 * [Modular foreign function bindings](https://mirage.io/blog/modular-foreign-function-bindings) with [ctypes](https://github.com/ocamllabs/ocaml-ctypes).
+* [How to call C functions from OCaml](http://decapode314.free.fr/ocaml/ocaml-c-interface.html)
