@@ -136,5 +136,5 @@ light library to deal with RPCs in OCaml.
 Library for distributed computation in OCaml.
 
 Similar to Erlang's model and inspired by Cloud Haskell.
-* [reactor](https://github.com/ostera/reactor) (alpha):
+* [reactor](https://github.com/ostera/reactor) (alpha, unmaintened, archived in 2019):
 Actor model for OCaml, similar to Erlang Elixir.
