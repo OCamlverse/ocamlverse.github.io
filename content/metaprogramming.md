@@ -74,6 +74,8 @@ Display nice error messages with source location. For compilers etc.
 Include arbitrary file data as a string in OCaml without having to worry about lexical conventions.
 * [ppx_deriving_cmdliner](https://github.com/hammerlab/ppx_deriving_cmdliner):
 An easy way to write command-line argument code using the `cmdliner` library.
+* [ppx_unreachable](https://github.com/CharlesAverill/ppx_unreachable):
+A syntax extension that denotes unreachable code and prints descriptive errors when the code is reached.
 
 #### Protocol-specific PPX
 
