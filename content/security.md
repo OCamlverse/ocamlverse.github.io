@@ -19,3 +19,4 @@ Bindings to libssh.
 The server protocol for [U2F](https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/),
 two-factor authentication using specialized devices.
 [docs](https://roburio.github.io/u2f/doc)
+* [MlFront_Signify](https://dkml.gitlab.io/build-tools/MlFront/MlFront_Signify/MlFront_Signify/index.html): An OpenBSD-compatible implementation of [signify](https://man.openbsd.org/signify), for signing and verifying files. The main use case is provide secure software updates to your users. Available as the [MlFront_Signify](https://ocaml.org/p/MlFront_Signify/latest) package in opam.
