@@ -18,6 +18,8 @@ This allows for cleaner, easier to read code.
 A concurrency library using the OCaml effect system. (OCaml 5+)
 Also includes a capability-based security feature.
     * [video presentation](https://watch.ocaml.org/w/02a7accc-2a2c-44d5-889e-d75e1489946e) on `eio`.
+    * [Tarides testimonial](https://tarides.com/blog/2024-09-19-eio-from-a-user-s-perspective-an-interview-with-simon-grondin/)
+    * Ongoing adoption by Tarides, [Semgrep](https://github.com/semgrep/semgrep), [Tezos](https://github.com/tezos/tezos-mirror).
 * [miou](https://github.com/robur-coop/miou)
 Miou is a simple alternative scheduler for OCaml 5+ to run concurrent and/or parallel tasks.
 * [MoonPool](https://github.com/c-cube/moonpool):
