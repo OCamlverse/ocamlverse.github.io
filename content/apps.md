@@ -11,12 +11,13 @@ tags: [ecosystem]
 CI/CD platform for github. Open source, with a proprietary enterprise version available.
 * [LibReref](https://gitlab.com/gopiandcode/libre-ref):
 Digital referencing tool written in OCaml.
+* [Tezos](https://github.com/tezos/tezos-mirror)
+  * A [blockchain platform](https://tezos.com/).
+* [Semgrep](https://github.com/semgrep/semgrep)
+  * A lightweight static analysis tool. Part of the [Semgrep security platform](https://semgrep.dev/).
 [Discuss thread](https://discuss.ocaml.org/t/ann-libreref-lablgtk-based-digital-reference-tool-application/).
 * [Slipshow](https://github.com/panglesd/slipshow):
 A text-based tool for making presentations with scrolling as an alternative to traditional slides.
-* [OniVim](https://onivim.io/):
-Modern modal editor based on Vim, written in Reason (OCaml-like).
-[github](https://github.com/onivim/oni2)
 * [WeiDu](https://github.com/WeiDUorg/weidu):
 Modding program used for Bioware's [Infinity engine](https://baldursgate.fandom.com/wiki/Infinity_Engine) games.
 * [ZeroInstall](https://0install.net/):
@@ -31,8 +32,9 @@ A full GameBoy emulator written in OCaml.
 Runs in the browser using `js_of_ocaml`.
 * [DocuLib](https://github.com/nguermond/doculib):
 A GUI for tagging and managing document metadata for books, textbooks, or articles.
-* [Chamo](https://zoggy.frama.io/chamo/): An emacs like code/text editor which can be configured in OCaml 
-
+* [Chamo](https://zoggy.frama.io/chamo/): An emacs like code/text editor which can be configured in OCaml
+* [OniVim](https://github.com/onivim/oni2) (dead):
+Modern modal editor based on Vim, written in Reason (OCaml-like).
 
 ## Toy Applications
 
