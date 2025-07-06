@@ -46,6 +46,8 @@ such as using `ppx_deriving` on that module's types or even modifying specific t
 Conditional compilation like `#ifdef` for OCaml.
 * [ppx_string_interpolate](https://github.com/sheijk/ppx_string_interpolate):
 A simple ppx filter to support string interpolation like `[%str "value of foo is $(foo)"]`.
+* [ppx_string_interpolation]([https://github.com/sheijk/ppx_string_interpolate](https://github.com/bloomberg/ppx_string_interpolation)):
+A little bit more sophisticated string interpolation ppx, additionally supporting `Printf` formatters like `[%string "Value of 3*3 + 4*4 is %d$(5*5)"]`.
 * [ppx_monad](https://github.com/rizo/ppx_monad):
 Monadic syntax extension.
 * [ppx_let](https://github.com/janestreet/ppx_let):
