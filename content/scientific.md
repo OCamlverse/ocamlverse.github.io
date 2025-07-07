@@ -11,6 +11,14 @@ Dense and sparse matrix, linear algebra, regressions, math and stats functions.
   * [Owl documentation](https://ocaml.xyz/docs/)
   * [OCaml scientific computing book](https://ocaml.xyz/)
   * [Presentation on Owl at ICFP](https://www.youtube.com/watch?v=Jyv3tJD1N3o&t=311s)
+* [Raven](https://raven-ml.dev/docs/introduction/):
+A new, exciting effort in terms of Machine Learning and Data Science in OCaml.
+Contains several modules:
+  * [Nx](https://raven-ml.dev/docs/nx/): A numpy-equivalent for OCaml.
+  * [Hugin](https://raven-ml.dev/docs/hugin/): A matplotlib-like plotting library.
+  * [Quill](https://raven-ml.dev/docs/quill/): Scientific notebook like Jupyter.
+  * [Rune](https://raven-ml.dev/docs/rune/): Automatic differentiation using Effects.
+  * [Sowilo](https://raven-ml.dev/docs/sowilo/): OpenCV-like vision algorithms.
 
 ## Machine (Deep) Learning/Data Science
 
