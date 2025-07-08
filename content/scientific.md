@@ -80,3 +80,6 @@ OCaml library for building bioinformatics pipelines.
 ## Numerical File Formats
 
 * See [File Formats](file_formats.md#data-science)
+
+## Articles
+* [Performance comparison](https://rchg.srht.site/articles/computing/2024-03/ocaml10-en.html) of OWL, numpy and Julia.
