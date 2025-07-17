@@ -36,6 +36,9 @@ see [Standard Libraries](standard_libraries.md).
 ## Data Structures and Algorithms
 See [Data Structures and Algorithms](data_struct.md)
 
+## AI
+See [AI](ai.md). Using AI with OCaml.
+
 ## Applications
 See [Applications](apps.md). Full applications written in OCaml.
 
