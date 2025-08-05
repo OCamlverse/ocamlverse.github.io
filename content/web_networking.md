@@ -74,6 +74,7 @@ An light OCaml/Reason-based web framework.
 * [Brr](https://github.com/dbuenzli/brr):
 A toolkit for interfacing `js_of_ocaml` with common browser APIs.
 Also includes experimental [FRP](frp.md) support via `Note`.
+* [YOCaml](https://github.com/xhtmlboi/yocaml): A highly configurable framework for building static websites.
 
 ## Web Apps
 
