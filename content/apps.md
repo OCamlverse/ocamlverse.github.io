@@ -35,6 +35,8 @@ A GUI for tagging and managing document metadata for books, textbooks, or articl
 * [Chamo](https://zoggy.frama.io/chamo/): An emacs like code/text editor which can be configured in OCaml
 * [OniVim](https://github.com/onivim/oni2) (dead):
 Modern modal editor based on Vim, written in Reason (OCaml-like).
+* [scope](https://github.com/CharlesAverill/scope):
+A simple image file viewer using SDL
 
 ## Toy Applications
 
