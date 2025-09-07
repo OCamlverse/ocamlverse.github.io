@@ -6,9 +6,9 @@ tags: [ecosystem]
 
 ## Articles
 
+* [Overview on libraries in 2025 by Tarides](https://tarides.com/blog/2025-05-15-ocaml-web-development-essential-tools-and-libraries-in-2025/)
 * [Full stack development in OCaml](https://ceramichacker.com/blog/26-1x-full-stack-webdev-in-ocaml-intro):
   Uses `Dream`, `Bonsai` and `GraphQL`.
-* [ICFP presentation on improving the OCaml web stack](https://www.youtube.com/watch?v=tTqqu4xh4UY&t=1156s)
 * [Building an OCaml webapp using Opium](https://shonfeder.gitlab.io/ocaml_webapp/)
 
 ## HTTP Servers
@@ -92,7 +92,7 @@ Can be compiled to Unix as well.
 
 * [h2](https://github.com/anmonteiro/ocaml-h2):
 High performance http2 implementation.
-* [httpaf](https://github.com/inhabitedtype/httpaf):
+* [h1](https://github.com/robur-coop/ocaml-h1):
 A high performance HTTP implementation written in OCaml. Compatible with Async and Lwt.
 * [cohttp](https://github.com/mirage/ocaml-cohttp):
 Older, slower implementation of HTTP supporting only HTTP/1.x.
@@ -132,9 +132,9 @@ and some frameworks work on making DOM manipulation more efficient.
 
 * [ocaml-vdom](https://github.com/LexiFi/ocaml-vdom):
 A version of virtual DOM manipulation that goes well with Ocsigen.
-* [incr_dom](https://github.com/janestreet/incr_dom):
+* [Bonsai](https://opensource.janestreet.com/bonsai/):
 Jane Street's version of virtual DOM,
-backed by the very powerful [Incremental](https://github.com/janestreet/incremental) library.
+backed by the very powerful [Incremental](https://github.com/janestreet/incremental) library. Successor of the [incr_dom](https://github.com/janestreet/incr_dom) library.
 
 ## Protocol Libraries
 
