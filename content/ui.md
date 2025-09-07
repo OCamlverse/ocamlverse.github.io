@@ -22,6 +22,7 @@ Rather than taking Revery's approach of having a uniform interface,
 Brisk aims to use native platform APIs do draw OS-based GUI elements.
 * [Stk](https://zoggy.frama.io/ocaml-stk/): An SDL-based GUI toolkit
 * [owme](https://github.com/CharlesAverill/owme): A window manager **emulator** for faking graphical desktop applications
+* [tinyfiledialogs](https://github.com/CharlesAverill/tinyfiledialogs): Bindings to [tinyfiledialogs](https://sourceforge.net/projects/tinyfiledialogs/), a minimal interface for native OS interactions such as alerts and file selection dialogs.
 
 ### Recommendations
 Any of GTK, QML and Tcl/Tk can produce solid cross-platform UIs.
