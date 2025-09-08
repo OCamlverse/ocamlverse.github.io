@@ -40,7 +40,7 @@ You can keep track of the latest or most popular packages here.
 
 ## ReasonML Discussion
 
-ReasonML is a new syntax on top of OCaml, and as such many discussions pertaining to Reason apply to OCaml as well:
+ReasonML is a different syntax on top of OCaml, and as such many discussions pertaining to Reason apply to OCaml as well:
 
 * [ReasonML Discord Chat](https://discordapp.com/invite/reasonml):
 the main ReasonML chat channel. It has an OCaml room for some OCaml questions.
