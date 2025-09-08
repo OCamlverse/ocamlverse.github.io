@@ -16,4 +16,3 @@ The [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-starte
 * [WIP MCP Server Implementation](https://github.com/tmattio/ocaml-mcp)
 * [Discussion about MCP servers](https://discuss.ocaml.org/t/building-ocaml-mcp-what-features-would-you-want/16914)
 * [Blog post](https://anil.recoil.org/notes/cresting-the-ocaml-ai-hump)
-* 
