@@ -37,6 +37,8 @@ A GUI for tagging and managing document metadata for books, textbooks, or articl
 Modern modal editor based on Vim, written in Reason (OCaml-like).
 * [scope](https://github.com/CharlesAverill/scope):
 A simple image file viewer using SDL
+* [Owi](https://github.com/ocamlpro/owi):
+Symbolic execution engine for Wasm, C, C++, Rust, and Zig. Provides tests, formal verification, finds bugs.
 
 ## Toy Applications
 
