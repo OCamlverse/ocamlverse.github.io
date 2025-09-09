@@ -75,6 +75,7 @@ An light OCaml/Reason-based web framework.
 A toolkit for interfacing `js_of_ocaml` with common browser APIs.
 Also includes experimental [FRP](frp.md) support via `Note`.
 * [YOCaml](https://github.com/xhtmlboi/yocaml): A highly configurable framework for building static websites.
+* [Vif](https://github.com/robur-coop/vif): A web framework for OCaml 5 (which uses `httpcats`)
 
 ## Web Apps
 
@@ -111,6 +112,7 @@ Aims to provide a common interface, following the fetch specification,
 over different HTTP and Promise implementations. Currently only supports `piaf` and `lwt`,
 but also plans to support BuckleScript in the near future.
 * [Curly](https://github.com/rgrinberg/curly): Wrapper around the `curl` command for applications that want to create simple HTTP requests
+* [hurl](https://github.com/robur-coop/hurl): a CLI tool to make HTTP requests with OCaml 5
 
 ## Ocaml to Javascript
 
@@ -226,6 +228,7 @@ A multithreaded TCP client/server chat application written in Coq and extracted 
 * [mirage-tcpip](https://github.com/mirage/mirage-tcpip):
 Part of `Mirage`.
 A complete implementation of the TCP/IP stack in OCaml.
+* [utcp](https://github.com/robur-coop/utcp) A proved (with HOL4) implementation of the TCP/IP stack in OCaml
 * [ocaml-xsk](https://github.com/suttonshire/ocaml-xsk):
 Bindings to `AF_XDP` of `libbpf`.
 These provide high-performance packet management on Linux, bypassing the kernel.
