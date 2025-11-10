@@ -2,26 +2,6 @@
 tags: [package management, ecosystem]
 ---
 
-# Package Management
-
-We'll suggest the easiest tools to use first, and then explain the details.
-
-## End-to-End Project Management Tools
-
-* [drom](https://github.com/ocamlpro/drom):
-A full project management tool similar to Rust's `cargo`,
-aiming for the easiest possible user experience.
-Calls `opam`, `dune` and `odoc` behind the scenes.
-`drom` knows how to talk to github, is configured with `toml` files, and can produce `Sphinx` and `odoc` documentation.
-* [spin](https://github.com/tmattio/spin):
-For easy project initialization, you may want to try `spin`.
-It has all sorts of templates for different kinds of project (more than `drom` does),
-but unlike `drom` it doesn't manage the various OCaml tools.
-* [pesy](https://github.com/esy/pesy):
-On the other side of the package management divide,
-we have `pesy`, which uses `esy` as its package management backend.
-
-
 ## Package Management
 
 Currently, package management and building involves 2 tools: `dune` for building the code
@@ -79,6 +59,23 @@ Reason (`.re`) files.
   Allows you to view your dependencies in graph form.
   * Caching: Dune now includes an opt-in feature that shares build artifacts. See [here](https://dune.readthedocs.io/en/stable/caching.html).
   * [Article outlining dune's history](https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/)
+
+## End-to-End Project Management Tools
+It's unclear how commonly used or maintained these tools are, but you may want to try them out.
+
+* [drom](https://github.com/ocamlpro/drom):
+A full project management tool similar to Rust's `cargo`,
+aiming for the easiest possible user experience.
+Calls `opam`, `dune` and `odoc` behind the scenes.
+`drom` knows how to talk to github, is configured with `toml` files, and can produce `Sphinx` and `odoc` documentation.
+* [spin](https://github.com/tmattio/spin):
+For easy project initialization, you may want to try `spin`.
+It has all sorts of templates for different kinds of project (more than `drom` does),
+but unlike `drom` it doesn't manage the various OCaml tools.
+* [pesy](https://github.com/esy/pesy):
+On the other side of the package management divide,
+we have `pesy`, which uses `esy` as its package management backend.
+
 
 ## Package Release System
 
