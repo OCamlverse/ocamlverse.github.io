@@ -24,12 +24,11 @@ we have `pesy`, which uses `esy` as its package management backend.
 
 ## Package Management
 
-Due to legacy reasons, OCaml's package management and build story is complicated.
-Trust us though -- it's a lot better than it used to be!
-There are 2 main components: the build tool (everyone now uses `dune`),
-and the package management system (nowadays you have the choice of `OPAM` or `esy`).
+Currently, package management and building involves 2 tools: `dune` for building the code
+and `opam` for packaging it and installing dependencies.
+This may change as there is an ongoing effort to make `dune` do both jobs.
 
-* [OPAM](http://opam.ocaml.org/) is the main modern package manager for OCaml.
+* [OPAM](http://opam.ocaml.org/) is the modern package manager for OCaml.
 If you want to publish a library
 in OCaml, OPAM is your friend, taking care of package dependency and invoking the build system as needed.
 OPAM supports lockfiles and sandboxing (local switch creation),
@@ -48,6 +47,7 @@ but the features aren't as well-integrated as they are in `esy`.
     OPAM repository modified for native Windows usage (deprecated).
 
 * [esy](https://esy.sh/):
+    **NOTE**: as of 2025, it's not clear how well `esy` is maintained or will continue being maintained.
     An alternative tool for package management that draws on lessons learned from the JavaScript ecosystem.
     Its main advantages over OPAM are
 
@@ -65,8 +65,8 @@ but the features aren't as well-integrated as they are in `esy`.
 
 ## OCaml Build System
 
-* [dune](https://github.com/ocaml/dune)  (formerly jbuilder) is a fast, easy to use build system for OCaml
-projects, and is seen as the main choice for new projects in OCaml. Dune can handle both OCaml (`.ml`) and
+* [dune](https://github.com/ocaml/dune)  is a fast, easy to use build system for OCaml
+projects. Dune can handle both OCaml (`.ml`) and
 Reason (`.re`) files.
 
   * [mkocaml](https://github.com/chrisnevers/mkocaml):
@@ -77,7 +77,8 @@ Reason (`.re`) files.
   To change this, use [this tip](https://dune.readthedocs.io/en/latest/faq.html#how-to-make-warnings-non-fatal).
   * [dune-deps](https://github.com/mjambon/dune-deps):
   Allows you to view your dependencies in graph form.
-  * Cache: Dune now includes an opt-in feature that shares build artifacts. See [here](https://dune.readthedocs.io/en/stable/caching.html).
+  * Caching: Dune now includes an opt-in feature that shares build artifacts. See [here](https://dune.readthedocs.io/en/stable/caching.html).
+  * [Article outlining dune's history](https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/)
 
 ## Package Release System
 
