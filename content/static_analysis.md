@@ -20,3 +20,4 @@ Like compilation, static analysis is another domain where OCaml excels.
 * [BAP](https://github.com/BinaryAnalysisPlatform/bap)  - BAP is a reverse engineering and program analysis platform that targets binary programs.
 * [SLAyer](https://github.com/Microsoft/SLAyer)  - SLAyer is an automatic formal verification tool that uses separation logic to verify memory safety of C programs.
 * [MemCAD](https://github.com/Antique-team/memcad)  - MemCAD is an abstract interpreter for shape analysis. MemCAD can verify C programs manipulating complex data structures.
+* [semgrep](https://github.com/semgrep/semgrep) - Lightweight static analysis for many languages
