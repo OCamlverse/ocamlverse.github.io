@@ -78,6 +78,8 @@ Include arbitrary file data as a string in OCaml without having to worry about l
 An easy way to write command-line argument code using the `cmdliner` library.
 * [ppx_unreachable](https://github.com/CharlesAverill/ppx_unreachable):
 A syntax extension that denotes unreachable code and prints descriptive errors when the code is reached.
+* [ppx_partial](https://github.com/v-gb/ppx_partial):
+Adds syntax for partial application of arguments outside of what's possible with currying (second arguments etC).
 
 #### Protocol-specific PPX
 
