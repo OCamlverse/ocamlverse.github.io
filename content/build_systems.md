@@ -93,6 +93,9 @@ topkg command line tools and manage your authored packages.
 
 ## Other Tooling
 
+* [OCaml Universal Installer](https://github.com/OCamlPro/ocaml-universal-installer?tab=readme-ov-file):
+Oui allows application developers in OCaml to distribute their apps with cross-platform installers.
+
 * [ocamlscript](https://github.com/mjambon/ocamlscript):
 Allows you to run OCaml files as if they were scripts.
 Pre-compiles and runs them on the spot.
