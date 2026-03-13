@@ -17,9 +17,10 @@ Just install the [OCaml Platform extension](https://github.com/ocamllabs/vscode-
 ## Vim or Neovim
 
 Vim and [neovim](https://neovim.io/) are relatively complex tools, and their configuration requires editing their `.vimrc` file (in the case of Neovim, it's `.config/nvim/init.vim` on Linux).
-If you use neovim, you can either use Merlin, which is OCaml's main code-information tool,
-or [ocaml-lsp](https://github.com/ocaml/ocaml-lsp),
-which is a language server protocol wrapper on top of Merlin.
+If you use neovim, you can use [ocaml-lsp](https://github.com/ocaml/ocaml-lsp),
+which is a language server protocol.
+Alternatively, you may want to try [ocaml.nvim](https://github.com/tarides/ocaml.nvim#),
+which is a more extensive plugin for neovim only.
 
 ### Merlin Plugin
 
