@@ -17,3 +17,5 @@ Bindings to python's Plotly library.
 Bindings to the C `plplot` library.
 * [gnuplot](http://www.gnuplot.info/):
 Bindings to the C `gnuplot` library.
+* [ephemeral](https://github.com/CharlesAverill/ephemeral):
+ Visualize JPL spacecraft ephemeris trajectories
