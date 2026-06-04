@@ -18,3 +18,5 @@ Includes a PPX rewriter for boilerplate lens accessors.
 Jane Street's version of Lenses.
 Compiles against either `Base`, `Core` or `Async`.
 Also includes a PPX rewriter.
+* [Optics](https://github.com/geocaml/ocaml-optics):
+Experimental library supporting both Lenses and their cousins, Prisms for variants.
