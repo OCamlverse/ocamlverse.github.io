@@ -50,6 +50,8 @@ See [Build System and Package Management](build_systems.md)
 
 ## Cloud Computing
 
+* [awso](https://github.com/mbacarella/ocaml-awso):
+Comprehensive, type-safe library for Amazon AWS.
 * [aws-s3](https://github.com/andersfugmann/aws-s3): Access to Amazon's Simple Storage Solution (S3)
 * [Google Drive OCamlFuse](https://github.com/astrada/google-drive-ocamlfuse):
 A User file system for Google Drive. Also one of the few ways to sync Google Drive from Linux.
