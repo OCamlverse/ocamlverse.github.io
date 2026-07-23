@@ -145,6 +145,8 @@ build valid html using combinators.
 Leverages OCaml's type system.
   * [tyxml-ppx](https://ocsigen.org/tyxml/4.3.0/manual/ppx):
   PPX syntax extension to translate html/xml syntax into `tyxml` function calls.
+* [cascase](https://github.com/samoht/cascade):
+A CSS AST, allows for manipulating, minifying, comparing CSS.
 * [omd](https://github.com/ocaml/omd):
 convert Markdown to html.
 * [ocurl](https://github.com/ygrek/ocurl):
