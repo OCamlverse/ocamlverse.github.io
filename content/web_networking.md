@@ -18,6 +18,9 @@ Tidy, feature complete web framework. Supports http and http2.
 * [Opium](https://github.com/rgrinberg/opium):
 Sinatra like micro-framework web toolkit for OCaml.
     * [Tutorial: Building an OCaml WebApp](https://shonfeder.gitlab.io/ocaml_webapp/)
+* [simple_httpd](https://github.com/craff/simple_httpd):
+  Simple but efficient http(s) server based off of tiny_httpd.
+  [docs](https://raffalli.eu/simple_httpd/simple_httpd/index.html)
 * [ocamlapi](https://github.com/nosman/Ocamlapi):
 Routing with ppx support. Uses cohttp and Core.
 * [http_async](https://github.com/anuragsoni/http_async):
