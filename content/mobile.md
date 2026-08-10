@@ -4,6 +4,10 @@ tags: [ecosystem]
 
 # Mobile
 
+## Android
+* [opam-cross-android](https://github.com/ocaml-cross/opam-cross-android):
+  A modern cross-compiler + OPAM repository to create Android applications.
+
 ## Development
 
 * [Cordova plugins](https://github.com/dannywillems/ocaml-cordova-plugin-list)  – List of bindings to Cordova plugins. Get access to native device components like accelerometer, SMS, geolocation, etc in OCaml.
