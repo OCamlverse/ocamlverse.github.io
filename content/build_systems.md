@@ -23,11 +23,11 @@ but the features aren't as well-integrated as they are in `esy`.
     * [opam-check-all](http://check.ocamllabs.io/): shows you all OPAM packages and their build status
     on multiple versions of the compiler.
     Provides filtering for specific package versions, build errors, and package authors.
-    * [OPAM for Windows](https://fdopen.github.io/opam-repository-mingw):
-    OPAM repository modified for native Windows usage (deprecated).
+    * [opam-minver](https://github.com/luminous-moose/opam-minver):
+    Automatically searches for the minimum opam constraints for a package.
 
 * [esy](https://esy.sh/):
-    **NOTE**: as of 2025, it's not clear how well `esy` is maintained or will continue being maintained.
+    **NOTE**: as of 2026, it's not clear how well `esy` is maintained or will continue being maintained.
     An alternative tool for package management that draws on lessons learned from the JavaScript ecosystem.
     Its main advantages over OPAM are
 
