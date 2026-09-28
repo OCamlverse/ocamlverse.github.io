@@ -6,10 +6,12 @@ tags: [ecosystem]
 
 ## Game-related Libraries
 
-* [TSDL](http://erratique.ch/software/tsdl):
-An OCaml module providing thin bindings to the `SDL` 2.0 library.
+* [SDL3](https://github.com/sanette/ocaml-sdl3):
+Bindings to the latest version of the cross-platform library, SDL3.
 [SDL](https://www.libsdl.org/) provides a cross-platform interface for graphics,
 sound, fonts, and game controller input.
+* [TSDL](http://erratique.ch/software/tsdl):
+An OCaml module providing thin bindings to the `SDL` 2.0 library.
 This library uses `ctypes`,
 and therefore requires less work to track changes to the C SDL libraries.
   * [tsdl-ttf](https://github.com/sanette/tsdl-ttf):
